@@ -18,6 +18,3 @@ Resistência: Teste difícil (CD 15). Sucesso reduz para Nível 2; sucesso crít
 Recuperação e Variações
 Cura Rápida: Aliado adjacente dá +5 no teste de resistência (ação bônus). Itens calmantes ou roleplay forte remove 1 nível instantaneamente.
 Gatilho Específico: +1 nível máximo pra medos pessoais (+3 na CD de ativação).
-
-
-https://thaumcraft-4.fandom.com/wiki/Aspects
