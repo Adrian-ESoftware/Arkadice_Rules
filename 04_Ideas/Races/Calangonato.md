@@ -8,22 +8,23 @@ Sekhem Inicial: 1d6+9 (10–15) | Cap Natural: 25
 
 Dragonatos são descendentes distantes de dragões verdadeiros: bípedes sem asas, cobertos de escamas, com chifres, olhos de réptil e um núcleo de Sekhem elementar alojado no peito. Cada clã é ligado a um tipo de dragão (fogo, gelo, ácido, relâmpago, etc.), e seu sopro é um feitiço inato, quase instintivo. Honra, legado e “tesouro” (não só ouro, mas qualquer coisa que valorizem) definem sua cultura.
 
-Traços Raciais do Dragonato
-Tipo. Humanoide (Dragonato).
+## 🐉 Traços Raciais do Dragonato
+
+**💪 Tipo.** Humanoide (Dragonato).
 ​
 
-Tamanho. Médio (entre 1,8 e 2,1m, mais pesados que humanos).
+**📏 Tamanho.** Médio (entre 1,8 e 2,1m, mais pesados que humanos).
 
-Deslocamento. 9 m.
+**⚡ Deslocamento.** 9 m.
 
-Idade. Crescem rápido, andando poucas horas após o nascimento, adultos aos 15 e raramente vivendo além dos 90.
+**📅 Idade.** Crescem rápido, andando poucas horas após o nascimento, adultos aos 15 e raramente vivendo além dos 90.
 ​
 
-Alinhamento. Tendem a extremos (honra rígida, lealdade intensa, rancores longos), mas não presos a bom/mal.
+**⚖️ Alinhamento.** Tendem a extremos (honra rígida, lealdade intensa, rancores longos), mas não presos a bom/mal.
 
-Linguagens. Comum, Dracônico.
+**🗣️ Linguagens.** Comum, Dracônico.
 
-Elemento de Nascença. Definido pela ancestralidade dracônica:
+**🔥 Elemento de Nascença.** Definido pela ancestralidade dracônica:
 
 Dragão Vermelho/Ouro → Ignis
 
