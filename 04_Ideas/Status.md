@@ -1,4 +1,4 @@
-# Sistema de Atributos Duais — Chronara
+# Sistema de Atributos Duais — Arkadice
 
 ## O Conceito
 
@@ -30,7 +30,7 @@ Cada atributo é uma **barra linear de inteiros de -5 a +5**, iniciando em **0**
 
 | Polo | Nome | Uso |
 |------|------|-----|
-| +1 a +5 | **Razão** | Lógica, estratégia, conhecimento, crafting, investigação. Em combate: bônus em iniciativa e táticas |
+| +1 a +5 | **Razão** | Lógica, estratégia, conhecimento, invenção, investigação. Em combate: bônus em iniciativa e táticas |
 | -1 a -5 | **Instinto** | Percepção, reflexos, reação, leitura de perigo. Em combate: bônus para esquivar e reagir a emboscadas |
 
 ***
