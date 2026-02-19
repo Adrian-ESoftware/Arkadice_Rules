@@ -101,9 +101,12 @@ O PV inicial é calculado com base na raça e no atributo **Corpo**:
 | **Orc** | 12 | Corpo massivo |
 | **Meio-Elfo** | 10 | Herança mista |
 | **Tiefling** | 10 | Instável, foco em Sekhem |
-| **Halfling** | 8 | Pequeno mas ágil |
+| **Goblin** | 8 | Pequeno e franzino |
 | **Hemovita** | 8 | Esguio, dependente de vitae |
-| **Draconato** | 12 | Grande, escamoso, musculoso |
+| **Harpia** | 8 | Ossos ocos, leve para voar |
+| **Vroot** | 12 | Madeira dura, tolerante a danos |
+| **Cinéreo** | 10 | Resistente, pele vulcânica |
+| **Velthari** | 8 | Ágil predador, foco em velocidade |
 
 ### Bônus de Corpo
 
@@ -121,8 +124,8 @@ O PV inicial é calculado com base na raça e no atributo **Corpo**:
 | Humano, Corpo 0 | 10 | Aventureiro médio |
 | Humano, Tenacidade +3 | 16 | Guerreiro resistente |
 | Anão, Tenacidade +3 | 18 | Tanque máximo na criação |
-| Draconato, Tenacidade +3 | 18 | Tanque dracônico |
-| Halfling, Destreza -3 | 11 | Ágil com PV modesto |
+| Vroot, Tenacidade +3 | 18 | Barricada de madeira viva |
+| Velthari, Destreza -3 | 11 | Predador ágil com PV modesto |
 
 ### Progressão de PV
 
@@ -593,9 +596,12 @@ Assim como armas e esquiva, perícias ganham proficiência por uso (ver `Classes
 | **Orc** | 6m | Linha de frente |
 | **Meio-Elfo** | 6m | Herança mista |
 | **Tiefling** | 6m | Normal |
-| **Halfling** | 5m | Pernas curtas, compensado por furtividade |
+| **Goblin** | 6m | Rápido apesar do tamanho |
 | **Hemovita** | 6m | Normal, +1m em penumbra |
-| **Draconato** | 9m | Passadas longas, corpo grande |
+| **Harpia** | 6m (solo) / 9m (vôo) | Vôo custa 1 Sekhem/rodada |
+| **Vroot** | 6m | Passos pesados mas constantes |
+| **Cinéreo** | 6m | Normal |
+| **Velthari** | 9m | Os mais rápidos do jogo |
 
 > Botas podem aumentar velocidade em +1 a +3m. Terreno difícil = metade da velocidade.
 

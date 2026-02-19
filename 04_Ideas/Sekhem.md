@@ -154,9 +154,12 @@ O Sekhem Máximo de cada personagem é **rolado aleatoriamente** na criação, d
 | **Orc** | 8 | 12 | 1d5+7 | Força bruta, pouco Sekhem |
 | **Meio-Elfo** | 11 | 15 | 1d5+10 | Herança élfica parcial |
 | **Tiefling** | 10 | 16 | 1d7+9 | Instável, faixa mais ampla |
-| **Halfling** | 9 | 13 | 1d5+8 | Modesto mas eficiente |
+| **Goblin** | 9 | 13 | 1d5+8 | Modesto, compensa com esperteza |
 | **Hemovita** | 11 | 16 | 1d6+10 | Sekhem vampírico, alimentado por vitae |
-| **Draconato** | 10 | 15 | 1d6+9 | Resistente, com afinidade elemental |
+| **Harpia** | 9 | 14 | 1d6+8 | Parte do Sekhem vai para o vôo |
+| **Vroot** | 9 | 14 | 1d6+8 | Sekhem solar, estável |
+| **Cinéreo** | 11 | 16 | 1d6+10 | Alta afinidade mágica destrutiva |
+| **Velthari** | 9 | 14 | 1d6+8 | Predador, Sekhem focado em instinto |
 
 > As faixas são **propositalmente próximas** — a diferença entre o menor (Orc: 8) e o maior (Elfo/Tiefling: 16) é de apenas 8 pontos. Nenhuma raça é mágicamente inútil, nenhuma é absoluta.
 
@@ -184,9 +187,12 @@ Nenhum personagem pode ultrapassar o Sekhem Máximo da sua raça sem meios extra
 | **Orc** | 20 | Rituais de guerra elementais |
 | **Meio-Elfo** | 27 | Herança élfica desperta |
 | **Tiefling** | 28 | Sangue infernal liberado |
-| **Halfling** | 22 | Tradições ocultas halfling |
+| **Goblin** | 22 | Engenhocas arcanas, pactos ínfimos |
 | **Hemovita** | 28 | Ritual de Sangue Eterno |
-| **Draconato** | 22 | Despertar dracônico ancestral |
+| **Harpia** | 24 | Rituais do Lex Caeli, ventos primordiais |
+| **Vroot** | 24 | Enraizar em fonte de Sekhem milenar |
+| **Cinéreo** | 28 | Mergulho no magma primordial |
+| **Velthari** | 22 | Pactos com bestas ancestrais |
 
 > Feitiços lendários (30+ Sekhem) são reservados para personagens no auge de suas campanhas. Requerem meses de jogo para alcançar.
 

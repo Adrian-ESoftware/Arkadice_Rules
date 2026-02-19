@@ -104,8 +104,11 @@ Algumas raças começam com proficiência bônus:
 | Hemovita | Magia Vitae (se tiver Linhagem) começa em Praticante |
 | Meio-Elfo | 1 arma à escolha OU 1 perícia começa em Praticante |
 | Tiefling | Magia do elemento de nascença começa em Praticante |
-| Halfling | Furtividade começa em Praticante |
-| Draconato | Arma corpo a corpo pesada OU média começa em Praticante |
+| Goblin | Furtividade OU Armadilhas começa em Praticante |
+| Harpia | Arma de arremesso (lança/dardo) começa em Praticante |
+| Vroot | Sobrevivência OU Herbalismo começa em Praticante |
+| Cinéreo | Ferraria OU Intimidação começa em Praticante |
+| Velthari | Rastreamento OU Furtividade começa em Praticante |
 
 > Proficiências raciais são vantagens iniciais, não limites. Um Anão pode treinar arco até Mestre — apenas começa sem bônus nele.
 
