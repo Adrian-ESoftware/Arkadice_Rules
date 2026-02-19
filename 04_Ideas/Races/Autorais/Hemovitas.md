@@ -39,3 +39,15 @@ Alquimistas mestres em poções sanguíneas e negociantes noturnos astutos. Disp
 |--------|--------|
 | **⚠️ Fome de Vitae** | Precisa se alimentar de vitae a cada 24h. Sem vitae: -1 em todos os testes por dia de fome (acumula) |
 | **⚠️ Sensibilidade Solar** | Sob sol pleno: desvantagem em testes de Corpo e não regenera PV naturalmente. Sem dano, apenas penalidade |
+
+
+
+Opções de Bônus
+(A) +2 em Presença (Liderança)
+
+(B) +2 em Corpo (Tenacidade)
+
+Opções de Debuff
+(I) -2 em Linhagem (Corrompida)
+
+(II) -2 em Mente (Instinto)
