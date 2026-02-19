@@ -102,5 +102,24 @@ Algumas raças começam com proficiência bônus:
 | Anão | Machado OU martelo começa em Praticante |
 | Orc | Arma pesada à escolha começa em Praticante |
 | Hemovita | Magia Vitae (se tiver Linhagem) começa em Praticante |
+| Meio-Elfo | 1 arma à escolha OU 1 perícia começa em Praticante |
+| Tiefling | Magia do elemento de nascença começa em Praticante |
+| Halfling | Furtividade começa em Praticante |
+| Draconato | Arma corpo a corpo pesada OU média começa em Praticante |
 
 > Proficiências raciais são vantagens iniciais, não limites. Um Anão pode treinar arco até Mestre — apenas começa sem bônus nele.
+
+***
+
+## Feitiços Iniciais Dominados
+
+Personagens com **|Linhagem| ≥ 1** começam a campanha com alguns feitiços já dominados (não precisam testar conjuração para usá-los):
+
+| |Linhagem| | Feitiços Dominados | Restrição |
+|------------|---------------------|----------|
+| **0** | 0 | — |
+| **1** | 1 feitiço básico | Apenas Elemento + Núcleo, sem modificadores |
+| **2** | 2 feitiços básicos | Apenas Elemento + Núcleo, sem modificadores |
+| **3** | 3 feitiços (1 pode ter 1 mod) | Elemento natural apenas |
+
+> Feitiços iniciais são do **elemento de nascença** do personagem. O jogador escolhe quais combinações já conhece. Exemplo: Um personagem Ignis com Linhagem +2 pode começar com "Ignis Sagitta" e "Ignis Murus" dominados.

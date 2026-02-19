@@ -149,6 +149,7 @@ O Sekhem Máximo de cada personagem é **rolado aleatoriamente** na criação, d
 | **Tiefling** | 10 | 16 | 1d7+9 | Instável, faixa mais ampla |
 | **Halfling** | 9 | 13 | 1d5+8 | Modesto mas eficiente |
 | **Hemovita** | 11 | 16 | 1d6+10 | Sekhem vampírico, alimentado por vitae |
+| **Draconato** | 10 | 15 | 1d6+9 | Resistente, com afinidade elemental |
 
 > As faixas são **propositalmente próximas** — a diferença entre o menor (Orc: 8) e o maior (Elfo/Tiefling: 16) é de apenas 8 pontos. Nenhuma raça é mágicamente inútil, nenhuma é absoluta.
 
@@ -178,6 +179,7 @@ Nenhum personagem pode ultrapassar o Sekhem Máximo da sua raça sem meios extra
 | **Tiefling** | 28 | Sangue infernal liberado |
 | **Halfling** | 22 | Tradições ocultas halfling |
 | **Hemovita** | 28 | Ritual de Sangue Eterno |
+| **Draconato** | 22 | Despertar dracônico ancestral |
 
 > Feitiços lendários (30+ Sekhem) são reservados para personagens no auge de suas campanhas. Requerem meses de jogo para alcançar.
 

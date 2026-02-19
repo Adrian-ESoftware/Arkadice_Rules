@@ -6,6 +6,10 @@ Cada atributo é uma **barra linear de inteiros de -5 a +5**, iniciando em **0**
 
 ***
 
+> Para ver como esses atributos se aplicam mecanicamente (cálculo de PV, CD de defesa, ataques, etc.), consulte `Rules.md`.
+
+***
+
 ## Os Atributos
 
 ### Presença

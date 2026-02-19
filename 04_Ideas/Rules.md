@@ -64,10 +64,11 @@ O PV inicial é calculado com base na raça e no atributo **Corpo**:
 | **Elfo** | 8 | Frágil, foco em magia |
 | **Anão** | 12 | Resistente por natureza |
 | **Orc** | 12 | Corpo massivo |
-| **Meio-Elfo** | 9 | Herança mista |
-| **Tiefling** | 9 | Instável, foco em Sekhem |
+| **Meio-Elfo** | 10 | Herança mista |
+| **Tiefling** | 10 | Instável, foco em Sekhem |
 | **Halfling** | 8 | Pequeno mas ágil |
-| **Hemovita** | 10 | Resistente mas dependente de vitae |
+| **Hemovita** | 8 | Esguio, dependente de vitae |
+| **Draconato** | 12 | Grande, escamoso, musculoso |
 
 ### Bônus de Corpo
 
@@ -85,6 +86,7 @@ O PV inicial é calculado com base na raça e no atributo **Corpo**:
 | Humano, Corpo 0 | 10 | Aventureiro médio |
 | Humano, Tenacidade +3 | 16 | Guerreiro resistente |
 | Anão, Tenacidade +3 | 18 | Tanque máximo na criação |
+| Draconato, Tenacidade +3 | 18 | Tanque dracônico |
 | Halfling, Destreza -3 | 11 | Ágil com PV modesto |
 
 ### Progressão de PV
@@ -327,9 +329,11 @@ Para um personagem **Veterano** (~48 PV, armadura encantada):
 
 ### Rolar Para Acertar
 
-Todo ataque — corpo a corpo, à distância ou mágico — rola **d20 + modificador** contra a **CD de defesa** do alvo.
+Todo ataque rola **d20 + modificador** contra a **CD de defesa** do alvo. O atributo usado depende do **tipo de ataque**:
 
-**d20 + |Físico| + Bônus de Proficiência** vs. **CD de Defesa do alvo**
+#### Ataque Corpo a Corpo
+
+**d20 + |Físico| + Proficiência na arma** vs. **CD de Defesa do alvo**
 
 | Componente | Valor |
 |-----------|-------|
@@ -337,6 +341,33 @@ Todo ataque — corpo a corpo, à distância ou mágico — rola **d20 + modific
 | **Físico: Técnica (+)** | Soma o valor ao acerto (precisão) |
 | **Físico: Brutalidade (-)** | Soma o valor absoluto ao **dano** (não ao acerto) |
 | **Proficiência na arma** | +1 (Praticante) a +4 (Lendário) — ver `Classes.md` |
+
+#### Ataque à Distância
+
+**d20 + |Mente| + Proficiência na arma** vs. **CD de Defesa do alvo**
+
+| Componente | Valor |
+|-----------|-------|
+| **Dado base** | d20 |
+| **Mente: Razão (+)** | Soma o valor ao acerto (mira calculada, trajetória) |
+| **Mente: Instinto (-)** | Soma o valor absoluto ao acerto (tiro instintivo, snap-shot) |
+| **Proficiência na arma** | +1 (Praticante) a +4 (Lendário) — ver `Classes.md` |
+
+> Ataques à distância **não adicionam bônus ao dano** pelo atributo — o dano é definido apenas pela arma. A vantagem da distância é segurança, não poder bruto. Personagens com Brutalidade (-) **não ganham nenhum bônus** em ataques à distância (nem acerto via Físico, nem dano).
+
+#### Dual Wield (Duas Armas)
+
+Personagens usando **duas armas leves** (uma em cada mão) podem atacar com a arma secundária como **ação bônus**:
+
+| Regra | Descrição |
+|-------|-----------|
+| **Arma principal** | Ataque normal (d20 + |Físico| + Prof.) → dano normal |
+| **Arma secundária** | Ação bônus → d20 + |Físico| + Prof. para acertar, mas **sem bônus de atributo ao dano** |
+| **Restrição** | Ambas devem ser armas **leves** (adaga, faca, espada curta) |
+| **Proficiência** | A proficiência da arma secundária é independente da principal |
+| **Penalidade** | Não pode usar Ação Bônus para esquiva no mesmo turno |
+
+> Dual wield dá mais ataques, mas sacrifica flexibilidade (sem esquiva bônus) e cada golpe secundário é mais fraco.
 
 ### CD de Defesa (Passiva)
 
@@ -348,7 +379,7 @@ Cada criatura/personagem tem uma CD de defesa baseada em equipamento e atributos
 | **Armadura leve** | +1 |
 | **Armadura média** | +2 |
 | **Armadura pesada** | +3 |
-| **Escudo** | +1 a +2 |
+| **Escudo** | +1 (broquel) a +3 (torre) |
 | **Corpo: Destreza (-)** | + valor absoluto ÷ 2 (arredondado para baixo) |
 | **Corpo: Tenacidade (+)** | +0 (tanques já tem Resistência%/Absorção como defesa) |
 
@@ -488,18 +519,18 @@ Assim como armas e esquiva, perícias ganham proficiência por uso (ver `Classes
 
 ## Cura e Recuperação
 
-| Método | PV Recuperado | Requisito |
-|--------|---------------|-----------|
-| **Descanso curto** (10-30 min) | 1d4 PV | Fora de combate |
-| **Descanso longo** (8h de sono) | PV total | Local seguro |
-| **Poção de cura menor** | 1d6+2 PV | Usar item (Ação Bônus) |
-| **Poção de cura maior** | 2d6+4 PV | Usar item (Ação Bônus) |
-| **Magia Aqua Tactus** (toque curativo) | 1d8 PV | Gastar Sekhem |
-| **Magia Aqua Orbis** (cura em área) | 1d4 PV a aliados na área | Gastar Sekhem |
-| **Kit de primeiros socorros** | 1d4 PV | d20 + |Mente| vs CD 8, gasta 1 uso do kit |
-| **Tenacidade passiva** | +1 PV por descanso curto (se Tenacidade +3 ou mais) | Automático |
+| Método | PV Recuperado | Custo | Requisito |
+|--------|---------------|-------|-----------|
+| **Descanso curto** (10-30 min) | 1d4 PV | — | Fora de combate |
+| **Descanso longo** (8h de sono) | PV total | — | Local seguro |
+| **Poção de cura menor** | 1d6+2 PV | Item | Ação Bônus |
+| **Poção de cura maior** | 2d6+4 PV | Item | Ação Bônus |
+| **Magia Aqua Tactus** (toque curativo) | 1d8 PV | **3 Sekhem** (Aqua 1 + Tactus 2) | Ação Principal, toque |
+| **Magia Aqua Orbis** (cura em área) | 1d4 PV a aliados na área | **3 Sekhem** (Aqua 1 + Orbis 2) | Ação Principal, raio 3m |
+| **Kit de primeiros socorros** | 1d4 PV | 1 uso do kit | d20 + |Mente| vs CD 8 |
+| **Tenacidade passiva** | +1 PV por descanso curto | — | Automático (se Tenacidade +3 ou mais) |
 
-> **Regra narrativa:** Em Arkadice, cura mágica (Aqua) é rara e cara. A maioria dos personagens depende de poções e descanso. Isso reforça que combate é perigoso e fugir é uma estratégia válida.
+> **Regra narrativa:** Em Arkadice, cura mágica (Aqua) é rara e cara. A maioria dos personagens depende de poções e descanso. Isso reforça que combate é perigoso e fugir é uma estratégia válida. Custos de Sekhem seguem a fórmula padrão: Elemento (1) + Núcleo (2) = 3 base. Modificadores adicionais encarecem (ver `Sekhem.md`).
 
 ***
 
@@ -515,6 +546,7 @@ Assim como armas e esquiva, perícias ganham proficiência por uso (ver `Classes
 | **Tiefling** | 6m | Normal |
 | **Halfling** | 5m | Pernas curtas, compensado por furtividade |
 | **Hemovita** | 6m | Normal, +1m em penumbra |
+| **Draconato** | 9m | Passadas longas, corpo grande |
 
 > Botas podem aumentar velocidade em +1 a +3m. Terreno difícil = metade da velocidade.
 
@@ -532,6 +564,55 @@ Atributos em Arkadice crescem por **uso narrativo**, não por XP. Quando o narra
 | **Restrição** | Soma dos valores absolutos de todos os atributos nunca excede **15** (pra veterano) / **20** (lendário) |
 
 > Crescer de ±3 é difícil por design. Um personagem com Físico +5 é uma lenda — equivalente a um campeão mundial. Isso deve ser sentido na mesa.
+
+***
+
+## Lista de Perícias
+
+Perícias são testes fora de combate (ou em situações especiais dentro dele). Cada perícia tem um **atributo primário**, mas o narrador pode pedir outro polo conforme a abordagem do jogador.
+
+### Perícias por Atributo
+
+#### Presença
+
+| Perícia | Polo + (Liderança) | Polo - (Tirania) |
+|---------|--------------------|-----------------|
+| **Persuasão** | Convencer, negociar, inspirar | Coagir, chantagear |
+| **Enganação** | Blefar com charme | Mentir com frieza |
+| **Performance** | Entreter, discursar | Provocar, distrair |
+
+#### Físico
+
+| Perícia | Polo + (Técnica) | Polo - (Brutalidade) |
+|---------|-----------------|---------------------|
+| **Atletismo** | Escalar, nadar, saltar com controle | Forçar, empurrar, derrubar |
+| **Acrobacia** | Equilíbrio, manobras precisas | Movimentos bruscos, agarrar |
+
+#### Mente
+
+| Perícia | Polo + (Razão) | Polo - (Instinto) |
+|---------|---------------|------------------|
+| **Investigação** | Analisar pistas, dedução lógica | Sentir que algo está errado |
+| **Percepção** | Busca ativa, atenção a detalhes | Sentir presença, ouvir perigo |
+| **Conhecimento** | Lore, história, identificar objetos/criaturas | — (apenas Razão) |
+| **Medicina** | Diagnosticar, tratar ferimentos | Primeiros socorros instintivos |
+| **Tática** | Planejar emboscadas, ler campo de batalha | Reagir à situação |
+
+#### Corpo
+
+| Perícia | Polo + (Tenacidade) | Polo - (Destreza) |
+|---------|--------------------|-----------------|
+| **Furtividade** | Aguentar imóvel, esconder-se | Mover-se em silêncio, sombras |
+| **Prestidigitação** | — | Mãos leves, roubar, desarmar armadilhas |
+| **Sobrevivência** | Resistir a fome, frio, terreno hostil | Rastrear, encontrar abrigo |
+
+#### Linhagem
+
+| Perícia | Polo + (Pura) | Polo - (Corrompida) |
+|---------|--------------|--------------------|
+| **Arcana** | Identificar magia, avaliar feitiços | Sentir magia corrompida, anomalias |
+
+> **Regra:** Quando o jogador descreve como tenta a ação, o narrador decide qual polo se aplica. "Eu convenço o guarda com argumentos" = Razão. "Eu sinto que ele está mentindo" = Instinto. Ambos usam Mente, mas polos diferentes.
 
 ***
 
@@ -881,7 +962,7 @@ Anote tudo na ficha de personagem:
 | Armadura / Arma / Acessórios | Escolhidos |
 | Bônus Racial / Debuff Racial | Escolhidos |
 | Proficiências (armas, perícias, magia) | Tiers anotados |
-| Feitiços Dominados | Lista (começa vazia ou com 1-2 básicos a critério do narrador) |
+| Feitiços Dominados | Por |Linhagem|: 0 = nenhum, 1 = 1 básico, 2 = 2 básicos, 3 = 3 (1 com mod). Ver `Classes.md` |
 | Inventário / Dracmas | Equipamento inicial |
 
 > *Criação leva ~15 minutos. Comecem jogando — o personagem se define pela jornada, não pela ficha.*

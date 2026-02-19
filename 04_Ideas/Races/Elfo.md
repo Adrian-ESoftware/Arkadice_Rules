@@ -31,7 +31,7 @@ Artesãos, arqueiros, e estudiosos de Sekhem. Vistos como arrogantes por outras 
 | Bônus | Efeito |
 |-------|--------|
 | **🧠 Visão Élfica** | Visão no escuro (30m). Não sofre penalidade em escuridão parcial |
-| **🧠 Afinidade Arcana** | Sekhem base +2 (total 12). Conexão natural com magia |
+| **🧠 Afinidade Arcana** | Sekhem base +2 (faixa passa de 12-16 para 14-18). Conexão natural com magia |
 
 ## Debuffs (escolha 1)
 
