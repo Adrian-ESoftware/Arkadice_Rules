@@ -1,34 +1,37 @@
-Raça: Humano
-"Filhos do Horizonte Aberto"
+# Humano
 
-Média Longevidade: 80 anos | Altura: 1,5-1,9m | Peso: 60-90kg
-🔥 Sekhem Inicial: 1d6+9 (10-15) | Cap Natural: 25
+## Aparência
 
-Visão Geral
+Variável — pele de morena a clara, cabelos de pretos a loiros, alturas entre 1.55m e 1.90m.
 
-Humanos dominam Arkadice pela adaptabilidade implacável. Sem herança mágica dominante ou fisiologia extrema, vencem por ambição, inovação e trabalho coletivo. Seu Sekhem equilibrado (10-15) reflete versatilidade: suficiente para 3-5 magias básicas por combate, mas depende de aliados e ferramentas para feitos épicos. São mediadores, mercadores e conquistadores — mas propensos à autodestruição por excesso de confiança.
+## Sociedade
 
-Traços Raciais Humanos
-Aumento de Atributo. Escolha 1 bônus e 1 debuff (categorias distintas).
+Humanos são a raça mais numerosa e adaptável. Formam reinos, guildas, vilarejos e impérios. Sua força está na versatilidade e ambição — onde outras raças se especializam, humanos improvisam.
 
-Idade. Maduros aos 18, vivem até 80.
+## Cultura
 
-Alinhamento. Qualquer.
+Diplomatas, mercadores, soldados, e aventureiros. Não há um estereótipo — cada humano é moldado pelo lugar onde cresceu. São os mais propensos a cruzar fronteiras culturais.
 
-Tamanho. Médio.
+## Velocidade Base
 
-Velocidade. 9m.
+6m
 
-Linguagens. Comum + 1 extra.
+## Sekhem Base
 
-Elemento de Nascença. Role 1d6 ou escolha: 1-Ignis, 2-Aqua, 3-Terra, 4-Aer, 5-Ordo, 6-Perditio.
+8
 
-Sekhem Inicial. 1d6+9 (mín. 10, máx. 15). Recupera total em descanso longo.
+***
 
-Opções de Bônus
-(A) +2 Mente (Razão): Ingenhosidade humana 
-(B) +2 Presença (Liderança): Carisma adaptável
+## Bônus (escolha 1)
 
-Opções de Debuff
-(I) -2 Corpo (Destreza): Fragilidade relativa
-(II) -2 Linhagem (Corrompida): Falta de herança
+| Bônus | Efeito |
+|-------|--------|
+| **Adaptável** | Começa com 1 perícia à escolha em Praticante (Tier 1) |
+| **Determinado** | 1x por descanso longo, pode re-rolar um Save de Morte ou teste de perícia |
+
+## Debuffs (escolha 1)
+
+| Debuff | Efeito |
+|--------|--------|
+| **Vida Curta** | Não pode ter Tenacidade +5 (máximo +4). Envelhece mais rápido |
+| **Sem Afinidade** | Magia custam +1 Sekhem extra (sem conexão natural) |

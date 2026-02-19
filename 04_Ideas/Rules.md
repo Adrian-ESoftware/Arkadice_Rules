@@ -131,7 +131,7 @@ Cada armadura tem **dois valores**:
 
 Em palavras simples: *"a armadura reduz X% do dano, mas nunca mais que Y pontos por golpe"*.
 
-> **Nota:** Contra inimigos fracos (goblins, 1d4), a Absorção Máxima quase nunca ativa — a Resistência% sozinha já é menor que o teto. O teto importa contra golpes pesados (ogros, dragões), impedindo que armaduras tornem o personagem invencível.
+> **Nota:** Contra inimigos fracos (goblins, 1d6), a Absorção Máxima quase nunca ativa — a Resistência% sozinha já é menor que o teto. O teto importa contra golpes pesados (ogros, dragões), impedindo que armaduras tornem o personagem invencível.
 
 ***
 
@@ -237,7 +237,7 @@ Jogador: "Quero esquivar do ogro!"
 
 ### Exemplos Práticos
 
-#### Armadura Pesada de Aço (35%, máx 6) — Personagem Nível 1 com 14 PV
+#### Armadura Pesada de Aço (35%, máx 6) — Personagem Iniciante com 14 PV
 
 | Atacante | Dano Bruto | 35% seria | Teto (6) | Bloqueado | Dano Final | Sobrevive? |
 |----------|------------|-----------|----------|-----------|------------|------------|
@@ -247,9 +247,9 @@ Jogador: "Quero esquivar do ogro!"
 | Wyvern | 15 | 5.2 → **5** | — | 5 | **10** | 💀 1 golpe |
 | Dragão | 43 | 15 | Ativou teto (6) | 6 | **37** | 💀 Morte instant |
 
-> Armadura pesada protege contra Tier 1-2. Ogros já são perigosos. Dragão = morte certa para iniciantes. **Isso muda com progressão** — um herói nível 8 com 50 PV e armadura encantada aguenta mais.
+> Armadura pesada protege contra Tier 1-2. Ogros já são perigosos. Dragão = morte certa para iniciantes. **Isso muda com progressão** — um herói veterano com 50 PV e armadura encantada aguenta mais.
 
-#### Sem armadura — Personagem Nível 1 com 10 PV
+#### Sem armadura — Personagem Iniciante com 10 PV
 
 | Atacante | Dano Bruto | Dano Final | Sobrevive? |
 |----------|------------|------------|------------|
@@ -301,7 +301,7 @@ Cada personagem tem **4 recursos de ação** por turno. A ordem é livre — o j
 
 ### Resumo Rápido de Sobrevivência
 
-Para um personagem **Nível 1** (~12 PV, armadura média):
+Para um personagem **Iniciante** (~12 PV, armadura média):
 
 | Ameaça | Golpes até morrer | Sensação na mesa |
 |--------|-------------------|------------------|
@@ -309,9 +309,9 @@ Para um personagem **Nível 1** (~12 PV, armadura média):
 | Bandidos (Tier 2) | ~2-3 | Combate justo |
 | Ogro (Tier 3) | ~1 | Perigo real, precisa de grupo |
 | Wyvern (Tier 4) | 💀 | Fuja ou morra |
-| Dragão (Tier 7) | 💀💀 | Nem pense — volte nível 8+ |
+| Dragão (Tier 7) | 💀💀 | Nem pense — volte como veterano |
 
-Para um personagem **Nível 8** (~48 PV, armadura encantada):
+Para um personagem **Veterano** (~48 PV, armadura encantada):
 
 | Ameaça | Golpes até morrer | Sensação na mesa |
 |--------|-------------------|------------------|
@@ -320,3 +320,174 @@ Para um personagem **Nível 8** (~48 PV, armadura encantada):
 | Wyvern (Tier 4) | ~3 | Combate justo |
 | Dragão Jovem (Tier 6) | ~2 | Boss fight |
 | Dragão Ancião (Tier 7) | ~1-2 | Encontro lendário, grupo necessário |
+
+***
+
+## Sistema de Ataque
+
+### Rolar Para Acertar
+
+Todo ataque — corpo a corpo, à distância ou mágico — rola **d20 + modificador** contra a **CD de defesa** do alvo.
+
+**d20 + |Físico| + Bônus de Proficiência** vs. **CD de Defesa do alvo**
+
+| Componente | Valor |
+|-----------|-------|
+| **Dado base** | d20 |
+| **Físico: Técnica (+)** | Soma o valor ao acerto (precisão) |
+| **Físico: Brutalidade (-)** | Soma o valor absoluto ao **dano** (não ao acerto) |
+| **Proficiência na arma** | +1 (Praticante) a +3 (Mestre) — ver `Classes.md` |
+
+### CD de Defesa (Passiva)
+
+Cada criatura/personagem tem uma CD de defesa baseada em equipamento e atributos:
+
+| Base | Valor |
+|------|-------|
+| **CD padrão** | 10 |
+| **Armadura leve** | +1 |
+| **Armadura média** | +2 |
+| **Armadura pesada** | +3 |
+| **Escudo** | +1 a +2 |
+| **Corpo: Destreza (-)** | + valor absoluto ÷ 2 (arredondado para baixo) |
+| **Corpo: Tenacidade (+)** | +0 (tanques já tem Resistência%/Absorção como defesa) |
+
+**Exemplos:**
+
+- Personagem sem armadura, Destreza -3: CD 10 + 1 = **11**
+- Personagem com armadura pesada + escudo: CD 10 + 3 + 2 = **15**
+- Ogro (pele grossa): CD **12**
+- Dragão ancião: CD **18**
+
+### Técnica vs Brutalidade em Ataque
+
+| Físico | Efeito | Fantasia |
+|--------|--------|----------|
+| **Técnica +3** | +3 no d20 de acerto | Preciso — acerta mais, dano base da arma |
+| **Brutalidade -3** | +3 no dano (não no acerto) | Selvagem — erra mais, mas quando acerta, destrói |
+
+> Técnica é confiável. Brutalidade é arriscada mas devastadora. Ambas têm valor.
+
+### Acerto Crítico e Falha Crítica
+
+| Resultado | Efeito |
+|-----------|--------|
+| **Nat 20** | Acerto automático + dano dobrado (role os dados 2 vezes) |
+| **Nat 1** | Falha automática + consequência narrativa (arma escorrega, tromba em aliado) |
+
+***
+
+## Iniciativa
+
+No início do combate, cada participante rola para determinar a ordem:
+
+**d20 + |Mente|**
+
+| Mente | Efeito |
+|-------|--------|
+| **Razão (+)** | +valor para iniciativa (estrategista, prevê o perigo) |
+| **Instinto (-)** | +valor absoluto para iniciativa (reflexo animal, age antes de pensar) |
+
+> Ambos os lados de Mente ajudam — Razão por análise, Instinto por velocidade. Empates: quem tiver maior |Mente| age primeiro. Se igual: d20 desempata.
+
+***
+
+## Condição de Morte — 0 PV
+
+Quando um personagem chega a **0 PV**, ele não morre instantaneamente. Entra em estado de **Agonia**:
+
+### Estado de Agonia
+
+| Regra | Descrição |
+|-------|-----------|
+| **0 PV** | Cai inconsciente. Não pode agir, falar ou mover |
+| **Saves de Morte** | No início de cada turno, rola **d20** |
+| **Sucesso (10+)** | +1 sucesso. 3 sucessos = estabiliza (inconsciente mas vivo, 1 PV) |
+| **Falha (1-9)** | +1 falha. 3 falhas = **morte permanente** |
+| **Nat 20** | Revive com 1 PV + pode agir neste turno |
+| **Nat 1** | Conta como 2 falhas |
+| **Dano em Agonia** | Cada golpe recebido em Agonia = +1 falha automática |
+| **Cura em Agonia** | Qualquer cura (poção, magia Aqua) tira de Agonia imediatamente |
+
+> **Dano massivo:** Se um único golpe ultrapassaria o PV máximo do personagem (ex: 60 dano em personagem de 30 PV máx), é **morte instantânea** — o corpo não aguenta.
+
+### Estabilizar
+
+| Método | Requisito |
+|--------|-----------|
+| **Primeiros socorros** | Aliado adjacente gasta Ação Principal, rola d20 + |Mente| vs CD 10 |
+| **Poção/magia** | Administrada por aliado, tira de Agonia e recupera o valor da cura |
+| **3 Saves bem-sucedidos** | Estabiliza sozinho com 1 PV, inconsciente por 1d4 horas |
+
+***
+
+## Testes de Perícia
+
+Quando um personagem tenta algo que exige habilidade fora de combate (ou dentro, em situações especiais):
+
+**d20 + Atributo relevante + Proficiência**
+
+### Qual Atributo Usar?
+
+| Ação | Atributo | Polo + | Polo - |
+|------|----------|--------|--------|
+| Persuadir NPC | Presença | Liderança: inspirar | Tirania: intimidar |
+| Escalar muro | Físico | Técnica: encontrar apoios | Brutalidade: forçar passagem |
+| Investigar cena | Mente | Razão: lógica, dedução | Instinto: sentir perigo |
+| Resistir veneno | Corpo | Tenacidade: aguentar | Destreza: metabolismo rápido |
+| Decifrar runas | Linhagem | Pura: leitura natural | Corrompida: entender caos |
+
+> O **narrador** decide qual polo se aplica, baseado em *como* o jogador descreve a ação. "Eu convenço o guarda" = Liderança. "Eu ameaço o guarda" = Tirania. Ambos usam Presença, mas polos diferentes.
+
+### Proficiência em Perícias
+
+Assim como armas e esquiva, perícias ganham proficiência por uso (ver `Classes.md`). Proficiência adiciona +1 a +3 ao teste.
+
+***
+
+## Cura e Recuperação
+
+| Método | PV Recuperado | Requisito |
+|--------|---------------|-----------|
+| **Descanso curto** (10-30 min) | 1d4 PV | Fora de combate |
+| **Descanso longo** (8h de sono) | PV total | Local seguro |
+| **Poção de cura menor** | 1d6+2 PV | Usar item (Ação Bônus) |
+| **Poção de cura maior** | 2d6+4 PV | Usar item (Ação Bônus) |
+| **Magia Aqua Tactus** (toque curativo) | 1d8 PV | Gastar Sekhem |
+| **Magia Aqua Orbis** (cura em área) | 1d4 PV a aliados na área | Gastar Sekhem |
+| **Kit de primeiros socorros** | 1d4 PV | d20 + |Mente| vs CD 8, gasta 1 uso do kit |
+| **Tenacidade passiva** | +1 PV por descanso curto (se Tenacidade +3 ou mais) | Automático |
+
+> **Regra narrativa:** Em Arkadice, cura mágica (Aqua) é rara e cara. A maioria dos personagens depende de poções e descanso. Isso reforça que combate é perigoso e fugir é uma estratégia válida.
+
+***
+
+## Velocidade Base por Raça
+
+| Raça | Velocidade | Notas |
+|------|-----------|-------|
+| **Humano** | 6m | Média |
+| **Elfo** | 7m | Ágil e leve |
+| **Anão** | 5m | Lento mas resistente |
+| **Orc** | 6m | Linha de frente |
+| **Meio-Elfo** | 6m | Herança mista |
+| **Tiefling** | 6m | Normal |
+| **Halfling** | 5m | Pernas curtas, compensado por furtividade |
+| **Hemovita** | 6m | Normal, +1m em penumbra |
+
+> Botas podem aumentar velocidade em +1 a +3m. Terreno difícil = metade da velocidade.
+
+***
+
+## Progressão de Atributos
+
+Atributos em Arkadice crescem por **uso narrativo**, não por XP. Quando o narrador considerar que o personagem usou um atributo de forma significativa e consistente ao longo de um arco, ele pode subir.
+
+| Regra | Descrição |
+|-------|-----------|
+| **Subir de ±3 para ±4** | Exige uso consistente por ~3-4 arcos narrativos + evento significativo |
+| **Subir de ±4 para ±5** | Exige dedicação extrema + marco narrativo importante (mestre reconhece, ritual) |
+| **Máximo absoluto** | ±5 em qualquer atributo |
+| **Restrição** | Soma dos valores absolutos de todos os atributos nunca excede **15** (pra veterano) / **20** (lendário) |
+
+> Crescer de ±3 é difícil por design. Um personagem com Físico +5 é uma lenda — equivalente a um campeão mundial. Isso deve ser sentido na mesa.

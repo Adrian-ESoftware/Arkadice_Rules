@@ -1,60 +1,106 @@
-# Sistema de Classes — Arkadice
+# Classes em Arkadice — Proficiência por Uso
 
-## Classes Não Existem (Do Jeito Tradicional)
+## Filosofia: Não Existem Classes
 
-Em Arkadice, **não existem classes pré-definidas**. Você não escolhe "Guerreiro", "Mago" ou "Ladino" na criação de personagem. Em vez disso, **você se torna o que pratica**.
+Em Arkadice, não há classes predefinidas. O personagem **se torna** aquilo que pratica. Um guerreiro não nasce guerreiro — ele se torna um ao lutar. Um mago não escolhe "classe mago" — ele pratica Sekhem até dominar.
 
-> *Ninguém nasce guerreiro. Você se torna um ao empunhar uma espada mil vezes.*
-
-***
-
-## Como Funciona
-
-A identidade do personagem é construída **durante o jogo**, com base nas armas que usa, nas ferramentas que domina e nas escolhas que repete. O sistema reconhece padrões de comportamento e os recompensa com **proficiência**.
-
-### Proficiência por Uso
-
-Quanto mais você usa algo — uma arma, um tipo de magia, uma ferramenta, uma abordagem tática — mais proficiente se torna naquilo. Não existe uma lista de habilidades para "desbloquear" no nível 5. Existe **prática, repetição e domínio**.
-
-| Conceito | Descrição |
-|----------|-----------|
-| **Armas** | Usar uma espada repetidamente te torna proficiente em espadas, não em "armas marciais" como classe genérica |
-| **Magia** | Conjurar feitiços de fogo constantemente te especializa em fogo — não em "ser mago" |
-| **Ferramentas** | Usar kits de alquimia, arrombamento, medicina — tudo gera proficiência individual |
-| **Táticas** | Flanquear, emboscar, defender aliados — padrões de combate também geram domínio |
+> O sistema não pergunta "o que você é". Ele observa "o que você faz".
 
 ***
 
-## A "Classe" É o Que Você Faz
+## Sistema de Proficiência
 
-Se um personagem:
+Toda habilidade tem um **tier de proficiência** que sobe com o uso. Isso se aplica a:
 
-- Usa espada e escudo todo combate → ele **é** um guerreiro
-- Conjura magias de cura e proteção → ele **é** um clérigo
-- Furta, embosca e usa adagas → ele **é** um ladino
-- Faz tudo um pouco → ele **é** um generalista (e isso também é válido)
+- Armas (espada, arco, cajado, etc.)
+- Esquiva
+- Perícias (persuasão, furtividade, investigação, etc.)
+- Escolas mágicas (cada elemento de Sekhem)
 
-A diferença é que **nenhuma dessas identidades é trancada na criação**. Um "guerreiro" pode começar a estudar magia no meio da campanha — e se praticar o suficiente, ganha proficiência real naquilo.
+### Tiers de Proficiência
+
+| Tier | Nome | Bônus | Dado de Esquiva | Requisito |
+|------|------|-------|-----------------|-----------|
+| 0 | **Não treinado** | +0 | — | — |
+| 1 | **Praticante** | +1 | d4 | 10 usos bem-sucedidos |
+| 2 | **Adepto** | +2 | d6 | 25 usos bem-sucedidos após Tier 1 |
+| 3 | **Mestre** | +3 | d8 | 50 usos bem-sucedidos após Tier 2 + marco narrativo |
+| 4 | **Lendário** | +4 | d10/d12 | Marco narrativo extraordinário (decisão do narrador) |
+
+### O Que Conta Como "Uso Bem-Sucedido"?
+
+| Situação | Conta? |
+|----------|--------|
+| Acertar um ataque com a arma em combate real | ✅ Sim |
+| Treinar com instrutor durante downtime | ✅ Sim (1 uso por sessão de treino) |
+| Esquivar de um ataque com sucesso | ✅ Sim |
+| Rolar o dado mas falhar | ❌ Não (aprende com erro, mas não conta pro tier) |
+| Matar alvo indefeso / treinar em boneco | ❌ Não (sem risco, sem crescimento) |
+| Lançar magia com sucesso em situação de pressão | ✅ Sim |
+| Uso criativo aprovado pelo narrador | ✅ Sim |
+
+> **Regra de ouro:** Crescimento exige **risco e intenção**. Não se pode grindear proficiência matando ratos.
+
+### Tracking de Usos
+
+O jogador mantém um contador simples na ficha:
+
+```
+Espada Longa:    |||| |||| |||| || (17/25 para Adepto)
+Esquiva:         |||| ||| (8/10 para Praticante)
+Persuasão:       |||| |||| |||| |||| ||| (23/25 para Adepto)
+Magia Ignis:     |||| | (6/10 para Praticante)
+```
+
+### Marco Narrativo para Tiers 3-4
+
+Subir para **Mestre** e **Lendário** não é só acumular usos — exige que algo significativo aconteça:
+
+| Tier | Exemplos de Marco |
+|------|-------------------|
+| **Mestre** | Derrotar um oponente notável usando a habilidade, completar treinamento com um mestre, sobreviver situação impossível |
+| **Lendário** | Feito reconhecido por facções/reinos, criar técnica nova, vencer um duelo contra outro Mestre |
+
+> Lendário é excepcional. A maioria dos personagens nunca chega lá em mais de 1-2 habilidades.
 
 ***
 
-## Por Que Esse Sistema?
+## Especialista vs Generalista
 
-1. **Liberdade total** — O jogador não é preso a uma árvore de habilidades decidida na sessão zero. Ele evolui organicamente com a narrativa.
+| Perfil | Descrição | Exemplo |
+|--------|-----------|---------|
+| **Especialista** | Mestre em 1-2 habilidades, não treinado no resto | Espadachim que ignora magia, focado em corpo a corpo |
+| **Generalista** | Adepto em 4-5 habilidades, mestre em nenhuma | Aventureiro versátil que luta, negocia, e lança 1-2 magias |
 
-2. **Consequências reais** — Se você nunca treinou arco, não vai acertar um alvo a 100 metros. Proficiência é conquistada, não dada.
-
-3. **Narrativa emergente** — A "classe" do personagem é uma descrição que outros NPCs dão pra ele, não uma etiqueta mecânica. "Aquele ali é o espadachim da cicatriz" — isso é a classe dele.
-
-4. **Sem multiclasse artificial** — Não existe "pegar 2 níveis de ladino e 3 de mago". Existe simplesmente usar adagas E estudar magia. O sistema reconhece ambos.
+> Ambos são viáveis. O especialista domina seu nicho. O generalista se adapta a qualquer situação. A mesa recompensa os dois.
 
 ***
 
-## Especialização vs. Generalismo
+## Integração com Atributos
 
-| Caminho | Vantagem | Desvantagem |
-|---------|----------|-------------|
-| **Especialista** | Proficiência alta em poucas coisas. Bônus maiores, técnicas avançadas | Vulnerável fora da sua área |
-| **Generalista** | Competente em muitas áreas. Versátil e adaptável | Nunca atinge o pico de poder de um especialista |
+Proficiência é **independente** dos atributos, mas complementar:
 
-Ambos são caminhos válidos. O sistema não pune o generalista nem o especialista — apenas reconhece que **tempo investido em uma coisa é tempo não investido em outra**.
+| Situação | Cálculo |
+|----------|---------|
+| Ataque corpo a corpo | d20 + Físico + Proficiência na arma |
+| Esquiva | (Dado de proficiência × 5%) + (Destreza × 5%) |
+| Teste de perícia | d20 + Atributo relevante + Proficiência |
+| Magia | d20 + Linhagem + Proficiência no elemento (para CD) |
+
+> Um personagem com Físico +3 e proficiência +3 em espada rola d20+6 para acertar. Um novato com Físico +3 mas sem treino rola apenas d20+3. **Treino importa tanto quanto talento natural.**
+
+***
+
+## Proficiência Racial
+
+Algumas raças começam com proficiência bônus:
+
+| Raça | Proficiência Inicial |
+|------|---------------------|
+| Humano | 1 perícia à escolha começa em Praticante |
+| Elfo | Arco começa em Praticante |
+| Anão | Machado OU martelo começa em Praticante |
+| Orc | Arma pesada à escolha começa em Praticante |
+| Hemovita | Magia Vitae (se tiver Linhagem) começa em Praticante |
+
+> Proficiências raciais são vantagens iniciais, não limites. Um Anão pode treinar arco até Mestre — apenas começa sem bônus nele.

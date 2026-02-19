@@ -40,7 +40,7 @@ Cada atributo é uma **barra linear de inteiros de -5 a +5**, iniciando em **0**
 | Polo | Nome | Uso |
 |------|------|-----|
 | +1 a +5 | **Tenacidade** | PV extra, resistência a debuffs, cura natural acelerada. Tanque clássico |
-| -1 a -5 | **Destreza** | Esquiva, furtividade, acrobacias, mãos leves. AC baseada em evasão ao invés de absorção |
+| -1 a -5 | **Destreza** | Esquiva, furtividade, acrobacias, mãos leves. Defesa baseada em esquiva ao invés de absorção |
 
 ***
 
