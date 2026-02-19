@@ -69,18 +69,25 @@ A primeira palavra define **de que é feito** o feitiço. É uma das 6 palavras 
 
 A segunda palavra define **como** o elemento se manifesta. É a forma física do feitiço. Cada núcleo tem **efeitos base com variabilidade** — nada é fixo, a magia é orgânica.
 
-| Palavra | Forma | Efeito Base | Notas |
-|---------|-------|-------------|-------|
-| **Sagitta** | Projétil direto | **1d6** dano, alcance 18m | 1 alvo |
-| **Murus** | Barreira / muro | HP = **1d6+2**, largura 3m, altura 2m | Dura **1d4** turnos |
-| **Orbis** | Esfera / área | **1d4** dano a todos na área, raio 3m | Aliados incluídos |
-| **Tactus** | Toque / contato | **1d8** dano, ignora 1 Absorção | Requer adjacência |
-| **Vinculum** | Corrente / vínculo | CD 12 para escapar, imobiliza | Dura **1d4** turnos |
-| **Nimbus** | Nuvem / área contínua | **1d4** dano/turno, raio 6m | Dura **1d4+1** turnos |
-| **Scutum** | Escudo pessoal | +**1d4** Absorção ao conjurador | Dura **1d4** turnos |
-| **Telum** | Lâmina / arma conjurada | Arma conjurada, +**1d4** dano elemental | Dura **1d4+2** turnos |
+| Palavra | Forma | Efeito Base | Custo | Notas |
+|---------|-------|-------------|-------|-------|
+| **Sagitta** | Projétil direto | **1d6** dano, alcance 18m | 1 | 1 alvo |
+| **Murus** | Barreira / muro | HP = **1d6+2**, largura 3m, altura 2m | 1 | Dura **1d4** turnos |
+| **Orbis** | Esfera / área | **1d4** dano a todos na área, raio 3m | 1 | Aliados incluídos |
+| **Tactus** | Toque / contato | **1d8** dano, ignora 1 Absorção | 1 | Requer adjacência |
+| **Vinculum** | Corrente / vínculo | CD 12 para escapar, imobiliza | 1 | Dura **1d4** turnos |
+| **Nimbus** | Nuvem / área contínua | **1d4** dano/turno, raio 6m | 1 | Dura **1d4+1** turnos. Contínuo |
+| **Scutum** | Escudo pessoal | +**1d4** Absorção ao conjurador | 1 | Dura **1d4** turnos. Contínuo |
+| **Telum** | Lâmina / arma conjurada | Arma conjurada, +**1d4** dano elemental | 1 | Dura **1d4+2** turnos. Contínuo |
+| **Augeo** | Amplificar / buff | +2 a 1 atributo (varia por elemento) | 2 | Alvo = você ou toque. Contínuo |
+| **Sano** | Curar / restaurar | Cura 1d6+2 PV ou remove condição | 2 | Efeito instantâneo |
+| **Lumen** | Revelar / sentir | Detecta algo em raio 9m | 1 | 1 turno de concentração |
+| **Morpho** | Transformar | Muda 1 propriedade física | 2 | Dura **1d4** turnos |
+| **Anima** | Animar | Dá movimento e 1 comando a objeto | 2 | Dura **1d4+1** turnos. Contínuo |
 
 > Os dados nos efeitos base significam que nem toda magia sai perfeita. Um Murus pode ter HP 3 ou HP 6 — depende do momento, da concentração, da sorte. Isso mantém cada conjuração única.
+>
+> Para efeitos detalhados de **cada combinação Elemento × Núcleo**, consulte `Spell_Combinations.md`.
 
 ***
 
@@ -477,19 +484,46 @@ Se um conjurador **leva dano** enquanto mantém feitiços contínuos, deve rolar
 
 ***
 
-## Combinação de Elementos (Avançado)
+## Combinação de Elementos — Misceo (Avançado)
 
-Personagens com **2 elementos de nascença** (ou que pagam custo extra) podem combinar elementos no mesmo feitiço usando a palavra **Misceo** entre os dois elementos. Isso custa **+3 Sekhem** adicional.
+Personagens com **2 elementos de nascença** (ou que pagam custo extra) podem combinar elementos no mesmo feitiço usando a palavra **Misceo** entre os dois elementos.
+
+### Estrutura do Feitiço Misceo
+
+```
+[ELEMENTO] + Misceo + [ELEMENTO] + [NÚCLEO]
+```
+
+### Regras de Misceo
+
+| Regra | Descrição |
+|-------|-----------|
+| **Custo extra** | +3 Sekhem adicional ao custo do núcleo |
+| **Sem modificadores** | Feitiços Misceo **não permitem modificadores** — a combinação de dois elementos já é poderosa o suficiente |
+| **Criatividade** | O efeito exato depende da combinação + núcleo + descrição do jogador. O Narrador interpreta e decide |
+| **Dano base** | O dano do núcleo sobe em **+1 dado** (ex: Sagitta: 1d6 → 2d6) |
+
+> A proibição de modificadores em Misceo é proposital: força o jogador a ser **criativo com a combinação** em vez de empilhar mecânicas. A diversão está em descrever o que "Ignis Misceo Aqua Orbis" faz — e o Narrador dar vida a isso.
 
 ### Exemplos de Combinação
 
-| Combinação | Palavra | Resultado |
+| Combinação | Palavra | Resultado Narrativo |
 |------------|---------|-----------|
-| Ignis + Aer | *"Ignis Misceo Aer"* | Relâmpago flamejante |
-| Aqua + Terra | *"Aqua Misceo Terra"* | Lama / pântano / gelo sísmico |
-| Ordo + Ignis | *"Ordo Misceo Ignis"* | Luz purificadora ardente |
-| Perditio + Aqua | *"Perditio Misceo Aqua"* | Veneno líquido / ácido |
-| Aer + Terra | *"Aer Misceo Terra"* | Tempestade de areia / rocha voadora |
-| Ordo + Perditio | *"Ordo Misceo Perditio"* | Paradoxo (extremamente instável e poderoso) |
+| Ignis + Aer | *"Ignis Misceo Aer Sagitta"* | Raio flamejante — relâmpago envolto em fogo |
+| Aqua + Terra | *"Aqua Misceo Terra Vinculum"* | Lama que prende — pântano instantâneo |
+| Ordo + Ignis | *"Ordo Misceo Ignis Orbis"* | Explosão de luz purificadora ardente |
+| Perditio + Aqua | *"Perditio Misceo Aqua Nimbus"* | Nuvem de ácido corrosivo persistente |
+| Aer + Terra | *"Aer Misceo Terra Murus"* | Parede de areia comprimida (muito densa) |
+| Ignis + Aqua | *"Ignis Misceo Aqua Scutum"* | Escudo de vapor escaldante |
+| Ordo + Perditio | *"Ordo Misceo Perditio Tactus"* | Toque do Paradoxo — extremamente instável |
 
-> Combinar Ordo + Perditio é considerado proibido pela maioria das ordens mágicas. O custo é **×3** ao invés de +3, e a falha crítica pode causar efeitos narrativos permanentes.
+> ⚠️ Combinar **Ordo + Perditio** é considerado proibido pela maioria das ordens mágicas. O custo é **×3** ao invés de +3, e a falha crítica pode causar efeitos narrativos permanentes.
+
+### Por que Sem Modificadores?
+
+| Feitiço Normal | Custo | Feitiço Misceo | Custo |
+|----------------|-------|----------------|-------|
+| Ignis Sagitta Magnus Serpens | 1+1+2 = **4** | Ignis Misceo Aer Sagitta | 1+3+1 = **5** |
+| Resultado: bola de fogo grande que persegue | — | Resultado: raio flamejante (2d6 dano, sem mods) | — |
+
+> Custo similar, mas filosofias diferentes: **Normal = preciso e customizável**. **Misceo = poderoso e imprevisível**.
