@@ -435,6 +435,48 @@ O sistema parece aberto ("adicione quantos modificadores quiser"), mas o **custo
 
 ***
 
+## Manutenção de Feitiços Contínuos
+
+Feitiços com duração (Nimbus, Vinculum, Murus, etc.) exigem **concentração mental** para serem mantidos ativos. Manter vários feitiços ao mesmo tempo é possível, mas cada feitiço adicional dificulta toda conjuração:
+
+### Penalidade por Feitiços Ativos
+
+| Feitiços Contínuos Ativos | Penalidade de CD |
+|----------------------------|-----------------|
+| **1** | Nenhuma — manter 1 feitiço é natural |
+| **2** | +2 em todas as CDs de conjuração |
+| **3** | +4 em todas as CDs de conjuração |
+| **4+** | +2 adicional por feitiço (e boa sorte) |
+
+> A penalidade se aplica a **todos** os testes de conjuração enquanto os feitiços estiverem ativos — tanto para lançar novos feitiços quanto para manter os atuais.
+
+### Dano e Concentração
+
+Se um conjurador **leva dano** enquanto mantém feitiços contínuos, deve rolar para não perdê-los:
+
+**d20 + |Linhagem|** vs **CD (10 + número de feitiços ativos)**
+
+| Feitiços Ativos | CD do Teste | Com Linhagem ±3 |
+|-----------------|-------------|-----------------|
+| 1 | CD 11 | Precisa de 8+ no d20 |
+| 2 | CD 12 | Precisa de 9+ no d20 |
+| 3 | CD 13 | Precisa de 10+ no d20 |
+
+- **Sucesso:** Todos os feitiços se mantêm
+- **Falha:** O feitiço **mais recente** se dissipa
+- **Falha por 5+:** **Todos** os feitiços contínuos se dissipam
+
+### Regras Adicionais
+
+- Feitiços **instantâneos** (Sagitta, Orbis de dano) **não contam** como contínuos
+- Feitiços **Dominados** com duração contam normalmente
+- O conjurador pode **encerrar voluntariamente** qualquer feitiço contínuo a qualquer momento (sem custo)
+- **Dormir** ou ficar **inconsciente** encerra todos os feitiços contínuos
+
+> *A ideia não é proibir múltiplos feitiços — é tornar cada feitiço ativo uma decisão tática. Um mago com 3 feitos contínuos é poderoso, mas qualquer golpe pode derrubar tudo.*
+
+***
+
 ## Combinação de Elementos (Avançado)
 
 Personagens com **2 elementos de nascença** (ou que pagam custo extra) podem combinar elementos no mesmo feitiço usando a palavra **Misceo** entre os dois elementos. Isso custa **+3 Sekhem** adicional.

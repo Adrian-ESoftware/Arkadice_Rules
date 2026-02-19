@@ -9,6 +9,41 @@ Nova Tabela de Dificuldades (CD d20): Baseada na escala padrão de D&D:
 
 ***
 
+## Vantagem e Desvantagem
+
+Quando circunstâncias especiais favorecem ou prejudicam uma ação, o narrador pode conceder **Vantagem** ou **Desvantagem**:
+
+| Condição | Como Funciona |
+|----------|---------------|
+| **Vantagem** | Rola **2d20, usa o maior** |
+| **Desvantagem** | Rola **2d20, usa o menor** |
+
+### Regras de Interação
+
+| Regra | Descrição |
+|-------|-----------|
+| **Não acumula** | Múltiplas fontes de vantagem ainda dão 1 vantagem (2d20, não 3d20) |
+| **Se anulam** | Se tem vantagem E desvantagem ao mesmo tempo, rola normalmente (1d20) |
+| **Aplica-se a** | Ataques, testes de perícia, saves — qualquer rolagem de d20 |
+
+### Situações Comuns
+
+| Situação | Efeito |
+|----------|--------|
+| Atacar alvo que **não te vê** | Vantagem |
+| Atacar em **escuridão total** (sem Visão no Escuro) | Desvantagem |
+| Alvo **prone** (derrubado) corpo a corpo | Vantagem |
+| Alvo **prone** à distância | Desvantagem |
+| Alvo **agarrado** (Grappled) | Vantagem contra ele |
+| Aliado usou **Ajudar** no teste | Vantagem |
+| Sob efeito de **Medo** | Desvantagem em ataques e perícias |
+| **Ação Preparada** (sem pressa) fora de combate | Vantagem a critério do narrador |
+| **Ferimento grave** (≤25% PV) | Desvantagem em testes de Corpo |
+
+> *Vantagem e desvantagem substituem a maioria dos bônus e penalidades numéricas situacionais. Se uma situação parece favorecer ou prejudicar o personagem, o narrador pode simplesmente dar vantagem ou desvantagem — sem calcular números.*
+
+***
+
 ## Geração de Atributos — Point Buy Narrativo
 
 Na criação de personagem, todos os 5 atributos começam em **0**. O jogador distribui **7 pontos de intensidade** livremente entre os atributos, em **qualquer direção** — positivo ou negativo.
@@ -295,9 +330,23 @@ Cada personagem tem **4 recursos de ação** por turno. A ordem é livre — o j
 | **Dash** | Usar ação principal para mover = dobra o movimento total do turno |
 | **Esquivar** | Gastar ação bônus para esquivar: +5% chance de esquiva até seu próximo turno |
 | **Conjuração Rápida** | Feitiços com modificador Velox podem ser conjurados como **ação bônus** em vez de ação principal |
-| **Contra-ataque** | Quando inimigo sai do seu alcance sem desengajar, você pode usar sua reação para 1 ataque |
+| **Desengajar** | Usar ação principal para recuar com cuidado. Neste turno, seus movimentos **não provocam contra-ataque** |
+| **Ajudar** | Usar ação principal para auxiliar um aliado. O aliado ganha **vantagem** no próximo teste de ataque ou perícia (até o início do seu próximo turno) |
+| **Preparar** | Usar ação principal para definir um gatilho: *"Quando X acontecer, eu faço Y"*. Quando o gatilho ocorre, você usa sua **reação** para executar a ação preparada. Se o gatilho não ocorrer, a ação é perdida |
+| **Esconder** | Usar ação principal para se esconder em combate. Rola Furtividade (d20 + \|Mente\|) vs Percepção passiva dos inimigos. Se bem-sucedido: ataques contra você têm **desvantagem**, e seu próximo ataque tem **vantagem** |
+| **Usar Objeto** | Itens simples (poção, abrir porta) = **ação bônus**. Itens complexos (armar armadilha, kit de primeiros socorros) = **ação principal** |
+| **Contra-ataque** | Quando inimigo sai do seu alcance **sem usar Desengajar**, você pode usar sua reação para 1 ataque |
 | **Bloqueio** | Com escudo equipado, gastar reação para ganhar +2 Absorção contra 1 ataque que você vê |
 | **Interromper Feitiço** | Gastar reação + 2 Sekhem para forçar o conjurador a rolar CD 12 ou perder o feitiço |
+
+### Timing de Reações
+
+| Regra | Descrição |
+|-------|-----------|
+| **Recuperação** | A reação se recupera no **início do seu turno** |
+| **Gatilho** | Reações são resolvidas **imediatamente** quando o gatilho ocorre, mesmo durante o turno de outro personagem |
+| **Conflito** | Se múltiplos personagens reagem ao mesmo gatilho, resolvem em **ordem de iniciativa** (maior primeiro) |
+| **Limite** | Apenas **1 reação por rodada** — escolha bem quando usá-la |
 
 ***
 
@@ -718,6 +767,32 @@ Equipamento especial que reduz dano mágico recebido (ver `Equipment.md`):
 
 > Magia em Arkadice é **poderosa mas cara**. Feitiços de dano direto acertam automaticamente — a defesa contra magia é Esquiva (reação), armadura, e mantos. Feitiços de controle podem ser resistidos com Save.
 
+### Resistências e Vulnerabilidades Elementais
+
+Criaturas e personagens podem ter relação especial com elementos:
+
+| Relação | Efeito no Dano | Quando Aplica |
+|---------|----------------|---------------|
+| **Vulnerável** | Dano ×1.5 (arredondado pra cima) | Criatura recebe dano do elemento oposto ao seu |
+| **Resistente** | Dano ×0.5 (arredondado pra baixo) | Criatura recebe dano do mesmo elemento que o seu |
+| **Imune** | Dano 0 | Elementais puros contra seu próprio elemento |
+
+#### Regras
+
+- **Personagens jogáveis** normalmente **não têm** resistências/vulnerabilidades elementais (a menos que um manto ou enchantamento forneça)
+- **Criaturas** podem ter resistência/vulnerabilidade descrita na ficha
+- O elemento de nascença do personagem **não** dá resistência ao próprio elemento — apenas reduz o custo de Sekhem
+- Narrador decide para criaturas homebrew: um golem de gelo é vulnerável a Ignis? Provavelmente sim
+
+| Criatura Exemplo | Resistente a | Vulnerável a |
+|------------------|-------------|-------------|
+| Elemental de Ignis | Ignis (imune) | Aqua |
+| Golem de Terra | Terra, Aer | Aqua |
+| Morto-vivo | Perditio | Ordo |
+| Espírito de gelo | Aqua (imune) | Ignis |
+
+> *Resistências elementais adicionam uma camada tática: conhecer o inimigo antes do combate faz diferença. Investigação e preparação são recompensadas.*
+
 ***
 
 ## Aplicação de Debuffs em Combate
@@ -757,7 +832,30 @@ Nem todo acerto aplica debuff. A chance depende do tier:
 
 ***
 
-## Condições de Combate
+## Condições Genéricas de Combate
+
+Além dos debuffs com tiers (ver `Debuffs/`), existem **condições físicas** que podem ser aplicadas durante combate por ações, magias ou eventos:
+
+| Condição | Efeito | Como Causar | Como Sair |
+|----------|--------|-------------|----------|
+| **Prone (Derrubado)** | Desvantagem em ataques. Ataques corpo a corpo contra você têm vantagem. Ataques à distância contra você têm desvantagem. Levantar custa **metade do movimento** | Empurrão (ação bônus, d20 + \|Físico\| vs d20 + \|Físico\| do alvo), queda, magias de controle | Gastar metade do movimento para levantar |
+| **Grappled (Agarrado)** | Velocidade vira **0**. Não pode se mover. Ataques contra você têm vantagem | Ação de agarrar: d20 + \|Físico\| vs d20 + \|Físico\| do alvo | Ação para escapar: d20 + \|Físico\| ou \|Corpo/Destreza\| vs d20 + \|Físico\| do agarrador |
+| **Aturdido (Stunned)** | Não pode agir (perde ação principal e bônus). Não pode esquivar. Ataques contra você têm vantagem. Falha automática em saves de Corpo | Acerto crítico de arma pesada, magias específicas, flashbangs | Dura **1 turno** (final do turno do aturdido) a menos que a fonte diga diferente |
+| **Invisível** | Não pode ser alvo de ataques diretos a menos que o atacante detecte você. Seus ataques têm vantagem | Magia (Aer ou Perditio), poções, habilidades raciais | Duração do efeito. Atacar ou conjurar **quebra** a invisibilidade |
+
+### Empurrar / Derrubar (Ação Bônus)
+
+Em combate corpo a corpo, um personagem pode usar **ação bônus** para tentar empurrar ou derrubar um oponente:
+
+- **Teste:** d20 + |Físico| (atacante) vs d20 + |Físico| (defensor)
+- **Empurrar:** Move o alvo 1.5m para trás
+- **Derrubar:** Alvo fica **Prone**
+
+> *Condições genéricas são mais simples que debuffs — não têm tiers, não precisam de save para aplicar (exceto Grapple/Empurrão). Duram pouco, mas mudam a dinâmica do combate.*
+
+***
+
+## Condições de Combate — Ambiente
 
 ### Cobertura
 
@@ -802,6 +900,21 @@ Nem todo acerto aplica debuff. A chance depende do tier:
 | **Lama, escombros, gelo** | Metade da velocidade de movimento |
 | **Terreno perigoso** (lava, ácido, espinhos) | Metade da velocidade + 1d4 dano por turno movendo-se nele |
 | **Água profunda** (acima da cintura) | Metade da velocidade + desvantagem em ataques corpo a corpo |
+
+### Dano de Queda
+
+Personagens que caem de alturas significativas sofrem dano:
+
+| Altura | Dano |
+|--------|------|
+| **3m** | 1d4 |
+| **6m** | 2d4 |
+| **9m** | 3d4 |
+| **12m+** | +1d4 por 3m adicionais (máximo 10d4 aos 30m) |
+
+**Save para reduzir:** d20 + |Corpo/Destreza| vs CD 12. Sucesso = metade do dano (o personagem rola e absorve o impacto).
+
+> *Quedas de 3m ou menos não causam dano se o personagem cai de pé. Personagens **Prone** ao cair não podem fazer o save.*
 
 ***
 
