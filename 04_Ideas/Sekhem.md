@@ -72,7 +72,7 @@ A segunda palavra define **como** o elemento se manifesta. É a forma física do
 | Palavra | Forma | Efeito Base | Notas |
 |---------|-------|-------------|-------|
 | **Sagitta** | Projétil direto | **1d6** dano, alcance 18m | 1 alvo |
-| **Murus** | Barreira / muro | HP = **1d4+2**, largura 3m, altura 2m | Dura **1d4** turnos |
+| **Murus** | Barreira / muro | HP = **1d6+2**, largura 3m, altura 2m | Dura **1d4** turnos |
 | **Orbis** | Esfera / área | **1d4** dano a todos na área, raio 3m | Aliados incluídos |
 | **Tactus** | Toque / contato | **1d8** dano, ignora 1 Absorção | Requer adjacência |
 | **Vinculum** | Corrente / vínculo | CD 12 para escapar, imobiliza | Dura **1d4** turnos |
