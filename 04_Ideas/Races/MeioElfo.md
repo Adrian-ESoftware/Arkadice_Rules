@@ -18,7 +18,7 @@ Adaptáveis como humanos, observadores como elfos. Tendem a ser mediadores e tra
 
 ## Sekhem Base
 
-9
+1d5+10 (11-15)
 
 ***
 

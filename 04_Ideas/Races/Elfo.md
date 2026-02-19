@@ -18,7 +18,7 @@ Artesãos, arqueiros, e estudiosos de Sekhem. Vistos como arrogantes por outras 
 
 ## Sekhem Base
 
-10
+1d5+11 (12-16)
 
 ***
 

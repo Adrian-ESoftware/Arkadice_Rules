@@ -18,7 +18,7 @@ Guerreiros, caçadores, e xamãs. Valorizam ação sobre palavras. Rituais de co
 
 ## Sekhem Base
 
-7
+1d5+7 (8-12)
 
 ***
 

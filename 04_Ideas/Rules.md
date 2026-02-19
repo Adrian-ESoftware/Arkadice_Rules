@@ -336,7 +336,7 @@ Todo ataque — corpo a corpo, à distância ou mágico — rola **d20 + modific
 | **Dado base** | d20 |
 | **Físico: Técnica (+)** | Soma o valor ao acerto (precisão) |
 | **Físico: Brutalidade (-)** | Soma o valor absoluto ao **dano** (não ao acerto) |
-| **Proficiência na arma** | +1 (Praticante) a +3 (Mestre) — ver `Classes.md` |
+| **Proficiência na arma** | +1 (Praticante) a +4 (Lendário) — ver `Classes.md` |
 
 ### CD de Defesa (Passiva)
 
@@ -392,32 +392,73 @@ No início do combate, cada participante rola para determinar a ordem:
 
 ***
 
-## Condição de Morte — 0 PV
+## Condição de Morte — 0 PV: Dissolução de Sekhem
 
-Quando um personagem chega a **0 PV**, ele não morre instantaneamente. Entra em estado de **Agonia**:
+Quando um personagem chega a **0 PV**, o corpo **se desmaterializa**. A essência vital se dispersa numa **névoa de Sekhem** da cor do elemento natural do personagem (vermelho para Ignis, azul para Aqua, etc.). O personagem entra em estado de **Dissolução**.
 
-### Estado de Agonia
+### Estado de Dissolução
 
-| Regra | Descrição |
-|-------|-----------|
-| **0 PV** | Cai inconsciente. Não pode agir, falar ou mover |
-| **Saves de Morte** | No início de cada turno, rola **d20** |
-| **Sucesso (10+)** | +1 sucesso. 3 sucessos = estabiliza (inconsciente mas vivo, 1 PV) |
-| **Falha (1-9)** | +1 falha. 3 falhas = **morte permanente** |
-| **Nat 20** | Revive com 1 PV + pode agir neste turno |
-| **Nat 1** | Conta como 2 falhas |
-| **Dano em Agonia** | Cada golpe recebido em Agonia = +1 falha automática |
-| **Cura em Agonia** | Qualquer cura (poção, magia Aqua) tira de Agonia imediatamente |
+O personagem em forma não-material tem **3 turnos** para ser salvo ou se estabilizar sozinho.
 
-> **Dano massivo:** Se um único golpe ultrapassaria o PV máximo do personagem (ex: 60 dano em personagem de 30 PV máx), é **morte instantânea** — o corpo não aguenta.
+**A cada turno**, rola **d20**:
 
-### Estabilizar
+| Resultado | Efeito |
+|-----------|--------|
+| **11-20 (Sucesso)** | A névoa se mantém coesa. Nada acontece |
+| **1-10 (Falha)** | A névoa se dispersa parcialmente. Perde **Sekhem máximo permanente** |
+
+### Perda de Sekhem por Falha
+
+A quantidade de Sekhem perdido depende da **polaridade da Linhagem**:
+
+| Linhagem | Perda por Falha | Razão |
+|----------|----------------|-------|
+| **Ordo (Pura, +)** | -1 Sekhem máximo | Essência organizada resiste melhor à dispersão |
+| **Perditio (Corrompida, -)** | -2 Sekhem máximo | Essência caótica se dissolve mais rápido |
+
+### Resultados Após 3 Turnos
+
+| Cenário | Resultado |
+|---------|-----------|
+| **3 Sucessos** | A névoa se solidifica sozinha num **Cristal de Sekhem**. Pode ser revivido no futuro |
+| **3 Falhas** | O Sekhem se dispersa completamente = **Morte permanente** (antes do 3º turno terminar) |
+| **Misto (sucessos + falhas)** | A névoa persiste até o final do 3º turno. Aliados têm até esse momento para **solidificar o cristal** |
+
+### Solidificar o Cristal (Ação dos Aliados)
+
+Aliados podem estabilizar a névoa e solidificá-la:
 
 | Método | Requisito |
 |--------|-----------|
-| **Primeiros socorros** | Aliado adjacente gasta Ação Principal, rola d20 + |Mente| vs CD 10 |
-| **Poção/magia** | Administrada por aliado, tira de Agonia e recupera o valor da cura |
-| **3 Saves bem-sucedidos** | Estabiliza sozinho com 1 PV, inconsciente por 1d4 horas |
+| **Contenção manual** | Aliado adjacente gasta Ação Principal, rola d20 + \|Linhagem\| vs CD 12 |
+| **Magia de contenção** | Cualquier magia de controle (Terra Murus, Aqua Tactus) pode solidificar automaticamente |
+| **Recipiente mágico** | Se o grupo tiver um frasco encantado, a contenção é automática |
+
+> Se ninguém solidificar até o fim do 3º turno e o personagem teve falhas, o Sekhem se dispersa = **morte**.
+
+### O Cristal de Sekhem
+
+O cristal contém a essência do personagem. Pode ser usado para revivê-lo:
+
+| Propriedade | Descrição |
+|-------------|-----------|
+| **Aparência** | Cristal translúcido da cor do elemento natural do personagem |
+| **Reviver** | Exige ritual, magia poderosa, ou local sagrado (decisão narrativa do mestre) |
+| **Sekhem ao reviver** | O personagem volta com o Sekhem máximo **reduzido** pelas falhas acumuladas |
+| **PV ao reviver** | Volta com 1 PV |
+| **Fragilidade** | Se o cristal for destruído antes do revival = morte permanente irrecuperável |
+
+> *Morrer em Arkadice não é o fim — é uma corrida contra o tempo. Seus aliados veem sua essência se desfazendo enquanto lutam para contê-la. É narrativamente poderoso e mecanicamente tenso.*
+
+### Exemplo
+
+> *Kael (Ignis, Perditio -2, Sekhem máx 10) chega a 0 PV. Seu corpo se dissolve numa névoa vermelha incandescente.*
+>
+> **Turno 1:** Rola d20 → 7 (Falha). Perde 2 Sekhem máx → agora 8.
+>
+> **Turno 2:** Rola d20 → 15 (Sucesso). A névoa se estabiliza momentaneamente.
+>
+> **Turno 3:** Rola d20 → 4 (Falha). Perde 2 Sekhem máx → agora 6. Resultado: misto (1 sucesso, 2 falhas). A aliada Lyra gasta sua ação e rola d20 + 3 (Linhagem) = 16 vs CD 12 → Sucesso! O Sekhem de Kael se solidifica num cristal vermelho. Quando revivido, Kael terá Sekhem máx 6 ao invés de 10.
 
 ***
 
@@ -441,7 +482,7 @@ Quando um personagem tenta algo que exige habilidade fora de combate (ou dentro,
 
 ### Proficiência em Perícias
 
-Assim como armas e esquiva, perícias ganham proficiência por uso (ver `Classes.md`). Proficiência adiciona +1 a +3 ao teste.
+Assim como armas e esquiva, perícias ganham proficiência por uso (ver `Classes.md`). Proficiência adiciona +1 a +4 ao teste.
 
 ***
 
@@ -491,3 +532,356 @@ Atributos em Arkadice crescem por **uso narrativo**, não por XP. Quando o narra
 | **Restrição** | Soma dos valores absolutos de todos os atributos nunca excede **15** (pra veterano) / **20** (lendário) |
 
 > Crescer de ±3 é difícil por design. Um personagem com Físico +5 é uma lenda — equivalente a um campeão mundial. Isso deve ser sentido na mesa.
+
+***
+
+## Fluxo Completo de Combate
+
+### Início do Combate
+
+1. **Iniciativa:** Todos rolam `d20 + |Mente|`. Ordem do maior para o menor
+2. **Surpresa:** Se um lado surpreendeu o outro, o lado surpreendido perde o 1º turno
+
+### Estrutura do Turno
+
+No seu turno, o jogador tem **4 recursos de ação** (ver Sistema de Ações) usados em qualquer ordem:
+
+1. **Declarar intenção** — O jogador descreve o que quer fazer
+2. **Ação de Movimento** — Mover até a velocidade base
+3. **Ação Principal** — Atacar, conjurar, usar item, etc.
+4. **Ação Bônus** — Ataque secundário, esquiva, conjuração rápida
+5. **Reação** — Usada fora do turno (contra-ataque, bloqueio, interrupção)
+
+### Resolução de Ataque (Físico)
+
+```
+1. Atacante rola: d20 + |Físico| + Proficiência
+2. Compara com CD de Defesa do alvo (10 + armadura + escudo + Destreza/2)
+3. Se ACERTOU:
+   a. Alvo pode usar Esquiva? (se tem Destreza e ação bônus ou reação disponível)
+      → Rola dado de esquiva: Dodge% = (Dado × 5%) + (|Destreza| × 5%)
+      → Esquivou? Dano = 0
+      → Falhou? Raspão reduz Dodge%/3 do dano
+   b. Calcula Dano Bruto: Dado da arma + Brutalidade (se Físico negativo)
+   c. Aplica Resistência%/Absorção da armadura:
+      → Dano Final = Dano Bruto - min(Dano Bruto × Resistência%, Absorção Máxima)
+   d. Subtrai Dano Final do PV do alvo
+4. Se ERROU: O ataque não acerta. Próximo turno
+5. Nat 20: Acerto automático, dano dobrado
+6. Nat 1: Falha automática + consequência narrativa
+```
+
+### Resolução de Ataque (Mágico)
+
+```
+1. Conjurador gasta Sekhem pelo custo do feitiço
+2. Feitiço novo? Testa conjuração: 2d6 + |Linhagem| vs CD
+   → Falha: Sekhem gasto, feitiço não funciona
+3. Feitiço de DANO DIRETO (Sagitta, Orbis, Tactus, Nimbus):
+   → Acerta automaticamente (magia é guiada pelo Sekhem)
+   → Alvo pode usar Esquiva normalmente (reação)
+   → Armadura/Absorção se aplica contra dano mágico
+4. Feitiço de CONTROLE (Vinculum, etc.):
+   → Alvo faz Save: d20 + Atributo relevante vs CD Mágica do conjurador
+   → CD Mágica = 8 + |Linhagem| + Proficiência em magia
+5. Mantos mágicos: concedem % de resistência mágica (reduz dano mágico)
+```
+
+### Fim do Turno
+
+- Efeitos contínuos (Nimbus, Vinculum, veneno, etc.) aplicam seus efeitos
+- Duração de feitiços e condições reduz em 1 turno
+- Personagem em 0 PV entra em Dissolução de Sekhem
+
+> *O fluxo é: Acertar → Esquivar → Absorver → Dano. Cada camada reduz o dano, mas nenhuma é garantida. Combate é rápido e brutal.*
+
+***
+
+## Resistência Mágica
+
+### Saves Contra Magia
+
+Quando um feitiço de controle ou efeito especial atinge um personagem, o alvo pode resistir:
+
+**d20 + Atributo relevante** vs. **CD Mágica do conjurador**
+
+| Tipo de Magia | Atributo de Save |
+|---------------|-----------------|
+| **Controle mental** (medo, charme) | Mente (Razão ou Instinto) |
+| **Imobilização** (Vinculum, raízes) | Corpo (Destreza ou Tenacidade) |
+| **Veneno/Dissolução** | Corpo (Tenacidade) |
+| **Ilusão/Engano** | Mente (Razão) |
+| **Corrupção de Sekhem** | Linhagem |
+
+### CD Mágica do Conjurador
+
+**CD Mágica = 8 + |Linhagem| + Proficiência em magia**
+
+| Linhagem | Proficiência | CD Mágica |
+|----------|-------------|-----------|
+| ±1 | Não treinado (+0) | 9 |
+| ±2 | Praticante (+1) | 11 |
+| ±3 | Adepto (+2) | 13 |
+| ±4 | Mestre (+3) | 15 |
+| ±5 | Lendário (+4) | 17 |
+
+### Mantos Mágicos
+
+Equipamento especial que reduz dano mágico recebido (ver `Equipment.md`):
+
+| Manto | Resistência Mágica |
+|-------|-------------------|
+| **Manto Comum** | 5% redução de dano mágico |
+| **Manto Encantado** | 10% redução de dano mágico |
+| **Manto Rúnico** | 15% redução de dano mágico + vantagem em 1 save por descanso longo |
+
+> Magia em Arkadice é **poderosa mas cara**. Feitiços de dano direto acertam automaticamente — a defesa contra magia é Esquiva (reação), armadura, e mantos. Feitiços de controle podem ser resistidos com Save.
+
+***
+
+## Aplicação de Debuffs em Combate
+
+### Como Debuffs São Aplicados
+
+Debuffs podem ser causados por **armas**, **magias**, **criaturas** e **ambiente**:
+
+| Fonte | Como Aplica | Exemplo |
+|-------|------------|---------|
+| **Arma com propriedade** | Se o ataque acerta e causa dano, o debuff pode ativar | Espada flamejante → Queimadura |
+| **Magia ofensiva** | Automático se o feitiço acerta | Ignis Sagitta → chance de Queimadura |
+| **Habilidade de criatura** | Descrito na ficha da criatura | Serpente → Veneno Agudo |
+| **Ambiente** | Automático ao entrar na área ou falhar save | Pântano tóxico → Veneno Crônico |
+
+### Chance de Aplicação
+
+Nem todo acerto aplica debuff. A chance depende do tier:
+
+| Tier do Debuff | Chance ao Acertar | Save para Resistir |
+|----------------|-------------------|-------------------|
+| **Tier 1** (leve) | 50% (d6: 1-3) | d20 + Corpo vs CD 10 |
+| **Tier 2** (moderado) | 33% (d6: 1-2) | d20 + Corpo vs CD 12 |
+| **Tier 3** (grave) | 25% (d8: 1-2) | d20 + Corpo vs CD 14 |
+
+### Regras de Interação
+
+| Interação | Resultado |
+|-----------|-----------|
+| **Congelamento + Queimadura** | Se anulam — ambos removidos |
+| **Sangramento + Queimadura** | Cauteriza — Sangramento removido, Queimadura persiste |
+| **Veneno + Cura (Aqua)** | A cura pode neutralizar o veneno se curar mais PV do que o veneno causa |
+| **Mesmo debuff 2x** | Não acumula — renova a duração |
+| **Debuffs de tipos diferentes** | Acumulam normalmente (máximo 3 debuffs ativos simultâneos) |
+
+> Debuffs são condições que tornam o combate mais tático. Os detalhes de cada debuff (duração, efeito, cura) estão nos arquivos individuais em `Debuffs/`.
+
+***
+
+## Condições de Combate
+
+### Cobertura
+
+| Tipo | Bônus à CD de Defesa | Exemplos |
+|------|----------------------|----------|
+| **Meia cobertura** | +2 CD | Atrás de barril, cerca baixa |
+| **Cobertura ¾** | +4 CD | Seta de muralha, janela |
+| **Cobertura total** | Não pode ser alvo de ataque direto | Atrás de parede sólida |
+
+> Cobertura não protege contra magia de área (Orbis, Nimbus). Apenas contra ataques direcionados.
+
+### Surpresa e Emboscada
+
+| Regra | Descrição |
+|-------|-----------|
+| **Emboscada bem-sucedida** | O lado que embosca rola Furtividade (d20 + |Mente/Instinto| + Proficiência) vs Percepção passiva dos alvos (10 + |Mente/Razão|) |
+| **Se conseguir:** | O lado surpreendido **perde o 1º turno de combate** (não age, não reage) |
+| **Se falhar:** | Combate normal — Iniciativa é rolada para todos |
+
+### Escuridão e Visibilidade
+
+| Condição | Efeito |
+|----------|--------|
+| **Penumbra** | Desvantagem em ataques à distância (mais de 6m). Corpo a corpo normal |
+| **Escuridão total** | Desvantagem em todos os ataques. Alvos têm +4 CD. Não pode esquivar |
+| **Visão no Escuro** (racial) | Ignora Penumbra. Escuridão total vira Penumbra |
+| **Luz mágica** (Ordo) | Remove penumbra/escuridão em raio de 6m |
+
+### Flanqueamento
+
+| Regra | Bônus |
+|-------|-------|
+| **2 aliados em lados opostos** do alvo | +2 no d20 de acerto para ambos |
+| **3+ aliados cercando** | +3 no d20 de acerto para todos |
+
+> Flanqueamento só se aplica corpo a corpo. Incentiva posicionamento tático.
+
+### Terreno Difícil
+
+| Tipo | Efeito |
+|------|--------|
+| **Lama, escombros, gelo** | Metade da velocidade de movimento |
+| **Terreno perigoso** (lava, ácido, espinhos) | Metade da velocidade + 1d4 dano por turno movendo-se nele |
+| **Água profunda** (acima da cintura) | Metade da velocidade + desvantagem em ataques corpo a corpo |
+
+***
+
+## Descanso — Recuperação Unificada
+
+### Descanso Curto (10-30 minutos)
+
+| Recurso | Recuperação |
+|---------|-------------|
+| **PV** | 1d4 PV (+ 1 bônus se Tenacidade +3 ou mais) |
+| **Sekhem** | 1d4 Sekhem |
+| **Condições** | Remove debuffs Tier 1 automaticamente |
+
+Requer: Fora de combate, local relativamente seguro.
+
+### Descanso Longo (8 horas de sono)
+
+| Recurso | Recuperação |
+|---------|-------------|
+| **PV** | Total |
+| **Sekhem** | Total |
+| **Condições** | Remove todos os debuffs. Fadiga Mágica reseta |
+| **Habilidades** | Habilidades "1x por descanso longo" recarregam |
+
+Requer: Local seguro, sem interrupção maior que 1 hora.
+
+### Meditação (1 hora, fora de combate)
+
+| Recurso | Recuperação |
+|---------|-------------|
+| **PV** | 0 (meditação não cura o corpo) |
+| **Sekhem** | Metade do máximo |
+
+Requer: Concentração ininterrupta. Pode substituir parte do descanso longo.
+
+> *O sistema é calibrado para que combates consecutivos gastem recursos. Sem descanso, o grupo enfraquece. Fugir, acampar e planejar fazem parte da estratégia.*
+
+***
+
+## Economia Básica
+
+### Moeda — Dracma (Δ)
+
+A moeda padrão do mundo é o **Dracma** (Δ), cunhada em três metais:
+
+| Moeda | Valor | Aparência |
+|-------|-------|-----------|
+| **Dracma de Cobre (ΔC)** | 1 | Moeda comum, usada no dia-a-dia |
+| **Dracma de Prata (ΔP)** | 10 ΔC | Moeda de mercadores e artesãos |
+| **Dracma de Ouro (ΔO)** | 100 ΔC | Moeda de nobres, grandes transações |
+
+### Preços Básicos
+
+| Item | Custo |
+|------|-------|
+| Refeição simples | 1-2 ΔC |
+| Hospedaria (1 noite) | 3-5 ΔC |
+| Poção de cura menor | 25 ΔP |
+| Poção de cura maior | 80 ΔP |
+| Poção de Sekhem | 30 ΔP |
+| Kit de primeiros socorros (5 usos) | 10 ΔP |
+| Espada de ferro | 15 ΔP |
+| Espada de aço | 40 ΔP |
+| Armadura leve (couro) | 20 ΔP |
+| Armadura média (malha) | 50 ΔP |
+| Armadura pesada (placas de ferro) | 120 ΔP |
+| Escudo médio | 15 ΔP |
+| Arco curto | 12 ΔP |
+| Manto comum | 30 ΔP |
+| Manto encantado | 2 ΔO |
+| Frasco encantado (para cristais de Sekhem) | 5 ΔO |
+
+### Serviços
+
+| Serviço | Custo |
+|---------|-------|
+| Ferreiro — reforçar armadura | 20-50 ΔP |
+| Ferreiro — trocar material | Custo do material + 30 ΔP |
+| Encantador — encantamento básico | 1-3 ΔO |
+| Curandeiro — remover debuff | 5-15 ΔP |
+| Transporte entre cidades | 5-20 ΔP |
+| Informação de guilda | 2-10 ΔP |
+
+> *Economia é narrativa. Se o grupo garimpa uma mina, não precisa pagar pelo ferro. Se ajuda um ferreiro, ganha desconto. Os preços são guias, não leis.*
+
+***
+
+## Criação de Personagem — Passo a Passo
+
+### 1. Escolher Raça
+
+Consulte os arquivos em `Races/`. Cada raça define:
+
+- PV Base
+- Sekhem Base (rolado)
+- Velocidade Base
+- 1 Bônus (escolha entre 2 opções)
+- 1 Debuff (escolha entre 2 opções)
+
+### 2. Definir Elemento de Nascença
+
+Escolha **1 dos 6 elementos** (Ignis, Aqua, Terra, Aer, Ordo, Perditio). Este é seu Sekhem natural — magia desse elemento custa o normal. Outros elementos custam mais.
+
+### 3. Distribuir Atributos
+
+Use o **Point Buy Narrativo**:
+
+- 5 atributos começam em 0: Presença, Físico, Mente, Corpo, Linhagem
+- Distribua **7 pontos de intensidade** livremente (positivo ou negativo)
+- Max ±3 por atributo na criação
+- Soma dos valores absolutos ≤ 7
+
+### 4. Calcular PV
+
+**PV = PV Base Racial + Bônus de Corpo**
+
+- Tenacidade +X → +2 PV por ponto
+- Destreza -X → +1 PV por ponto (valor absoluto)
+
+### 5. Rolar Sekhem
+
+Role o dado de Sekhem da sua raça. Anote o Sekhem Máximo.
+
+### 6. Anotar Proficiências Iniciais
+
+- Proficiências raciais (se houver)
+- Todas as outras habilidades começam em Tier 0 (Não treinado)
+
+### 7. Escolher Equipamento Inicial
+
+O narrador define o equipamento inicial baseado no contexto narrativo. Sugestão padrão:
+
+| Perfil | Equipamento |
+|--------|-------------|
+| **Guerreiro** | Arma corpo a corpo de ferro, armadura média, kit de primeiros socorros, 20 ΔP |
+| **Explorador** | Arco curto, armadura leve, corda, kit de primeiros socorros, 15 ΔP |
+| **Místico** | Cajado, manto comum, 2 poções de Sekhem, 10 ΔP |
+| **Diplomata** | Arma leve, roupas finas, kit de primeiros socorros, 30 ΔP |
+
+### 8. Calcular Defesas
+
+- **CD de Defesa** = 10 + bônus de armadura + escudo + |Destreza|/2
+- **Dodge%** = (Dado de proficiência × 5%) + (|Destreza| × 5%) — se usar esquiva
+- **Resistência%/Absorção** = baseado na armadura (ver `Equipment.md`)
+
+### 9. Montar a Ficha
+
+Anote tudo na ficha de personagem:
+
+| Campo | Valor |
+|-------|-------|
+| Nome, Raça, Elemento | — |
+| Presença, Físico, Mente, Corpo, Linhagem | Valores distribuídos |
+| PV / PV Máximo | Calculado |
+| Sekhem / Sekhem Máximo | Rolado |
+| CD de Defesa | Calculado |
+| Velocidade | Racial |
+| Armadura / Arma / Acessórios | Escolhidos |
+| Bônus Racial / Debuff Racial | Escolhidos |
+| Proficiências (armas, perícias, magia) | Tiers anotados |
+| Feitiços Dominados | Lista (começa vazia ou com 1-2 básicos a critério do narrador) |
+| Inventário / Dracmas | Equipamento inicial |
+
+> *Criação leva ~15 minutos. Comecem jogando — o personagem se define pela jornada, não pela ficha.*

@@ -18,7 +18,7 @@ Diplomatas, mercadores, soldados, e aventureiros. Não há um estereótipo — c
 
 ## Sekhem Base
 
-8
+1d6+9 (10-15)
 
 ***
 
