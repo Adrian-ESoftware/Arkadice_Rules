@@ -1,12 +1,8 @@
-Raça: Dragonato
-“Filhos do Fôlego Antigo”
-Média Longevidade: 70–90 anos (crescem rápido, adultos por volta dos 15)
-​
-Altura: 1,8–2,1 m, corpo musculoso e escamoso
+# Dragonato
 
-Sekhem Inicial: 1d6+9 (10–15) | Cap Natural: 25
+## Aparência
 
-Dragonatos são descendentes distantes de dragões verdadeiros: bípedes sem asas, cobertos de escamas, com chifres, olhos de réptil e um núcleo de Sekhem elementar alojado no peito. Cada clã é ligado a um tipo de dragão (fogo, gelo, ácido, relâmpago, etc.), e seu sopro é um feitiço inato, quase instintivo. Honra, legado e “tesouro” (não só ouro, mas qualquer coisa que valorizem) definem sua cultura.
+Bípedes musculosos cobertos de escamas (1.80m-2.10m), mais pesados que humanos. Chifres, olhos de réptil e um núcleo de Sekhem elementar alojado no peito. Coloração das escamas varia conforme a ancestralidade dracônica. Vivem 70-90 anos (adultos aos 15).
 
 ## 🐉 Traços Raciais do Dragonato
 
@@ -26,15 +22,30 @@ Dragonatos são descendentes distantes de dragões verdadeiros: bípedes sem asa
 
 **🔥 Elemento de Nascença.** Definido pela ancestralidade dracônica:
 
-Dragão Vermelho/Ouro → Ignis
+1d6+9 (10-15)
 
-Branco/Prata → Aqua
+## Elemento de Nascença (definido pela ancestralidade)
 
-Verde/Cobre → Perditio (veneno/decadência)
+| Ancestralidade | Elemento |
+|----------------|----------|
+| Dragão Vermelho / Ouro | Ignis |
+| Branco / Prata | Aqua |
+| Verde / Cobre | Perditio |
+| Azul / Bronze | Aer |
+| Negro / Latão | Terra |
 
-Azul/Bronze → Aer
+***
 
-Negro/Latão → Terra/Aqua (ácido viscoso)
+## Bônus (escolha 1)
 
-Sekhem Inicial. 1d6+9 (10–15), igual a humanos, mas muito mais focado no próprio elemento.
-​
+| Bônus | Efeito |
+|-------|--------|
+| **💪 Sopro Dracônico** | 1x por descanso longo: sopro elemental em cone de 4.5m. Dano = 2d6 do elemento ancestral. Alvos fazem save de Corpo (Destreza) vs CD 12 para metade do dano. Custo: 0 Sekhem (inato) |
+| **💪 Escamas Ancestrais** | +1 CD de Defesa natural (escamas reforçadas). Resistência a dano do próprio elemento: reduz em 2 pontos (fixo) |
+
+## Debuffs (escolha 1)
+
+| Debuff | Efeito |
+|--------|--------|
+| **⚠️ Sangue Frio** | Vulnerabilidade ao elemento oposto: +2 dano recebido. Em temperaturas extremas opostas ao elemento, desvantagem em testes de Corpo |
+| **🗣️ Orgulho de Clã** | Desvantagem em testes de Presença ao pedir ajuda ou aceitar caridade. Não pode fugir de um desafio direto sem rolar Mente (Razão) vs CD 12 |
