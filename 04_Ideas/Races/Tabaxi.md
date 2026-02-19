@@ -1,12 +1,15 @@
-Tabaxi
+# Tabaxi
 
-Aparência
+## Aparência
+
 Humanoides felinos esguios, geralmente entre 1,70 m e 2,00 m, com corpos ágeis cobertos por pelagem curta que lembra grandes felinos: manchas de jaguar, listras de tigre ou tons lisos como panteras e leões. Olhos felinos brilhantes, caudas longas e garras retráteis completam a silhueta, e muitos adornam o corpo com piercings, miçangas, penas e pequenos talismãs coletados em viagens.
 
-Sociedade
+## Sociedade
+
 A maioria vive em clãs tribais organizados em “caçadas” — pequenos grupos responsáveis por patrulhar, explorar e proteger o território do clã. Esses clãs tendem a ser coesos internamente, mas reservados com estranhos, preferindo observar à distância antes de confiar; alguns grupos isolados quase não têm contato com o mundo exterior, enquanto outros enviam membros como guias, batedores ou exploradores.
 
-Cultura
+## Cultura
+
 Tabaxi são movidos por curiosidade quase obsessiva: histórias, artefatos estranhos, segredos antigos e lugares inexplorados os atraem mais do que ouro. Muitos se tornam viajantes, bardos, ladrões elegantes ou caçadores de relíquias, aceitando pagamento em itens peculiares, informações ou boatos interessantes; coleções de “bugigangas com história” são comuns em suas casas e bagagens.
 
 ***

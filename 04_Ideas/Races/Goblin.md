@@ -1,12 +1,15 @@
-Goblin
+# Goblin
 
-Aparência
+## Aparência
+
 Criaturas pequenas (cerca de 0,90 m a 1,20 m), magras e de membros compridos, com pele em tons de verde‑oliva, amarelo ou acinzentado. Cabeças desproporcionais, orelhas longas e pontudas e olhos grandes em amarelo ou vermelho lhes dão um ar inquieto e predatório. Roupas de couro remendado, trapos e pedaços de sucata são comuns, muitas vezes adornados com ossos, ferragens e bugigangas roubadas.
 
-Sociedade
+## Sociedade
+
 Goblins vivem em bandos caóticos em cavernas, ruínas, esgotos ou favelas improvisadas, onde o poder pertence a quem é mais violento, mais esperto ou mais cruel. Costumam formar hordas numerosas usadas como bucha de canhão por chefes mais fortes, como hobgoblins, bugbears ou outros senhores de guerra, reforçando sua reputação de minions descartáveis.
 
-Cultura
+## Cultura
+
 A cultura goblin é baseada em sobrevivência, pilhagem e oportunidade: emboscadas, armadilhas, ataques em massa e golpes desonestos são considerados estratégias inteligentes, não covardia. Muitos goblins têm uma veia inventiva caótica, criando engenhocas, bombas e armadilhas com sucata — algo entre genialidade improvisada e desastre anunciado.
 
 ***
