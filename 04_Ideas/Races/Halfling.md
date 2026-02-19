@@ -26,12 +26,12 @@ Cozinheiros, fazendeiros, contadores de histórias, e — secretamente — os me
 
 | Bônus | Efeito |
 |-------|--------|
-| **Sorte de Halfling** | 1x por descanso longo, pode re-rolar um d20 que resultou em 1 (Nat 1 protection) |
-| **Pés Silenciosos** | Vantagem (2d20 pega maior) em testes de furtividade. Pode se mover silenciosamente sem penalidade de velocidade |
+| **🧠 Sorte de Halfling** | 1x por descanso longo, pode re-rolar um d20 que resultou em 1 (Nat 1 protection) |
+| **💪 Pés Silenciosos** | Vantagem (2d20 pega maior) em testes de furtividade. Pode se mover silenciosamente sem penalidade de velocidade |
 
 ## Debuffs (escolha 1)
 
 | Debuff | Efeito |
 |--------|--------|
-| **Estatura Mínima** | Não pode usar armas pesadas (martelo de guerra, espada grande, lança longa). Dano corpo a corpo limitado a d8 máximo |
-| **Coração Pacífico** | Primeira rodada de combate: não pode atacar (hesita). Pode esquivar, mover ou usar item, mas não fazer ataque ofensivo |
+| **⚠️ Estatura Mínima** | Não pode usar armas pesadas (martelo de guerra, espada grande, lança longa). Dano corpo a corpo limitado a d8 máximo |
+| **🧠 Coração Pacífico** | Primeira rodada de combate: não pode atacar (hesita). Pode esquivar, mover ou usar item, mas não fazer ataque ofensivo |

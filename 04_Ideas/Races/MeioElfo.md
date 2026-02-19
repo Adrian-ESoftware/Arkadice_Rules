@@ -26,12 +26,12 @@ Adaptáveis como humanos, observadores como elfos. Tendem a ser mediadores e tra
 
 | Bônus | Efeito |
 |-------|--------|
-| **Herança Dual** | Escolhe 1 bônus de Humano OU 1 bônus de Elfo (mas não o debuff correspondente) |
-| **Carisma Natural** | +2 em testes de Presença (qualquer polo) com NPCs que não sejam hostis |
+| **🧠 Herança Dual** | Escolhe 1 bônus de Humano OU 1 bônus de Elfo (mas não o debuff correspondente) |
+| **🗣️ Carisma Natural** | +2 em testes de Presença (qualquer polo) com NPCs que não sejam hostis |
 
 ## Debuffs (escolha 1)
 
 | Debuff | Efeito |
 |--------|--------|
-| **Identidade Dividida** | Não pode ter proficiência Lendária (cap em Mestre). Jack of all trades, master of none |
-| **Sangue Instável** | Quando recebe cura mágica, rola 1d4: em resultado 1, a cura é reduzida pela metade (herança conflitante) |
+| **⚠️ Identidade Dividida** | Não pode ter proficiência Lendária (cap em Mestre). Jack of all trades, master of none |
+| **⚠️ Sangue Instável** | Quando recebe cura mágica, rola 1d4: em resultado 1, a cura é reduzida pela metade (herança conflitante) |

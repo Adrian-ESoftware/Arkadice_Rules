@@ -26,8 +26,8 @@ Ferreiros, mineradores, e engenheiros. Mestres em metalurgia e construção. Des
 
 | Bônus | Efeito |
 |-------|--------|
-| **Constituição de Pedra** | +3 PV na criação. Resistência natural a Veneno (vantagem no save) |
-| **Sangue de Forja** | Proficiência Praticante com martelo/machado de graça + pode avaliar qualidade de metal/armadura automaticamente |
+| **💪 Constituição de Pedra** | +3 PV na criação. Resistência natural a Veneno (vantagem no save) |
+| **💪 Sangue de Forja** | Proficiência Praticante com martelo/machado de graça + pode avaliar qualidade de metal/armadura automaticamente |
 
 ## Debuffs (escolha 1)
 

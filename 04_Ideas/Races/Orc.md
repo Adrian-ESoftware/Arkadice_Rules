@@ -26,12 +26,12 @@ Guerreiros, caçadores, e xamãs. Valorizam ação sobre palavras. Rituais de co
 
 | Bônus | Efeito |
 |-------|--------|
-| **Fúria Ancestral** | 1x por combate: na primeira vez que cai abaixo de 50% PV, ganha +2 ao dano no próximo ataque |
-| **Resistência Brutal** | +2 PV na criação. Vantagem (2d20 pega maior) em saves contra Medo |
+| **💪 Fúria Ancestral** | 1x por combate: na primeira vez que cai abaixo de 50% PV, ganha +2 ao dano no próximo ataque |
+| **💪 Resistência Brutal** | +2 PV na criação. Vantagem (2d20 pega maior) em saves contra Medo |
 
 ## Debuffs (escolha 1)
 
 | Debuff | Efeito |
 |--------|--------|
-| **Sangue Quente** | Desvantagem em testes de Mente (Razão) quando provocado ou insultado. Precisa rolar d20 vs CD 10 para não retaliar |
-| **Pária Social** | Desvantagem em testes de Presença (Liderança) em cidades civilizadas. NPCs iniciam com atitude hostil ou desconfiada |
+| **🧠 Sangue Quente** | Desvantagem em testes de Mente (Razão) quando provocado ou insultado. Precisa rolar d20 vs CD 10 para não retaliar |
+| **🗣️ Pária Social** | Desvantagem em testes de Presença (Liderança) em cidades civilizadas. NPCs iniciam com atitude hostil ou desconfiada |

@@ -26,8 +26,8 @@ Diplomatas, mercadores, soldados, e aventureiros. Não há um estereótipo — c
 
 | Bônus | Efeito |
 |-------|--------|
-| **Adaptável** | Começa com 1 perícia à escolha em Praticante (Tier 1) |
-| **Determinado** | 1x por descanso longo, pode re-rolar um Save de Morte ou teste de perícia |
+| **🧠 Adaptável** | Começa com 1 perícia à escolha em Praticante (Tier 1) |
+| **🧠 Determinado** | 1x por descanso longo, pode re-rolar um Save de Morte ou teste de perícia |
 
 ## Debuffs (escolha 1)
 
