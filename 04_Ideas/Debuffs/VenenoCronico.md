@@ -2,6 +2,8 @@
 
 > Veneno persistente que corrói gradualmente até ser purgado completamente. Ativado por toxinas potentes (cobras exóticas, pragas antigas). Dura até cura total, mas efeitos diminuem com resistências bem-sucedidas. Dano acumula fora de combate (`1d4`/hora se não tratado).
 
+**Chance de Aplicação:** Cobra/criatura com veneno potente: **25%** de aplicar Crônico ao invés de Agudo. Praga antiga/maldição: **automático**. Falha Crítica no teste de resistência de Veneno Agudo Nível 3: **100%** (veneno agudo vira crônico). Poções de alquimistas sombrios: **40%**.
+
 ---
 
 ## Níveis de Envenenado Crônico

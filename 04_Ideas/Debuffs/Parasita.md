@@ -2,6 +2,8 @@
 
 > Criatura viva agarra membro exposto, sugando sangue e limitando movimento. Ativado por enxames, emboscadas, armadilhas orgânicas. Localizações: braço (-ataques), perna (-movimento), costas (-defesa), pescoço (-iniciativa). Dura `1d4+2` rodadas ou até remoção manual.
 
+**Chance de Aplicação:** Enxames de parasitas: **50%** por turno de exposição. Armadilhas orgânicas: **35%** ao ativar. Magias de Perditio com Vinculum: **20%** de invocar parasita junto. Armadura pesada reduz chance em **-10%** (proteção física).
+
 ---
 
 ## Níveis de Parasita Externo

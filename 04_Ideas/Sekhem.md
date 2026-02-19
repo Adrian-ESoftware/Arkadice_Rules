@@ -17,7 +17,7 @@ Todo Sekhem se manifesta através de um dos 6 elementos primordiais. São as for
 | **Ignis** | Fogo, calor, energia, destruição | Aqua |
 | **Aqua** | Água, frio, fluxo, cura | Ignis |
 | **Terra** | Terra, gravidade, solidez, proteção | Aer |
-| **Aer** | Ar, velocidade, som, leveza | Terra |~
+| **Aer** | Ar, velocidade, som, leveza | Terra |
 
 Elementos puro e corrompido:
 
@@ -67,18 +67,20 @@ A primeira palavra define **de que é feito** o feitiço. É uma das 6 palavras 
 
 ### 2. Núcleo (Forma do Feitiço)
 
-A segunda palavra define **como** o elemento se manifesta. É a forma física do feitiço.
+A segunda palavra define **como** o elemento se manifesta. É a forma física do feitiço. Cada núcleo tem **efeitos base com variabilidade** — nada é fixo, a magia é orgânica.
 
-| Palavra | Forma | Exemplo com Ignis |
-|---------|-------|-------------------|
-| **Sagitta** | Projétil direto | Flecha de fogo |
-| **Murus** | Barreira / muro | Parede de chamas |
-| **Orbis** | Esfera / área | Explosão de fogo ao redor |
-| **Tactus** | Toque / contato | Mãos incandescentes |
-| **Vinculum** | Corrente / vínculo | Correntes de fogo que amarram |
-| **Nimbus** | Nuvem / área contínua | Névoa de calor sufocante |
-| **Scutum** | Escudo pessoal | Aura de chama protetora |
-| **Telum** | Lâmina / arma conjurada | Espada de fogo temporária |
+| Palavra | Forma | Efeito Base | Notas |
+|---------|-------|-------------|-------|
+| **Sagitta** | Projétil direto | **1d6** dano, alcance 18m | 1 alvo |
+| **Murus** | Barreira / muro | HP = **1d4+2**, largura 3m, altura 2m | Dura **1d4** turnos |
+| **Orbis** | Esfera / área | **1d4** dano a todos na área, raio 3m | Aliados incluídos |
+| **Tactus** | Toque / contato | **1d8** dano, ignora 1 Absorção | Requer adjacência |
+| **Vinculum** | Corrente / vínculo | CD 12 para escapar, imobiliza | Dura **1d4** turnos |
+| **Nimbus** | Nuvem / área contínua | **1d4** dano/turno, raio 6m | Dura **1d4+1** turnos |
+| **Scutum** | Escudo pessoal | +**1d4** Absorção ao conjurador | Dura **1d4** turnos |
+| **Telum** | Lâmina / arma conjurada | Arma conjurada, +**1d4** dano elemental | Dura **1d4+2** turnos |
+
+> Os dados nos efeitos base significam que nem toda magia sai perfeita. Um Murus pode ter HP 3 ou HP 6 — depende do momento, da concentração, da sorte. Isso mantém cada conjuração única.
 
 ***
 
@@ -102,7 +104,7 @@ Modificadores alteram **escala, duração, intensidade ou comportamento** do fei
 |---------|--------|------------|
 | **Magnus** | Aumenta tamanho / área | 1 |
 | **Parvus** | Reduz tamanho (mais preciso) | 1 |
-| **Velox** | Mais rápido / instantâneo | 1 |
+| **Velox** | Mais rápido / instantâneo (pode conjurar como ação bônus) | 1 |
 | **Lentus** | Mais lento / persistente (dura mais turnos) | 1 |
 | **Serpens** | Curva / persegue o alvo | 1 |
 | **Duplex** | Duplica o efeito (2 projéteis, etc.) | 2 |
@@ -131,11 +133,11 @@ Empilhando 4 modificadores de custo base 1 (ex: Magnus, Velox, Serpens, Lentus):
 
 ## Reservatório de Sekhem
 
-Todo personagem tem um **Sekhem Máximo** — definido no nascimento e alterável entre sessões (treino, rituais, eventos narrativos).
+Todo personagem tem um **Sekhem Máximo** — definido no nascimento e expansível por caminhos narrativos.
 
 ### Sekhem Inicial por Raça
 
-O Sekhem Máximo de cada personagem é **rolado aleatoriamente** na criação, dentro da faixa da sua raça. Esse é o valor de nascença — pode ser expandido futuramente (artefatos, rituais, pactos, eventos narrativos).
+O Sekhem Máximo de cada personagem é **rolado aleatoriamente** na criação, dentro da faixa da sua raça. Esse é o valor de nascença — pode ser expandido futuramente.
 
 | Raça | Sekhem Mín. | Sekhem Máx. | Dado | Tendência |
 |------|-------------|-------------|------|-----------|
@@ -149,6 +151,35 @@ O Sekhem Máximo de cada personagem é **rolado aleatoriamente** na criação, d
 | **Hemovita** | 11 | 16 | 1d6+10 | Sekhem vampírico, alimentado por vitae |
 
 > As faixas são **propositalmente próximas** — a diferença entre o menor (Orc: 8) e o maior (Elfo/Tiefling: 16) é de apenas 8 pontos. Nenhuma raça é mágicamente inútil, nenhuma é absoluta.
+
+### Progressão de Sekhem
+
+O Sekhem Máximo pode crescer ao longo da campanha pelos seguintes caminhos:
+
+| Método | Ganho | Requisito |
+|--------|-------|-----------|
+| **Arco Narrativo** | +1 Sekhem permanente | Completar ~4-5 sessões de história |
+| **Ritual de Expansão** | +1d4 Sekhem permanente | Materiais raros + teste CD 14 + 8h de ritual. Falha gasta os materiais |
+| **Artefato Elemental** | +2 a +5 Sekhem (apenas para 1 elemento) | Encontrar e vincular o artefato (quest) |
+| **Pacto ou Evento** | Variável | Decisão do narrador, sempre com custo narrativo |
+| **Proficiência Narrativa** | +1 Sekhem por marco | Dominar uma escola de magia, completar treinamento com mestre |
+
+#### Cap Natural por Raça
+
+Nenhum personagem pode ultrapassar o Sekhem Máximo da sua raça sem meios extraordinários:
+
+| Raça | Cap Natural | Além do Cap |
+|------|------------|-------------|
+| **Humano** | 25 | Artefatos, pactos divinos |
+| **Elfo** | 30 | Conexão com fontes primordiais |
+| **Anão** | 20 | Forjas rúnicas ancestrais |
+| **Orc** | 20 | Rituais de guerra elementais |
+| **Meio-Elfo** | 27 | Herança élfica desperta |
+| **Tiefling** | 28 | Sangue infernal liberado |
+| **Halfling** | 22 | Tradições ocultas halfling |
+| **Hemovita** | 28 | Ritual de Sangue Eterno |
+
+> Feitiços lendários (30+ Sekhem) são reservados para personagens no auge de suas campanhas. Requerem meses de jogo para alcançar.
 
 ### O Que Dá Pra Fazer com Cada Faixa?
 
@@ -175,6 +206,31 @@ Um feitiço básico custa **3 Sekhem** (1 elemento + 2 núcleo).
 
 ***
 
+## Fadiga Mágica
+
+Canalizar Sekhem em grandes quantidades é **exaustivo**. O corpo e a mente se desgastam conforme o reservatório se esvazia.
+
+| Sekhem Restante | Efeito |
+|-----------------|--------|
+| **Acima de 50%** | Nenhum — conjuração normal |
+| **50% a 21%** | CDs de conjuração ganham **+2** (mente cansada, foco enfraquecido) |
+| **20% ou menos** | CDs ganham **+4** e dano mágico sofre **-1** (corpo trêmulo, Sekhem instável) |
+
+> *A fadiga mágica não impede de conjurar — apenas torna cada feitiço mais arriscado e menos eficaz. Forçar o corpo além do limite tem consequências.*
+
+### Exemplo de Fadiga
+
+> Personagem com Sekhem 12 (Linhagem +2):
+>
+> | Turno | Ação | Sekhem restante | % | Fadiga |
+> |-------|------|----------------|---|--------|
+> | 1 | Ignis Sagitta (3) | 9 | 75% | Nenhuma |
+> | 2 | Ignis Sagitta Velox (4) | 5 | 42% | **+2 nas CDs** |
+> | 3 | Ignis Orbis (3) | 2 | 17% | **+4 nas CDs, -1 dano** |
+> | 4 | Último feitiço? | 2 | 17% | CD 5 base vira CD 9 — risco real de falha |
+
+***
+
 ## Custo de Conjuração
 
 | Componente | Custo |
@@ -192,7 +248,80 @@ Um feitiço básico custa **3 Sekhem** (1 elemento + 2 núcleo).
 | Linhagem | Efeito na Conjuração |
 |----------|---------------------|
 | **Pura (+)** | -1 no custo total (mín. 1). Feitiços estáveis, sem risco |
-| **Corrompida (-)** | +1 dado de dano nos feitiços ofensivos. Mas em falha crítica (duplo 1), sofre backlash: 1d6 dano ao próprio conjurador |
+| **Corrompida (-)** | Dado de dano sobe **1 tier** (1d4→1d6, 1d6→1d8, 1d8→1d10, 1d10→1d12). Mas backlash em duplo 1 **OU** duplo 2: sofre 1d6 dano ao próprio conjurador |
+
+> **Diferença importante:** Corrompida sobe o *tipo* do dado, não adiciona um dado extra. Um Sagitta (1d6) com Corrompida vira 1d8, não 2d6. Isso é poderoso mas não quebra a escala.
+>
+> A chance de backlash é **~5.5%** (duplo 1 ou duplo 2 em 2d6), comparado a ~2.8% no sistema anterior. Usar magia corrompida é arriscado — especialmente sob Fadiga Mágica.
+
+***
+
+## Escalamento de Magia
+
+Conforme o personagem se aprofunda na magia (Linhagem aumenta), seus feitiços se tornam mais poderosos naturalmente:
+
+### Escalamento por Linhagem
+
+| Linhagem (absoluto) | Bônus |
+|---------------------|-------|
+| **±1 a ±2** | Efeitos base normais |
+| **±3 a ±4** | Dados base **sobem 1 tier** (1d4→1d6, 1d6→1d8, 1d8→1d10) |
+| **±5** | Dados base **sobem 2 tiers** (1d4→1d8, 1d6→1d10, 1d8→1d12) |
+
+> Isso se aplica ao dado base do *Núcleo*. Sagitta com Linhagem ±3 faz 1d8 base ao invés de 1d6. Com Linhagem ±5, faz 1d10.
+
+### Proficiência em Feitiços Dominados
+
+Feitiços que o personagem já **dominou** (testou com sucesso pelo menos uma vez) recebem um desconto:
+
+| Benefício | Efeito |
+|-----------|--------|
+| **Desconto no 1º modificador** | -1 no custo do 1º mod (mín. 1) |
+
+> Exemplo: Ignis Sagitta Magnus normalmente custa 3+1 = 4. Se dominado, custa 3+0 = **3 Sekhem**. Pequena economia, mas significativa em combates longos.
+
+***
+
+## Teste de Conjuração
+
+Para conjurar um feitiço **pela primeira vez**, o personagem rola:
+
+**2d6 + Linhagem (valor absoluto)** vs. **CD do feitiço**
+
+### Regra da Primeira Conjuração
+
+Cada combinação única de Elemento + Núcleo + Modificadores é um **feitiço distinto**. Na primeira vez que o personagem tenta conjurar essa combinação específica, ele precisa testar.
+
+| Regra | Descrição |
+|-------|-----------|
+| **Feitiço novo** | Teste obrigatório (2d6 + \|Linhagem\| vs CD) |
+| **Sucesso** | Feitiço funciona e é adicionado à lista de "Feitiços Dominados" |
+| **Falha** | Sekhem é consumido, feitiço não funciona. Pode tentar novamente (gastando Sekhem de novo) |
+| **Dominado** | Após 1 sucesso, nunca mais precisa testar essa combinação |
+| **Combinações diferentes** | "Ignis Sagitta" ≠ "Ignis Sagitta Velox" → são feitiços diferentes |
+
+> Cada personagem mantém uma **lista de Feitiços Dominados** na ficha. Quando um feitiço é dominado, o jogador anota a combinação. A partir daí, conjurar aquele feitiço é automático — só gasta Sekhem.
+
+### Tabela de CDs
+
+| Custo do Feitiço | CD |
+|-------------------|-----|
+| 1-3 Sekhem | CD 5 (automático para a maioria) |
+| 4-6 Sekhem | CD 8 |
+| 7-10 Sekhem | CD 11 |
+| 11-15 Sekhem | CD 14 |
+| 16+ Sekhem | CD 17 |
+
+> **Lembre-se:** Fadiga Mágica adiciona +2 ou +4 às CDs quando o Sekhem está baixo!
+
+### Resultados do Teste
+
+| Resultado | Efeito |
+|-----------|--------|
+| **Sucesso** | Feitiço funciona normalmente. Feitiço é **dominado** |
+| **Sucesso Crítico** (duplo 6) | Feitiço potencializado: +1d6 dano ou duração dobrada. Dominado |
+| **Falha** | Sekhem é gasto, mas o feitiço falha. Pode tentar novamente |
+| **Falha Crítica** (duplo 1) | Sekhem gasto + backlash (efeito reverso no conjurador) |
 
 ***
 
@@ -208,7 +337,8 @@ Um feitiço básico custa **3 Sekhem** (1 elemento + 2 núcleo).
 > | Sagitta (projétil) | 2 |
 > | **Total** | **3 Sekhem** |
 >
-> Efeito: Projétil de fogo, 1d6 dano. Pode usar 3× com Sekhem 10.
+> Efeito: Projétil de fogo, 1d6 dano, alcance 18m. Pode usar 3× com Sekhem 10.
+> Com Linhagem ±3+: 1d8 dano. Com Corrompida: 1d8 (ou 1d10 com ±3+).
 
 ### Feitiço médio: Muro de Gelo Grande (1 mod)
 
@@ -221,7 +351,7 @@ Um feitiço básico custa **3 Sekhem** (1 elemento + 2 núcleo).
 > | Magnus (1º mod) | 1 | ×1 | 1 |
 > | **Total** | | | **4 Sekhem** |
 >
-> Efeito: Parede de gelo grande, bloqueia passagem e projéteis por 2 turnos.
+> Efeito: Parede de gelo com HP 1d4+2, largura dobrada (~6m), dura 1d4 turnos.
 
 ### Feitiço pesado: Duas Flechas Perseguidoras (2 mods)
 
@@ -251,8 +381,8 @@ Um feitiço básico custa **3 Sekhem** (1 elemento + 2 núcleo).
 > | Velox (3º mod) | 1 | ×3 | 3 |
 > | **Total** | | | **12 Sekhem** |
 >
-> Efeito: Projétil invisível, instantâneo, que ignora parte da defesa. 1d8 dano.
-> Requer Linhagem ±2+ (Sekhem 20). Impossível para iniciantes.
+> Efeito: Projétil invisível, conjurado como ação bônus, ignora parte da defesa. 1d8 dano.
+> Requer Sekhem 12+. Primeiro teste tem CD 14 (difícil!).
 
 ### Feitiço lendário: Tempestade Massiva Persistente (3 mods pesados)
 
@@ -267,8 +397,8 @@ Um feitiço básico custa **3 Sekhem** (1 elemento + 2 núcleo).
 > | Perpetuus (3º mod) | 3 | ×3 | 9 |
 > | **Total** | | | **16 Sekhem + 2/turno** |
 >
-> Efeito: Tempestade elétrica massiva, 2d6 dano/turno a todos na área.
-> Requer Linhagem ±3+ (Sekhem 28). Pode manter 6 turnos antes de esvaziar.
+> Efeito: Tempestade elétrica massiva, 1d4 dano/turno (1d6 com Linhagem ±3+) a todos na área.
+> Requer Sekhem 28+ para manter por 6 turnos. Acessível apenas em campanhas avançadas.
 
 ***
 
@@ -287,7 +417,7 @@ O sistema parece aberto ("adicione quantos modificadores quiser"), mas o **custo
 
 > O 5º modificador sozinho custa **10 Sekhem** — o reservatório inteiro de um iniciante.
 
-### Os 4 Limitadores Naturais
+### Os 5 Limitadores Naturais
 
 1. **Sekhem é finito** — Iniciante (10 Sekhem): 3 magias básicas ou 1 com 2 mods e acabou.
 
@@ -296,6 +426,8 @@ O sistema parece aberto ("adicione quantos modificadores quiser"), mas o **custo
 3. **Elemento oposto é caro** — Base passa de 1 pra 3 Sekhem, e todos os custos se empilham sobre isso.
 
 4. **Backlash** — Feitiços caros têm CD alta. Falha crítica em feitiço de 15+ Sekhem pode ser fatal.
+
+5. **Fadiga Mágica** — Gastar mais de metade do Sekhem torna cada feitiço seguinte mais difícil e menos eficaz.
 
 > *Qualquer um pode imaginar "Ignis Nimbus Vastus Magnus Duplex Perpetuus". Custaria 40+ Sekhem. Quase ninguém sobrevive a isso.*
 
@@ -317,28 +449,3 @@ Personagens com **2 elementos de nascença** (ou que pagam custo extra) podem co
 | Ordo + Perditio | *"Ordo Misceo Perditio"* | Paradoxo (extremamente instável e poderoso) |
 
 > Combinar Ordo + Perditio é considerado proibido pela maioria das ordens mágicas. O custo é **×3** ao invés de +3, e a falha crítica pode causar efeitos narrativos permanentes.
-
-***
-
-## Teste de Conjuração
-
-Para conjurar um feitiço, o personagem rola:
-
-**2d6 + Linhagem (valor absoluto)** vs. **CD do feitiço**
-
-**Apenas na primeira vez do fentiço unico**
-
-| Custo do Feitiço | CD |
-|-------------------|-----|
-| 1-3 Sekhem | CD 5 (automático para a maioria) |
-| 4-6 Sekhem | CD 8 |
-| 7-10 Sekhem | CD 11 |
-| 11-15 Sekhem | CD 14 |
-| 16+ Sekhem | CD 17 |
-
-| Resultado | Efeito |
-|-----------|--------|
-| **Sucesso** | Feitiço funciona normalmente |
-| **Sucesso Crítico** (duplo 6) | Feitiço potencializado: +1d6 dano ou duração dobrada |
-| **Falha** | Sekhem é gasto, mas o feitiço falha |
-| **Falha Crítica** (duplo 1) | Sekhem gasto + backlash (efeito reverso no conjurador) |

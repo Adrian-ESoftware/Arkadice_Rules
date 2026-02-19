@@ -2,6 +2,8 @@
 
 > Gelo cristaliza pele, juntas e pulmões, roubando movimento e fôlego. Ativado por magias de frio, armadilhas geladas, criaturas de gelo. Dura `1d4+2` rodadas (gelo derrete devagar). Testes de resistência (Constituição).
 
+**Chance de Aplicação:** Magias de Aqua ofensivas (com componente de frio) têm **25% de chance** base de aplicar Congelamento Nível 1. Criaturas de gelo: **40%**. Ambientes de frio extremo: **automático** (1 nível/hora de exposição sem proteção).
+
 ---
 
 ## Níveis de Congelamento

@@ -2,6 +2,8 @@
 
 > O Medo representa o pavor visceral que paralisa heróis diante de horrores sobrenaturais, criaturas aterrorizantes ou traumas pessoais. Pode ser ativado por um gatilho específico ou geral. O narrador rola ou decide a intensidade baseada no contexto: **fraco** para sustos leves, **médio** para confrontos diretos e **difícil** para abominações. Dura `1d4` rodadas ou até o fim do encontro, com testes de resistência.
 
+**Chance de Aplicação:** Presença Tirania do inimigo × 5% (ex: Tirania -4 = **20%** de aplicar Medo Nível 1). Criaturas sobrenaturais: **30%** base. Magias de Perditio com componente de terror: **25%**. Traumas pessoais do personagem: **+15%** à chance.
+
 ---
 
 ## Níveis de Medo

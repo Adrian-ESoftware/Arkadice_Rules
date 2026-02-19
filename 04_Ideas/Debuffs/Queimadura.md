@@ -2,6 +2,8 @@
 
 > Chamas consomem carne e itens, causando dor lancinante e pânico. Ativado por fogo, explosões, dragões. Dura `1d4+1` rodadas (fogo queima até apagar). Testes de resistência (Constituição).
 
+**Chance de Aplicação:** Magias de Ignis ofensivas têm **30% de chance** base de aplicar Queimadura Nível 1. Dragões/criaturas de fogo: **45%**. Óleo inflamável ou explosivos: **60%**. Armadura pesada metálica: **+10%** (metal esquenta).
+
 ---
 
 ## Níveis de Queimadura

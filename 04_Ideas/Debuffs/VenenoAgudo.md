@@ -2,6 +2,8 @@
 
 > Toxinas corroem o corpo, causando fraqueza, dor e colapso. Ativado por mordidas, poções ruins, armadilhas ou espinhos envenenados. Dura `1d4` rodadas ou até cura, com testes de resistência (Constituição).
 
+**Chance de Aplicação:** Mordida de criatura venenosa: **35%** base. Espinhos/armadilhas envenenadas: **40%**. Magias de Perditio com componente tóxico: **20%**. Poção adulterada: **50%** ao consumir. Tenacidade +3 ou mais: **-10%** (corpo resiste).
+
 ---
 
 ## Níveis de Envenenado
