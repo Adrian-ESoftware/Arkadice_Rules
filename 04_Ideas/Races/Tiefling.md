@@ -18,7 +18,7 @@ Sobreviventes por natureza. Muitos abraçam a reputação sombria, outros lutam 
 
 ## Sekhem Base
 
-9
+1d7+9 (10-16)
 
 ***
 

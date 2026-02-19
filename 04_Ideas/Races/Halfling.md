@@ -18,7 +18,7 @@ Cozinheiros, fazendeiros, contadores de histórias, e — secretamente — os me
 
 ## Sekhem Base
 
-7
+1d5+8 (9-13)
 
 ***
 

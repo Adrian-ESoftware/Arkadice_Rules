@@ -18,7 +18,7 @@ Ferreiros, mineradores, e engenheiros. Mestres em metalurgia e construção. Des
 
 ## Sekhem Base
 
-6
+1d6+7 (8-13)
 
 ***
 
@@ -34,4 +34,4 @@ Ferreiros, mineradores, e engenheiros. Mestres em metalurgia e construção. Des
 | Debuff | Efeito |
 |--------|--------|
 | **Pernas Curtas** | Velocidade 5m (já inclusa). Não pode usar Esquiva acima de 40% (max cap reduzido) |
-| **Aversão Arcana** | Sekhem base 6 (já incluso). Custos de magia +2 Sekhem extra |
+| **Aversão Arcana** | Custos de magia +2 Sekhem extra por feitiço |
