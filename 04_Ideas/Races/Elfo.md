@@ -26,12 +26,12 @@ Artesãos, arqueiros, e estudiosos de Sekhem. Vistos como arrogantes por outras 
 
 | Bônus | Efeito |
 |-------|--------|
-| **Visão Élfica** | Visão no escuro (30m). Não sofre penalidade em escuridão parcial |
-| **Afinidade Arcana** | Sekhem base +2 (total 12). Conexão natural com magia |
+| **🧠 Visão Élfica** | Visão no escuro (30m). Não sofre penalidade em escuridão parcial |
+| **⚠️ Afinidade Arcana** | Sekhem base +2 (total 12). Conexão natural com magia |
 
 ## Debuffs (escolha 1)
 
 | Debuff | Efeito |
 |--------|--------|
-| **Corpo Frágil** | PV base usa d4 ao invés de d6 para o dado de Corpo. -2 PV máx na criação |
-| **Arrogância Ancestral** | Desvantagem (rola 2d20, pega menor) em testes de Presença com raças "menores" (humanos, halflings) até ganhar confiança narrativa |
+| **💪 Corpo Frágil** | PV base usa d4 ao invés de d6 para o dado de Corpo. -2 PV máx na criação |
+| **🗣️ Arrogância Ancestral** | Desvantagem (rola 2d20, pega menor) em testes de Presença com raças "menores" (humanos, halflings) até ganhar confiança narrativa |
