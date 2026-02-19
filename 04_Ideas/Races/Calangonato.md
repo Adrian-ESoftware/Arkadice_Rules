@@ -4,23 +4,23 @@
 
 Bípedes musculosos cobertos de escamas (1.80m-2.10m), mais pesados que humanos. Chifres, olhos de réptil e um núcleo de Sekhem elementar alojado no peito. Coloração das escamas varia conforme a ancestralidade dracônica. Vivem 70-90 anos (adultos aos 15).
 
-## 🐉 Traços Raciais do Dragonato
+## Sociedade
 
-**💪 Tipo.** Humanoide (Dragonato).
-​
+Organizados em clãs ligados a dragões ancestrais. Honra, legado e "tesouro" (qualquer coisa que valorizem — não só ouro) definem sua cultura. Disputas entre clãs seguem rituais de desafio. Apelidados "Filhos do Fôlego Antigo". Falam Comum e Dracônico.
 
-**📏 Tamanho.** Médio (entre 1,8 e 2,1m, mais pesados que humanos).
+## Cultura
 
-**⚡ Deslocamento.** 9 m.
+Guerreiros e guardiões por tradição. Tendem a extremos: honra rígida, lealdade intensa, rancores longos. Cada clã é ligado a um tipo de dragão (fogo, gelo, ácido, relâmpago, etc.), e seu sopro é um feitiço inato, quase instintivo.
 
-**📅 Idade.** Crescem rápido, andando poucas horas após o nascimento, adultos aos 15 e raramente vivendo além dos 90.
-​
+## PV Base
 
-**⚖️ Alinhamento.** Tendem a extremos (honra rígida, lealdade intensa, rancores longos), mas não presos a bom/mal.
+12
 
-**🗣️ Linguagens.** Comum, Dracônico.
+## Velocidade Base
 
-**🔥 Elemento de Nascença.** Definido pela ancestralidade dracônica:
+9m
+
+## Sekhem Base
 
 1d6+9 (10-15)
 

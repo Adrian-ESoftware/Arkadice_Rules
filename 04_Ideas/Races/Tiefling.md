@@ -12,6 +12,10 @@ Marginalizados na maioria dos reinos. Descendentes de pactos antigos com entidad
 
 Sobreviventes por natureza. Muitos abraçam a reputação sombria, outros lutam para provar que são mais que sua linhagem. Frequentemente atraídos por Sekhem corrompido — não por maldade, mas por afinidade no sangue.
 
+## PV Base
+
+10
+
 ## Velocidade Base
 
 6m
@@ -33,5 +37,5 @@ Sobreviventes por natureza. Muitos abraçam a reputação sombria, outros lutam 
 
 | Debuff | Efeito |
 |--------|--------|
-| **Marca do Pacto** | Magias de cura divina (Aqua Pura) têm efeito reduzido em 50% no Tiefling. Água benta causa 1d4 de dano |
-| **Estigma** | Desvantagem em testes de Presença (Liderança) com NPCs religiosos ou supersticiosos. Templos podem recusar entrada |
+| **⚠️ Marca do Pacto** | Magias de cura divina (Aqua Pura) têm efeito reduzido em 50% no Tiefling. Água benta causa 1d4 de dano |
+| **🗣️ Estigma** | Desvantagem em testes de Presença (Liderança) com NPCs religiosos ou supersticiosos. Templos podem recusar entrada |

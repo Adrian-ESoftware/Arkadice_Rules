@@ -12,6 +12,10 @@ Vivem em fortalezas subterrâneas e cidades dentro de montanhas. Sociedade basea
 
 Ferreiros, mineradores, e engenheiros. Mestres em metalurgia e construção. Desconfiam de magia — preferem resolver problemas com martelo e bigorna. Cerveja é sagrada.
 
+## PV Base
+
+12
+
 ## Velocidade Base
 
 5m
@@ -33,5 +37,5 @@ Ferreiros, mineradores, e engenheiros. Mestres em metalurgia e construção. Des
 
 | Debuff | Efeito |
 |--------|--------|
-| **Pernas Curtas** | Velocidade 5m (já inclusa). Não pode usar Esquiva acima de 40% (max cap reduzido) |
-| **Aversão Arcana** | Custos de magia +2 Sekhem extra por feitiço |
+| **💪 Pernas Curtas** | Velocidade 5m (já inclusa). Não pode usar Esquiva acima de 40% (max cap reduzido) |
+| **⚠️ Aversão Arcana** | Custos de magia +2 Sekhem extra por feitiço |

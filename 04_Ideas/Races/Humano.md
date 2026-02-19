@@ -12,6 +12,10 @@ Humanos são a raça mais numerosa e adaptável. Formam reinos, guildas, vilarej
 
 Diplomatas, mercadores, soldados, e aventureiros. Não há um estereótipo — cada humano é moldado pelo lugar onde cresceu. São os mais propensos a cruzar fronteiras culturais.
 
+## PV Base
+
+10
+
 ## Velocidade Base
 
 6m
@@ -33,5 +37,5 @@ Diplomatas, mercadores, soldados, e aventureiros. Não há um estereótipo — c
 
 | Debuff | Efeito |
 |--------|--------|
-| **Vida Curta** | Não pode ter Tenacidade +5 (máximo +4). Envelhece mais rápido |
-| **Sem Afinidade** | Magia custam +1 Sekhem extra (sem conexão natural) |
+| **⚠️ Vida Curta** | Não pode ter Tenacidade +5 (máximo +4). Envelhece mais rápido |
+| **⚠️ Sem Afinidade** | Magia custam +1 Sekhem extra (sem conexão natural) |

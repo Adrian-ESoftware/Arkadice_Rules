@@ -12,6 +12,10 @@ Organizados em Círculos de Sangue subterrâneos, com hierarquia baseada na pure
 
 Alquimistas mestres em poções sanguíneas e negociantes noturnos astutos. Disputas internas por linhagens puras fomentam intrigas e rituais de ascensão. Apelidados "vampiros" por raças temerosas da superfície.
 
+## PV Base
+
+8
+
 ## Velocidade Base
 
 6m (normal), 7m em penumbra
@@ -26,12 +30,12 @@ Alquimistas mestres em poções sanguíneas e negociantes noturnos astutos. Disp
 
 | Bônus | Efeito |
 |-------|--------|
-| **Mordida Vital** | 1x por combate: ataque corpo a corpo especial que drena 1d4 PV do alvo e cura o Hemovita pelo mesmo valor |
-| **Regeneração Sombria** | Em penumbra ou escuridão, recupera +1 PV extra por descanso curto. Vantagem em saves contra Veneno |
+| **💪 Mordida Vital** | 1x por combate: ataque corpo a corpo especial que drena 1d4 PV do alvo e cura o Hemovita pelo mesmo valor |
+| **💪 Regeneração Sombria** | Em penumbra ou escuridão, recupera +1 PV extra por descanso curto. Vantagem em saves contra Veneno |
 
 ## Debuffs (escolha 1)
 
 | Debuff | Efeito |
 |--------|--------|
-| **Fome de Vitae** | Precisa se alimentar de vitae a cada 24h. Sem vitae: -1 em todos os testes por dia de fome (acumula) |
-| **Sensibilidade Solar** | Sob sol pleno: desvantagem em testes de Corpo e não regenera PV naturalmente. Sem dano, apenas penalidade |
+| **⚠️ Fome de Vitae** | Precisa se alimentar de vitae a cada 24h. Sem vitae: -1 em todos os testes por dia de fome (acumula) |
+| **⚠️ Sensibilidade Solar** | Sob sol pleno: desvantagem em testes de Corpo e não regenera PV naturalmente. Sem dano, apenas penalidade |

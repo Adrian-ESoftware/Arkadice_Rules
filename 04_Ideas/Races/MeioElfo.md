@@ -12,6 +12,10 @@ Não pertencem completamente a nenhum dos dois mundos. Muitos vivem em cidades h
 
 Adaptáveis como humanos, observadores como elfos. Tendem a ser mediadores e tradutores culturais. Muitos se tornam bardos, exploradores, ou mercadores — profissões que valorizam versatilidade social.
 
+## PV Base
+
+10
+
 ## Velocidade Base
 
 6m

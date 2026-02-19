@@ -12,6 +12,10 @@ Vivem em florestas antigas ou cidades arcanas escondidas. Sociedade hierárquica
 
 Artesãos, arqueiros, e estudiosos de Sekhem. Vistos como arrogantes por outras raças — na verdade são cautelosos. Podem viver séculos, o que os torna pacientes mas distantes.
 
+## PV Base
+
+8
+
 ## Velocidade Base
 
 7m
@@ -27,7 +31,7 @@ Artesãos, arqueiros, e estudiosos de Sekhem. Vistos como arrogantes por outras 
 | Bônus | Efeito |
 |-------|--------|
 | **🧠 Visão Élfica** | Visão no escuro (30m). Não sofre penalidade em escuridão parcial |
-| **⚠️ Afinidade Arcana** | Sekhem base +2 (total 12). Conexão natural com magia |
+| **🧠 Afinidade Arcana** | Sekhem base +2 (total 12). Conexão natural com magia |
 
 ## Debuffs (escolha 1)
 

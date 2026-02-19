@@ -12,6 +12,10 @@ Comunidades pacíficas e agrícolas — vilas com casas redondas, jardins elabor
 
 Cozinheiros, fazendeiros, contadores de histórias, e — secretamente — os melhores ladrões do mundo. Valorzam conforto, comunidade, e boa comida. Aventureiros halflings são raros, mas memoráveis.
 
+## PV Base
+
+8
+
 ## Velocidade Base
 
 5m

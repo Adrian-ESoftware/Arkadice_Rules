@@ -12,6 +12,10 @@ Tribais e nômades. Liderança por força — o mais forte lidera até ser derro
 
 Guerreiros, caçadores, e xamãs. Valorizam ação sobre palavras. Rituais de combate, tatuagens tribais, e cantos de guerra. Respeitam inimigos fortes, desprezam covardes.
 
+## PV Base
+
+12
+
 ## Velocidade Base
 
 6m
