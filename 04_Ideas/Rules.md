@@ -151,17 +151,87 @@ Em palavras simples: *"a armadura reduz X% do dano, mas nunca mais que Y pontos 
 
 ***
 
-### Interação com Atributos
-
-| Atributo | Efeito na Defesa |
-|----------|------------------|
-| **Corpo: Tenacidade (+)** | +1 na Absorção Máxima a cada 2 pontos (tanque absorve mais) ,se possuir +5 ganhara +3 de absorção máxima |
-| **Corpo: Destreza (-)** | Chance de esquiva total: valor absoluto × 5% (ex: Destreza -3 = 15% de esquivar) |
+### Interação com Atributos — Tenacidade vs Destreza
 
 Duas fantasias defensivas distintas:
 
-- **Tenacidade +3** com armadura pesada = Absorção sobe. Tanque clássico.
-- **Destreza -3** sem armadura = 15% de chance de **esquivar completamente**. Ágil e arriscado.
+#### 🛡️ Corpo: Tenacidade (+) — Tanque
+
+| Tenacidade | Bônus de Absorção Máxima |
+|------------|--------------------------|
+| +1 a +4 | +1 Absorção a cada 2 pontos |
+| +5 | +3 Absorção Máxima (bônus especial) |
+
+> Tanque clássico: armadura pesada + Tenacidade alta = absorve mais dano por golpe.
+
+#### 🌀 Corpo: Destreza (-) — Esquiva (Roleta VTT)
+
+O jogador rola um **dado de esquiva** e calcula a chance total. No VTT, a roleta gira com essa porcentagem.
+
+**Fórmula:** `Dodge% = (Dado × 5%) + (|Destreza| × 5%)`
+
+**Cada face do dado = 5%.** Resultado 6 num d6 = 30% do dado.
+
+##### Dado de Proficiência em Esquiva
+
+O dado **sobe de tier** conforme o personagem pratica esquiva (filosofia classless — melhora por uso):
+
+| Proficiência | Dado | Contribuição do Dado |
+|-------------|------|---------------------|
+| Sem treino | d4 | 5-20% |
+| Praticante | d6 | 5-30% |
+| Adepto | d8 | 5-40% |
+| Mestre | d10 | 5-50% |
+| Lendário | d12 | 5-60% |
+
+##### Tabela de Dodge% Total
+
+| Destreza | Proficiência | Dado | Dodge% | Média | Perfil |
+|----------|-------------|------|--------|-------|--------|
+| -1 | Sem treino | d4 | 10-25% | 17% | Quase nada |
+| -3 | Sem treino | d4 | 20-35% | 27% | Ágil iniciante |
+| -3 | Praticante | d6 | 20-45% | 32% | Treinando esquiva |
+| **-3** | **Adepto** | **d8** | **20-55%** | **37%** | **Lutador ágil** |
+| -3 | Mestre | d10 | 20-60%* | 40% | Evasivo expert |
+| -5 | Adepto | d8 | 30-60%* | 45% | Sombra treinada |
+| -5 | Mestre | d10 | 30-60%* | 47% | Fantasma |
+| -5 | Lendário | d12 | 30-60%* | 50% | Intocável |
+
+> *\*Cap de 60%:* Ninguém pode ter mais de 60% de esquiva. Mesmo o melhor evasivo do mundo erra quase metade das vezes — esquiva nunca é garantida, é **arriscada**.
+
+##### Esquiva Falha — Raspão (Grazing Blow)
+
+Se a roleta cair em **Falha**, o personagem com Destreza ainda **reduz parte do dano** — ele não esquivou, mas o golpe não acertou em cheio:
+
+**Redução por Raspão:** `Dodge% ÷ 3` (arredondado para baixo)
+
+| Dodge% na roleta | Raspão (redução) | Comparação com armadura |
+|------------------|-----------------|------------------------|
+| 20% | -6% dano | Armadura leve bloqueia ~20% |
+| 30% | -10% dano | Armadura média bloqueia ~30% |
+| 40% | -13% dano | Armadura pesada bloqueia ~35% |
+| 50% | -16% dano | Sempre inferior à armadura equivalente |
+| 60% | -20% dano | Teto — ainda pior que armadura pesada |
+
+> **Sempre pior que armadura.** Um tanque com armadura pesada (35% redução fixa) é mais confiável que um evasivo com 50% dodge (que reduz só 16% quando falha). A vantagem do evasivo é que ele **esquiva completamente** quando acerta — tudo ou nada.
+
+##### Exemplo na Roleta
+
+```
+Jogador: "Quero esquivar do ogro!"
+→ Destreza: -3 | Proficiência: Adepto (d8)
+→ Rola d8: resultado 5
+→ Cálculo: (5 × 5%) + (3 × 5%) = 25% + 15% = 40%
+→ Roleta: [████████░░░░░░░░░░░░] 40% Esquiva / 60% Falha
+→ Roleta gira... FALHA ❌
+→ Raspão: 40% ÷ 3 = 13% de redução de dano
+→ Ogro dava 11 dano → 11 - 1 (13% de 11) = 10 dano final
+```
+
+```
+→ Roleta gira... ESQUIVOU! ✅
+→ Dano: 0. O ogro acertou apenas ar.
+```
 
 ***
 
