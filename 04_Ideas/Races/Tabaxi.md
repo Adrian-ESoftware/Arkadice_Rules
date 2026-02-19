@@ -9,23 +9,30 @@ A maioria vive em clãs tribais organizados em “caçadas” — pequenos grupo
 Cultura
 Tabaxi são movidos por curiosidade quase obsessiva: histórias, artefatos estranhos, segredos antigos e lugares inexplorados os atraem mais do que ouro. Muitos se tornam viajantes, bardos, ladrões elegantes ou caçadores de relíquias, aceitando pagamento em itens peculiares, informações ou boatos interessantes; coleções de “bugigangas com história” são comuns em suas casas e bagagens.
 
-PV base
+***
+
+## PV Base
+
 8
 
-Velocidade base
+## Velocidade Base
+
 7 m
 
-Sekhem base
+## Sekhem Base
+
 1d6 + 8 (9–14)
 
-Bônus (escolha 1)
+## Bônus (escolha 1)
 
-Corpo (Destreza) +1: seu corpo é flexível e rápido como o de um grande felino; você recebe +1 em Corpo na direção de Destreza, melhorando esquiva, furtividade, acrobacias e qualquer ação baseada em agilidade física.
+| Bônus | Efeito |
+|-------|--------|
+| **💪 Corpo (Destreza) +1** | seu corpo é flexível e rápido como o de um grande felino; você recebe +1 em Corpo na direção de Destreza, melhorando esquiva, furtividade, acrobacias e qualquer ação baseada em agilidade física. |
+| **💪 Mente (Instinto) +1** | seus sentidos e reflexos são aguçados; você recebe +1 em Mente na direção de Instinto, ganhando vantagem em perceber perigos, reagir a emboscadas e ler o ambiente ao seu redor. |
 
-Mente (Instinto) +1: seus sentidos e reflexos são aguçados; você recebe +1 em Mente na direção de Instinto, ganhando vantagem em perceber perigos, reagir a emboscadas e ler o ambiente ao seu redor.
+## Debuffs (escolha 1)
 
-Debuffs (escolha 1)
-
-Mente (Razão) −1: sua curiosidade impulsiva atrapalha planejamento cuidadoso; você recebe −1 em Mente no polo de Razão, ficando pior em tarefas que exigem foco prolongado, estudo metódico ou estratégia fria.
-
-Corpo (Tenacidade) −1: seu corpo é feito para velocidade, não para suportar pancadas; você recebe −1 em Corpo na direção de Tenacidade, tornando-se menos resistente a desgaste físico, doenças e efeitos que exigem pura resistência.
+| Debuff | Efeito |
+|--------|--------|
+| **⚠️ Mente (Razão) −1** | sua curiosidade impulsiva atrapalha planejamento cuidadoso; você recebe −1 em Mente no polo de Razão, ficando pior em tarefas que exigem foco prolongado, estudo metódico ou estratégia fria. |
+| **⚠️ Corpo (Tenacidade) −1** | seu corpo é feito para velocidade, não para suportar pancadas; você recebe −1 em Corpo na direção de Tenacidade, tornando-se menos resistente a desgaste físico, doenças e efeitos que exigem pura resistência. |

@@ -20,12 +20,12 @@ Sekhem base
 
 Bônus (escolha 1)
 
-Corpo (Destreza) +1: seu corpo é leve e rápido; você recebe +1 em Corpo na direção de Destreza, melhorando esquiva, furtividade, acrobacias e ações baseadas em agilidade.
+**💪 Corpo (Destreza) +1:** seu corpo é leve e rápido; você recebe +1 em Corpo na direção de Destreza, melhorando esquiva, furtividade, acrobacias e ações baseadas em agilidade.
 
-Mente (Instinto) +1: você vive em alerta constante; recebe +1 em Mente na direção de Instinto, ficando melhor em perceber perigo, reagir a emboscadas e responder a surpresas.
+**💪 Mente (Instinto) +1:** você vive em alerta constante; recebe +1 em Mente na direção de Instinto, ficando melhor em perceber perigo, reagir a emboscadas e responder a surpresas.
 
 Debuffs (escolha 1)
 
-Presença (Liderança) −1: sua fama de praga e comportamento errático afastam aliados; você recebe −1 em Presença no polo de Liderança, ficando pior em diplomacia, persuasão e em inspirar outros em situações cooperativas.
+**⚠️ Presença (Liderança) −1:** sua fama de praga e comportamento errático afastam aliados; você recebe −1 em Presença no polo de Liderança, ficando pior em diplomacia, persuasão e em inspirar outros em situações cooperativas.
 
-Corpo (Tenacidade) −1: seu corpo é franzino e pouco resistente; você recebe −1 em Corpo na direção de Tenacidade, tendo mais dificuldade para aguentar dano prolongado, doenças e efeitos debilitantes.
+**⚠️ Corpo (Tenacidade) −1:** seu corpo é franzino e pouco resistente; você recebe −1 em Corpo na direção de Tenacidade, tendo mais dificuldade para aguentar dano prolongado, doenças e efeitos debilitantes.
