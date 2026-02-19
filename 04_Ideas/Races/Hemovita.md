@@ -12,11 +12,11 @@ Sociedade e Cultura
 "Círculos de Sangue" subterrâneos com hierarquia por pureza vitae. Alquimistas de poções sanguíneas, negociantes noturnos. Conflitos com raças diurnas; disputam linhagens puras internamente.
 
 Bônus:
-(A) +2 Presença (Liderança): Magnetismo sombrio para diplomacia noturna.
+(A) 🗣️ +2 Presença (Liderança): Magnetismo sombrio para diplomacia noturna.
 
-(B) +2 Corpo (Tenacidade): Regeneração sanguínea em penumbra.
+(B) 💪 +2 Corpo (Tenacidade): Regeneração sanguínea em penumbra.
 
 Debuff:
-(I) -2 Linhagem (Corrompida): Magia distorcida com backlash.
+(I) ⚠️ -2 Linhagem (Corrompida): Magia distorcida com backlash.
 
-(II) -2 Mente (Instinto): Fome causa intuições caóticas.
+(II) 🧠 -2 Mente (Instinto): Fome causa intuições caóticas.
