@@ -12,11 +12,11 @@
 
 *Pele acinzentada. Rigidez nas juntas.*
 
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | `-2` velocidade; `-3` em Destreza; armadura natural +1 Absorção |
-| **Narrativa** | Unha rachando, pele granulosa ao toque |
-| **Resistência** | Teste `CD 11` |
+| Categoria       | Detalhe                                                         |
+| --------------- | --------------------------------------------------------------- |
+| **Efeitos**     | `-2` velocidade; `-3` em Destreza; armadura natural +1 Absorção |
+| **Narrativa**   | Unha rachando, pele granulosa ao toque                          |
+| **Resistência** | Teste `CD 11`                                                   |
 
 **Resultados do Teste:**
 
