@@ -70,3 +70,44 @@ Além da atividade, cada semana tem um custo de manutenção:
 - **Pobre (2 ΔP):** Estalagem comum, comida simples.
 - **Confortável (10 ΔP):** Bom quarto, boas refeições. Recupera +1 dado de vida extra na próxima aventura.
 - **Rico (4 ΔO):** Luxo. Vantagem em testes sociais na cidade durante a estadia.
+
+***
+
+## Farming AFK (Saltos Temporais)
+
+Quando a campanha tem um salto temporal significativo entre sessões (ex: de 1 mês a 1 ano in-game), o sistema semanal tradicional de Downtime fica exaustivo. Nesses casos, utiliza-se a mecânica macro de **Ciclos de Fartura**.
+
+Um "Ciclo" representa o período completo AFK do personagem. Em vez de dezenas de rolagens, o jogador escolhe um **Foco de Farming** e faz exatamente **3 Rolagens de Resolução** (representando o Início, o Meio e o Fim do ciclo). Cada rolagem requer atingir uma CD (geralmente 15) focada na perícia escolhida. O resultado consolidado dos sucessos dita a recompensa do salto temporal inteiro.
+
+### 1. Foco em Treinamento (Proficiências)
+
+*O personagem passa os meses focado unicamente em aperfeiçoamento pessoal, seja numa guilda, com um mestre ou em isolamento.*
+
+- **Teste:** 3 rolagens do Atributo/Perícia de combate/mágica correspondente.
+- **Resultados Consolidados:**
+  - **0 Sucessos:** O treino foi infrutífero ou você sofreu uma lesão de estresse. Ganha apenas 1 Uso de Proficiência por pena.
+  - **1 Sucesso:** Progresso lento mas constante. Ganha **10 Usos de Proficiência** na habilidade.
+  - **2 Sucessos:** Treino excelente. Ganha **25 Usos de Proficiência**.
+  - **3 Sucessos:** Iluminação marcial/arcana. Ganha **50 Usos de Proficiência** OU o Narrador permite **desbloquear passivamente um novo feitiço ou manobra** de nível compatível.
+
+### 2. Foco em Trabalho & Artesanato (Dinheiro e Forja)
+
+*Atuando como ferreiro, alquimista, mercenário local ou administrador na cidade.*
+
+- **Custo Inicial:** Se for forjar/criar um item específico, deve pagar metade do valor em materiais do próprio bolso agora.
+- **Teste:** 3 rolagens da Perícia de Ofício (Ex: Ferraria, Manuseio, Performance).
+- **Resultados Consolidados:**
+  - **0 Sucessos:** Prejuízo severo. Perdeu os materiais, foi roubado ou a guilda ruiu. Ganha 0 moedas e não produz o item.
+  - **1 Sucesso:** Paga as contas. Termina o item que estava forjando (se mundano/simples) OU ganha o salário básico de subsistência do ciclo (ex: 50 ΔP).
+  - **2 Sucessos:** Negócio altamente lucrativo. Termina e melhora o item (+1 bônus numérico não-mágico de qualidade) OU lucra muito bem (ex: 150 ΔP).
+  - **3 Sucessos:** Obra-prima ou Contrato Nobre. Conclui com perfeição um item de **Qualidade Obra-Prima** (que nunca quebra por atrito e é o único tipo exigido para receber encantos Sekhem no futuro) OU recebe um pagamento massivo em Ouro (ΔO).
+
+### 3. Foco em Patrulha & Caça (Recursos)
+
+*Sobrevivendo nos ermos, minerando em áreas perigosas ou caçando monstros de baixa patente.*
+
+- **Teste:** 3 rolagens de Sobrevivência/Investigação/Atletismo (depende do bioma).
+- **Resultados Consolidados:**
+  - **0 Sucessos:** Voltou de mãos vazias e ferido gravemente. Começa a primeira sessão pós-salto com **-1d4 no PV Máximo** permanente até que cure a "Cicatriz Leve" em um curandeiro especializado.
+  - **1 a 2 Sucessos:** Retorna com **1d6 Cargas de Materiais** (pele endurecida, garras, minério) que servem como "moeda/desconto" para alquimistas e ferreiros da cidade.
+  - **3 Sucessos:** A grande caça. Retorna intacto e trazendo consigo um **Recurso Épico** (ex: Coração de um Verme do Gelo, Casco de Titã, Cristal Sekhem Puro). Este item único pode ser forjado na próxima sessão em um equipamento lendário ou mágico verdadeiro.
