@@ -43,49 +43,49 @@ theme:
 nav:
   - "Início": index.md
   - "Regras Básicas":
-      - "O Sistema": 01_Regras_Basicas/Core_Rules_Index.md
+      - "Atributos Duais": 01_Regras_Basicas/00_Atributos_Duais.md
+      - "Mecânicas Principais": 01_Regras_Basicas/01_Mecanicas_Principais.md
+      - "Criação de Personagem": 01_Regras_Basicas/02_Criacao_de_Personagem.md
+      - "Combate": 01_Regras_Basicas/03_Combate.md
+      - "Defesa e Sobrevivência": 01_Regras_Basicas/04_Defesa_e_Sobrevivencia.md
+      - "Magia e Morte": 01_Regras_Basicas/05_Magia_e_Morte.md
+      - "Proficiência e Evolução": 01_Regras_Basicas/06_Proficiencia_e_Evolucao.md
   - "Compêndio":
-      - "Itens": 02_Compendio/KEEP.md
-  - "Cenário e Lore":
-      - "Mundo": 03_Cenario/KEEP.md
-  - "Sistemas Avançados":
-      - "Classes": 04_Sistemas_Avancados/Classes.md
-      - "Raças":
-          - "Anão": 04_Sistemas_Avancados/Races/Anao.md
-          - "Elfo": 04_Sistemas_Avancados/Races/Elfo.md
-          - "Goblin": 04_Sistemas_Avancados/Races/Goblin.md
-          - "Humano": 04_Sistemas_Avancados/Races/Humanos.md
-          - "Meio-Elfo": 04_Sistemas_Avancados/Races/MeioElfo.md
-          - "Orc": 04_Sistemas_Avancados/Races/Orc.md
-          - "Tiefling": 04_Sistemas_Avancados/Races/Tiefling.md
-          - "Autorais":
-              - "Cinéreos": 04_Sistemas_Avancados/Races/Autorais/Cinereos.md
-              - "Harpias": 04_Sistemas_Avancados/Races/Autorais/Harpias.md
-              - "Hemovitas": 04_Sistemas_Avancados/Races/Autorais/Hemovitas.md
-              - "Velthari": 04_Sistemas_Avancados/Races/Autorais/Velthari.md
-              - "Vroots": 04_Sistemas_Avancados/Races/Autorais/Vroots.md
-      - "Equipamento": 04_Sistemas_Avancados/Equipment.md
-      - "Magia (Sekhem)": 04_Sistemas_Avancados/Sekhem.md
-      - "Combinações Arcanas": 04_Sistemas_Avancados/Spell_Combinations.md
-      - "Regras e Atributos": 04_Sistemas_Avancados/Rules.md
-      - "Condições e Status": 04_Sistemas_Avancados/Status.md
-      - "Debuffs":
-          - "Asfixia": 04_Sistemas_Avancados/Debuffs/Asfixia.md
-          - "Cegueira Divina": 04_Sistemas_Avancados/Debuffs/CegueiraDivina.md
-          - "Confusão": 04_Sistemas_Avancados/Debuffs/Confusao.md
-          - "Congelamento": 04_Sistemas_Avancados/Debuffs/Congelamento.md
-          - "Enraizamento": 04_Sistemas_Avancados/Debuffs/Enraizamento.md
-          - "Fraqueza": 04_Sistemas_Avancados/Debuffs/Fraqueza.md
-          - "Medo": 04_Sistemas_Avancados/Debuffs/Medo.md
-          - "Parasita": 04_Sistemas_Avancados/Debuffs/Parasita.md
-          - "Petrificação": 04_Sistemas_Avancados/Debuffs/Petrificacao.md
-          - "Queimadura": 04_Sistemas_Avancados/Debuffs/Queimadura.md
-          - "Sangramento": 04_Sistemas_Avancados/Debuffs/Sangramento.md
-          - "Silêncio": 04_Sistemas_Avancados/Debuffs/Silencio.md
-          - "Veneno Agudo": 04_Sistemas_Avancados/Debuffs/VenenoAgudo.md
-          - "Veneno Crônico": 04_Sistemas_Avancados/Debuffs/VenenoCronico.md
-  - "Lore":
-      - "Habitantes do Mundo": 04_Sistemas_Avancados/World_Personas.md
+      - "Equipamentos e Forja": 02_Compendio/01_Equipamentos_e_Forja.md
+  - "Magia e Misticismo":
+      - "O Grimoire Sekhem": 03_Magia_e_Misticismo/01_Regras_de_Sekhem.md
+      - "Escolas e Combinações": 03_Magia_e_Misticismo/02_Escolas_e_Combinacoes.md
+  - "O Mundo e as Raças":
+      - "Habitantes e Tiers": 04_O_Mundo_e_as_Racas/01_Habitantes_e_Tiers.md
+      - "Raças Comuns e Incomuns":
+          - "Anão": 04_O_Mundo_e_as_Racas/Racas/Anao.md
+          - "Elfo": 04_O_Mundo_e_as_Racas/Racas/Elfo.md
+          - "Goblin": 04_O_Mundo_e_as_Racas/Racas/Goblin.md
+          - "Humano": 04_O_Mundo_e_as_Racas/Racas/Humanos.md
+          - "Meio-Elfo": 04_O_Mundo_e_as_Racas/Racas/MeioElfo.md
+          - "Orc": 04_O_Mundo_e_as_Racas/Racas/Orc.md
+          - "Tiefling": 04_O_Mundo_e_as_Racas/Racas/Tiefling.md
+          - "Autorais Exclusivas":
+              - "Cinéreos": 04_O_Mundo_e_as_Racas/Racas/Autorais/Cinereos.md
+              - "Harpias": 04_O_Mundo_e_as_Racas/Racas/Autorais/Harpias.md
+              - "Hemovitas": 04_O_Mundo_e_as_Racas/Racas/Autorais/Hemovitas.md
+              - "Velthari": 04_O_Mundo_e_as_Racas/Racas/Autorais/Velthari.md
+              - "Vroots": 04_O_Mundo_e_as_Racas/Racas/Autorais/Vroots.md
+  - "Condições e Doenças":
+      - "Asfixia": 05_Condicoes_e_Doencas/Asfixia.md
+      - "Cegueira Divina": 05_Condicoes_e_Doencas/CegueiraDivina.md
+      - "Confusão": 05_Condicoes_e_Doencas/Confusao.md
+      - "Congelamento": 05_Condicoes_e_Doencas/Congelamento.md
+      - "Enraizamento": 05_Condicoes_e_Doencas/Enraizamento.md
+      - "Fraqueza": 05_Condicoes_e_Doencas/Fraqueza.md
+      - "Medo": 05_Condicoes_e_Doencas/Medo.md
+      - "Parasita": 05_Condicoes_e_Doencas/Parasita.md
+      - "Petrificação": 05_Condicoes_e_Doencas/Petrificacao.md
+      - "Queimadura": 05_Condicoes_e_Doencas/Queimadura.md
+      - "Sangramento": 05_Condicoes_e_Doencas/Sangramento.md
+      - "Silêncio": 05_Condicoes_e_Doencas/Silencio.md
+      - "Veneno Agudo": 05_Condicoes_e_Doencas/VenenoAgudo.md
+      - "Veneno Crônico": 05_Condicoes_e_Doencas/VenenoCronico.md
 
 extra_css:
   - stylesheets/extra.css
