@@ -8,24 +8,124 @@ site_dir: site
 theme:
   name: material
   language: pt-BR
+  custom_dir: overrides          # para templates Jinja2 futuros (opcional)
+  
   palette:
     scheme: slate
     primary: black
     accent: amber
+
+  font:
+    text: Merriweather
+    code: JetBrains Mono         # código mais legível que monospace padrão
+
+  icon:
+    logo: fontawesome/solid/dragon          # ícone de dragão no header
+    repo: fontawesome/brands/github
+    admonition:
+      note:    fontawesome/solid/scroll
+      tip:     fontawesome/solid/wand-magic-sparkles
+      warning: fontawesome/solid/triangle-exclamation
+      danger:  fontawesome/solid/skull
+
   features:
     - navigation.indexes
     - navigation.sections
     - navigation.top
+    - navigation.path            # breadcrumb — útil para wikis profundas
+    - navigation.footer          # navegação prev/next no rodapé
     - search.suggest
     - search.highlight
-    - content.code.copy
+    - search.share
     - content.code.annotate
+    - content.tooltips           # tooltips ao passar o mouse em links
+
+nav:
+  - "Início": index.md
+  - "Regras Básicas":
+      - "O Sistema": 01_Regras_Basicas/Core_Rules_Index.md
+  - "Compêndio":
+      - "Itens": 02_Compendio/KEEP.md
+  - "Cenário e Lore":
+      - "Mundo": 03_Cenario/KEEP.md
+  - "Sistemas Avançados":
+      - "Classes": 04_Sistemas_Avancados/Classes.md
+      - "Raças":
+          - "Anão": 04_Sistemas_Avancados/Races/Anao.md
+          - "Elfo": 04_Sistemas_Avancados/Races/Elfo.md
+          - "Goblin": 04_Sistemas_Avancados/Races/Goblin.md
+          - "Humano": 04_Sistemas_Avancados/Races/Humanos.md
+          - "Meio-Elfo": 04_Sistemas_Avancados/Races/MeioElfo.md
+          - "Orc": 04_Sistemas_Avancados/Races/Orc.md
+          - "Tiefling": 04_Sistemas_Avancados/Races/Tiefling.md
+          - "Autorais":
+              - "Cinéreos": 04_Sistemas_Avancados/Races/Autorais/Cinereos.md
+              - "Harpias": 04_Sistemas_Avancados/Races/Autorais/Harpias.md
+              - "Hemovitas": 04_Sistemas_Avancados/Races/Autorais/Hemovitas.md
+              - "Velthari": 04_Sistemas_Avancados/Races/Autorais/Velthari.md
+              - "Vroots": 04_Sistemas_Avancados/Races/Autorais/Vroots.md
+      - "Equipamento": 04_Sistemas_Avancados/Equipment.md
+      - "Magia (Sekhem)": 04_Sistemas_Avancados/Sekhem.md
+      - "Combinações Arcanas": 04_Sistemas_Avancados/Spell_Combinations.md
+      - "Regras e Atributos": 04_Sistemas_Avancados/Rules.md
+      - "Condições e Status": 04_Sistemas_Avancados/Status.md
+      - "Debuffs":
+          - "Asfixia": 04_Sistemas_Avancados/Debuffs/Asfixia.md
+          - "Cegueira Divina": 04_Sistemas_Avancados/Debuffs/CegueiraDivina.md
+          - "Confusão": 04_Sistemas_Avancados/Debuffs/Confusao.md
+          - "Congelamento": 04_Sistemas_Avancados/Debuffs/Congelamento.md
+          - "Enraizamento": 04_Sistemas_Avancados/Debuffs/Enraizamento.md
+          - "Fraqueza": 04_Sistemas_Avancados/Debuffs/Fraqueza.md
+          - "Medo": 04_Sistemas_Avancados/Debuffs/Medo.md
+          - "Parasita": 04_Sistemas_Avancados/Debuffs/Parasita.md
+          - "Petrificação": 04_Sistemas_Avancados/Debuffs/Petrificacao.md
+          - "Queimadura": 04_Sistemas_Avancados/Debuffs/Queimadura.md
+          - "Sangramento": 04_Sistemas_Avancados/Debuffs/Sangramento.md
+          - "Silêncio": 04_Sistemas_Avancados/Debuffs/Silencio.md
+          - "Veneno Agudo": 04_Sistemas_Avancados/Debuffs/VenenoAgudo.md
+          - "Veneno Crônico": 04_Sistemas_Avancados/Debuffs/VenenoCronico.md
+  - "Lore":
+      - "Habitantes do Mundo": 04_Sistemas_Avancados/World_Personas.md
 
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tablesort.js     # ordenação de tabelas (statblocks) com clique
+
 markdown_extensions:
+  # Básico
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
   - tables
+  - attr_list
+  - def_list                     # listas de definição (ótimo para glossários)
+  - footnotes                    # notas de rodapé para regras opcionais
+  - md_in_html                   # HTML dentro do markdown
+
+  # PyMdownx
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true      # tabs — ex: "Versão Básica / Variante"
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.keys                # teclas de atalho ex: ++ctrl+alt+del++
+  - pymdownx.mark                # ==marcação de texto==
+  - pymdownx.tilde               # ~~tachado~~
+  - pymdownx.caret               # ^superscript^
+
+  # Toc
+  - toc:
+      permalink: "⚔"
+      permalink_title: Link para esta seção

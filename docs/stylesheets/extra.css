@@ -1,182 +1,371 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+/* ============================================================
+   ARKADICE RPG — Custom Theme
+   MkDocs Material (Slate) — Dark Fantasy TTRPG Style
+   ============================================================ */
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+/* ── Variáveis Globais ─────────────────────────────────────── */
 :root {
-    /* Magical Fonts */
-    --md-text-font: "Lora", serif;
-    /* Changed back to Lora for better reading contrast */
-    --md-typeset-font: "Cinzel Decorative", serif;
+    --md-text-font: "Merriweather", serif;
+    --md-typeset-font: "Cinzel", serif;
 
-    /* Primary Colors overridden to deep medieval tones */
-    --md-primary-fg-color: #0c0910 !important;
-    --md-accent-fg-color: #d4af37 !important;
-    /* Gold */
+    --gold: #c9a227;
+    --gold-light: #dfcd8c;
+    --gold-dim: rgba(201, 162, 39, 0.25);
+    --gold-subtle: rgba(201, 162, 39, 0.08);
+
+    --bg-base: #121212;
+    --bg-raised: #1a1a1a;
+    --bg-surface: #222222;
+    --bg-elevated: #2a2a2a;
+    --bg-header: #0c0c0c;
+
+    --fg-primary: #e8e0d0;
+    /* Warm off-white — less harsh than pure white */
+    --fg-secondary: #a89f8c;
+    /* Parchment-toned subtitle */
+    --fg-muted: #6e6659;
+
+    --border-dim: #2e2e2e;
+    --border-gold: rgba(201, 162, 39, 0.35);
+
+    --md-primary-fg-color: #1a1a1a !important;
+    --md-accent-fg-color: var(--gold) !important;
 }
 
-/* Base styling for Slate (Dark Mode) */
+/* ── Slate Scheme Overrides ────────────────────────────────── */
 [data-md-color-scheme="slate"] {
-    --md-code-bg-color: #000000;
-    --md-default-bg-color: #1a1620;
-    /* Lighter background so text pops */
-    --md-default-fg-color: #e8e2ef;
-    /* Much brighter text */
-    --md-default-fg-color--light: #c2bac9;
-    --md-default-fg-color--lighter: #9e95a8;
+    --md-default-bg-color: var(--bg-base);
+    --md-default-fg-color: var(--fg-primary);
+    --md-default-fg-color--light: var(--fg-secondary);
+    --md-default-fg-color--lighter: var(--fg-muted);
+    --md-code-bg-color: #0d0d0d;
+    --md-code-fg-color: #c8bfa8;
+
+    /* Links dentro do Material */
+    --md-typeset-a-color: var(--gold-light);
 }
 
-/* Background texture for the whole site */
+/* ── Base ──────────────────────────────────────────────────── */
 body {
-    background-color: #1a1620;
-    background-image: radial-gradient(circle at top center, #231b30 0%, #15101a 100%);
-    background-attachment: fixed;
+    background-color: var(--bg-base);
 }
 
-/* Header (Top Bar) Styling */
+/* Textura sutil de pergaminho escuro (opcional — remove se não quiser) */
+.md-main__inner {
+    background-image:
+        radial-gradient(ellipse at top left, rgba(201, 162, 39, 0.03) 0%, transparent 60%),
+        radial-gradient(ellipse at bottom right, rgba(80, 40, 10, 0.06) 0%, transparent 60%);
+}
+
+/* ── Header ────────────────────────────────────────────────── */
 .md-header {
-    background: linear-gradient(to right, #09070a, #1f142b 50%, #09070a) !important;
-    border-bottom: 2px solid #d4af37;
-    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
+    background-color: var(--bg-header) !important;
+    border-bottom: 1px solid var(--gold);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
 }
 
 .md-header__title {
-    font-family: var(--md-typeset-font) !important;
+    font-family: "Cinzel Decorative", "Cinzel", serif !important;
     font-weight: 700;
-    text-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
     letter-spacing: 2px;
-    color: #d4af37 !important;
+    color: var(--gold) !important;
+    text-shadow: 0 0 18px rgba(201, 162, 39, 0.4);
 }
 
-/* Sidebar (Navigation) */
+/* Ícones do header */
+.md-header__button {
+    color: var(--fg-secondary) !important;
+    transition: color 0.2s ease;
+}
+
+.md-header__button:hover {
+    color: var(--gold) !important;
+}
+
+/* Search bar */
+.md-search__input {
+    background-color: var(--bg-surface) !important;
+    color: var(--fg-primary) !important;
+    border: 1px solid var(--border-dim);
+    border-radius: 4px;
+}
+
+.md-search__input:focus {
+    border-color: var(--gold) !important;
+    box-shadow: 0 0 0 2px var(--gold-dim);
+}
+
+/* ── Sidebar / Nav ─────────────────────────────────────────── */
+.md-sidebar {
+    background-color: #0e0e0e;
+    border-right: 1px solid var(--border-dim);
+}
+
 .md-nav {
-    font-family: "Cinzel Decorative", serif;
-    color: #c2bac9;
-    /* Brighter inactive links */
-    font-size: 0.85rem;
-}
-
-.md-nav__link--active {
-    color: #d4af37 !important;
-    text-shadow: 0 0 5px rgba(212, 175, 55, 0.4);
-    font-weight: bold;
+    font-family: "Cinzel", serif;
+    font-size: 0.78rem;
+    letter-spacing: 0.3px;
 }
 
 .md-nav__title {
-    color: #e8e2ef !important;
-    /* Fix white box issue */
-    background: transparent !important;
-    /* Fix white box issue */
-    font-weight: bold;
+    color: var(--gold-light) !important;
+    font-weight: 700;
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--border-gold);
+    padding-bottom: 0.4em;
+    margin-bottom: 0.3em;
 }
 
-/* Content Headings (H1, H2, etc.) */
-.md-typeset h1,
-.md-typeset h2,
-.md-typeset h3,
-.md-typeset h4 {
-    font-family: var(--md-typeset-font) !important;
-    color: #d4af37 !important;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
-    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
-    padding-bottom: 0.2em;
-    margin-top: 1.5em;
-    background: transparent !important;
-    /* Remove white box */
+.md-nav__link {
+    color: var(--fg-secondary) !important;
+    transition: color 0.15s ease, padding-left 0.15s ease;
+}
+
+.md-nav__link:hover {
+    color: var(--gold-light) !important;
+    padding-left: 4px;
+}
+
+.md-nav__link--active,
+.md-nav__link--active:hover {
+    color: var(--gold) !important;
+    font-weight: 600;
+    border-left: 2px solid var(--gold);
+    padding-left: 6px;
+}
+
+/* ── Tipografia Principal ──────────────────────────────────── */
+
+/* Decorador dourado antes de H1 */
+.md-typeset h1::before {
+    content: "⚔ ";
+    font-size: 0.8em;
+    opacity: 0.6;
 }
 
 .md-typeset h1 {
-    font-weight: 900;
-    font-size: 2.5em;
-    text-align: center;
-    border-bottom: 2px solid #d4af37;
-    color: #e8cca7 !important;
-    /* Brighter gold for main title */
+    font-family: "Cinzel", serif !important;
+    font-weight: 700;
+    font-size: 2.4em;
+    color: var(--gold-light) !important;
+    border-bottom: 1px solid var(--gold);
+    padding-bottom: 0.3em;
+    margin-top: 1.2em;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 8px rgba(201, 162, 39, 0.2);
 }
 
 .md-typeset h2 {
-    border-left: 3px solid #d4af37;
-    padding-left: 10px;
+    font-family: "Cinzel", serif !important;
+    font-weight: 600;
+    font-size: 1.55em;
+    color: var(--gold) !important;
+    border-bottom: 1px solid var(--gold-dim);
+    padding-bottom: 0.2em;
+    margin-top: 2em;
+    letter-spacing: 0.5px;
 }
 
-/* Main Text Adjustments */
+.md-typeset h3 {
+    font-family: "Cinzel", serif !important;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #c4a96e !important;
+    margin-top: 1.6em;
+}
+
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+    font-family: "Cinzel", serif !important;
+    font-weight: 400;
+    color: var(--fg-secondary) !important;
+}
+
 .md-typeset p,
 .md-typeset li {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    /* More spacing */
-    color: #e8e2ef;
-    /* Forced to very bright grey/white */
-    font-weight: 400;
+    font-family: "Merriweather", serif;
+    font-size: 1.0rem;
+    line-height: 1.85;
+    color: var(--fg-primary);
+    font-weight: 300;
 }
 
-/* Custom Scrollbar for medieval feel */
-::-webkit-scrollbar {
-    width: 10px;
+.md-typeset strong {
+    color: #ffffff;
+    font-weight: 700;
 }
 
-::-webkit-scrollbar-track {
-    background: #0c0910;
+.md-typeset em {
+    color: var(--gold-light);
+    font-style: italic;
 }
 
-::-webkit-scrollbar-thumb {
-    background: #5c4e2e;
-    border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #d4af37;
-}
-
-/* Statblocks and Tables */
-.md-typeset table {
-    background-color: #15101a;
-    border: 1px solid #d4af37;
-    border-radius: 4px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-    width: 100%;
-}
-
-.md-typeset table th {
-    background-color: #231b30;
-    color: #d4af37;
-    font-family: var(--md-typeset-font);
-    font-size: 1.1em;
-    text-transform: uppercase;
-    border-bottom: 2px solid #d4af37;
-}
-
-.md-typeset table tr:nth-child(even) {
-    background-color: rgba(212, 175, 55, 0.03);
-}
-
-.md-typeset table td {
-    border-bottom: 1px solid rgba(212, 175, 55, 0.1);
-    color: #e8e2ef;
-}
-
-/* Links */
+/* ── Links ─────────────────────────────────────────────────── */
 .md-typeset a {
-    color: #e5c158;
-    /* Brighter default link */
-    transition: all 0.3s ease;
-    font-weight: 600;
+    color: var(--gold-light);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--gold-light);
+    transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 .md-typeset a:hover {
-    color: #fff2b2;
-    text-shadow: 0 0 8px rgba(241, 196, 15, 0.6);
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
 }
 
-/* Admonitions (Blocks of text for rules) */
+/* ── Tabelas (Statblocks) ──────────────────────────────────── */
+.md-typeset table {
+    background-color: var(--bg-raised);
+    border: 1px solid var(--border-gold);
+    border-radius: 4px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+}
+
+.md-typeset table th {
+    background-color: #1e1a10;
+    color: var(--gold-light);
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    font-size: 0.85em;
+    letter-spacing: 0.8px;
+    border-bottom: 1px solid var(--gold);
+    padding: 0.65em 1em;
+}
+
+.md-typeset table tr:nth-child(even) {
+    background-color: #161616;
+}
+
+.md-typeset table tr:hover {
+    background-color: #1f1c12;
+}
+
+.md-typeset table td {
+    border-bottom: 1px solid var(--border-dim);
+    color: var(--fg-primary);
+    padding: 0.55em 1em;
+    font-size: 0.95rem;
+}
+
+/* ── Admonitions ───────────────────────────────────────────── */
+
+/* Default (genérico) */
 .md-typeset .admonition,
 .md-typeset details {
-    border-radius: 4px;
-    border-left: 4px solid #d4af37;
-    background: rgba(212, 175, 55, 0.05);
-    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
-    color: #e8e2ef;
+    border-radius: 3px;
+    border-left: 3px solid var(--gold);
+    background: var(--bg-raised);
+    color: var(--fg-primary);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-.md-typeset .admonition-title {
-    font-family: var(--md-typeset-font);
-    color: #e8cca7 !important;
-    background-color: rgba(212, 175, 55, 0.1) !important;
+.md-typeset .admonition-title,
+.md-typeset summary {
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    font-size: 0.88em;
+    letter-spacing: 0.5px;
+    color: var(--gold) !important;
+    background-color: #1e1a10 !important;
+    border-bottom: 1px solid var(--border-gold);
+}
+
+/* Tipos específicos — sobreescrevem a cor da borda lateral */
+.md-typeset .admonition.note {
+    border-left-color: #6a9fcb;
+}
+
+.md-typeset .admonition.warning {
+    border-left-color: #c97a27;
+}
+
+.md-typeset .admonition.danger {
+    border-left-color: #b03030;
+}
+
+.md-typeset .admonition.tip {
+    border-left-color: #4a9e6b;
+}
+
+/* ── Código ────────────────────────────────────────────────── */
+.md-typeset code {
+    background-color: #181818;
+    color: #c8bfa8;
+    border: 1px solid var(--border-dim);
+    border-radius: 3px;
+    font-size: 0.88em;
+    padding: 0.1em 0.35em;
+}
+
+.md-typeset pre>code {
+    background-color: #0d0d0d;
+    border: 1px solid var(--border-dim);
+    border-radius: 4px;
+}
+
+/* ── Botão "Back to top" ───────────────────────────────────── */
+.md-top {
+    background-color: var(--bg-elevated);
+    color: var(--gold);
+    border: 1px solid var(--border-gold);
+}
+
+.md-top:hover {
+    background-color: #1e1a10;
+    color: var(--gold-light);
+}
+
+/* ── Footer ────────────────────────────────────────────────── */
+.md-footer {
+    background-color: var(--bg-header);
+    border-top: 1px solid var(--border-gold);
+    color: var(--fg-muted);
+}
+
+.md-footer-meta {
+    background-color: #090909;
+}
+
+/* ── Scrollbar ─────────────────────────────────────────────── */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--gold);
+}
+
+/* ── Tags / Badges (se usar o plugin tags) ─────────────────── */
+.md-tag {
+    background-color: #1e1a10;
+    color: var(--gold);
+    border: 1px solid var(--border-gold);
+    font-family: "Cinzel", serif;
+    font-size: 0.75em;
+    border-radius: 3px;
+    padding: 0.1em 0.5em;
+}
+
+/* ── Seleção de texto ──────────────────────────────────────── */
+::selection {
+    background-color: rgba(201, 162, 39, 0.3);
+    color: #ffffff;
 }
