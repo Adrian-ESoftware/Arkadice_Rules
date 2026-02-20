@@ -54,7 +54,7 @@ A fisiologia do Vroot reage ao ambiente. Ao final de cada Descanso Longo, o Vroo
 
 ## Debuffs (escolha 1)
 
-Todo Vroot tem **Vulnerabilidade a Fogo** (dano ×1.5) por natureza. Além disso, escolha um:
+Todo Vroot tem **Vulnerabilidade a Ignis** (dano ×1.5) por natureza. Além disso, escolha um:
 
 | Debuff | Efeito |
 |--------|--------|
@@ -64,6 +64,6 @@ Todo Vroot tem **Vulnerabilidade a Fogo** (dano ×1.5) por natureza. Além disso
 ## Afinidade Elemental (d100)
 
 - 🪨 **Terra:** 48%
-- 💧 **Água:** 18%
-- 💨 **Ar:** 13%
-- 🔥 **Fogo:** 11%
+- 💧 **Aqua:** 18%
+- 💨 **Aer:** 13%
+- 🔥 **Ignis:** 11%

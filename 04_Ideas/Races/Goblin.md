@@ -43,6 +43,6 @@ A cultura goblin é baseada em sobrevivência, pilhagem e oportunidade: emboscad
 ## Afinidade Elemental (d100)
 
 - 🪨 **Terra:** 38%
-- 💨 **Ar:** 29%
-- 🔥 **Fogo:** 17%
-- 💧 **Água:** 16%
+- 💨 **Aer:** 29%
+- 🔥 **Ignis:** 17%
+- 💧 **Aqua:** 16%

@@ -42,7 +42,7 @@ Adaptáveis como humanos, observadores como elfos. Tendem a ser mediadores e tra
 
 ## Afinidade Elemental (d100)
 
-- 💧 **Água:** 25%
-- 💨 **Ar:** 25%
+- 💧 **Aqua:** 25%
+- 💨 **Aer:** 25%
 - 🪨 **Terra:** 25%
-- 🔥 **Fogo:** 25%
+- 🔥 **Ignis:** 25%

@@ -49,6 +49,6 @@ Sua cultura gira em torno da **Caçada**. Toda refeição é um ritual de agrade
 ## Afinidade Elemental (d100)
 
 - 🪨 **Terra:** 36%
-- 💨 **Ar:** 29%
-- 💧 **Água:** 20%
-- 🔥 **Fogo:** 15%
+- 💨 **Aer:** 29%
+- 💧 **Aqua:** 20%
+- 🔥 **Ignis:** 15%

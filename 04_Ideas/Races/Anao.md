@@ -43,6 +43,6 @@ Ferreiros, mineradores, e engenheiros. Mestres em metalurgia e construção. Des
 ## Afinidade Elemental (d100)
 
 - 🪨 **Terra:** 48%
-- 🔥 **Fogo:** 18%
-- 💧 **Água:** 13%
-- 💨 **Ar:** 13%
+- 🔥 **Ignis:** 18%
+- 💧 **Aqua:** 13%
+- 💨 **Aer:** 13%

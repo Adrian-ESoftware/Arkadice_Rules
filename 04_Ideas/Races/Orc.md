@@ -43,6 +43,6 @@ Guerreiros, caçadores, e xamãs. Valorizam ação sobre palavras. Rituais de co
 ## Afinidade Elemental (d100)
 
 - 🪨 **Terra:** 35%
-- 🔥 **Fogo:** 30%
-- 💨 **Ar:** 20%
-- 💧 **Água:** 15%
+- 🔥 **Ignis:** 30%
+- 💨 **Aer:** 20%
+- 💧 **Aqua:** 15%

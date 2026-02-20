@@ -42,7 +42,7 @@ Diplomatas, mercadores, soldados, e aventureiros. Não há um estereótipo — c
 
 ## Afinidade Elemental (d100)
 
-- 💧 **Água:** 30%
-- 🔥 **Fogo:** 30%
+- 💧 **Aqua:** 30%
+- 🔥 **Ignis:** 30%
 - 🪨 **Terra:** 25%
-- 💨 **Ar:** 15%
+- 💨 **Aer:** 15%

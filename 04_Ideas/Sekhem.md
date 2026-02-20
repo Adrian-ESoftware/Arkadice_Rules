@@ -504,12 +504,12 @@ Personagens com **2 elementos de nascença** (ou que pagam custo extra) podem co
 
 | Regra | Descrição |
 |-------|-----------|
-| **Custo extra** | +3 Sekhem adicional ao custo do núcleo |
-| **Sem modificadores** | Feitiços Misceo **não permitem modificadores** — a combinação de dois elementos já é poderosa o suficiente |
+| **Custo extra** | **+8 Sekhem** adicional ao custo do núcleo |
+| **Sem modificadores** | Feitiços Misceo **não permitem modificadores** — a fusão de dois elementos é o limite do conjurador |
 | **Criatividade** | O efeito exato depende da combinação + núcleo + descrição do jogador. O Narrador interpreta e decide |
-| **Dano base** | O dano do núcleo sobe em **+1 dado** (ex: Sagitta: 1d6 → 2d6) |
+| **Poder Devastador** | O efeito do núcleo (dano, cura, HP) é **TRIPLICADO** (ex: Sagitta: 1d6 → 3d6, Sano: 1d6+2 → 3d6+6) |
 
-> A proibição de modificadores em Misceo é proposital: força o jogador a ser **criativo com a combinação** em vez de empilhar mecânicas. A diversão está em descrever o que "Ignis Misceo Aqua Orbis" faz — e o Narrador dar vida a isso.
+> A proibição de modificadores em Misceo é absoluta: a fusão consome toda a concentração do mago. Em troca, o poder bruto é equivalente a uma magia de alto nível. Um "Ignis Misceo Aer Sagitta" não é apenas um raio de fogo, é uma mini-tempestade solar que perfura o alvo com **3d6 de dano**.
 
 ### Exemplos de Combinação
 
@@ -523,13 +523,21 @@ Personagens com **2 elementos de nascença** (ou que pagam custo extra) podem co
 | Ignis + Aqua | *"Ignis Misceo Aqua Scutum"* | Escudo de vapor escaldante |
 | Ordo + Perditio | *"Ordo Misceo Perditio Tactus"* | Toque do Paradoxo — extremamente instável |
 
-> ⚠️ Combinar **Ordo + Perditio** é considerado proibido pela maioria das ordens mágicas. O custo é **×3** ao invés de +3, e a falha crítica pode causar efeitos narrativos permanentes.
+> ⚠️ Combinar **Ordo + Perditio** (O Paradoxo) é proibido e letal. O custo é **+24** Sekhem (+8 × 3) e falha crítica resulta em obliteração narrativa ou morte.
+
+### O Efeito da Singularidade (Sucesso no Paradoxo)
+
+Quando um conjurador vence a CD altíssima (17+) de um feitiço de Paradoxo, ele toca a essência da criação e destruição.
+
+> **Nota para os Jogadores:** O resultado de um sucesso no Paradoxo é imprevisível, lendário e determinado inteiramente pelo Narrador em segredo. Prepare-se para algo que mudará o mundo — e o seu personagem — para sempre. O sucesso nunca vem sem um custo para a realidade.
 
 ### Por que Sem Modificadores?
 
 | Feitiço Normal | Custo | Feitiço Misceo | Custo |
 |----------------|-------|----------------|-------|
-| Ignis Sagitta Magnus Serpens | 1+1+2 = **4** | Ignis Misceo Aer Sagitta | 1+3+1 = **5** |
-| Resultado: bola de fogo grande que persegue | — | Resultado: raio flamejante (2d6 dano, sem mods) | — |
+| Ignis Sagitta Magnus Serpens | 1+2+1+2 = **6*** | Ignis Misceo Aer Sagitta | 1+2+8 = **11** |
+| Resultado: bola de fogo (1d6+1d4) que persegue | — | Resultado: raio solar (3d6 dano, sem mods) | — |
 
-> Custo similar, mas filosofias diferentes: **Normal = preciso e customizável**. **Misceo = poderoso e imprevisível**.
+*\*Custo corrigido considerando Sagitta(2) + mods fatoriais.*
+
+> Misceo é a escolha para quando você precisa de **poder bruto imediato** e tem Sekhem para queimar. É menos eficiente por ponto de Sekhem, mas muito mais rápido para causar dano massivo em um único turno.

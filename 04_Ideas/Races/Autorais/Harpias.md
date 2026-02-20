@@ -69,7 +69,7 @@ Harpias podem **voar**, mas voar consome energia:
 
 ## Afinidade Elemental (d100)
 
-- 💨 **Ar:** 41%
-- 💧 **Água:** 15%
-- 🔥 **Fogo:** 22%
+- 💨 **Aer:** 41%
+- 🔥 **Ignis:** 22%
 - 🪨 **Terra:** 22%
+- 💧 **Aqua:** 15%

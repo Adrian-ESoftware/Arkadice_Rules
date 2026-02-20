@@ -35,7 +35,7 @@ Possuem um ritual de passagem chamado **O Crisol**: caminhar sobre brasas vivas 
 Cinéreos possuem uma temperatura corporal altíssima.
 
 - São **Imunes a gases tóxicos/vulcânicos** (respiram fumaça sem problemas).
-- Possuem **Resistência a Fogo** (recebem metade do dano de fogo).
+- Possuem **Resistência a Ignis** (recebem metade do dano de fogo).
 - Em contrapartida, sofrem **Vulnerabilidade a Frio** (água gelada ou magia de gelo solidifica suas juntas, causando dor extrema e ×1.5 dano).
 
 ***
@@ -44,7 +44,7 @@ Cinéreos possuem uma temperatura corporal altíssima.
 
 | Bônus | Efeito |
 |-------|--------|
-| **🌋 Fúria Eruptiva** | 1x por descanso curto: Pode entrar em erupção como Ação Bônus. Por 1 minuto, seus ataques corpo a corpo causam **+1d4 dano de fogo** e quem te ataca (melee) recebe 1 de dano de fogo. |
+| **🌋 Fúria Eruptiva** | 1x por descanso curto: Pode entrar em erupção como Ação Bônus. Por 1 minuto, seus ataques corpo a corpo causam **+1d4 dano de Ignis** e quem te ataca (melee) recebe 1 de dano de fogo. |
 | **🌋 Pele de Obsidiana** | **+2 Corpo (Tenacidade).** Sua pele é dura como vidro vulcânico. Você tem +1 na CD de Defesa natural (acumula com armadura leve/média, mas não pesada). |
 
 ## Debuffs (escolha 1)
@@ -56,7 +56,7 @@ Cinéreos possuem uma temperatura corporal altíssima.
 
 ## Afinidade Elemental (d100)
 
-- 🔥 **Fogo:** 53%
+- 🔥 **Ignis:** 53%
 - 🪨 **Terra:** 29%
-- 💨 **Ar:** 15%
-- 💧 **Água:** 3%
+- 💨 **Aer:** 15%
+- 💧 **Aqua:** 3%

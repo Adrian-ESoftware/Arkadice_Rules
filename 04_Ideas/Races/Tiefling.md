@@ -30,7 +30,7 @@ Sobreviventes por natureza. Muitos abraçam a reputação sombria, outros lutam 
 
 | Bônus | Efeito |
 |-------|--------|
-| **💪 Sangue Infernal** | Resistência a Fogo: dano de fogo reduzido em 3 pontos (fixo). Não pode pegar fogo (imune a Queimadura) |
+| **💪 Sangue Infernal** | Resistência a Ignis: dano de fogo reduzido em 3 pontos (fixo). Não pode pegar fogo (imune a Queimadura) |
 | **🧠 Visão do Abismo** | Visão no escuro (20m) + pode sentir presença de magia num raio de 10m (sem identificar a escola) |
 
 ## Debuffs (escolha 1)
@@ -42,7 +42,7 @@ Sobreviventes por natureza. Muitos abraçam a reputação sombria, outros lutam 
 
 ## Afinidade Elemental (d100)
 
-- 🔥 **Fogo:** 35%
-- 💨 **Ar:** 30%
+- 🔥 **Ignis:** 35%
+- 💨 **Aer:** 30%
 - 🪨 **Terra:** 15%
-- 💧 **Água:** 10%
+- 💧 **Aqua:** 10%

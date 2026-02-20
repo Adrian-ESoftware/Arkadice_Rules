@@ -43,6 +43,6 @@ Artesãos, arqueiros, e estudiosos de Sekhem. Vistos como arrogantes por outras 
 ## Afinidade Elemental (d100)
 
 - 🪨 **Terra:** 48%
-- 💧 **Água:** 18%
-- 💨 **Ar:** 17%
-- 🔥 **Fogo:** 17%
+- 💧 **Aqua:** 18%
+- 💨 **Aer:** 17%
+- 🔥 **Ignis:** 17%
