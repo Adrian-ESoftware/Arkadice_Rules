@@ -134,3 +134,8 @@ markdown_extensions:
   - toc:
       permalink: "⚔"
       permalink_title: Link para esta seção
+
+plugins:
+  - search
+  - minify:
+      minify_html: true

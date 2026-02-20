@@ -1,0 +1,17 @@
+# MkDocs
+site/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Antigravity/Gemini
+.gemini/
+.agents/
+.agent/
+brain/

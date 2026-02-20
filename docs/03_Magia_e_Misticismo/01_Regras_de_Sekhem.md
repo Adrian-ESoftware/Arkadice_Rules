@@ -14,17 +14,17 @@ Todo Sekhem se manifesta através de um dos 6 elementos primordiais. São as for
 
 | Elemento | Domínio | Oposto |
 |----------|---------|--------|
-| **Ignis** | Fogo, calor, energia, destruição | Aqua |
-| **Aqua** | Água, frio, fluxo, cura | Ignis |
-| **Terra** | Terra, gravidade, solidez, proteção | Aer |
-| **Aer** | Ar, velocidade, som, leveza | Terra |
+| ![Ignis](../icons/ignes512.svg){ width="20" .element-icon } **Ignis** | Fogo, calor, energia, destruição | Aqua |
+| ![Aqua](../icons/aqua512.svg){ width="20" .element-icon } **Aqua** | Água, frio, fluxo, cura | Ignis |
+| ![Terra](../icons/terra512.svg){ width="20" .element-icon } **Terra** | Terra, gravidade, solidez, proteção | Aer |
+| ![Aer](../icons/air512.svg){ width="20" .element-icon } **Aer** | Ar, velocidade, som, leveza | Terra |
 
 Elementos puro e corrompido:
 
 | Elemento | Domínio | Oposto |
 |----------|---------|--------|
-| **Ordo** | Ordem, luz, estabilidade, criação | Perditio |
-| **Perditio** | Entropia, trevas, caos, dissolução | Ordo |
+| ![Ordo](../icons/ordo512.svg){ width="20" .element-icon } **Ordo** | Ordem, luz, estabilidade, criação | Perditio |
+| ![Perditio](../icons/perditio512.svg){ width="20" .element-icon .element-icon-perditio } **Perditio** | Entropia, trevas, caos, dissolução | Ordo |
 
 ### Elemento de Nascença
 
@@ -56,12 +56,12 @@ A primeira palavra define **de que é feito** o feitiço. É uma das 6 palavras 
 
 | Palavra | Elemento | O que gera |
 |---------|----------|------------|
-| **Ignis** | Fogo | Chamas, calor, explosões |
-| **Aqua** | Água | Gelo, vapor, correnteza, cura |
-| **Terra** | Terra | Rocha, metal, gravidade, barreiras |
-| **Aer** | Ar | Vento, som, relâmpago, velocidade |
-| **Ordo** | Ordem | Luz, escudos, purificação, vínculo |
-| **Perditio** | Entropia | Sombras, decadência, veneno, dispersão |
+| ![Ignis](../icons/ignes512.svg){ width="20" .element-icon } **Ignis** | Fogo | Chamas, calor, explosões |
+| ![Aqua](../icons/aqua512.svg){ width="20" .element-icon } **Aqua** | Água | Gelo, vapor, correnteza, cura |
+| ![Terra](../icons/terra512.svg){ width="20" .element-icon } **Terra** | Terra | Rocha, metal, gravidade, barreiras |
+| ![Aer](../icons/air512.svg){ width="20" .element-icon } **Aer** | Ar | Vento, som, relâmpago, velocidade |
+| ![Ordo](../icons/ordo512.svg){ width="20" .element-icon } **Ordo** | Ordem | Luz, escudos, purificação, vínculo |
+| ![Perditio](../icons/perditio512.svg){ width="20" .element-icon .element-icon-perditio } **Perditio** | Entropia | Sombras, decadência, veneno, dispersão |
 
 ***
 

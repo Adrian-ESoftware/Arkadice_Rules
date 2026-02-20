@@ -385,3 +385,14 @@ body {
     background-color: rgba(201, 162, 39, 0.3);
     color: #ffffff;
 }
+
+/* ── Element Icons Helper ── */
+.element-icon {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* Fix visibility for Perditio (Black icon) in Dark Mode */
+[data-md-color-scheme="slate"] .element-icon-perditio {
+    filter: invert(0.9) brightness(1.2);
+}

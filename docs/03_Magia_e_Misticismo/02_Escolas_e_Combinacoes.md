@@ -12,7 +12,7 @@
 
 Cada elemento é muito mais versátil do que parece. O jogador pode usar **Palavras de Poder** específicas para definir a manifestação exata do elemento. Mecanicamente custam a mesma coisa (1 Sekhem), mas definem o efeito narrativo e físico.
 
-### 🔥 Ignis (Fogo)
+### ![Ignis](../icons/ignes512.svg){ width="40" .element-icon } Ignis (Fogo)
 
 | Manifestação | Palavra de Poder | Exemplos de Uso |
 |-------------|------------------|-----------------|
@@ -25,7 +25,7 @@ Cada elemento é muito mais versátil do que parece. O jogador pode usar **Palav
 
 > Ignis **não pode**: congelar, curar (só cauterizar), criar escuridão, criar coisas sólidas duráveis.
 
-### 💧 Aqua (Água)
+### ![Aqua](../icons/aqua512.svg){ width="40" .element-icon } Aqua (Água)
 
 | Manifestação | Palavra de Poder | Exemplos de Uso |
 |-------------|------------------|-----------------|
@@ -38,7 +38,7 @@ Cada elemento é muito mais versátil do que parece. O jogador pode usar **Palav
 
 > Aqua **não pode**: queimar (exceto vapor), criar coisas permanentes, manipular sombras, controlar mentes.
 
-### 🪨 Terra (Terra)
+### ![Terra](../icons/terra512.svg){ width="40" .element-icon } Terra (Terra)
 
 | Manifestação | Palavra de Poder | Exemplos de Uso |
 |-------------|------------------|-----------------|
@@ -51,7 +51,7 @@ Cada elemento é muito mais versátil do que parece. O jogador pode usar **Palav
 
 > Terra **não pode**: voar indefinidamente, curar tecido vivo, criar ilusões, manipular emoções.
 
-### 💨 Aer (Ar)
+### ![Aer](../icons/air512.svg){ width="40" .element-icon } Aer (Ar)
 
 | Manifestação | Palavra de Poder | Exemplos de Uso |
 |-------------|------------------|-----------------|
@@ -64,7 +64,7 @@ Cada elemento é muito mais versátil do que parece. O jogador pode usar **Palav
 
 > Aer **não pode**: criar coisas sólidas permanentes, curar feridas, criar escuridão, manipular terra diretamente.
 
-### ✨ Ordo (Ordem)
+### ![Ordo](../icons/ordo512.svg){ width="40" .element-icon } Ordo (Ordem)
 
 | Manifestação | Palavra de Poder | Exemplos de Uso |
 |-------------|------------------|-----------------|
@@ -77,7 +77,7 @@ Cada elemento é muito mais versátil do que parece. O jogador pode usar **Palav
 
 > Ordo **não pode**: causar dano massivo (é mais defensivo), criar ilusões, corromper, drenar vida.
 
-### 💀 Perditio (Entropia)
+### ![Perditio](../icons/perditio512.svg){ width="40" .element-icon .element-icon-perditio } Perditio (Entropia)
 
 | Manifestação | Palavra de Poder | Exemplos de Uso |
 |-------------|------------------|-----------------|
