@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root {
+    /* Magical Fonts */
+    --md-text-font: "Lora", serif;
+    /* Changed back to Lora for better reading contrast */
+    --md-typeset-font: "Cinzel Decorative", serif;
+
+    /* Primary Colors overridden to deep medieval tones */
+    --md-primary-fg-color: #0c0910 !important;
+    --md-accent-fg-color: #d4af37 !important;
+    /* Gold */
+}
+
+/* Base styling for Slate (Dark Mode) */
+[data-md-color-scheme="slate"] {
+    --md-code-bg-color: #000000;
+    --md-default-bg-color: #1a1620;
+    /* Lighter background so text pops */
+    --md-default-fg-color: #e8e2ef;
+    /* Much brighter text */
+    --md-default-fg-color--light: #c2bac9;
+    --md-default-fg-color--lighter: #9e95a8;
+}
+
+/* Background texture for the whole site */
+body {
+    background-color: #1a1620;
+    background-image: radial-gradient(circle at top center, #231b30 0%, #15101a 100%);
+    background-attachment: fixed;
+}
+
+/* Header (Top Bar) Styling */
+.md-header {
+    background: linear-gradient(to right, #09070a, #1f142b 50%, #09070a) !important;
+    border-bottom: 2px solid #d4af37;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
+}
+
+.md-header__title {
+    font-family: var(--md-typeset-font) !important;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
+    letter-spacing: 2px;
+    color: #d4af37 !important;
+}
+
+/* Sidebar (Navigation) */
+.md-nav {
+    font-family: "Cinzel Decorative", serif;
+    color: #c2bac9;
+    /* Brighter inactive links */
+    font-size: 0.85rem;
+}
+
+.md-nav__link--active {
+    color: #d4af37 !important;
+    text-shadow: 0 0 5px rgba(212, 175, 55, 0.4);
+    font-weight: bold;
+}
+
+.md-nav__title {
+    color: #e8e2ef !important;
+    /* Fix white box issue */
+    background: transparent !important;
+    /* Fix white box issue */
+    font-weight: bold;
+}
+
+/* Content Headings (H1, H2, etc.) */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+    font-family: var(--md-typeset-font) !important;
+    color: #d4af37 !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+    padding-bottom: 0.2em;
+    margin-top: 1.5em;
+    background: transparent !important;
+    /* Remove white box */
+}
+
+.md-typeset h1 {
+    font-weight: 900;
+    font-size: 2.5em;
+    text-align: center;
+    border-bottom: 2px solid #d4af37;
+    color: #e8cca7 !important;
+    /* Brighter gold for main title */
+}
+
+.md-typeset h2 {
+    border-left: 3px solid #d4af37;
+    padding-left: 10px;
+}
+
+/* Main Text Adjustments */
+.md-typeset p,
+.md-typeset li {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    /* More spacing */
+    color: #e8e2ef;
+    /* Forced to very bright grey/white */
+    font-weight: 400;
+}
+
+/* Custom Scrollbar for medieval feel */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0c0910;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5c4e2e;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #d4af37;
+}
+
+/* Statblocks and Tables */
+.md-typeset table {
+    background-color: #15101a;
+    border: 1px solid #d4af37;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+.md-typeset table th {
+    background-color: #231b30;
+    color: #d4af37;
+    font-family: var(--md-typeset-font);
+    font-size: 1.1em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #d4af37;
+}
+
+.md-typeset table tr:nth-child(even) {
+    background-color: rgba(212, 175, 55, 0.03);
+}
+
+.md-typeset table td {
+    border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+    color: #e8e2ef;
+}
+
+/* Links */
+.md-typeset a {
+    color: #e5c158;
+    /* Brighter default link */
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.md-typeset a:hover {
+    color: #fff2b2;
+    text-shadow: 0 0 8px rgba(241, 196, 15, 0.6);
+}
+
+/* Admonitions (Blocks of text for rules) */
+.md-typeset .admonition,
+.md-typeset details {
+    border-radius: 4px;
+    border-left: 4px solid #d4af37;
+    background: rgba(212, 175, 55, 0.05);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    color: #e8e2ef;
+}
+
+.md-typeset .admonition-title {
+    font-family: var(--md-typeset-font);
+    color: #e8cca7 !important;
+    background-color: rgba(212, 175, 55, 0.1) !important;
+}
