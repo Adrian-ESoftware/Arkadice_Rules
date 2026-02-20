@@ -45,3 +45,10 @@ Sua cultura gira em torno da **Caçada**. Toda refeição é um ritual de agrade
 |--------|--------|
 | **⚠️ Metabolismo Acelerado** | Você queima energia muito rápido. Precisa comer o dobro de uma raça normal. Se ficar 1 dia sem comer carne, sofre **Fadiga** (desvantagem em Físico/Corpo). |
 | **⚠️ Sentidos Hipersensíveis** | Seus ouvidos e olfato são apurados demais. Você tem **Vulnerabilidade a Dano Trovão/Sônico** e sofre desvantagem em testes para resistir a náusea por cheiros fortes. |
+
+## Afinidade Elemental (d100)
+
+- 🪨 **Terra:** 36%
+- 💨 **Ar:** 29%
+- 💧 **Água:** 20%
+- 🔥 **Fogo:** 15%

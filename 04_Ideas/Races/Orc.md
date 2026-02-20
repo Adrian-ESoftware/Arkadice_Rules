@@ -39,3 +39,10 @@ Guerreiros, caçadores, e xamãs. Valorizam ação sobre palavras. Rituais de co
 |--------|--------|
 | **🧠 Sangue Quente** | Desvantagem em testes de Mente (Razão) quando provocado ou insultado. Precisa rolar d20 vs CD 10 para não retaliar |
 | **🗣️ Pária Social** | Desvantagem em testes de Presença (Liderança) em cidades civilizadas. NPCs iniciam com atitude hostil ou desconfiada |
+
+## Afinidade Elemental (d100)
+
+- 🪨 **Terra:** 35%
+- 🔥 **Fogo:** 30%
+- 💨 **Ar:** 20%
+- 💧 **Água:** 15%

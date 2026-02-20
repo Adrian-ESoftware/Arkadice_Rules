@@ -53,3 +53,10 @@ Cinéreos possuem uma temperatura corporal altíssima.
 |--------|--------|
 | **⚠️ Pavio Curto** | **-2 Mente (Instinto).** É difícil controlar suas emoções. Desvantagem em testes para manter a calma, evitar provocações ou resistir a frenesi. |
 | **⚠️ Densidade Rochosa** | **-2 Agilidade.** Você é pesado e afunda na água. Não sabe nadar (afunda como pedra) e tem desvantagem em testes de Acrobacia ou Furtividade (suas juntas estalam). |
+
+## Afinidade Elemental (d100)
+
+- 🔥 **Fogo:** 53%
+- 🪨 **Terra:** 29%
+- 💨 **Ar:** 15%
+- 💧 **Água:** 3%

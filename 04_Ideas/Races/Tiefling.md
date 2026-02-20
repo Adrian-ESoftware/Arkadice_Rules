@@ -39,3 +39,10 @@ Sobreviventes por natureza. Muitos abraçam a reputação sombria, outros lutam 
 |--------|--------|
 | **⚠️ Marca do Pacto** | Magias de cura divina (Aqua Pura) têm efeito reduzido em 50% no Tiefling. Água benta causa 1d4 de dano |
 | **🗣️ Estigma** | Desvantagem em testes de Presença (Liderança) com NPCs religiosos ou supersticiosos. Templos podem recusar entrada |
+
+## Afinidade Elemental (d100)
+
+- 🔥 **Fogo:** 35%
+- 💨 **Ar:** 30%
+- 🪨 **Terra:** 15%
+- 💧 **Água:** 10%

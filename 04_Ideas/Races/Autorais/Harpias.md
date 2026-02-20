@@ -66,3 +66,10 @@ Harpias podem **voar**, mas voar consome energia:
 |--------|--------|
 | **⚠️ Ossos Ocos** | Dano de **impacto/físico** (martelos, quedas, Terra) causa **+1 dano extra**. Frágil contra pancadas |
 | **⚠️ Orgulho Alado** | Se ficar **Prone** (derrubado) ou **Grappled** (agarrado), sofre **desvantagem** em todos os testes até se libertar. O pânico de estar preso no chão é instintivo |
+
+## Afinidade Elemental (d100)
+
+- 💨 **Ar:** 41%
+- 💧 **Água:** 15%
+- 🔥 **Fogo:** 22%
+- 🪨 **Terra:** 22%

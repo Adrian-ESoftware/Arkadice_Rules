@@ -39,3 +39,10 @@ A cultura goblin é baseada em sobrevivência, pilhagem e oportunidade: emboscad
 |--------|--------|
 | **⚠️ Presença (Liderança) −1** | sua fama de praga e comportamento errático afastam aliados; você recebe −1 em Presença no polo de Liderança, ficando pior em diplomacia, persuasão e em inspirar outros em situações cooperativas. |
 | **⚠️ Corpo (Tenacidade) −1** | seu corpo é franzino e pouco resistente; você recebe −1 em Corpo na direção de Tenacidade, tendo mais dificuldade para aguentar dano prolongado, doenças e efeitos debilitantes. |
+
+## Afinidade Elemental (d100)
+
+- 🪨 **Terra:** 38%
+- 💨 **Ar:** 29%
+- 🔥 **Fogo:** 17%
+- 💧 **Água:** 16%

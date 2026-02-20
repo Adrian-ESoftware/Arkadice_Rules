@@ -39,3 +39,10 @@ Adaptáveis como humanos, observadores como elfos. Tendem a ser mediadores e tra
 |--------|--------|
 | **⚠️ Identidade Dividida** | Não pode ter proficiência Lendária (cap em Mestre). Jack of all trades, master of none |
 | **⚠️ Sangue Instável** | Quando recebe cura mágica, rola 1d4: em resultado 1, a cura é reduzida pela metade (herança conflitante) |
+
+## Afinidade Elemental (d100)
+
+- 💧 **Água:** 25%
+- 💨 **Ar:** 25%
+- 🪨 **Terra:** 25%
+- 🔥 **Fogo:** 25%

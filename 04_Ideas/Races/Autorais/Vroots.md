@@ -60,3 +60,10 @@ Todo Vroot tem **Vulnerabilidade a Fogo** (dano ×1.5) por natureza. Além disso
 |--------|--------|
 | **⚠️ Mente de Ent** | **-2 Mente (Razão).** Seu pensamento é lento. Você tem desvantagem em Iniciativa e em testes de Inteligência para recordar fatos rápidos. |
 | **⚠️ Língua de Madeira** | **-2 Presença.** Falar Língua Comum é doloroso e difícil. Você fala pouco, devagar e com sotaque pesado. Desvantagem em Persuasão/Enganação verbal. |
+
+## Afinidade Elemental (d100)
+
+- 🪨 **Terra:** 48%
+- 💧 **Água:** 18%
+- 💨 **Ar:** 13%
+- 🔥 **Fogo:** 11%

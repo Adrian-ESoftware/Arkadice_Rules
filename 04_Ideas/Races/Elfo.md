@@ -39,3 +39,10 @@ Artesãos, arqueiros, e estudiosos de Sekhem. Vistos como arrogantes por outras 
 |--------|--------|
 | **💪 Corpo Frágil** | PV base usa d4 ao invés de d6 para o dado de Corpo. -2 PV máx na criação |
 | **🗣️ Arrogância Ancestral** | Desvantagem (rola 2d20, pega menor) em testes de Presença com raças "menores" (humanos, halflings) até ganhar confiança narrativa |
+
+## Afinidade Elemental (d100)
+
+- 🪨 **Terra:** 48%
+- 💧 **Água:** 18%
+- 💨 **Ar:** 17%
+- 🔥 **Fogo:** 17%

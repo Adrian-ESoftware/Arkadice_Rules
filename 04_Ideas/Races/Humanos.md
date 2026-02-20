@@ -39,3 +39,10 @@ Diplomatas, mercadores, soldados, e aventureiros. Não há um estereótipo — c
 |--------|--------|
 | **⚠️ Vida Curta** | Não pode ter Tenacidade +5 (máximo +4). Envelhece mais rápido |
 | **⚠️ Sem Afinidade** | Magia custam +1 Sekhem extra (sem conexão natural) |
+
+## Afinidade Elemental (d100)
+
+- 💧 **Água:** 30%
+- 🔥 **Fogo:** 30%
+- 🪨 **Terra:** 25%
+- 💨 **Ar:** 15%

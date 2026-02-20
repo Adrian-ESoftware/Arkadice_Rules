@@ -51,3 +51,10 @@ Opções de Debuff
 (I) -2 em Linhagem (Corrompida)
 
 (II) -2 em Mente (Instinto)
+
+## Afinidade Elemental (d100)
+
+- 💧 **Água:** 25%
+- 🔥 **Fogo:** 25%
+- 🪨 **Terra:** 25%
+- 💨 **Ar:** 25%

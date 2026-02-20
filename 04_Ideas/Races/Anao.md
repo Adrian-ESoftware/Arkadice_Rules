@@ -39,3 +39,10 @@ Ferreiros, mineradores, e engenheiros. Mestres em metalurgia e construção. Des
 |--------|--------|
 | **💪 Pernas Curtas** | Velocidade 5m (já inclusa). Não pode usar Esquiva acima de 40% (max cap reduzido) |
 | **⚠️ Aversão Arcana** | Custos de magia +2 Sekhem extra por feitiço |
+
+## Afinidade Elemental (d100)
+
+- 🪨 **Terra:** 48%
+- 🔥 **Fogo:** 18%
+- 💧 **Água:** 13%
+- 💨 **Ar:** 13%
