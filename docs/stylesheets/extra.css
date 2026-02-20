@@ -32,6 +32,18 @@
 
     --md-primary-fg-color: #1a1a1a !important;
     --md-accent-fg-color: var(--gold) !important;
+
+    /* Expansão agressiva da largura do conteúdo */
+    --md-grid-width: 80% !important;
+}
+
+/* Forçar largura máxima do grid e do conteúdo central */
+.md-grid {
+    max-width: 80% !important;
+}
+
+.md-main__inner {
+    max-width: 80% !important;
 }
 
 /* ── Slate Scheme Overrides ────────────────────────────────── */
@@ -253,7 +265,10 @@ body {
     font-size: 0.85em;
     letter-spacing: 0.8px;
     border-bottom: 1px solid var(--gold);
-    padding: 0.65em 1em;
+    padding: 0.8em 1.2em;
+    vertical-align: middle !important;
+    text-align: center;
+    /* Cabeçalhos centralizados por padrão */
 }
 
 .md-typeset table tr:nth-child(even) {
@@ -267,8 +282,17 @@ body {
 .md-typeset table td {
     border-bottom: 1px solid var(--border-dim);
     color: var(--fg-primary);
-    padding: 0.55em 1em;
+    padding: 0.8em 1.2em;
     font-size: 0.95rem;
+    vertical-align: middle !important;
+    /* Forçar alinhamento vertical central */
+}
+
+/* Centralizar colunas curtas (como valores, porcentagens, ícones simples) */
+.md-typeset table td:first-child,
+.md-typeset table td:nth-child(2),
+.md-typeset table td:nth-child(4) {
+    text-align: center;
 }
 
 /* ── Admonitions ───────────────────────────────────────────── */
@@ -390,6 +414,13 @@ body {
 .element-icon {
     vertical-align: middle;
     display: inline-block;
+    height: 1.15em !important;
+    /* Proporcional à altura da linha do texto */
+    width: auto !important;
+    /* Mantém a proporção original do ícone */
+    margin-top: -0.15em;
+    /* Ajuste fino para alinhar ao centro da linha */
+    margin-right: 0.1em;
 }
 
 /* Fix visibility for Perditio (Black icon) in Dark Mode */
