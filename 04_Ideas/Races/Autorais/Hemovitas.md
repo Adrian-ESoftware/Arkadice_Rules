@@ -18,7 +18,7 @@ Alquimistas mestres em poções sanguíneas e negociantes noturnos astutos. Disp
 
 ## Velocidade Base
 
-6m (+1m em penumbra)
+4m (+5m em penumbra)
 
 ## Sekhem Base
 
