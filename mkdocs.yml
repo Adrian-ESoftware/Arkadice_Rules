@@ -8,7 +8,7 @@ site_dir: site
 theme:
   name: material
   language: pt-BR
-  custom_dir: overrides          # para templates Jinja2 futuros (opcional)
+#   custom_dir: overrides          # para templates Jinja2 futuros (opcional)
   
   palette:
     scheme: slate
