@@ -138,6 +138,22 @@ body {
     padding-left: 6px;
 }
 
+/* ── Secções de Navegação (Categorias) ────────────────────── */
+.md-nav__item--section>.md-nav__link {
+    color: var(--gold) !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-size: 0.82rem;
+    margin-top: 0.8em;
+    padding-top: 0.5em;
+    opacity: 1 !important;
+}
+
+.md-nav__item--section {
+    margin-top: 0.5em;
+}
+
 /* ── Tipografia Principal ──────────────────────────────────── */
 
 /* Decorador dourado antes de H1 */
