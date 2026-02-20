@@ -1,58 +1,48 @@
-# Hemovita
+# 🧛 Hemovita
 
-## Aparência
-
-Pele pálida quase translúcida, com veias visíveis pulsando fracamente. Olhos luminescentes em tons de vermelho, violeta ou prata. Presas retráteis e unhas afiadas. Corpo esguio e elegante (1.60m-1.90m). Vivem até 500 anos.
-
-## Sociedade
-
-Organizados em Círculos de Sangue subterrâneos, com hierarquia baseada na pureza da vitae. São temidos e fascinados por sua dualidade sombria — não são mortos-vivos, mas seres amaldiçoados a extrair vitae (essência vital) para sobreviver.
-
-## Cultura
-
-Alquimistas mestres em poções sanguíneas e negociantes noturnos astutos. Disputas internas por linhagens puras fomentam intrigas e rituais de ascensão. Apelidados "vampiros" por raças temerosas da superfície.
-
-## PV Base
-
-8
-
-## Velocidade Base
-
-4m (+5m em penumbra)
-
-## Sekhem Base
-
-1d6+10 (11-16)
+*"A vida é uma chama que precisa de combustível. Nós apenas escolhemos um combustível que pulsa nas veias dos outros."*
 
 ***
 
-## Bônus (escolha 1)
+## 📊 Ficha Técnica (Hemovita)
 
-| Bônus | Efeito |
-|-------|--------|
-| **💪 Mordida Vital** | 1x por combate: ataque corpo a corpo especial que drena 1d4 PV do alvo e cura o Hemovita pelo mesmo valor |
-| **💪 Regeneração Sombria** | Em penumbra ou escuridão, recupera +1 PV extra por descanso curto. Vantagem em saves contra Veneno |
+| ATRIBUTO | VALOR | AFINIDADE | CHANCE |
+| :--- | :---: | :---: | :---: |
+| **PV Base** | 8 | 💧 Aqua | 25% |
+| **Velocidade** | 4m / 5m* | 🔥 Ignis | 25% |
+| **Sekhem Base** | 11 - 16 | 🪨 Terra | 25% |
+| **Dado Sekhem** | 1d6+10 | 💨 Aer | 25% |
 
-## Debuffs (escolha 1)
+*\*Aumenta para 5m em penumbra ou escuridão.*
 
-| Debuff | Efeito |
-|--------|--------|
-| **⚠️ Fome de Vitae** | Precisa se alimentar de vitae a cada 24h. Sem vitae: -1 em todos os testes por dia de fome (acumula) |
-| **⚠️ Sensibilidade Solar** | Sob sol pleno: desvantagem em testes de Corpo e não regenera PV naturalmente. Sem dano, apenas penalidade |
+***
 
-Opções de Bônus
-(A) +2 em Presença (Liderança)
+## 📜 Tradição e Fisiologia
 
-(B) +2 em Corpo (Tenacidade)
+### 👤 Aparência
 
-Opções de Debuff
-(I) -2 em Linhagem (Corrompida)
+Possuem uma pele pálida, quase translúcida, onde as veias podem ser vistas pulsando debilmente. Seus olhos são luminescentes em tons de vermelho, prata ou violeta. Têm corpos elegantes e esguios, presas retráteis e unhas que podem ser afiadas como garras se necessário.
 
-(II) -2 em Mente (Instinto)
+### 🏛️ Sociedade
 
-## Afinidade Elemental (d100)
+Organizam-se em **Círculos de Sangue** subterrâneos ou em cortes isoladas. Sua hierarquia é baseada inteiramente na pureza da *vitae* que corre em seu sangue. São temidos e muitas vezes chamados de "vampiros" pelas raças da superfície devido à sua necessidade de consumir essência vital.
 
-- 💧 **Aqua:** 25%
-- 🔥 **Ignis:** 25%
-- 🪨 **Terra:** 25%
-- 💨 **Aer:** 25%
+### ⚒️ Cultura
+
+Mestres alquimistas e negociantes da noite. São fascinados por linhagens e rituais de ascensão. Diferente de mortos-vivos, os Hemovitas são seres vivos amaldiçoados, o que gera uma cultura de isolamento e melancolia, mas também de uma busca incessante por poder e refinamento.
+
+***
+
+!!! success "Dádivas Raciais (Bônus)"
+    **Escolha uma das opções abaixo durante a criação do personagem:**
+
+    *   **🩸 Mordida Vital**: 1x por combate, pode realizar um ataque corpo a corpo especial que drena **1d4 PV** do alvo e cura o Hemovita pelo mesmo valor.
+    *   **🌑 Regeneração Sombria**: Quando estiver em penumbra ou escuridão, recupera +1 PV extra em descansos curtos e possui vantagem em testes contra Veneno.
+    *   **✨ Linhagem Nobre**: Recebe **+2 em Presença (Liderança)** ou **+2 em Corpo (Tenacidade)**.
+
+!!! failure "Limitações (Debuffs)"
+    **Escolha uma das opções abaixo para equilibrar sua linhagem:**
+
+    *   **⚠️ Fome de Vitae**: Precisa se alimentar de essência vital a cada 24 horas. Para cada dia de fome, sofre uma penalidade cumulativa de **-1 em todos os testes**.
+    *   **☀️ Sensibilidade Solar**: Sob sol pleno, você sofre desvantagem em testes de Corpo e não consegue regenerar PV naturalmente.
+    *   **🩸 Corrupção de Sangue**: Recebe **-2 em Linhagem (Corrompida)** ou **-2 em Mente (Instinto)**.

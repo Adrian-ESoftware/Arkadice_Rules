@@ -1,72 +1,36 @@
-# 😨 Debuff: Medo
+# 😨 Condição: Medo
 
-> O Medo representa o pavor visceral que paralisa heróis diante de horrores sobrenaturais, criaturas aterrorizantes ou traumas pessoais. Pode ser ativado por um gatilho específico ou geral. O narrador rola ou decide a intensidade baseada no contexto: **fraco** para sustos leves, **médio** para confrontos diretos e **difícil** para abominações. Dura `1d4` rodadas ou até o fim do encontro, com testes de resistência.
-
-**Chance de Aplicação:** Presença Tirania do inimigo × 5% (ex: Tirania -4 = **20%** de aplicar Medo Nível 1). Criaturas sobrenaturais: **30%** base. Magias de Perditio com componente de terror: **25%**. Traumas pessoais do personagem: **+15%** à chance.
+> O pavor visceral que paralisa heróis diante de horrores sobrenaturais, criaturas aterrorizantes ou traumas pessoais profundos.
 
 ---
 
-## Níveis de Medo
+## 📊 Níveis de Medo
 
-### 🟡 Fraco — Nível 1
-
-*Um calafrio incômodo. O personagem hesita, mas reage.*
-
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | `-3` em testes de Percepção ou Surpresa |
-| **Narrativa** | Tremores nas mãos, voz falha |
-| **Resistência** | Teste fácil `CD 10` |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Remove o debuff
-- ❌ **Falha** → Mantém Nível 1
-- 💀 **Falha Crítica** → Sobe para Nível 2
+| NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
+| :--- | :--- | :--- |
+| **🟡 Nv 1** | *Hesitação* | -3 em testes de Percepção ou Surpresa; Mãos trêmulas. |
+| **🟠 Nv 2** | *Pânico* | -5 em ataques e habilidades; Velocidade 3/4; Não pode se aproximar da fonte. |
+| **🔴 Nv 3** | *Terror* | **Perde 1 ação** por turno; **1d4 dano psíquico/turno**. |
 
 ---
 
-### 🟠 Médio — Nível 2
+## 🎲 Resistência e Progressão
 
-*Pânico crescente. O medo domina os sentidos.*
-
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | `-5` em ataques e testes de habilidade; movimento reduzido em `1/4` |
-| **Restrição** | Não pode se aproximar voluntariamente da fonte do medo |
-| **Limite** | Mínimo `1` em rolagens |
-| **Narrativa** | Suor frio, gritos abafados |
-| **Resistência** | Teste médio `CD 13` |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Reduz para Nível 1
-- 🌟 **Sucesso Crítico** → Remove completamente
-- ❌ **Falha** → Mantém Nível 2
-- 💀 **Falha Crítica** → Sobe para Nível 3
+| RESULTADO | CONSEQÜÊNCIA |
+| :--- | :--- |
+| **✅ Sucesso** | Reduz 1 Nível de Medo. |
+| **🌟 Suc. Crítico** | Remove a condição completamente. |
+| **❌ Falha** | Mantém o nível atual. |
+| **💀 Fal. Crítica** | Sobe 1 nível; (No Nv 3 = Estende duração por +1d4 rodadas). |
 
 ---
 
-### 🔴 Difícil — Nível 3
+## 💊 Recuperação e Notas
 
-*Terror absoluto. A mente fraqueja temporariamente.*
+!!! tip "Cura e Alívio"
+    - **Incentivo Aliado:** Um aliado adjacente pode usar uma ação bônus para encorajar o alvo (+5 no próximo teste).
+    - **Itens Calmantes:** Elixires ou roleplay forte podem remover 1 nível instantaneamente.
+    - **Gatilhos:** Traumas pessoais aumentam a dificuldade (CD) da resistência em +3.
 
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | Perde `1 ação` por turno (ação ou movimento); dano psíquico `1d4` |
-| **Narrativa** | Berros incoerentes, visões distorcidas |
-| **Resistência** | Teste difícil `CD 15` |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Reduz para Nível 2
-- 🌟 **Sucesso Crítico** → Reduz para Nível 1
-- ❌ **Falha** → Mantém Nível 3 (+1 rodada)
-- 💀 **Falha Crítica** → Estende `+1d4` rodadas
-
----
-
-## 💊 Recuperação e Variações
-
-- **Cura Rápida:** Aliado adjacente concede `+5` no teste de resistência (ação bônus). Itens calmantes ou roleplay forte remove **1 nível** instantaneamente.
-- **Gatilho Específico:** `+1` nível máximo para medos pessoais (`+3` na CD de ativação).
+!!! info "Presença Tirânica"
+    O medo é frequentemente aplicado por criaturas com alta Presença (Tirania). Quanto maior o nível de Tirania do inimigo, maior a chance base de aplicação (.Ex: Tirania -4 = 20%).

@@ -1,69 +1,59 @@
-# Vroots
+# 🌳 Vroots
 
-## "Os Pastores de Clorofila"
-
-Também chamados de *Troncos*, *Andarilhos Verdes* ou *Vozes da Seiva*.
-
-## Aparência
-
-Corpos compostos por camadas de madeira viva, fibras de cipó e placas de casca grossa que funcionam como armadura natural. Ramos e pequenas flores brotam de seus ombros, mudando com a saúde e a estação. Seus olhos brilham como âmbar líquido. Altura massiva, variando de 2,0m a 2,8m. Não possuem órgãos internos convencionais; seu "sangue" é uma seiva espessa e aromática.
-
-## Sociedade
-
-Os Vroots não nascem; eles brotam de "Sementes de Alma" plantadas em solo sagrado após a morte de um ancião. Vivem em **Bosques Silenciosos**, comunidades onde a comunicação é feita através de raízes subterrâneas e feromônios, tornando-os naturalmente estoicos e calados para forasteiros. Valorizam a paciência geológica — para um Vroot, uma decisão tomada em apenas um dia é considerada precipitada.
-
-## Cultura
-
-São os guardiões literais da biomas inteiros. Acreditam que o Sekhem é apenas "Luz Solar Líquida". Sua língua, o *Silvestre*, soa como madeira rangendo e vento em folhas, difícil de ser reproduzida por gargantas de carne. Ao final de suas vidas milenares, eles param de se mover e enraízam, tornando-se árvores sencientes que guardam a história do mundo.
-
-## PV Base
-
-12 (A madeira é dura e tolerante a danos)
-
-## Velocidade Base
-
-6m
-
-## Sekhem Base
-
-1d6+8 (9-14)
+*"A paciência é a raiz de toda sabedoria. Nós não corremos com o tempo; nós crescemos com ele."*
 
 ***
 
-## Característica Especial: Ciclo das Estações
+## 📊 Ficha Técnica (Vroots)
 
-A fisiologia do Vroot reage ao ambiente. Ao final de cada Descanso Longo, o Vroot se adapta ao clima local ou à estação vigente:
+| ATRIBUTO | VALOR | AFINIDADE | CHANCE |
+| :--- | :---: | :---: | :---: |
+| **PV Base** | 12 | 🪨 Terra | 48% |
+| **Velocidade** | 6m | 💧 Aqua | 18% |
+| **Sekhem Base** | 9 - 14 | 💨 Aer | 13% |
+| **Dado Sekhem** | 1d6+8 | 🔥 Ignis | 11% |
+
+***
+
+## 📜 Tradição e Fisiologia
+
+### 👤 Aparência
+
+Gigantes de madeira viva, fibras de cipó e cascas grossas que agem como armaduras naturais. Podem medir entre 2,0m e 2,8m de altura. Flores e ramos brotam de seus corpos de acordo com a estação e o estado de saúde. Seu "sangue" é uma seiva aromática e espessa.
+
+### 🏛️ Sociedade
+
+Não nascem, mas brotam de **Sementes de Alma** plantadas em solo sagrado. Vivem em **Bosques Silenciosos**, onde a comunicação é feita silenciosamente por feromônios e conexões de raízes subterrâneas. Valorizam a paciência geológica e evitam decisões apressadas.
+
+### ⚒️ Cultura
+
+São os guardiões literais dos biomas de Arkadice. Acreditam que o Sekhem é luz solar líquida. Ao final de suas longas vidas, enraízam permanentemente e tornam-se árvores sencientes que guardam a história das eras passada para as futuras gerações.
+
+***
+
+## 🍂 Ciclo das Estações (Característica Especial)
+
+A fisiologia do Vroot reage ao ambiente. Ao final de cada Descanso Longo, o Vroot se adapta ao ciclo metabólico atual:
 
 | Estação / Clima | Efeito |
-|-----------------|--------|
-| **Sol / Verão** | **Vigor:** Ganha +2 em testes de **Força/Físico** (mas exige o dobro de água). |
-| **Chuva / Primavera** | **Broto:** Recupera **1d4 PV extra** em todo descanso curto. |
-| **Frio / Inverno** | **Casca Dura:** Ganha **+1 na CD de Defesa** (pele endurece), mas recebe -1 em Agilidade. |
-| **Seca / Outono** | **Economia:** Pode ficar dias sem água/comida, mas fica letárgico (-1 Iniciativa). |
-
-> O jogador escolhe a "Estação Interna" se estiver em ambientes neutros (dungeons), representando seu ciclo metabólico atual.
+|:---|:---|
+| **☀️ Verão (Sol)** | **Vigor:** Ganha +2 em testes de Força/Físico (exige dobro de água). |
+| **🌧️ Primavera (Chuva)** | **Broto:** Recupera **1d4 PV extra** em todo descanso curto. |
+| **❄️ Inverno (Frio)** | **Casca Dura:** Ganha **+1 na CD de Defesa**, mas perde -1 em Agilidade. |
+| **🍂 Outono (Seca)** | **Economia:** Pode ficar dias sem água, mas fica letárgico (-1 Iniciativa). |
 
 ***
 
-## Bônus (escolha 1)
+!!! success "Dádivas Raciais (Bônus)"
+    **Escolha uma das opções abaixo durante a criação do personagem:**
 
-| Bônus | Efeito |
-|-------|--------|
-| **🌳 Coração de Carvalho** | **+2 Corpo.** Sua pele é madeira dura. Você tem Absorção natural 1 contra dano físico (corte/impacto). |
-| **🌳 Raízes Profundas** | **+2 Linhagem.** Pode enraizar (Ação Bônus) para se tornar imune a ser derrubado/empurrado e sentir vibrações no solo (sentido sísmico 9m). Movimento torna-se 0. |
+    *   **🌳 Coração de Carvalho**: Sua pele é madeira densa, concedendo **Absorção 1** contra dano físico (corte/impacto). Recebe **+2 em Corpo**.
+    *   **🌳 Raízes Profundas**: Pode enraizar (Ação Bônus), tornando-se imune a ser derrubado ou empurrado e ganhando sentido sísmico (9m). Enquanto enraizado, seu movimento é 0. Recebe **+2 em Linhagem**.
 
-## Debuffs (escolha 1)
+!!! failure "Limitações (Debuffs)"
+    **Vulnerabilidade Inata:** Por ser feito de madeira seca e viva, todo Vroot sofre **Vulnerabilidade a Ignis (Fogo)** (Dano x1.5).
 
-Todo Vroot tem **Vulnerabilidade a Ignis** (dano ×1.5) por natureza. Além disso, escolha um:
-
-| Debuff | Efeito |
-|--------|--------|
-| **⚠️ Mente de Ent** | **-2 Mente (Razão).** Seu pensamento é lento. Você tem desvantagem em Iniciativa e em testes de Inteligência para recordar fatos rápidos. |
-| **⚠️ Língua de Madeira** | **-2 Presença.** Falar Língua Comum é doloroso e difícil. Você fala pouco, devagar e com sotaque pesado. Desvantagem em Persuasão/Enganação verbal. |
-
-## Afinidade Elemental (d100)
-
-- 🪨 **Terra:** 48%
-- 💧 **Aqua:** 18%
-- 💨 **Aer:** 13%
-- 🔥 **Ignis:** 11%
+    **Escolha uma limitação adicional:**
+    
+    *   **⚠️ Mente de Ent**: Seu pensamento é lento e deliberado. Você sofre desvantagem em Iniciativa e em testes de Inteligência para recordar fatos imediatos. Recebe **-2 em Mente (Razão)**.
+    *   **⚠️ Língua de Madeira**: Falar línguas de carne é difícil. Sua fala é lenta e com sotaque pesado, gerando desvantagem em Persuasão verbal. Recebe **-2 em Presença**.

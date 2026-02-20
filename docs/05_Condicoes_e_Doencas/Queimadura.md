@@ -1,71 +1,36 @@
-# 🔥 Debuff: Queimadura
+# 🔥 Condição: Queimadura
 
-> Chamas consomem carne e itens, causando dor lancinante e pânico. Ativado por fogo, explosões, dragões. Dura `1d4+1` rodadas (fogo queima até apagar). Testes de resistência (Constituição).
-
-**Chance de Aplicação:** Magias de Ignis ofensivas têm **30% de chance** base de aplicar Queimadura Nível 1. Dragões/criaturas de fogo: **45%**. Óleo inflamável ou explosivos: **60%**. Armadura pesada metálica: **+10%** (metal esquenta).
+> Chamas consomem carne e equipamentos, causando dor lancinante e pânico instintivo.
 
 ---
 
-## Níveis de Queimadura
+## 📊 Níveis de Queimadura
 
-### 🟡 Fraco — Nível 1
-
-*Vermelhidão e bolhas leves. Dor suportável.*
-
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | `1d4` dano no início do turno; `-2` em ataques corpo a corpo (mãos queimadas) |
-| **Narrativa** | Fumaça da pele, cheiro de carne |
-| **Resistência** | Teste fácil `CD 11` |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Remove o debuff
-- ❌ **Falha** → Mantém Nível 1
-- 💀 **Falha Crítica** → Sobe para Nível 2
+| NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
+| :--- | :--- | :--- |
+| **🟡 Nv 1** | *Vermelhidão* | **1d4 dano fogo/turno**; -2 em ataques corpo a corpo. |
+| **🟠 Nv 2** | *Chamas Ativas* | **1d6 dano fogo/turno**; -4 em todo dano causado; Velocidade 3/4. |
+| **🔴 Nv 3** | *Carbonização* | **1d8 dano fogo/turno**; Perde ação bônus (Pânico); Itens podem ser destruídos. |
 
 ---
 
-### 🟠 Médio — Nível 2
+## 🎲 Resistência e Progressão
 
-*Chamas ativas. Roupa pegando fogo.*
-
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | `1d6` dano/início turno; `-4` dano causado (fraqueza); velocidade `-1/4` (pula pra apagar) |
-| **Limite** | Mínimo `1` em rolagens |
-| **Narrativa** | Gritos, tenta rolar no chão |
-| **Resistência** | Teste médio `CD 13` |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Reduz para Nível 1
-- 🌟 **Sucesso Crítico** → Remove completamente
-- ❌ **Falha** → Mantém Nível 2
-- 💀 **Falha Crítica** → Sobe para Nível 3
+| RESULTADO | CONSEQÜÊNCIA |
+| :--- | :--- |
+| **✅ Sucesso** | Reduz 1 Nível de Queimadura. |
+| **🌟 Suc. Crítico** | Remove a condição completamente. |
+| **❌ Falha** | Mantém o nível atual. |
+| **💀 Fal. Crítica** | Sobe 1 nível; (Nv 3 Falha = +1d6 dano extra por queimadura de 4º grau). |
 
 ---
 
-### 🔴 Grave — Nível 3
+## 💊 Recuperação e Notas
 
-*Inferno corporal. Carne carbonizada.*
+!!! tip "Cura e Alívio"
+    - **Água ou Areia:** Usar uma ação completa para rolar no chão ou se molhar remove 2 níveis.
+    - **Magia de Aqua:** Criar água ou gelo cura a queimadura instantaneamente.
+    - **Metal:** Armaduras metálicas tornam a condição pior (+10% chance de aplicação), pois o metal retém o calor.
 
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | `1d8` dano/início turno; perde ação bônus (pânico); itens inflamáveis destruídos |
-| **Narrativa** | Pele derretendo, desmaio iminente |
-| **Resistência** | Teste difícil `CD 15` |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Reduz para Nível 2
-- 🌟 **Sucesso Crítico** → Reduz para Nível 1
-- ❌ **Falha** → Mantém Nível 3 (`+1` rodada)
-- 💀 **Falha Crítica** → `+1d6` dano extra
-
----
-
-## 💧 Recuperação e Variações
-
-- **Cura Rápida:** Água/areia/rolar no chão remove `2` níveis (ação completa). Magia como Create Water cura tudo. Aliado concede `+4` na resistência.
-- **Gatilho Específico:** Fogo mágico `+1` nível; óleo inflamável duplica dano `1` turno.
+!!! error "Pânico Instintivo"
+    No Nível 3, a dor é tão intensa que o personagem perde a capacidade de realizar ações bônus complexas, focando apenas em apagar o próprio corpo.

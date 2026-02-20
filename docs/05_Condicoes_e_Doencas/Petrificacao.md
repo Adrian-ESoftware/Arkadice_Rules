@@ -1,72 +1,36 @@
-# 🪨 Debuff: Petrificação
+# 🪨 Condição: Petrificação
 
-> Sekhem de Terra se cristaliza na pele, endurecendo músculos e travando articulações. Ativado por magias de terra/gravidade, criaturas elementais, armadilhas de gárgulas. Dura `1d4+2` rodadas ou até remoção. Testes de resistência (Constituição).
-
-**Chance de Aplicação:** Magias de Terra ofensivas têm **25% de chance** base de aplicar Petrificação Nível 1. Criaturas elementais de terra: **40%**. Golpes críticos com armas de pedra/cristal: **15%**.
+> Sekhem de Terra se cristaliza na pele, endurecendo músculos e travando articulações em uma rigidez mineral.
 
 ---
 
-## Níveis de Petrificação
+## 📊 Níveis de Petrificação
 
-### 🟡 Fraco — Nível 1
-
-*Pele acinzentada. Rigidez nas juntas.*
-
-| Categoria       | Detalhe                                                         |
-| --------------- | --------------------------------------------------------------- |
-| **Efeitos**     | `-2` velocidade; `-3` em Destreza; armadura natural +1 Absorção |
-| **Narrativa**   | Unha rachando, pele granulosa ao toque                          |
-| **Resistência** | Teste `CD 11`                                                   |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Remove o debuff
-- ❌ **Falha** → Mantém Nível 1
-- 💀 **Falha Crítica** → Sobe para Nível 2
+| NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
+| :--- | :--- | :--- |
+| **🟡 Nv 1** | *Rigidez Mineral* | Velocidade reduzida a 3/4; -3 em Destreza; **Absorção +1**. |
+| **🟠 Nv 2** | *Endurecimento* | Velocidade reduzida a 1/2; -4 em ataques; **Absorção +2**; Peso Dobrado. |
+| **🔴 Nv 3** | *Estátua Viva* | **Imobilizado**; **Absorção +4**; Imune a Veneno e Sangramento. |
 
 ---
 
-### 🟠 Médio — Nível 2
+## 🎲 Resistência e Progressão
 
-*Membros pesados. Movimento doloroso.*
-
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | Velocidade `-1/2`; `-4` ataques corpo a corpo; armadura natural +2 Absorção; peso dobrado |
-| **Limite** | Mínimo `1` em rolagens de Destreza |
-| **Narrativa** | Rachaduras na pele, som de pedra ao mover |
-| **Resistência** | Teste médio `CD 13` |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Reduz para Nível 1
-- 🌟 **Sucesso Crítico** → Remove completamente
-- ❌ **Falha** → Mantém Nível 2
-- 💀 **Falha Crítica** → Sobe para Nível 3
+| RESULTADO | CONSEQÜÊNCIA |
+| :--- | :--- |
+| **✅ Sucesso** | Reduz 1 Nível de Petrificação. |
+| **🌟 Suc. Crítico** | Remove a condição completamente. |
+| **❌ Falha** | Mantém o nível atual. |
+| **💀 Fal. Crítica** | Sobe 1 nível; No Nv 3 = Petrificação Total (Inconsciente/Permanente). |
 
 ---
 
-### 🔴 Grave — Nível 3
+## 💊 Recuperação e Notas
 
-*Estátua viva. Preso em rocha.*
+!!! tip "Cura e Alívio"
+    - **Água:** Magia de Aqua (fluxo/erosão) remove 2 níveis instantaneamente.
+    - **Cinzel e Força:** Um aliado pode tentar "desbastar" a crosta (CD 13), removendo 2 níveis mas causando 1d4 dano ao alvo.
+    - **Inércia:** A petrificação é lenta e difícil de remover sem ajuda externa ou magia elemental oposta.
 
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | Imóvel (0 movimento); só pode falar e usar magia que não requer gestos; armadura natural +4 Absorção; imune a veneno e sangramento |
-| **Narrativa** | Corpo de pedra, olhos ainda vivos, voz abafada |
-| **Resistência** | Teste difícil `CD 15` |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Reduz para Nível 2
-- 🌟 **Sucesso Crítico** → Reduz para Nível 1
-- ❌ **Falha** → Mantém Nível 3 (`+1` rodada)
-- 💀 **Falha Crítica** → Petrificação total: personagem vira estátua até ser curado (inconsciente)
-
----
-
-## 💧 Recuperação e Variações
-
-- **Cura Rápida:** Magia de Aqua (fluxo) remove `2` níveis. Aliado com cinzel + força pode "quebrar" a camada (CD 13, `1d4` dano ao alvo). Poção de flexibilidade remove tudo.
-- **Dupla Face:** A petrificação dá Absorção extra — alguns guerreiros *querem* Nível 1 por um turno para tankar um golpe pesado.
-- **Gatilho Específico:** Golpe crítico de criatura de terra = Nível 2 direto. Areia movediça = `+1` nível por turno submerso.
+!!! warning "Faca de Dois Gumes"
+    Aumentar a Absorção pode ser útil para tankar, mas a perda drástica de mobilidade e a vulnerabilidade a danos de Impacto (quebras) tornam esta uma condição perigosa.

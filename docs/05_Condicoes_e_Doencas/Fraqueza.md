@@ -1,16 +1,36 @@
-Debuff: Fraqueza
-Descrição Geral: Músculos amolecem, ossos fraquejam, peso do corpo esmaga. Ativado por drenos de força, pragas degenerativas, toques mortos-vivos. Dura 1d4+1 rodadas ou até dissipada. Testes de resistência (Força).
+# 📉 Condição: Fraqueza
 
-Níveis de Fraqueza
+> Músculos amolecem, ossos fraquejam e o peso do próprio corpo torna-se um fardo insuportável.
 
-Fraco (Nível 1): Fadiga muscular. Braços pesados.
-Efeitos: -3 Força (dano físico -1d4); dificuldade carregar peso. Narrativamente: mãos trêmulas, suor frio.
-Resistência: CD 11. Sucesso remove; falha mantém Nível 1; falha crítica sobe Nível 2.
+---
 
-Médio (Nível 2): Atrofia progressiva. Pernas bambas.
-Efeitos: -5 Força (dano -1d6); dropa armas pesadas; velocidade -1/4. Limite: Mínimo 1 rolagens. Narrativamente: joelhos dobrando, voz esganiçada.
-Resistência: CD 13. Sucesso reduz Nível 1; sucesso crítico remove; falha mantém; falha crítica sobe Nível 3.
+## 📊 Níveis de Fraqueza
 
-Grave (Nível 3): Colapso físico. Esqueleto de gelatina.
-Efeitos: -8 Força; não levanta mais de 5kg; rasteja (velocidade 5 pés). Narrativamente: cai de joelhos, músculos derretendo.
-Resistência: CD 15. Sucesso reduz Nível 2; sucesso crítico reduz Nível 1; falha mantém (+1 rodada); falha crítica perde 1 Força permanente até cura total.
+| NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
+| :--- | :--- | :--- |
+| **🟡 Nv 1** | *Fadiga* | -3 em Atributo Físico (Dano -1d4); Mãos trêmulas. |
+| **🟠 Nv 2** | *Atrofia* | -5 em Atributo Físico (Dano -1d6); Velocidade 3/4; Dropa armas pesadas. |
+| **🔴 Nv 3** | *Colapso* | -8 em Atributo Físico; Velocidade reduzida a rastejo (1,5m). |
+
+---
+
+## 🎲 Resistência e Progressão
+
+| RESULTADO | CONSEQÜÊNCIA |
+| :--- | :--- |
+| **✅ Sucesso** | Reduz 1 Nível de Fraqueza. |
+| **🌟 Suc. Crítico** | Remove a condição completamente. |
+| **❌ Falha** | Mantém o nível atual. |
+| **💀 Fal. Crítica** | Sobe 1 nível; (No Nv 3 = Dano permanente em Atributo até cura total). |
+
+---
+
+## 💊 Recuperação e Notas
+
+!!! tip "Cura e Alívio"
+    - **Fortificantes:** Alimentos nutritivos ou poções de força removem 1 nível.
+    - **Descanso:** Repousar sem realizar ações físicas por 1 turno concede vantagem no próximo teste.
+    - **Magia:** Bênçãos de Corpo removem 2 níveis instantaneamente.
+
+!!! info "Degeneração"
+    A fraqueza é o resultado comum de drenos de energia vital (unlife) ou pragas degenerativas. Se não tratada, pode levar ao colapso físico total.

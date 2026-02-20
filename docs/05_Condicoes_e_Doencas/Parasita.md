@@ -1,81 +1,38 @@
-# 🪱 Debuff: Parasita Externo
+# 🪱 Condição: Parasita Externo
 
-> Criatura viva agarra membro exposto, sugando sangue e limitando movimento. Ativado por enxames, emboscadas, armadilhas orgânicas. Localizações: braço (-ataques), perna (-movimento), costas (-defesa), pescoço (-iniciativa). Dura `1d4+2` rodadas ou até remoção manual.
-
-**Chance de Aplicação:** Enxames de parasitas: **50%** por turno de exposição. Armadilhas orgânicas: **35%** ao ativar. Magias de Perditio com Vinculum: **20%** de invocar parasita junto. Armadura pesada reduz chance em **-10%** (proteção física).
+> Criatura viva agarra-se ao corpo, sugando energia vital e limitando movimentos através de dor e obstrução física.
 
 ---
 
-## Níveis de Parasita Externo
+## 📊 Níveis de Parasita
 
-### 🟡 Fraco — Nível 1
-
-*Fixação inicial. Picadas dolorosas.*
-
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | `-3` no membro afetado (braço=ataques, perna=velocidade, costas=AC) |
-| **Narrativa** | Sanguessugas pulsando, coceira furiosa |
-| **Resistência** | `CD 11` (ação bônus pra arrancar) |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Remove o debuff
-- ❌ **Falha** → Mantém Nível 1
-- 💀 **Falha Crítica** → Sobe para Nível 2
+| NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
+| :--- | :--- | :--- |
+| **🟡 Nv 1** | *Fixação* | -3 no membro afetado (Ataque, Velocidade ou Defesa). |
+| **🟠 Nv 2** | *Infestação* | **1d4 dano/turno**; Membro inutilizável; -5 em testes do membro. |
+| **🔴 Nv 3** | *Dominação* | **1d6 dano/turno**; 50% de chance do membro agir sozinho contra aliados. |
 
 ---
 
-### 🟠 Médio — Nível 2
+## 🎲 Resistência e Progressão
 
-*Infestação espalhando. Garras na carne.*
-
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | `-5` membro afetado; `1d4` dano/turno; membro inutilizável (braço=1 mão livre, perna=velocidade `1/2`) |
-| **Limite** | Mínimo `1` em rolagens |
-| **Narrativa** | Parasita crescendo, pele rasgando |
-| **Resistência** | Teste médio `CD 13` (ação completa) |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Reduz para Nível 1
-- 🌟 **Sucesso Crítico** → Remove completamente
-- ❌ **Falha** → Mantém Nível 2
-- 💀 **Falha Crítica** → Sobe para Nível 3
+| RESULTADO | CONSEQÜÊNCIA |
+| :--- | :--- |
+| **✅ Sucesso** | Reduz 1 Nível de Parasita (Exige Ação). |
+| **🌟 Suc. Crítico** | Remove a condição completamente. |
+| **❌ Falha** | Mantém o nível atual. |
+| **💀 Fal. Crítica** | O parasita se espalha para um membro adjacente (Nv 1). |
 
 ---
 
-### 🔴 Grave — Nível 3
+## 💊 Recuperação e Notas
 
-*Dominação do membro. Braço ataca sozinho.*
+!!! tip "Remoção"
+    - **Ação Rápida:** Arrancar manualmente (Destreza CD 12) remove 1 nível.
+    - **Fogo e Brutalidade:** Usar fogo ou lâminas para cortar o parasita remove 2 níveis, mas causa 1d6 dano ao hospedeiro.
+    - **Proteção:** Armaduras pesadas reduzem a chance de aplicação em -10%.
 
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | Membro controlado (`50%` chance atacar aliado ou si mesmo); `1d6` dano/turno; `-2` todos testes físicos |
-| **Narrativa** | Tentáculos saindo da carne, gritos de horror |
-| **Resistência** | Teste difícil `CD 15` (ação completa + faca/tocha) |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Reduz para Nível 2
-- 🌟 **Sucesso Crítico** → Reduz para Nível 1
-- ❌ **Falha** → Mantém Nível 3 (`+1` rodada)
-- 💀 **Falha Crítica** → Espalha Nível 1 pra membro adjacente
-
----
-
-## 🔪 Recuperação
-
-- **Cura Rápida:** Arrancar manualmente (Destreza CD membro); fogo/corte remove `2` níveis mas `1d6` dano extra. Aliado adjacente concede `+4` na resistência.
-
----
-
-## 📍 Localizações Específicas
-
-| Localização | Efeito |
-|-----------|---------|
-| **Braço** | `-` ataques daquela mão |
-| **Perna** | Velocidade e saltos |
-| **Costas** | AC e esquiva |
-| **Pescoço** | Iniciativa e concentração |
+!!! info "Localizações"
+    - **Braço:** Penalidade em ataques.
+    - **Perna:** Penalidade em movimento.
+    - **Pescoço:** Penalidade em iniciativa e concentração.

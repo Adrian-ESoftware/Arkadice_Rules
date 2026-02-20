@@ -1,81 +1,36 @@
-✨ Debuff: Silêncio Arcano
-A voz do alvo é arrancada pela magia, e qualquer som que ele tente produzir é engolido por um vazio opressivo. Nenhuma palavra, grito ou encantamento consegue escapar, dificultando comunicação e conjuração.
+# 🤐 Condição: Silêncio Arcano
 
-Duração: 1d4+1 rodadas.
+> A voz do alvo é arrancada pela magia, e qualquer som que ele tente produzir é engolido por um vazio opressivo e antinatural.
 
-Resistência: Testes de resistência (Mente ou Vontade, escolha um atributo padrão do sistema).
+---
 
-Gatilhos comuns: magias de controle, runas de vedação, maldições de deuses do silêncio.
+## 📊 Níveis de Silêncio
 
-Chance de Aplicação (exemplos):
+| NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
+| :--- | :--- | :--- |
+| **🟡 Nv 1** | *Voz Falhando* | -3 em testes que exijam fala; Magias verbais custam +1 Sekhem extra. |
+| **🟠 Nv 2** | *Voz Arrancada* | **Bloqueia Conjuração Verbal**; Comunicação vocal impossível. |
+| **🔴 Nv 3** | *Vazio Absoluto* | **Surdo e Mudo**; Desvantagem em testes de audição e reações furtivas. |
 
-Magias de Silêncio dedicadas: 40% de aplicar Silêncio Nível 1.
+---
 
-Runas/armadilhas de campo: 30% ao ser ativada.
+## 🎲 Resistência e Progressão
 
-Golpes especiais de criaturas silenciosas (assassinos das sombras, espectros mudos): 25%.
+| RESULTADO | CONSEQÜÊNCIA |
+| :--- | :--- |
+| **✅ Sucesso** | Reduz 1 Nível de Silêncio. |
+| **🌟 Suc. Crítico** | Remove a condição completamente. |
+| **❌ Falha** | Mantém o nível atual. |
+| **💀 Fal. Crítica** | Sobe 1 nível; No Nv 3 = Perda de auxílio aliado por 1 rodada. |
 
-Níveis de Silêncio Arcano
-🟡 Fraco — Nível 1
-Voz falhando. Sussurros presos na garganta.
+---
 
-Categoria	Detalhe
-Efeitos	Não pode gritar ou falar claramente a longas distâncias; sofre -3 em testes que exijam fala (Intimidação, Oratória, Canto, etc.); magias com componentes verbais custam +1 recurso extra (Sekhem, mana, etc.). 
-Narrativa	A voz sai rouca, cortada, como se o som fosse abafado no meio do caminho.
-Resistência	Teste CD 11 (Mente/Vontade) ao fim do turno.
-Resultados do Teste:
+## 💊 Recuperação e Notas
 
-✅ Sucesso → Remove o debuff.
+!!! tip "Cura e Alívio"
+    - **Som e Vibração:** Magias de som ou instrumentos rituais removem 2 níveis imediatamente.
+    - **Gestos:** Um aliado pode usar uma ação para orientar o alvo visualmente, concedendo +4 no próximo teste.
+    - **Poções:** Poções de Eco ou Vibração removem 1 nível.
 
-❌ Falha → Mantém Nível 1.
-
-💀 Falha Crítica → Sobe para Nível 2.
-
-🟠 Médio — Nível 2
-Silêncio parcial. A voz é arrancada da realidade.
-
-Categoria	Detalhe
-Efeitos	Alvo não pode lançar magias com componente verbal; comunicação vocal é impossível (apenas gestos ou escrita); testes sociais que dependam de fala falham automaticamente; recebe -2 em Defesa contra inimigos furtivos (não pode ouvir alertas aliados). 
-Limite	Ainda pode emitir barulho físico com objetos (derrubar coisas, bater escudo), mas sem vocalização.
-Narrativa	A boca se move sem som; o ar parece denso, como se as palavras fossem engolidas.
-Resistência	Teste CD 13 (Mente/Vontade) ao fim do turno.
-Resultados do Teste:
-
-✅ Sucesso → Reduz para Nível 1.
-
-🌟 Sucesso Crítico → Remove completamente.
-
-❌ Falha → Mantém Nível 2.
-
-💀 Falha Crítica → Sobe para Nível 3.
-
-🔴 Grave — Nível 3
-Vazio absoluto. Nem o próprio coração parece fazer som.
-
-Categoria	Detalhe
-Efeitos	Alvo fica Mudo e Ensurdecedoramente Surdo ao próprio redor: não ouve nada, inclusive a própria voz; não pode lançar magias com componente verbal; não pode comunicar comandos táticos; sofre desvantagem (ou -5) em testes que dependam de audição e em reações a ataques furtivos; ataques baseados em som/voz contra ele falham. 
-Narrativa	Zona de silêncio absoluto ao redor do alvo; seus passos, o choque de armas e até explosões próximas não produzem som para ele.
-Resistência	Teste difícil CD 15 (Mente/Vontade) ao fim do turno.
-Resultados do Teste:
-
-✅ Sucesso → Reduz para Nível 2.
-
-🌟 Sucesso Crítico → Reduz para Nível 1.
-
-❌ Falha → Mantém Nível 3 (+1 rodada).
-
-💀 Falha Crítica → O silêncio ecoa na mente: por 1 rodada adicional, o alvo não pode receber ajuda de aliados (não percebe sinais, não entende gestos).
-
-🌑 Recuperação e Variações
-Cura Rápida: Magias de som, canto sagrado ou instrumentos rituais podem remover 2 níveis de Silêncio; poções de eco/vibração removem 1 nível.
-​
-
-Suporte Aliado: Aliado pode gastar ação para usar gestos, escrita mágica ou runas sonoras, concedendo +4 no próximo teste de resistência.
-
-Área de Silêncio: Versão avançada cria um campo de Silêncio (3–6m de raio) onde ninguém pode conjurar magias verbais ou se comunicar por voz, similar à magia clássica de área.
-
-Interações:
-
-Com Medo, o silêncio torna pedidos de ajuda impossíveis, aumentando a tensão narrativa.
-
-Com Confusão, o alvo muitas vezes tenta gritar ou conjurar e falha, reforçando a sensação de desespero.
+!!! quote "Narrativa"
+    "O ar parece denso, como se cada sílaba fosse um peso de chumbo que cai antes de sair da boca."

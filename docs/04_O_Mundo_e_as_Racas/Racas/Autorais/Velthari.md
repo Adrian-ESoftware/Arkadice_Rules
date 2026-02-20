@@ -1,54 +1,44 @@
-# Velthari
+# 🐆 Velthari
 
-## "Os Predadores da Noite"
-
-Também chamados de *Ferais*, *Caçadores de Pele* ou *Filhos da Lua Sangrenta*.
-
-## Aparência
-
-À primeira vista, parecem humanos atléticos e esguios, mas os detalhes revelam sua natureza predatória. Sua pele (variando de tons ébano a bronzeado) possui marcas sutis como as de leopardos ou tigres, visíveis sob certa luz. Seus olhos têm pupilas verticais que dilatam completamente no escuro. Possuem caninos alongados, garras retráteis nas mãos e pés, e uma cauda longa e fina que ajuda no equilíbrio. Movem-se com um silêncio inato, pisando sempre na ponta dos pés. Altura média: 1.65m a 1.85m.
-
-## Sociedade
-
-Os Velthari não constroem cidades muradas; eles dominam territórios de caça. Sua sociedade é meritocrática baseada na **Lei da Presa**: quem traz o sustento e a proteção lidera. Não há reis, apenas *Alphas* de cada bando. São famosos por serem os melhores rastreadores e caçadores de bestas do mundo.
-
-Diferente de "gatos domésticos", os Velthari são sociais e leais ao seu bando. A solidão é considerada uma doença ou punição.
-
-## Cultura
-
-Sua cultura gira em torno da **Caçada**. Toda refeição é um ritual de agradecimento à presa. Eles desprezam o desperdício e a crueldade desnecessária — matar por esporte é tabu; matar para sobreviver é sagrado. São conhecidos por suas pinturas corporais de guerra e pelo uso de armas de arremesso silenciosas (arcos, lanças, boleadeiras).
-
-## PV Base
-
-8 (Foco em agilidade, não tanque)
-
-## Velocidade Base
-
-9m (Extremamente rápidos. A maioria das raças tem 6m)
-
-## Sekhem Base
-
-1d6+8 (9-14)
+*"A solidão é uma doença; o bando é a cura. A caçada é o que nos mantém vivos e leais."*
 
 ***
 
-## Bônus (escolha 1)
+## 📊 Ficha Técnica (Velthari)
 
-| Bônus | Efeito |
-|-------|--------|
-| **🐆 Instinto de Emboscada** | Se atacar um alvo que **não agiu ainda** no combate ou que está **surpreso**, você tem **Vantagem** no ataque e causa **+1d6 dano extra**. |
-| **🐆 Garras de Escalada** | Você tem **velocidade de escalada** igual à de caminhada (9m). Pode subir paredes e árvores sem teste, desde que tenha apoios mínimos. Seus ataques desarmados causam 1d4 de corte. |
+| ATRIBUTO | VALOR | AFINIDADE | CHANCE |
+| :--- | :---: | :---: | :---: |
+| **PV Base** | 8 | 🪨 Terra | 36% |
+| **Velocidade** | 9m | 💨 Aer | 29% |
+| **Sekhem Base** | 9 - 14 | 💧 Aqua | 20% |
+| **Dado Sekhem** | 1d6+8 | 🔥 Ignis | 15% |
 
-## Debuffs (escolha 1)
+***
 
-| Debuff | Efeito |
-|--------|--------|
-| **⚠️ Metabolismo Acelerado** | Você queima energia muito rápido. Precisa comer o dobro de uma raça normal. Se ficar 1 dia sem comer carne, sofre **Fadiga** (desvantagem em Físico/Corpo). |
-| **⚠️ Sentidos Hipersensíveis** | Seus ouvidos e olfato são apurados demais. Você tem **Vulnerabilidade a Dano Trovão/Sônico** e sofre desvantagem em testes para resistir a náusea por cheiros fortes. |
+## 📜 Tradição e Fisiologia
 
-## Afinidade Elemental (d100)
+### 👤 Aparência
 
-- 🪨 **Terra:** 36%
-- 💨 **Aer:** 29%
-- 💧 **Aqua:** 20%
-- 🔥 **Ignis:** 15%
+Parecem humanos atléticos e esguios, mas sua natureza predatória é revelada em detalhes sutis: marcas de pele semelhantes a leopardos, pupilas verticais que dilatam no escuro e garras retráteis. Possuem uma cauda longa para equilíbrio e movem-se com um silêncio absoluto, pisando sempre na ponta dos pés.
+
+### 🏛️ Sociedade
+
+Não constroem muros; dominam territórios. Sua sociedade é regida pela **Lei da Presa**, onde a liderança (*Alphas*) pertence àqueles que provam ser os melhores provedores e protetores. São extremamente sociais; para um Velthari, o bando é sagrado e a solidão é a pior das punições.
+
+### ⚒️ Cultura
+
+Toda refeição é um ritual de agradecimento. Eles desprezam o desperdício e a crueldade — matar por esporte é um tabu absoluto. São mestres em táticas de emboscada e no uso de armas de arremesso silenciosas, como arcos e lanças.
+
+***
+
+!!! success "Dádivas Raciais (Bônus)"
+    **Escolha uma das opções abaixo durante a criação do personagem:**
+
+    *   **🐆 Instinto de Emboscada**: Se atacar um alvo que ainda não agiu no combate ou que esteja surpreso, você tem **Vantagem** no ataque e causa **+1d6 dano extra**.
+    *   **🐆 Garras de Escalada**: Você recebe **velocidade de escalada** igual à sua velocidade de caminhada (9m). Seus ataques desarmados causam 1d4 de dano de corte.
+
+!!! failure "Limitações (Debuffs)"
+    **Escolha uma das opções abaixo para equilibrar sua linhagem:**
+
+    *   **⚠️ Metabolismo Acelerado**: Você queima energia muito rápido. Se ficar um dia inteiro sem consumir carne fresca, sofre a condição de **Fadiga** (Desvantagem em testes de Físico/Corpo).
+    *   **⚠️ Sentidos Hipersensíveis**: Seus ouvidos e olfato são apurados demais. Você possui **Vulnerabilidade a dano de Trovão (Aer)** e sofre desvantagem em testes para resistir a cheiros fortes ou náuseas.

@@ -1,48 +1,44 @@
-# Meio-Elfo
+# 🌓 Meio-Elfo
 
-## Aparência
-
-Herança mista visível — orelhas levemente pontudas, traços mais suaves que humanos mas menos angulares que elfos. Altura entre 1.65m-1.85m. Extremamente variados em aparência.
-
-## Sociedade
-
-Não pertencem completamente a nenhum dos dois mundos. Muitos vivem em cidades humanas, alguns são aceitos em comunidades élficas. Frequentemente são viajantes, diplomatas, ou aventureiros — por necessidade ou escolha.
-
-## Cultura
-
-Adaptáveis como humanos, observadores como elfos. Tendem a ser mediadores e tradutores culturais. Muitos se tornam bardos, exploradores, ou mercadores — profissões que valorizam versatilidade social.
-
-## PV Base
-
-10
-
-## Velocidade Base
-
-6m
-
-## Sekhem Base
-
-1d5+10 (11-15)
+*"Nós somos a ponte entre dois mundos. Não pertencemos completamente a nenhum, mas compreendemos ambos melhor do que qualquer um."*
 
 ***
 
-## Bônus (escolha 1)
+## 📊 Ficha Técnica (Meio-Elfo)
 
-| Bônus | Efeito |
-|-------|--------|
-| **🧠 Herança Dual** | Escolhe 1 bônus de Humano OU 1 bônus de Elfo (mas não o debuff correspondente) |
-| **🗣️ Carisma Natural** | +2 em testes de Presença (qualquer polo) com NPCs que não sejam hostis |
+| ATRIBUTO | VALOR | AFINIDADE | CHANCE |
+| :--- | :---: | :---: | :---: |
+| **PV Base** | 10 | 💧 Aqua | 25% |
+| **Velocidade** | 6m | 💨 Aer | 25% |
+| **Sekhem Base** | 11 - 15 | 🪨 Terra | 25% |
+| **Dado Sekhem** | 1d5+10 | 🔥 Ignis | 25% |
 
-## Debuffs (escolha 1)
+***
 
-| Debuff | Efeito |
-|--------|--------|
-| **⚠️ Identidade Dividida** | Não pode ter proficiência Lendária (cap em Mestre). Jack of all trades, master of none |
-| **⚠️ Sangue Instável** | Quando recebe cura mágica, rola 1d4: em resultado 1, a cura é reduzida pela metade (herança conflitante) |
+## 📜 Tradição e Fisiologia
 
-## Afinidade Elemental (d100)
+### 👤 Aparência
 
-- 💧 **Aqua:** 25%
-- 💨 **Aer:** 25%
-- 🪨 **Terra:** 25%
-- 🔥 **Ignis:** 25%
+Uma herança mista fascinante e visível: orelhas levemente pontudas, traços mais suaves que humanos, mas menos angulares que elfos. Sua altura (1.65m-1.85m) e aparência variam imensamente, tornando cada Meio-Elfo único em sua linhagem.
+
+### 🏛️ Sociedade
+
+Frequentemente vivem em cidades humanas, onde sua beleza e longevidade são admiradas, ou em comunidades élficas, onde são vistos como lembretes da passagem do tempo. São viajantes natos, diplomatas e aventureiros por necessidade, especialistas em navegar entre fronteiras sociais.
+
+### ⚒️ Cultura
+
+Possuem a adaptabilidade humana unida à observação aguçada dos elfos. Tendem a ser mediadores e tradutores culturais. Muitos se destacam como bardos ou exploradores, profissões que valorizam a versatilidade e a capacidade de se integrar em qualquer ambiente.
+
+***
+
+!!! success "Dádivas Raciais (Bônus)"
+    **Escolha uma das opções abaixo durante a criação do personagem:**
+
+    *   **🧠 Herança Dual**: Sua ascendência é equilibrada. Você pode escolher **1 Bônus da raça Humano** OU **1 Bônus da raça Elfo** (não é possível pegar o debuff correspondente).
+    *   **🗣️ Carisma Natural**: Você possui um magnetismo inato. Recebe **+2 em testes de Presença** em qualquer polo ao interagir com NPCs que não sejam hostis.
+
+!!! failure "Limitações (Debuffs)"
+    **Escolha uma das opções abaixo para equilibrar sua linhagem:**
+
+    *   **⚠️ Identidade Dividida**: Você é um generalista por natureza. Sua proficiência em qualquer perícia é limitada ao Tier de **Mestre** (não pode alcançar o Tier Lendário).
+    *   **⚠️ Sangue Instável**: Sua herança biológica é conflitante. Quando recebe cura mágica, role um **d4**: se o resultado for **1**, a eficácia da cura é reduzida pela metade.

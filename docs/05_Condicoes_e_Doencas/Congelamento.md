@@ -1,71 +1,36 @@
-# ❄️ Debuff: Congelamento
+# ❄️ Condição: Congelamento
 
-> Gelo cristaliza pele, juntas e pulmões, roubando movimento e fôlego. Ativado por magias de frio, armadilhas geladas, criaturas de gelo. Dura `1d4+2` rodadas (gelo derrete devagar). Testes de resistência (Constituição).
-
-**Chance de Aplicação:** Magias de Aqua ofensivas (com componente de frio) têm **25% de chance** base de aplicar Congelamento Nível 1. Criaturas de gelo: **40%**. Ambientes de frio extremo: **automático** (1 nível/hora de exposição sem proteção).
+> Gelo cristaliza pele, juntas e pulmões, roubando movimento e fôlego. Ativado por magias de frio intenso (Aqua), armadilhas ou ambientes glaciais.
 
 ---
 
-## Níveis de Congelamento
+## 📊 Níveis de Congelamento
 
-### 🟡 Fraco — Nível 1
-
-*Geada superficial. Frio penetrante.*
-
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | `-2` velocidade; `-3` em testes de Destreza |
-| **Narrativa** | Dedos dormentes, respiração visível |
-| **Resistência** | Teste fácil `CD 11` |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Remove o debuff
-- ❌ **Falha** → Mantém Nível 1
-- 💀 **Falha Crítica** → Sobe para Nível 2
+| NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
+| :--- | :--- | :--- |
+| **🟡 Nv 1** | *Geada Superficial* | Velocidade reduzida a 3/4; -3 em testes de Destreza. |
+| **🟠 Nv 2** | *Articulações Travadas* | Velocidade reduzida a 1/2; -4 em ataques corpo a corpo; **1d4 dano frio**. |
+| **🔴 Nv 3** | *Congelado Sólido* | **Imobilizado**; **1d6 dano frio/turno**; -2 AC (Corpo Quebradiço). |
 
 ---
 
-### 🟠 Médio — Nível 2
+## 🎲 Resistência e Progressão
 
-*Camada de gelo. Articulações travando.*
-
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | Velocidade `-1/2`; `-4` ataques corpo a corpo; `1d4` dano frio/início turno |
-| **Limite** | Mínimo `1` em rolagens |
-| **Narrativa** | Estalos de gelo ao se mover, tremores |
-| **Resistência** | Teste médio `CD 13` |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Reduz para Nível 1
-- 🌟 **Sucesso Crítico** → Remove completamente
-- ❌ **Falha** → Mantém Nível 2
-- 💀 **Falha Crítica** → Sobe para Nível 3
+| RESULTADO | CONSEQÜÊNCIA |
+| :--- | :--- |
+| **✅ Sucesso** | Reduz 1 Nível de Congelamento. |
+| **🌟 Suc. Crítico** | Remove a condição completamente. |
+| **❌ Falha** | Mantém o nível atual. |
+| **💀 Fal. Crítica** | Sobe 1 nível; (Nv 3 Falha = +1d4 dano extra por estresse térmico). |
 
 ---
 
-### 🔴 Grave — Nível 3
+## 💊 Recuperação e Notas
 
-*Congelado sólido. Corpo cristalino.*
+!!! tip "Cura e Alívio"
+    - **Fogo e Calor:** Exposição direta ao fogo ou fricção intensa remove 2 níveis (exige ação completa).
+    - **Magia de Fogo:** Cura o congelamento instantaneamente, mas pode causar dano térmico (1d4) se for muito brusco.
+    - **Armaduras:** Armaduras metálicas aumentam a dificuldade dos testes, pois o metal retém o frio extremo.
 
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | Imóvel (só ações no lugar); `1d6` dano frio/turno; `AC -2` (gelo quebradiço) |
-| **Narrativa** | Olhos congelados, voz rouca |
-| **Resistência** | Teste difícil `CD 15` |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Reduz para Nível 2
-- 🌟 **Sucesso Crítico** → Reduz para Nível 1
-- ❌ **Falha** → Mantém Nível 3 (`+1` rodada)
-- 💀 **Falha Crítica** → `+1d4` dano extra
-
----
-
-## 🔥 Recuperação e Variações
-
-- **Cura Rápida:** Fogo/frição remove `2` níveis (ação completa). Aliado adjacente concede `+4` na resistência. Magia fogo cura instantaneamente.
-- **Gatilho Específico:** Água + frio `+1` nível; armadura metálica duplica CDs.
+!!! warning "Fragilidade"
+    No Nível 3, o corpo torna-se como vidro. Qualquer impacto pesado tem o potencial de estilhaçar membros petrificados pelo gelo.

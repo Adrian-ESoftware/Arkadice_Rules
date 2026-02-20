@@ -1,48 +1,44 @@
-# Goblin
+# 👺 Goblin
 
-## Aparência
-
-Criaturas pequenas (cerca de 0,90 m a 1,20 m), magras e de membros compridos, com pele em tons de verde‑oliva, amarelo ou acinzentado. Cabeças desproporcionais, orelhas longas e pontudas e olhos grandes em amarelo ou vermelho lhes dão um ar inquieto e predatório. Roupas de couro remendado, trapos e pedaços de sucata são comuns, muitas vezes adornados com ossos, ferragens e bugigangas roubadas.
-
-## Sociedade
-
-Goblins vivem em bandos caóticos em cavernas, ruínas, esgotos ou favelas improvisadas, onde o poder pertence a quem é mais violento, mais esperto ou mais cruel. Costumam formar hordas numerosas usadas como bucha de canhão por chefes mais fortes, como hobgoblins, bugbears ou outros senhores de guerra, reforçando sua reputação de minions descartáveis.
-
-## Cultura
-
-A cultura goblin é baseada em sobrevivência, pilhagem e oportunidade: emboscadas, armadilhas, ataques em massa e golpes desonestos são considerados estratégias inteligentes, não covardia. Muitos goblins têm uma veia inventiva caótica, criando engenhocas, bombas e armadilhas com sucata — algo entre genialidade improvisada e desastre anunciado.
+*"Se você não consegue vencer na força, vença na esperteza. Se não puder ser o mais forte, seja o que sobra no final para roubar os despojos."*
 
 ***
 
-## PV Base
+## 📊 Ficha Técnica (Goblin)
 
-8
+| ATRIBUTO | VALOR | AFINIDADE | CHANCE |
+| :--- | :---: | :---: | :---: |
+| **PV Base** | 8 | 🪨 Terra | 38% |
+| **Velocidade** | 6m | 💨 Aer | 29% |
+| **Sekhem Base** | 9 - 14 | 🔥 Ignis | 17% |
+| **Dado Sekhem** | 1d6+8 | 💧 Aqua | 16% |
 
-## Velocidade Base
+***
 
-6 m
+## 📜 Tradição e Fisiologia
 
-## Sekhem Base
+### 👤 Aparência
 
-1d6 + 8 (9–14)
+Pequenas criaturas inquietas (0.90m a 1.20m), de membros longos e pele em tons de verde-oliva ou acinzentado. Suas cabeças desproporcionais carregam grandes olhos amarelos ou vermelhos que parecem estar sempre em busca de uma oportunidade. Vestem-se com couro remendado e bugigangas metálicas tilintantes.
 
-## Bônus (escolha 1)
+### 🏛️ Sociedade
 
-| Bônus | Efeito |
-|-------|--------|
-| **💪 Corpo (Destreza) +1** | seu corpo é leve e rápido; você recebe +1 em Corpo na direção de Destreza, melhorando esquiva, furtividade, acrobacias e ações baseadas em agilidade. |
-| **💪 Mente (Instinto) +1** | você vive em alerta constante; recebe +1 em Mente na direção de Instinto, ficando melhor em perceber perigo, reagir a emboscadas e responder a surpresas. |
+Vivem em bandos caóticos em cavernas, esgotos ou ruínas. Em sua estrutura social, o poder pertence a quem é mais cruel ou mais esperto. Frequentemente são usados como linha de frente por senhores de guerra mais fortes, o que lhes deu uma reputação de seres "descartáveis", algo que os Goblins usam a seu favor para serem subestimados.
 
-## Debuffs (escolha 1)
+### ⚒️ Cultura
 
-| Debuff | Efeito |
-|--------|--------|
-| **⚠️ Presença (Liderança) −1** | sua fama de praga e comportamento errático afastam aliados; você recebe −1 em Presença no polo de Liderança, ficando pior em diplomacia, persuasão e em inspirar outros em situações cooperativas. |
-| **⚠️ Corpo (Tenacidade) −1** | seu corpo é franzino e pouco resistente; você recebe −1 em Corpo na direção de Tenacidade, tendo mais dificuldade para aguentar dano prolongado, doenças e efeitos debilitantes. |
+Baseada na sobrevivência pura e na pilhagem. Emboscadas e truques sujos não são vistos como covardia, mas como inteligência estratégica. Possuem uma criatividade caótica invejável, sendo capazes de construir engenhocas e bombas complexas a partir de sucata e restos de metal.
 
-## Afinidade Elemental (d100)
+***
 
-- 🪨 **Terra:** 38%
-- 💨 **Aer:** 29%
-- 🔥 **Ignis:** 17%
-- 💧 **Aqua:** 16%
+!!! success "Dádivas Raciais (Bônus)"
+    **Escolha uma das opções abaixo durante a criação do personagem:**
+
+    *   **💨 Agilidade Inquietante**: Seu corpo é leve e impossível de segurar. Recebe **+1 em Corpo no polo de Agilidade**, melhorando sua Esquiva e testes de Acrobacia.
+    *   **👁️ Instinto de Minion**: Você vive em alerta constante. Recebe **+1 em Mente no polo de Instinto**, tornando-se mestre em perceber perigos ocultos e reagir a emboscadas.
+
+!!! failure "Limitações (Debuffs)"
+    **Escolha uma das opções abaixo para equilibrar sua linhagem:**
+
+    *   **⚠️ Reputação de Praga**: Sua fama de traiçoeiro o precede. Recebe **-1 em Presença no polo de Liderança**, dificultando testes de persuasão ou diplomacia com outras raças.
+    *   **⚠️ Corpo Franzino**: Sua estrutura física é pouco resistente a danos prolongados. Recebe **-1 em Corpo no polo de Tenacidade**, tendo mais dificuldade para resistir a doenças e fadiga física.

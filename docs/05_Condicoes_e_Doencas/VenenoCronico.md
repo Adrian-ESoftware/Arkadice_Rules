@@ -1,65 +1,36 @@
-# 🟣 Debuff: Envenenado Crônico
+# 🟣 Condição: Veneno Crônico
 
-> Veneno persistente que corrói gradualmente até ser purgado completamente. Ativado por toxinas potentes (cobras exóticas, pragas antigas). Dura até cura total, mas efeitos diminuem com resistências bem-sucedidas. Dano acumula fora de combate (`1d4`/hora se não tratado).
-
-**Chance de Aplicação:** Cobra/criatura com veneno potente: **25%** de aplicar Crônico ao invés de Agudo. Praga antiga/maldição: **automático**. Falha Crítica no teste de resistência de Veneno Agudo Nível 3: **100%** (veneno agudo vira crônico). Poções de alquimistas sombrios: **40%**.
+> Uma toxina persistente que corrói o organismo gradualmente, sendo difícil de purgar sem tratamento intensivo.
 
 ---
 
-## Níveis de Envenenado Crônico
+## 📊 Níveis de Veneno Crônico
 
-### 🟡 Fraco — Nível 1
-
-*Toxina latente. Sintomas leves persistem.*
-
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | `-2` em ataques e saves; `1` dano/hora fora de combate |
-| **Narrativa** | Coceira, fadiga |
-| **Resistência** | `CD 11` (fim do turno ou descanso curto) |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Remove o debuff
-- ❌ **Falha** → Mantém Nível 1
+| NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
+| :--- | :--- | :--- |
+| **🟡 Nv 1** | *Latente* | -2 em ataques e resistências; 1 dano/hora (fora de combate). |
+| **🟠 Nv 2** | *Ativo* | **1d4 dano/turno**; -4 em testes físicos; 1d4 dano/hora (fora). |
+| **🔴 Nv 3** | *Falência* | **Velocidade 1/2**; **1d6 dano/turno**; PV Máximo -10. |
 
 ---
 
-### 🟠 Médio — Nível 2
+## 🎲 Resistência e Progressão
 
-*Infecção ativa. Veneno se espalha.*
-
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | `-4` em Físicos; `1d4` dano/turno em combate, `1d4`/hora fora |
-| **Narrativa** | Febre, pus nas veias |
-| **Resistência** | `CD 13` (ação completa) |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Reduz para Nível 1
-- ❌ **Falha** → Mantém `+1d4` dano acumulado
+| RESULTADO | CONSEQÜÊNCIA |
+| :--- | :--- |
+| **✅ Sucesso** | Reduz 1 Nível de Veneno. |
+| **🌟 Suc. Crítico** | Remove a condição completamente (Raro). |
+| **❌ Falha** | Mantém o nível atual e causa dano acumulado. |
+| **💀 Fal. Crítica** | Perda permanente de 1 ponto de Constituição até purga total. |
 
 ---
 
-### 🔴 Forte — Nível 3
+## 💊 Recuperação e Notas
 
-*Colapso venenoso. Órgãos falhando.*
+!!! tip "Purificação"
+    - **Tratamento:** Descanso longo aliado a testes de Medicina diminui 1 nível por dia.
+    - **Antídoto Raro:** Apenas antídotos específicos ou magias de purificação de nível alto removem o veneno crônico instantaneamente.
+    - **Progressão:** Sem tratamento diário, o veneno sobe 1 nível automaticamente a cada 24 horas.
 
-| Categoria | Detalhe |
-|-----------|---------|
-| **Efeitos** | Velocidade `-1/2`; `1d6` dano/turno (combate), `1d6`/hora (fora); PV máx `-10` |
-| **Narrativa** | Alucinações tóxicas, pele descamando |
-| **Resistência** | `CD 15` (ação completa + ervas) |
-
-**Resultados do Teste:**
-
-- ✅ **Sucesso** → Reduz para Nível 2
-- ❌ **Falha** → Piora `1d6` dano permanente até cura
-
----
-
-## 🧪 Recuperação
-
-- **Cura Total:** Antídoto/magia Remove Curse purga tudo. Descanso longo + testes diários reduzem `1` nível/dia.
-- **Progressão:** Sem tratamento, sobe `1` nível/dia após `24h`.
+!!! bug "Interação"
+    Venenos agudos não tratados ou com falhas críticas em sua resistência final tornam-se crônicos, simbolizando a toxina se instalando permanentemente nos órgãos.

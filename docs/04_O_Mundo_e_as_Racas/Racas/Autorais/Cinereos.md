@@ -1,62 +1,52 @@
-# Cinéreos
+# 🌋 Cinéreo
 
-## "Filhos do Vulcão"
-
-Também chamados de *Povo das Cinzas*, *Sangue de Magma* ou *Ignis-Natos*.
-
-## Aparência
-
-Humanóides de pele cinza-chumbo, áspera como pedra-pomes ou rachada como terra seca. Quando sentem emoções fortes ou usam magia, suas rachaduras brilham em laranja-magma. Cabelos são raros; quando existem, parecem fios de obsidiana ou nuvens de fumaça sólida. Olhos são vermelhos, laranjas ou negros, sem esclera branca. São densos e pesados para seu tamanho (1.70m a 2.10m).
-
-## Sociedade
-
-Nascidos nas encostas de vulcões ativos e terras devastadas, os Cinéreos construíram uma sociedade baseada na **transformação e resiliência**. Para eles, o fogo não destrói; ele renova. São ferreiros, vidreiros e geomantes inigualáveis. Suas cidades são esculpidas diretamente na rocha vulcânica, aquecidas por rios de lava. Valorizam a franqueza brutal — a verdade, como o fogo, pode queimar, mas é necessária.
-
-## Cultura
-
-Possuem um ritual de passagem chamado **O Crisol**: caminhar sobre brasas vivas para provar sua maturidade. Acreditam que o mundo um dia será consumido por cinzas para renascer perfeito, uma crença que muitas outras raças acham apocalíptica. São mestres na culinária picante e no trabalho com metais raros encontrados apenas no profundo subsolo.
-
-## PV Base
-
-10 (Resistentes, mas não tanto quanto Titãs/Anões)
-
-## Velocidade Base
-
-6m
-
-## Sekhem Base
-
-1d6+10 (11-16) - Alta afinidade mágica destrutiva
+*"O fogo não destrói; ele renova. Nós somos as cinzas que restam para construir o novo mundo."*
 
 ***
 
-## Característica Especial: Sangue Vulcânico
+## 📊 Ficha Técnica (Cinéreo)
 
-Cinéreos possuem uma temperatura corporal altíssima.
-
-- São **Imunes a gases tóxicos/vulcânicos** (respiram fumaça sem problemas).
-- Possuem **Resistência a Ignis** (recebem metade do dano de fogo).
-- Em contrapartida, sofrem **Vulnerabilidade a Frio** (água gelada ou magia de gelo solidifica suas juntas, causando dor extrema e ×1.5 dano).
+| ATRIBUTO | VALOR | AFINIDADE | CHANCE |
+| :--- | :---: | :---: | :---: |
+| **PV Base** | 10 | 🔥 Ignis | 53% |
+| **Velocidade** | 6m | 🪨 Terra | 29% |
+| **Sekhem Base** | 11 - 16 | 💨 Aer | 15% |
+| **Dado Sekhem** | 1d6+10 | 💧 Aqua | 3% |
 
 ***
 
-## Bônus (escolha 1)
+## 📜 Tradição e Fisiologia
 
-| Bônus | Efeito |
-|-------|--------|
-| **🌋 Fúria Eruptiva** | 1x por descanso curto: Pode entrar em erupção como Ação Bônus. Por 1 minuto, seus ataques corpo a corpo causam **+1d4 dano de Ignis** e quem te ataca (melee) recebe 1 de dano de fogo. |
-| **🌋 Pele de Obsidiana** | **+2 Corpo (Tenacidade).** Sua pele é dura como vidro vulcânico. Você tem +1 na CD de Defesa natural (acumula com armadura leve/média, mas não pesada). |
+### 👤 Aparência
 
-## Debuffs (escolha 1)
+Humanóides de pele cinza-chumbo, áspera como pedra-pomes ou rachada como terra seca. Quando usam magia, suas rachaduras brilham em laranja-magma. Seus olhos são como brasas vivas — vermelhos ou laranjas, sem esclera branca — e seus cabelos lembram nuvens de fumaça sólida ou fios de obsidiana.
 
-| Debuff | Efeito |
-|--------|--------|
-| **⚠️ Pavio Curto** | **-2 Mente (Instinto).** É difícil controlar suas emoções. Desvantagem em testes para manter a calma, evitar provocações ou resistir a frenesi. |
-| **⚠️ Densidade Rochosa** | **-2 Agilidade.** Você é pesado e afunda na água. Não sabe nadar (afunda como pedra) e tem desvantagem em testes de Acrobacia ou Furtividade (suas juntas estalam). |
+### 🏛️ Sociedade
 
-## Afinidade Elemental (d100)
+Nascidos nas encostas de vulcões ativos, construíram uma sociedade baseada na resiliência. Suas cidades são esculpidas diretamente na rocha vulcânica e aquecidas por rios de lava. Valorizam a franqueza brutal — acreditam que a verdade, como o fogo, purifica o que toca.
 
-- 🔥 **Ignis:** 53%
-- 🪨 **Terra:** 29%
-- 💨 **Aer:** 15%
-- 💧 **Aqua:** 3%
+### ⚒️ Cultura
+
+Possuem o ritual do **Crisol**, onde caminham sobre brasas para provar sua maturidade. São vidreiros e geomantes inigualáveis, mestres em culinária picante e no trabalho com metais raros encontrados apenas nas profundezas do subsolo.
+
+***
+
+## 🔥 Sangue Vulcânico (Característica Especial)
+
+* **Pulmão de Cinza:** São imunes a gases tóxicos ou fumaça vulcânica.
+* **Essência de Ignis:** Possuem resistência natural a dano de **Fogo (Ignis)** (recebem metade do dano).
+* **Corpo Térmico:** Sofrem vulnerabilidade a **Frio (Aqua/Gelo)**. O frio extremo solidifica suas juntas, causando dor e aplicando **x1.5 de dano**.
+
+***
+
+!!! success "Dádivas Raciais (Bônus)"
+    **Escolha uma das opções abaixo durante a criação do personagem:**
+
+    *   **🌋 Fúria Eruptiva**: 1x por descanso curto, pode entrar em erupção (Ação Bônus). Por 1 minuto, seus ataques causam **+1d4 dano de Ignis** e inimigos adjacentes que te atacarem recebem 1 de dano de fogo.
+    *   **🌋 Pele de Obsidiana**: Recebe **+2 Corpo (Tenacidade)**. Sua pele é dura como vidro vulcânico, garantindo **+1 na CD de Defesa natural** (não acumula com armadura pesada).
+
+!!! failure "Limitações (Debuffs)"
+    **Escolha uma das opções abaixo para equilibrar sua linhagem:**
+
+    *   **⚠️ Pavio Curto**: Recebe **-2 Mente (Instinto)**. Você tem dificuldade em controlar suas emoções, sofrendo desvantagem em testes para manter a calma ou resistir a frenesi.
+    *   **⚠️ Densidade Rochosa**: Recebe **-2 Agilidade**. Sendo extremamente denso, você afunda na água como uma pedra e tem desvantagem em testes de Furtividade ou Acrobacia.

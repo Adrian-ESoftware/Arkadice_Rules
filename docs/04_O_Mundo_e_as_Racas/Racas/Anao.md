@@ -1,48 +1,46 @@
-# Anão
+# 🪨 Anão
 
-## Aparência
+*"Nossa honra é tão profunda quanto as raízes da montanha, e nossa vontade é tão dura quanto o aço que forjamos."*
 
-Baixos e robustos (1.20m-1.50m), corpos largos e musculosos. Barbas longas (ambos os sexos em algumas culturas). Pele em tons terrosos, olhos escuros ou âmbar.
-
-## Sociedade
-
-Vivem em fortalezas subterrâneas e cidades dentro de montanhas. Sociedade baseada em clãs e ofícios. Cada anão carrega o nome do clã com orgulho — desonrar o clã é pior que a morte.
-
-## Cultura
-
-Ferreiros, mineradores, e engenheiros. Mestres em metalurgia e construção. Desconfiam de magia — preferem resolver problemas com martelo e bigorna. Cerveja é sagrada.
-
-## PV Base
-
-12
-
-## Velocidade Base
-
-5m
-
-## Sekhem Base
-
-1d6+7 (8-13)
+*Mestres do aço e guardiões das montanhas, os Anões são a personificação da resiliência e da tradição em Arkadice.*
 
 ***
 
-## Bônus (escolha 1)
+## 📊 Ficha Técnica (Anão)
 
-| Bônus | Efeito |
-|-------|--------|
-| **💪 Constituição de Pedra** | +3 PV na criação. Resistência natural a Veneno (vantagem no save) |
-| **💪 Sangue de Forja** | Proficiência Praticante com martelo/machado de graça + pode avaliar qualidade de metal/armadura automaticamente |
+| ATRIBUTO | VALOR | AFINIDADE | CHANCE |
+| :--- | :---: | :---: | :---: |
+| **PV Base** | 12 | 🪨 Terra | 48% |
+| **Velocidade** | 5m | 🔥 Ignis | 18% |
+| **Sekhem Base** | 8 - 13 | 💧 Aqua | 13% |
+| **Dado Sekhem** | 1d6+7 | 💨 Aer | 13% |
 
-## Debuffs (escolha 1)
+***
 
-| Debuff | Efeito |
-|--------|--------|
-| **💪 Pernas Curtas** | Velocidade 5m (já inclusa). Não pode usar Esquiva acima de 40% (max cap reduzido) |
-| **⚠️ Aversão Arcana** | Custos de magia +2 Sekhem extra por feitiço |
+## 📜 Tradição e Fisiologia
 
-## Afinidade Elemental (d100)
+### 👤 Aparência
 
-- 🪨 **Terra:** 48%
-- 🔥 **Ignis:** 18%
-- 💧 **Aqua:** 13%
-- 💨 **Aer:** 13%
+Baixos e robustos (1.20m-1.50m), com corpos largos e densamente musculosos. Suas peles ostentam tons terrosos e seus olhos brilham como âmbar ou pedras preciosas. As barbas são símbolos de status e idade, frequentemente adornadas com anéis de clã.
+
+### 🏛️ Sociedade
+
+Vivem em imponentes fortalezas subterrâneas esculpidas no coração das montanhas. Sua sociedade é um relógio de precisão baseado em clãs e ofícios. Cada anão carrega o nome do seu clã como uma promessa — para eles, a desonra é uma ferida que nem o tempo cura.
+
+### ⚒️ Cultura
+
+Ferreiros, mineradores e engenheiros natos. Os anões acreditam que a perfeição é alcançada através do martelo e da bigorna, não de fórmulas mágicas. São céticos em relação ao arcano e devotos de uma boa cerveja artesanal após um longo dia de forja.
+
+***
+
+!!! success "Dádivas Raciais (Bônus)"
+    **Escolha uma das opções abaixo durante a criação do personagem:**
+
+    *   **💪 Constituição de Pedra**: Recebe **+3 PV** permanentes na criação. Além disso, possui resistência natural a toxinas (Vantagem em testes de resistência contra Veneno).
+    *   **🔥 Sangue de Forja**: Recebe proficiência **Praticante** com Martelos ou Machados. Você é capaz de avaliar a qualidade de qualquer metal ou armadura apenas com um toque.
+
+!!! failure "Limitações (Debuffs)"
+    **Escolha uma das opções abaixo para equilibrar sua linhagem:**
+
+    *   **⚖️ Pernas Curtas**: Sua velocidade é limitada a 5m. Devido ao seu centro de gravidade e peso, seu limite máximo de **Esquiva** é reduzido em 10% (Cap máximo de 40%).
+    *   **⚠️ Aversão Arcana**: Seu corpo resiste ao fluxo de Sekhem. Todos os seus feitiços custam **+2 Sekhem** adicional para serem conjurados.

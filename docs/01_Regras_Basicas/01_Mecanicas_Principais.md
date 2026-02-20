@@ -41,9 +41,9 @@ Quando circunstâncias especiais favorecem ou prejudicam uma ação, o narrador 
 |----------|--------|
 | Atacar alvo que **não te vê** | Vantagem |
 | Atacar em **escuridão total** (sem Visão no Escuro) | Desvantagem |
-| Alvo **Derrubado** (Prone) corpo a corpo | Vantagem |
-| Alvo **Derrubado** (Prone) à distância | Desvantagem |
-| Alvo **Agarrado** (Grappled) | Vantagem contra ele |
+| Alvo **Derrubado** corpo a corpo | Vantagem |
+| Alvo **Derrubado** à distância | Desvantagem |
+| Alvo **Agarrado** | Vantagem contra ele |
 | Aliado usou **Ajudar** no teste | Vantagem |
 | Sob efeito de **Medo** | Desvantagem em ataques e perícias |
 | **Ação Preparada** (sem pressa) fora de combate | Vantagem a critério do narrador |

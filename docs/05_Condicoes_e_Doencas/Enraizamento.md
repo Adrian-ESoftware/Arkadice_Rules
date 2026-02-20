@@ -1,21 +1,36 @@
-Debuff: Enraizamento
-Descrição Geral: Raízes vivas ou vinhas mágicas prendem o alvo ao solo, drenando mobilidade. Ativado por magias de natureza, plantas carnívoras, terrenos amaldiçoados. Dura 1d4+2 rodadas ou até rompidas. Testes de resistência (Força).
+# 🌿 Condição: Enraizamento
 
-Níveis de Enraizamento
+> Raízes vivas ou vinhas mágicas prendem o alvo ao solo, drenando sua mobilidade e estabilidade.
 
-Fraco (Nível 1): Brotos iniciais. Raízes finas agarram tornozelos.
-Efeitos: Velocidade -1/4; -2 testes de Atletismo. Narrativamente: vinhas rastejando, solo vivo.
-Resistência: CD 11. Sucesso remove; falha mantém Nível 1; falha crítica sobe Nível 2.
+---
 
-Médio (Nível 2): Vinhas fortes. Prisão vegetal apertada.
-Efeitos: Velocidade -1/2; só ações no lugar; 1d4 dano perfurante/turno. Limite: Mínimo 1 rolagens. Narrativamente: espinhos cravados, raízes pulsantes.
-Resistência: CD 13. Sucesso reduz Nível 1; sucesso crítico remove; falha mantém; falha crítica sobe Nível 3.
+## 📊 Níveis de Enraizamento
 
-Grave (Nível 3): Floresta viva. Corpo engolido pelo solo.
-Efeitos: Imóvel total; 1d6 dano/turno; terreno cura inimigos plantas (+2 PV). Narrativamente: braços presos, terra subindo pelo peito.
-Resistência: CD 15. Sucesso reduz Nível 2; sucesso crítico reduz Nível 1; falha mantém (+1 rodada); falha crítica raízes espalham Nv1 adjacentes.
+| NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
+| :--- | :--- | :--- |
+| **🟡 Nv 1** | *Broto Inicial* | Velocidade reduzida a 3/4; -2 em testes de Atletismo. |
+| **🟠 Nv 2** | *Prisão Vegetal* | Velocidade reduzida a 1/2; **1d4 dano perfurante/turno**. |
+| **🔴 Nv 3** | *Floresta Viva* | **Imobilizado** (Velocidade 0m); **1d6 dano/turno**. |
 
-Recuperação e Variações
-Cura Rápida: Fogo/corte (ação completa, Destreza CD 13) remove 2 níveis. Aliado adjacente +4 resistência. Ácido derrete raízes instantaneamente.
-Gatilho Específico: Terreno sagrado druidico +1 nível; solo fértil duplica duração.
-Sinergia: Regenera plantas aliadas; + Congelamento = presa congelada enraizada.
+---
+
+## 🎲 Resistência e Progressão
+
+| RESULTADO | CONSEQÜÊNCIA |
+| :--- | :--- |
+| **✅ Sucesso** | Reduz 1 Nível de Enraizamento. |
+| **🌟 Suc. Crítico** | Remove a condição completamente. |
+| **❌ Falha** | Mantém o nível atual. |
+| **💀 Fal. Crítica** | Sobe 1 nível; raízes podem se espalhar para aliados adjacentes (Nv 1). |
+
+---
+
+## 💊 Recuperação e Notas
+
+!!! tip "Cura e Alívio"
+    - **Corte ou Fogo:** Usar uma ação para cortar ou queimar as raízes (CD 13) remove 2 níveis.
+    - **Ácido:** O uso de substâncias ácidas ou venenosas derrete as raízes instantaneamente.
+    - **Solo:** Em terrenos férteis ou sagrados, a duração e a dificuldade de escapar podem aumentar.
+
+!!! info "Sinergia Natural"
+    O enraizamento fornece +2 PV de cura por turno para criaturas do tipo Planta que estejam na zona afetada.
