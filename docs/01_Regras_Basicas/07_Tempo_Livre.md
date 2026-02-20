@@ -3,8 +3,8 @@
 Entre uma missão e outra, os personagens têm tempo para viver, treinar e se recuperar.
 O tempo é medido em **Semanas de Tempo Livre**.
 
-> [!info] Mecânica de Tempo Livre
-> O Tempo Livre é o momento onde os personagens definem que tipo de atividades fazem fora da aventura principal. Essencial para construir contatos, ganhar proficiência extra e acumular recursos.
+!!! info "Mecânica de Tempo Livre"
+    O Tempo Livre é o momento onde os personagens definem que tipo de atividades fazem fora da aventura principal. Essencial para construir contatos, ganhar proficiência extra e acumular recursos.
 
 ## Atividades Semanais
 
@@ -20,8 +20,8 @@ Cada personagem escolhe **uma** atividade principal por semana.
   - **Sucesso:** Ganha **5 usos** na barra de proficiência da habilidade escolhida.
   - **Crítico (20):** Ganha **10 usos**.
 
-> [!warning] Treinamento Tem Limites
-> *Não é possível alcançar Tier Mestre (3) ou Lendário (4) apenas com treino. Exigirá experiência real de combate ou estudo prático perigoso.*
+!!! warning "Treinamento Tem Limites"
+    *Não é possível alcançar Tier Mestre (3) ou Lendário (4) apenas com treino. Exigirá experiência real de combate ou estudo prático perigoso.*
 
 ### 2. Trabalho (Renda)
 
@@ -81,8 +81,8 @@ Além da atividade, cada semana tem um custo de manutenção:
 
 Quando a campanha tem um salto temporal significativo entre sessões (ex: de 1 mês a 1 ano in-game), o sistema semanal tradicional de Tempo Livre fica exaustivo. Nesses casos, utiliza-se a mecânica macro de **Ciclos de Fartura**.
 
-> [!tip] Como funciona o Ciclo
-> Um "Ciclo" representa o período completo de meses ou anos do personagem. Em vez de dezenas de rolagens, o jogador escolhe um **Foco de Fartura** e faz exatamente **3 Rolagens de Resolução** (representando o Início, o Meio e o Fim do ciclo). Cada rolagem requer atingir uma CD (geralmente 15) focada na perícia escolhida. O resultado consolidado dos sucessos dita a recompensa do salto temporal inteiro.
+!!! tip "Como funciona o Ciclo"
+    Um "Ciclo" representa o período completo de meses ou anos do personagem. Em vez de dezenas de rolagens, o jogador escolhe um **Foco de Fartura** e faz exatamente **3 Rolagens de Resolução** (representando o Início, o Meio e o Fim do ciclo). Cada rolagem requer atingir uma CD (geralmente 15) focada na perícia escolhida. O resultado consolidado dos sucessos dita a recompensa do salto temporal inteiro.
 
 ### 1. Foco em Treinamento (Proficiências)
 
