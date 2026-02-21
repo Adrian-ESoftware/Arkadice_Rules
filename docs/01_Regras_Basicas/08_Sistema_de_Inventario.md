@@ -91,5 +91,5 @@ graph TD
 
 ## Dicas para o Mestre
 
-- Itens vestindo (como a armadura atual) **não ocupam slots na mochila**, mas podem dar penalidades base de esquiva (veja [Equipamentos](02_Compendio/01_Equipamentos_e_Forja.md)).
+- Itens vestindo (como a armadura atual) **não ocupam slots na mochila**, mas podem dar penalidades base de esquiva (veja [Equipamentos](../02_Compendio/01_Equipamentos_e_Forja.md)).
 - Peça testes de sorte quando um personagem sobrecarregado cair ou sofrer um impacto; itens podem quebrar ou se perder.
