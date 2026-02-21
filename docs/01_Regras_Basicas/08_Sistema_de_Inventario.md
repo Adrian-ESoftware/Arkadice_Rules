@@ -17,8 +17,8 @@ Cada personagem começa com uma capacidade base definida pelo seu corpo e equipa
 | **Cinto** | 2 Slots | Requer um cinto ou bandoleira (itens de acesso rápido) |
 | **Mochila Base** | 6 Slots | Onde a maioria dos suprimentos é guardada |
 
-> [!TIP]
-> Personagens podem aumentar sua capacidade adquirindo mochilas maiores, alforjes ou equipamentos de expedição especializados.
+!!! tip "Dica de Exploração"
+    Personagens podem aumentar sua capacidade adquirindo mochilas maiores, alforjes ou equipamentos de expedição especializados.
 
 ---
 
@@ -91,5 +91,5 @@ graph TD
 
 ## Dicas para o Mestre
 
-- Itens vestindo (como a armadura atual) **não ocupam slots na mochila**, mas podem dar penalidades base de esquiva (veja [Equipamentos](01_Equipamentos_e_Forja.md)).
+- Itens vestindo (como a armadura atual) **não ocupam slots na mochila**, mas podem dar penalidades base de esquiva (veja [Equipamentos](02_Compendio/01_Equipamentos_e_Forja.md)).
 - Peça testes de sorte quando um personagem sobrecarregado cair ou sofrer um impacto; itens podem quebrar ou se perder.
