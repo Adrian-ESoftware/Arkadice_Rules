@@ -1,0 +1,172 @@
+{
+  "races": [
+    {
+      "name": "Anão",
+      "pv_base": 12,
+      "velocidade": "4.5m",
+      "sekhem_base": "8 - 12",
+      "dado_sekhem": "1d4+7",
+      "absorcao_base": 2,
+      "afinidades": [
+        { "elemento": "Terra", "chance": "45%" },
+        { "elemento": "Ignis", "chance": "35%" },
+        { "elemento": "Aqua", "chance": "15%" },
+        { "elemento": "Aer", "chance": "5%" }
+      ]
+    },
+    {
+      "name": "Elfo",
+      "pv_base": 8,
+      "velocidade": "9m",
+      "sekhem_base": "15 - 20",
+      "dado_sekhem": "1d8+12",
+      "absorcao_base": 1,
+      "afinidades": [
+        { "elemento": "Aer", "chance": "40%" },
+        { "elemento": "Aqua", "chance": "30%" },
+        { "elemento": "Terra", "chance": "20%" },
+        { "elemento": "Ignis", "chance": "10%" }
+      ]
+    },
+    {
+      "name": "Goblin",
+      "pv_base": 8,
+      "velocidade": "9m",
+      "sekhem_base": "10 - 15",
+      "dado_sekhem": "1d6+9",
+      "absorcao_base": 1,
+      "afinidades": [
+        { "elemento": "Aqua", "chance": "35%" },
+        { "elemento": "Terra", "chance": "30%" },
+        { "elemento": "Ignis", "chance": "25%" },
+        { "elemento": "Aer", "chance": "10%" }
+      ]
+    },
+    {
+      "name": "Humano",
+      "pv_base": 10,
+      "velocidade": "6m",
+      "sekhem_base": "10 - 15",
+      "dado_sekhem": "1d6+9",
+      "absorcao_base": 1,
+      "afinidades": [
+        { "elemento": "Aqua", "chance": "30%" },
+        { "elemento": "Ignis", "chance": "30%" },
+        { "elemento": "Terra", "chance": "25%" },
+        { "elemento": "Aer", "chance": "15%" }
+      ]
+    },
+    {
+      "name": "Meio-Elfo",
+      "pv_base": 10,
+      "velocidade": "7.5m",
+      "sekhem_base": "12 - 16",
+      "dado_sekhem": "1d6+10",
+      "absorcao_base": 1,
+      "afinidades": [
+        { "elemento": "Aer", "chance": "30%" },
+        { "elemento": "Aqua", "chance": "30%" },
+        { "elemento": "Terra", "chance": "25%" },
+        { "elemento": "Ignis", "chance": "15%" }
+      ]
+    },
+    {
+      "name": "Orc",
+      "pv_base": 14,
+      "velocidade": "6m",
+      "sekhem_base": "6 - 8",
+      "dado_sekhem": "1d4+4",
+      "absorcao_base": 2,
+      "afinidades": [
+        { "elemento": "Ignis", "chance": "45%" },
+        { "elemento": "Terra", "chance": "35%" },
+        { "elemento": "Aqua", "chance": "15%" },
+        { "elemento": "Aer", "chance": "5%" }
+      ]
+    },
+    {
+      "name": "Tiefling",
+      "pv_base": 10,
+      "velocidade": "6m",
+      "sekhem_base": "12 - 16",
+      "dado_sekhem": "1d6+10",
+      "absorcao_base": 1,
+      "afinidades": [
+        { "elemento": "Terra", "chance": "40%" },
+        { "elemento": "Ignis", "chance": "30%" },
+        { "elemento": "Aer", "chance": "20%" },
+        { "elemento": "Aqua", "chance": "10%" }
+      ]
+    },
+    {
+      "name": "Accipitres",
+      "pv_base": 8,
+      "velocidade": "9m (Voo)",
+      "sekhem_base": "12 - 18",
+      "dado_sekhem": "1d6+10",
+      "absorcao_base": 1,
+      "afinidades": [
+        { "elemento": "Aer", "chance": "50%" },
+        { "elemento": "Terra", "chance": "25%" },
+        { "elemento": "Ignis", "chance": "15%" },
+        { "elemento": "Aqua", "chance": "10%" }
+      ]
+    },
+    {
+      "name": "Cinéreo",
+      "pv_base": 10,
+      "velocidade": "6m",
+      "sekhem_base": "12 - 17",
+      "dado_sekhem": "1d6+10",
+      "absorcao_base": 1,
+      "afinidades": [
+        { "elemento": "Ignis", "chance": "40%" },
+        { "elemento": "Aer", "chance": "30%" },
+        { "elemento": "Terra", "chance": "25%" },
+        { "elemento": "Aqua", "chance": "5%" }
+      ]
+    },
+    {
+      "name": "Hemovita",
+      "pv_base": 12,
+      "velocidade": "6m",
+      "sekhem_base": "8 - 12",
+      "dado_sekhem": "1d4+7",
+      "absorcao_base": 1,
+      "afinidades": [
+        { "elemento": "Aqua", "chance": "45%" },
+        { "elemento": "Aer", "chance": "35%" },
+        { "elemento": "Ignis", "chance": "15%" },
+        { "elemento": "Terra", "chance": "5%" }
+      ]
+    },
+    {
+      "name": "Velthari",
+      "pv_base": 10,
+      "velocidade": "6m",
+      "sekhem_base": "10 - 15",
+      "dado_sekhem": "1d6+9",
+      "absorcao_base": 1,
+      "afinidades": [
+        { "elemento": "Ignis", "chance": "40%" },
+        { "elemento": "Aer", "chance": "30%" },
+        { "elemento": "Aqua", "chance": "20%" },
+        { "elemento": "Terra", "chance": "10%" }
+      ]
+    },
+    {
+      "name": "Vroots",
+      "pv_base": 15,
+      "velocidade": "4.5m",
+      "sekhem_base": "6 - 8",
+      "dado_sekhem": "1d4+4",
+      "absorcao_base": 2,
+      "afinidades": [
+        { "elemento": "Terra", "chance": "50%" },
+        { "elemento": "Aqua", "chance": "25%" },
+        { "elemento": "Aer", "chance": "15%" },
+        { "elemento": "Ignis", "chance": "10%" }
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@
 | **PV Base** | 8 | ![Aer](../../icons/air512.svg){ width="20" .element-icon } Aer | 40% |
 | **Velocidade** | 9m | ![Aqua](../../icons/aqua512.svg){ width="20" .element-icon } Aqua | 30% |
 | **Sekhem Base** | 15 - 20 | ![Terra](../../icons/terra512.svg){ width="20" .element-icon } Terra | 20% |
-| **Dado Sekhem** | 1d8+12 | ![Ignis](../../icons/ignes512.svg){ width="20" .element-icon } Ignis | 10% |
+| **Dado Sekhem** | 1d10+10 | ![Ignis](../../icons/ignes512.svg){ width="20" .element-icon } Ignis | 10% |
 | **Absorção de Base** | 1 | - | - |
 
 ***
