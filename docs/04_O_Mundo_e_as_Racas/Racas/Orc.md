@@ -12,6 +12,7 @@
 | **Velocidade** | 6m | ![Terra](../../icons/terra512.svg){ width="20" .element-icon } Terra | 35% |
 | **Sekhem Base** | 6 - 8 | ![Aqua](../../icons/aqua512.svg){ width="20" .element-icon } Aqua | 15% |
 | **Dado Sekhem** | 1d4+4 | ![Aer](../../icons/air512.svg){ width="20" .element-icon } Aer | 5% |
+| **Absorção de Base** | 2 | - | - |
 
 ***
 

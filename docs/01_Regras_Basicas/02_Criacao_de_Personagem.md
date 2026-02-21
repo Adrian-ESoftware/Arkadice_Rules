@@ -13,6 +13,7 @@ Para materializar o seu combatente, siga o passo a passo a seguir:
 Consulte a aba Raças *(Sistemas Avançados -> Raças)*. Cada raça define as estacas do corpo do seu personagem, provendo:
 
 - PV Base (Pontos de Vida da anatomia da espécie)
+- Absorção de Base (Resistência natural ao dano)
 - Sekhem Base (rolagem do dado de magia)
 - Velocidade Base
 - 1 Bônus (escolha entre 2 opções fixas)

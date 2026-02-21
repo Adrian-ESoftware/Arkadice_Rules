@@ -12,6 +12,7 @@
 | **Velocidade** | 4.5m | ![Aqua](../../../icons/aqua512.svg){ width="20" .element-icon } Aqua | 25% |
 | **Sekhem Base** | 6 - 8 | ![Aer](../../../icons/air512.svg){ width="20" .element-icon } Aer | 15% |
 | **Dado Sekhem** | 1d4+4 | ![Ignis](../../../icons/ignes512.svg){ width="20" .element-icon } Ignis | 10% |
+| **Absorção de Base** | 2 | - | - |
 
 ***
 
