@@ -9,7 +9,7 @@
 | ATRIBUTO | VALOR | AFINIDADE | CHANCE |
 | :--- | :---: | :---: | :---: |
 | **PV Base** | 10 | ![Ignis](../../../icons/ignes512.svg){ width="20" .element-icon } Ignis | 40% |
-| **Velocidade** | 6m | ![Aer](../../../icons/air512.svg){ width="20" .element-icon } Aer | 30% |
+| **Sekhem Base** | 11 - 16 | ![Aer](../../../icons/air512.svg){ width="20" .element-icon } Aer | 30% |
 | **Dado Sekhem** | 1d6+10 | ![Terra](../../../icons/terra512.svg){ width="20" .element-icon } Terra | 25% |
 | **Sekhem Base** | 12 - 17 | ![Aqua](../../../icons/aqua512.svg){ width="20" .element-icon } Aqua | 5% |
 | **Absorção de Base** | 1 | - | - |
