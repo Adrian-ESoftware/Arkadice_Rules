@@ -149,15 +149,15 @@ O Sekhem Máximo de cada personagem é **rolado aleatoriamente** na criação, d
 | Raça | Sekhem Mín. | Sekhem Máx. | Dado | Tendência |
 |------|-------------|-------------|------|-----------|
 | **Humano** | 10 | 15 | 1d6+9 | Equilibrado, versátil |
-| **Elfo** | 12 | 16 | 1d5+11 | Afinidade mágica natural |
+| **Elfo** | 11 | 16 | 1d6+10 | Afinidade mágica natural |
 | **Anão** | 8 | 13 | 1d6+7 | Menos mágico, mais resistente |
-| **Orc** | 8 | 12 | 1d5+7 | Força bruta, pouco Sekhem |
-| **Meio-Elfo** | 11 | 15 | 1d5+10 | Herança élfica parcial |
-| **Tiefling** | 10 | 16 | 1d7+9 | Instável, faixa mais ampla |
-| **Goblin** | 9 | 13 | 1d5+8 | Modesto, compensa com esperteza |
+| **Orc** | 7 | 12 | 1d6+6 | Força bruta, pouco Sekhem |
+| **Meio-Elfo** | 10 | 15 | 1d6+9 | Herança élfica parcial |
+| **Tiefling** | 9 | 16 | 1d8+8 | Instável, faixa mais ampla |
+| **Goblin** | 8 | 13 | 1d6+7 | Modesto, compensa com esperteza |
 | **Hemovita** | 11 | 16 | 1d6+10 | Sekhem vampírico, alimentado por vitae |
-| **Harpia** | 9 | 14 | 1d6+8 | Parte do Sekhem vai para o vôo |
-| **Vroot** | 9 | 14 | 1d6+8 | Sekhem solar, estável |
+| **Accipitres** | 9 | 14 | 1d6+8 | Parte do Sekhem vai para o vôo |
+| **Vroots** | 9 | 14 | 1d6+8 | Sekhem solar, estável |
 | **Cinéreo** | 11 | 16 | 1d6+10 | Alta afinidade mágica destrutiva |
 | **Velthari** | 9 | 14 | 1d6+8 | Predador, Sekhem focado em instinto |
 

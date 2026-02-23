@@ -3,7 +3,7 @@ export const racas = {
         {
             "name": "Anão",
             "pv_base": 12,
-            "velocidade": "4.5m",
+            "velocidade": "6m",
             "sekhem_base": "8 - 13",
             "dado_sekhem": "1d6+7",
             "absorcao_base": 2,
@@ -17,9 +17,9 @@ export const racas = {
         {
             "name": "Elfo",
             "pv_base": 8,
-            "velocidade": "9m",
-            "sekhem_base": "12 - 16",
-            "dado_sekhem": "1d5+11",
+            "velocidade": "7m",
+            "sekhem_base": "11 - 16",
+            "dado_sekhem": "1d6+10",
             "absorcao_base": 1,
             "afinidades": [
                 { "elemento": "Aer", "chance": 0.40 },
@@ -31,9 +31,9 @@ export const racas = {
         {
             "name": "Goblin",
             "pv_base": 8,
-            "velocidade": "9m",
-            "sekhem_base": "9 - 13",
-            "dado_sekhem": "1d5+8",
+            "velocidade": "6m",
+            "sekhem_base": "8 - 13",
+            "dado_sekhem": "1d6+7",
             "absorcao_base": 1,
             "afinidades": [
                 { "elemento": "Aqua", "chance": 0.35 },
@@ -59,9 +59,9 @@ export const racas = {
         {
             "name": "Meio-Elfo",
             "pv_base": 10,
-            "velocidade": "7.5m",
-            "sekhem_base": "11 - 15",
-            "dado_sekhem": "1d5+10",
+            "velocidade": "7m",
+            "sekhem_base": "10 - 15",
+            "dado_sekhem": "1d6+9",
             "absorcao_base": 1,
             "afinidades": [
                 { "elemento": "Aer", "chance": 0.30 },
@@ -74,8 +74,8 @@ export const racas = {
             "name": "Orc",
             "pv_base": 14,
             "velocidade": "6m",
-            "sekhem_base": "8 - 12",
-            "dado_sekhem": "1d5+7",
+            "sekhem_base": "7 - 12",
+            "dado_sekhem": "1d6+6",
             "absorcao_base": 2,
             "afinidades": [
                 { "elemento": "Ignis", "chance": 0.45 },
@@ -88,8 +88,8 @@ export const racas = {
             "name": "Tiefling",
             "pv_base": 10,
             "velocidade": "6m",
-            "sekhem_base": "10 - 16",
-            "dado_sekhem": "1d7+9",
+            "sekhem_base": "9 - 16",
+            "dado_sekhem": "1d8+8",
             "absorcao_base": 1,
             "afinidades": [
                 { "elemento": "Terra", "chance": 0.40 },
