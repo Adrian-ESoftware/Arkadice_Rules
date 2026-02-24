@@ -58,6 +58,7 @@ nav:
       - "O Grimoire Sekhem": 03_Magia_e_Misticismo/01_Regras_de_Sekhem.md
       - "Escolhas e Combinações": 03_Magia_e_Misticismo/02_Escolhas_e_Combinacoes.md
       - "Dicionário de Feitiços": 03_Magia_e_Misticismo/03_Dicionario_de_Feiticos.md
+      - "Alquimia e Poções": 03_Magia_e_Misticismo/04_Alquimia_e_Pocoes.md
   - "O Mundo e as Raças":
       - "Raças Comuns e Incomuns":
           - "Anão": 04_O_Mundo_e_as_Racas/Racas/Anao.md
@@ -82,6 +83,7 @@ nav:
       - "Estados Mágicos e Elementais":
           - "Cegueira Divina": 05_Condicoes_e_Doencas/CegueiraDivina.md
           - "Congelamento": 05_Condicoes_e_Doencas/Congelamento.md
+          - "Eco Temporal": 05_Condicoes_e_Doencas/EcoTemporal.md
           - "Petrificação": 05_Condicoes_e_Doencas/Petrificacao.md
           - "Queimadura": 05_Condicoes_e_Doencas/Queimadura.md
           - "Silêncio": 05_Condicoes_e_Doencas/Silencio.md
@@ -90,6 +92,8 @@ nav:
           - "Medo": 05_Condicoes_e_Doencas/Medo.md
       - "Enfermidades e Toxinas":
           - "Fraqueza": 05_Condicoes_e_Doencas/Fraqueza.md
+          - "Intoxicação Alquímica": 05_Condicoes_e_Doencas/IntoxicacaoAlquimica.md
+          - "Língua Pesada": 05_Condicoes_e_Doencas/LinguaPesada.md
           - "Parasita": 05_Condicoes_e_Doencas/Parasita.md
           - "Sangramento": 05_Condicoes_e_Doencas/Sangramento.md
           - "Veneno Agudo": 05_Condicoes_e_Doencas/VenenoAgudo.md

@@ -1,0 +1,33 @@
+{
+  "name": "Nome da Criatura",
+  "appearance": "Uma breve descrição da aparência visual",
+  "description": "Lore detalhada, história e comportamentos da criatura",
+  "traits": "- **Imunidade a fogo**\n- **Sentido cego 18m**",
+  "hp_max": 50,
+  "sekhem_max": 20,
+  "speed": "9m",
+  "def_cd": 12,
+  "def_dodge": 15,
+  "def_abs": "1d6",
+  "attr_presenca": 2,
+  "attr_fisico": 3,
+  "attr_mente": -1,
+  "attr_corpo": 1,
+  "attr_linhagem": 0,
+  "elements": ["ignes", "ordo"],
+  "loot_table": 5,
+  "token_size": 2,
+  "aura_radius": 3,
+  "aura_color": "#ff4400",
+  "actions": [
+    {
+      "description": "Dano: **2d8+3** físico. Alcance: **1.5m**.",
+      "name": "Ataque de Garras"
+    },
+    {
+      "name": "Sopro Flamejante",
+      "description": "Dano: **4d6 ignes** em cone de **6m**. CD **14** para metade."
+    }
+  ],
+  "image_url": "https://exemplo.com/imagem.png"
+}

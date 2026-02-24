@@ -8,7 +8,7 @@ Modo de uso: inalado ou pingado na língua, não é frasco de combate.
 
 Efeito em 1–2 minutos:
 
-O usuário ganha +1 maestria temporária em 1 elemento à escolha (Ignis, Aqua, Terra ou Aer) por 1 cena
+O usuário ganha melhora a maestria que possui em um elemento. (Ignis, Aqua, Terra ou Aer) por 1 cena
 
 ou +2 em 1 teste de Mente/Presença específico (ex.: uma negociação, um ritual).
 
@@ -54,7 +54,7 @@ Sugestão de teste:
 
 Mente (Razão ou Força de Vontade) contra CD 12–15, dependendo da droga.
 
-2. Estágios de vício
+1. Estágios de vício
 Cria 3 níveis: Tendência → Viciado → Dependente Grave.
 
 Estágio 1 – Tendência

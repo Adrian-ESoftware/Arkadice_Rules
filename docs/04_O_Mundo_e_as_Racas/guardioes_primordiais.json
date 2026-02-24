@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Sylvara, a Guardiã das Raízes",
+    "appearance": "Uma entidade composta por troncos de carvalho milenar e vinhas luminescentes, com olhos que brilham como esmeraldas puras.",
+    "description": "Residente do Bosque de Elowen, Sylvara é a personificação da harmonia vegetal. Ela sussurra segredos ancestrais através do balanço das folhas e mantém o equilíbrio selvagem, impedindo que as florestas de Arkadice sejam consumidas pela desolação.",
+    "traits": "- **Comunhão Arbórea**: Pode se fundir a qualquer árvore e reaparecer em outra a até 100m.\n- **Regeneração Vital**: Cura 10 PV por turno se estiver em contato com solo fértil.\n- **Voz da Selva**: Animais e plantas são incapazes de atacá-la voluntariamente.",
+    "hp_max": 450,
+    "sekhem_max": 150,
+    "speed": "12m",
+    "def_cd": 18,
+    "def_dodge": 12,
+    "def_abs": "1d10+4",
+    "attr_presenca": 5,
+    "attr_fisico": 4,
+    "attr_mente": 3,
+    "attr_corpo": 5,
+    "attr_linhagem": 5,
+    "elements": ["terra", "ordo"],
+    "loot_table": 10,
+    "token_size": 3,
+    "aura_radius": 6,
+    "aura_color": "#2ecc71",
+    "actions": [
+      {
+        "name": "Terra Sano Perpetuus (Sempiternus)",
+        "description": "Palavra Única: **Sempiternus**. Sylvara toca o solo, criando uma onda de restauração que cura **4d10+10** PV de todos os aliados em 20m e remove qualquer condição negativa."
+      },
+      {
+        "name": "Chicote de Vinhas Primordiais",
+        "description": "Dano: **4d8+5** físico. Se atingir, o alvo fica sob efeito de *Vinculum* (Imobilizado, CD 18)."
+      },
+      {
+        "name": "Terra Misceo Ordo Murus",
+        "description": "Cria uma barreira de luz e carvalho com **100 HP**. Qualquer um que ataque o muro sofre **1d12** de dano de Ordo."
+      }
+    ],
+    "image_url": "sylvara_guardian_forest.png"
+  },
+  {
+    "name": "Ignarath, o Forjador de Magma",
+    "appearance": "Um colosso de obsidiana e fogo vivo, cujo corpo pulsa como o coração de um vulcão em erupção.",
+    "description": "Habitante do Magma Profundo de Karibs, Ignarath moldou as montanhas de Arkadice. Ele é o senhor do calor e da criação física, forjando a própria vida nas chamas puras do mundo.",
+    "traits": "- **Corpo Ígneo**: Qualquer um que tocar Ignarath ou atacá-lo corpo a corpo sofre **2d6** de dano de Ignis.\n- **Imunidade Absoluta**: Ignis e Terra.\n- **Forja Viva**: Pode reparar qualquer objeto de metal ou pedra instantaneamente com o toque.",
+    "hp_max": 550,
+    "sekhem_max": 100,
+    "speed": "9m",
+    "def_cd": 20,
+    "def_dodge": 8,
+    "def_abs": "2d10+6",
+    "attr_presenca": 4,
+    "attr_fisico": 6,
+    "attr_mente": 2,
+    "attr_corpo": 6,
+    "attr_linhagem": 4,
+    "elements": ["ignes", "terra"],
+    "loot_table": 10,
+    "token_size": 4,
+    "aura_radius": 9,
+    "aura_color": "#e67e22",
+    "actions": [
+      {
+        "name": "Ignis Misceo Terra Orbis (Vulcanus)",
+        "description": "Palavra Única: **Vulcanus**. Uma explosão de lava ruidosa em um raio de 12m. Dano: **8d8 ignis/terra**. O solo na área vira terreno difícil (lava)."
+      },
+      {
+        "name": "Martelo de Calamitah",
+        "description": "Dano: **5d10+8** físico/ignis. O golpe causa um tremor que derruba todos em um cone de 6m (CD 18 Força)."
+      },
+      {
+        "name": "Ignis Telum Magnus",
+        "description": "Conjura uma espada de chamas puras de 6m de comprimento. Dano: **4d12** ignis. Alcance: **9m**."
+      }
+    ],
+    "image_url": "ignarath_guardian_fire.png"
+  },
+  {
+    "name": "Thalor, o Cantor das Águas",
+    "appearance": "Um ser elegante de água cristalina e gelo eterno, cujas vestes parecem feitas de névoa e luz boreal.",
+    "description": "Nas águas de Nevas, Thalor governa o ciclo de renovação. Seus hinos podem congelar oceanos ou curar as feridas mais profundas do mundo através do fluxo infinito da vida.",
+    "traits": "- **Forma Fluida**: Pode passar por fendas de qualquer tamanho e é imune a dano físico não mágico.\n- **Hino de Nevas**: Aliados em sua aura recuperam **1d6** Sekhem por turno.\n- **Regeneração Aquática**: Se estiver na água, recupera 20 PV por turno.",
+    "hp_max": 400,
+    "sekhem_max": 180,
+    "speed": "15m (Natação/Voo)",
+    "def_cd": 16,
+    "def_dodge": 20,
+    "def_abs": "1d8",
+    "attr_presenca": 5,
+    "attr_fisico": 2,
+    "attr_mente": 5,
+    "attr_corpo": 3,
+    "attr_linhagem": 5,
+    "elements": ["aqua"],
+    "loot_table": 10,
+    "token_size": 3,
+    "aura_radius": 10,
+    "aura_color": "#3498db",
+    "actions": [
+      {
+        "name": "Aqua Sano Vastus (Renovatio)",
+        "description": "Palavra Única: **Renovatio**. Um hino que ecoa pelo campo. Todos os aliados recuperam **6d6+20** PV e ganham um escudo de gelo (+10 Abs) por 3 turnos."
+      },
+      {
+        "name": "Lança de Glacies",
+        "description": "Dano: **4d10** aqua/gelo. O alvo fica *Congelado* (Paralisado, CD 17) por 1 turno."
+      },
+      {
+        "name": "Aqua Nimbus Perpetuus",
+        "description": "Uma névoa gelada que cobre 20m de raio. Inimigos sofrem **2d8** de dano por turno e têm sua velocidade reduzida à metade."
+      }
+    ],
+    "image_url": "thalor_guardian_water.png"
+  },
+  {
+    "name": "Zephyrion, o Sopro da Alvorada",
+    "appearance": "Um espírito alado de luz e nuvens, cujas asas se estendem como o horizonte e cujos olhos refletem a pureza do céu.",
+    "description": "Guardião do Monte Manje, Zephyrion controla os ventos que purificam arkadice. Antes de seu ferimento, ele era a ponte entre o mundo material e o éter, garantindo que o ar nunca estagnasse.",
+    "traits": "- **Soberano do Céu**: Imunidade a dano de queda e ventos mágicos. Pode voar em qualquer velocidade.\n- **Presença Purificadora**: Condições de *Veneno* ou *Doença* são dissipadas instantaneamente em sua aura.\n- **Evasão Etérea**: Pode se tornar intangível como reação a um ataque.",
+    "hp_max": 350,
+    "sekhem_max": 200,
+    "speed": "24m (Voo)",
+    "def_cd": 18,
+    "def_dodge": 24,
+    "def_abs": "1d6",
+    "attr_presenca": 6,
+    "attr_fisico": 3,
+    "attr_mente": 5,
+    "attr_corpo": 3,
+    "attr_linhagem": 6,
+    "elements": ["aer", "ordo"],
+    "loot_table": 10,
+    "token_size": 3,
+    "aura_radius": 12,
+    "aura_color": "#f1c40f",
+    "actions": [
+      {
+        "name": "Aer Orbis Vastus Magnus (Aether)",
+        "description": "Palavra Única: **Aether**. Um vácuo massivo seguido por uma explosão sônica. Inimigos em 15m sofrem **6d12** de dano de Aer e são arremessados 20m para trás."
+      },
+      {
+        "name": "Lâmina de Vento Cortante",
+        "description": "Dano: **4d8+6** aer/perfurante. Ignora completamente a Absorção do alvo."
+      },
+      {
+        "name": "Aer Morpho Lentus",
+        "description": "Altera a gravidade em uma área de 10m. Inimigos ficam *Lentos* e não podem voar. Aliados ganham o dobro de movimento."
+      }
+    ],
+    "image_url": "zephyrion_guardian_air.png"
+  },
+  {
+    "name": "O Vazio Abissal (O Corrompido)",
+    "appearance": "Uma fenda antropomórfica na realidade, um buraco negro em forma de ser, cercado por tentáculos de puro nada que devoram a luz.",
+    "description": "Um ser vindo do vazio entre mundos. Ele não possui Sekhem, ele é a ausência dele. Sua única motivação é consumir a essência vital de Arkadice para preencher seu vazio interminável. Foi ele quem apunhalou Zephyrion, desencadeando o caos atual.",
+    "traits": "- **Vazio de Sekhem**: Nenhuma magia pode detectá-lo. Imune a qualquer efeito que exija teste de Mente/Presença.\n- **Dreno Vital**: Sempre que causar dano, recupera a mesma quantidade em PV.\n- **Aura de Desolação**: Criaturas na aura perdem **5** de Sekhem por turno automaticamente.",
+    "hp_max": 666,
+    "sekhem_max": 0,
+    "speed": "12m (Teletransporte)",
+    "def_cd": 22,
+    "def_dodge": 15,
+    "def_abs": "3d6",
+    "attr_presenca": 6,
+    "attr_fisico": 5,
+    "attr_mente": 6,
+    "attr_corpo": 5,
+    "attr_linhagem": -7,
+    "elements": ["perditio"],
+    "loot_table": 15,
+    "token_size": 4,
+    "aura_radius": 15,
+    "aura_color": "#2c3e50",
+    "actions": [
+      {
+        "name": "Perditio Nulla Spes",
+        "description": "Palavra Única: **Nulla**. O Vazio apaga a luz em uma área. Todos os alvos devem passar em CD 18 CD ou perder metade de seu Sekhem atual e sofrer **5d10** de dano de entropia."
+      },
+      {
+        "name": "Tentáculos do Abismo",
+        "description": "4 ataques por turno. Dano: **2d12+5** perversão. Se atingir, o alvo perde 1 ponto permanente de um atributo aleatório (recuperável apenas com magia de Guardião)."
+      },
+      {
+        "name": "Colapso do Horizonte de Eventos",
+        "description": "Cria uma zona de morte de 6m. Nada sai ou entra. Quem estiver dentro sofre **10d6** de dano por turno e é silenciado."
+      }
+    ],
+    "image_url": "abyssal_villain_chaos.png"
+  }
+]

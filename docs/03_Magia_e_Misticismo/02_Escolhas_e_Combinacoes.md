@@ -75,7 +75,7 @@ Cada elemento é muito mais versátil do que parece. O jogador pode usar **Palav
 | **Verdade** | **Veritas** | Detectar mentiras, revelar ilusões, foco mental |
 | **Paz / Benção** | **Pax** | +1 em saves, buff mental, coragem contra medo |
 
-> Ordo **não pode**: causar dano massivo (é mais defensivo), criar ilusões, corromper, drenar vida.
+> Ordo **não pode**: causar dano massivo (é mais defensivo), criar ilusões, corromper, drena vida.
 
 ### ![Perditio](../icons/perditio512.svg){ width="40" .element-icon .element-icon-perditio } Perditio (Entropia)
 
@@ -92,7 +92,218 @@ Cada elemento é muito mais versátil do que parece. O jogador pode usar **Palav
 
 ***
 
-## Como os Modificadores Funcionam
+***
+
+## 2. Os Núcleos (A Forma da Magia)
+
+### Núcleos de Combate
+
+#### Sagitta (Projétil Direto)
+
+Base: **1d6 dano**, alcance 18m, 1 alvo | Custo: 1 Sekhem
+
+| Elemento | Efeito | Narrativa |
+|----------|--------|-----------|
+| **Ignis** | 1d6 dano de fogo. Chance de Queimadura (Tier 1) | Bola de fogo que voa em linha reta |
+| **Aqua** | 1d6 dano de gelo. Chance de Congelamento (Tier 1) | Seta de gelo afiada |
+| **Terra** | 1d6 dano físico. Empurra alvo 1.5m | Pedra arremessada com força mágica |
+| **Aer** | 1d6 dano elétrico. +3m de alcance (21m total) | Raio de vento cortante ou relâmpago |
+| **Ordo** | 1d6 dano radiante. +1 dano vs mortos-vivos | Feixe de luz concentrada |
+| **Perditio** | 1d6 dano necrótico. Chance de Fadiga (Tier 1) | Dardo de sombra que drena |
+
+***
+
+#### Tactus (Toque / Contato)
+
+Base: **1d8 dano**, ignora 1 Absorção, requer adjacência | Custo: 1 Sekhem
+
+| Elemento | Efeito | Narrativa |
+|----------|--------|-----------|
+| **Ignis** | 1d8 dano de fogo. Ignora Absorção metálica (metal aquece) | Mão em brasa que marca a carne |
+| **Aqua** | 1d8 dano de gelo. Chance de Congelamento (Tier 2) | Toque que congela da pele pra dentro |
+| **Terra** | 1d8 dano físico. Chance de Aturdido (1 turno) | Soco sísmico — tremor no corpo |
+| **Aer** | 1d8 dano elétrico. Alvo não pode usar reação neste turno | Choque elétrico que trava os músculos |
+| **Ordo** | 1d8 dano radiante. Revela Invisíveis tocados | Toque que queima sombras e ilusões |
+| **Perditio** | 1d8 dano necrótico. Conjurador **cura 1d4 PV** | Drenar vida pelo toque |
+
+***
+
+#### Orbis (Esfera / Área)
+
+Base: **1d4 dano** a todos na área, raio 3m, aliados incluídos | Custo: 1 Sekhem
+
+| Elemento | Efeito | Narrativa |
+|----------|--------|-----------|
+| **Ignis** | 1d4 dano de fogo. Área fica em chamas por 1 turno (+1d4 se pisar) | Explosão que deixa terreno ardente |
+| **Aqua** | 1d4 dano de gelo. Área vira terreno difícil (gelo escorregadio) | Onda de gelo que congela o chão |
+| **Terra** | 1d4 dano físico. Chance de Prone para cada afetado (CD 10) | Tremor que sacode o solo |
+| **Aer** | 1d4 dano elétrico. Empurra todos 1.5m do centro | Onda de choque sônica |
+| **Ordo** | 1d4 dano radiante. Aliados na área curam 1 PV | Pulso de luz que purifica |
+| **Perditio** | 1d4 dano necrótico. Área fica em penumbra por 1d4 turnos | Nuvem de sombras que escurece |
+
+***
+
+#### Telum (Lâmina / Arma Conjurada)
+
+Base: Arma conjurada, +**1d4 dano elemental** por ataque | Custo: 1 Sekhem | Duração: 1d4+2 turnos
+
+| Elemento | Efeito | Narrativa |
+|----------|--------|-----------|
+| **Ignis** | +1d4 dano de fogo. Chance de Queimadura ao acertar | Espada flamejante que arde |
+| **Aqua** | +1d4 dano de gelo. Chance de Congelamento ao acertar | Lâmina de gelo cristalino |
+| **Terra** | +1d4 dano físico. Arma tem **+1 Absorção** quando usada pra bloquear | Martelo de pedra maciça |
+| **Aer** | +1d4 dano elétrico. Arma é **leve** (pode usar como ação bônus) | Lâmina de vento invisível |
+| **Ordo** | +1d4 dano radiante. Emite luz (6m). +2 dano vs mortos-vivos | Espada de luz pura |
+| **Perditio** | +1d4 dano necrótico. Ao matar, conjurador cura 2 PV | Foice sombria que colhe vida |
+
+***
+
+### Núcleos de Controle
+
+#### Vinculum (Corrente / Vínculo)
+
+Base: CD 12 para escapar, **imobiliza** (velocidade 0) | Custo: 1 Sekhem | Duração: 1d4 turnos
+
+| Elemento | Efeito | Narrativa |
+|----------|--------|-----------|
+| **Ignis** | Imobiliza + 1d4 dano/turno ao preso | Correntes de fogo que queimam enquanto prendem |
+| **Aqua** | Imobiliza. Escapar tem **desvantagem** se alvo está molhado | Algemas de gelo que endurecem |
+| **Terra** | Imobiliza. CD para escapar sobe pra **14** | Mãos de pedra que agarram do chão |
+| **Aer** | Imobiliza + **silencia** (não pode conjurar feitiços) | Bolha de vácuo ao redor da cabeça |
+| **Ordo** | Imobiliza. Alvo não pode usar magia de Perditio | Cadeias de luz sagrada |
+| **Perditio** | Imobiliza + **desvantagem** em saves enquanto preso | Tentáculos de sombra que sussurram |
+
+***
+
+#### Nimbus (Nuvem / Área Contínua)
+
+Base: **1d4 dano/turno**, raio 6m | Custo: 1 Sekhem | Duração: 1d4+1 turnos | Feitiço contínuo
+
+| Elemento | Efeito | Narrativa |
+|----------|--------|-----------|
+| **Ignis** | 1d4 dano de fogo/turno. Objetos inflamáveis pegam fogo | Nuvem de brasas e cinzas incandescentes |
+| **Aqua** | 1d4 dano de gelo/turno. Visibilidade reduzida (penumbra) | Neblina gélida que congela e cega |
+| **Terra** | 1d4 dano físico/turno. Terreno difícil na área | Tempestade de areia e pedregulhos |
+| **Aer** | 1d4 dano elétrico/turno. Ataques à distância que atravessam a área têm desvantagem | Turbilhão com estática constante |
+| **Ordo** | 0 dano. Aliados na nuvem têm **+1 em todos os saves** | Aura dourada de proteção |
+| **Perditio** | 1d4 dano necrótico/turno. Cura na área tem **eficácia reduzida pela metade** | Miasma púrpura que corrompe |
+
+***
+
+### Núcleos Defensivos
+
+#### Murus (Barreira / Muro)
+
+Base: HP **1d6+2**, largura 3m, altura 2m | Custo: 1 Sekhem | Duração: 1d4 turnos
+
+| Elemento | Efeito | Narrativa |
+|----------|--------|-----------|
+| **Ignis** | Barreira HP 1d6+2. Quem atravessa recebe **1d4 dano** | Parede de chamas crepitantes |
+| **Aqua** | Barreira HP 1d6+2. **Extingue** fogo no contato | Muro de gelo sólido e translúcido |
+| **Terra** | Barreira HP 1d6+**4** (mais resistente) | Parede de rocha bruta |
+| **Aer** | Barreira HP 1d6+2. **Invisível** — inimigos não sabem que está lá | Cortina de ar comprimido |
+| **Ordo** | Barreira HP 1d6+2. Bloqueia magia de Perditio | Escudo dourado luminoso |
+| **Perditio** | Barreira HP 1d6+2. Quem tocar rola **save CD 10** ou recebe medo (1 turno) | Muro de sombras que gemem |
+
+***
+
+#### Scutum (Escudo Pessoal)
+
+Base: +**1d4 Absorção** ao conjurador | Custo: 1 Sekhem | Duração: 1d4 turnos | Feitiço contínuo
+
+| Elemento | Efeito | Narrativa |
+|----------|--------|-----------|
+| **Ignis** | +1d4 Absorção. Atacantes corpo a corpo recebem **1 dano de fogo** | Aura de calor que queima quem toca |
+| **Aqua** | +1d4 Absorção. **+2** contra dano de fogo especificamente | Capa de água gelada que apaga chamas |
+| **Terra** | +1d4+1 Absorção (mais forte). Reduz movimento em **1.5m** | Pele de pedra — pesada mas resistente |
+| **Aer** | +1d4 Absorção. Projéteis mundanos têm **desvantagem** contra você | Ventos rodopiando desviam flechas |
+| **Ordo** | +1d4 Absorção. **Vantagem** em 1 save contra magia enquanto ativo | Brilho protetor que reforça a mente |
+| **Perditio** | +1d4 Absorção. Você fica em **penumbra** (bom e ruim) | Sombras envolvem você como armadura |
+
+***
+
+### Núcleos de Suporte (NOVOS)
+
+#### Augeo (Amplificar / Buff)
+
+Base: +2 a 1 atributo ou propriedade, alvo = você ou toque | Custo: 2 Sekhem | Duração: 1d4+2 turnos | Feitiço contínuo
+
+| Elemento | Efeito | Narrativa |
+|----------|--------|-----------|
+| **Ignis** | +2 **dano corpo a corpo** em todos os ataques | Fúria canalizada — arma/punhos brilham com calor |
+| **Aqua** | +2 **Absorção** temporária | Camada de gelo/água densa cobre a pele como armadura |
+| **Terra** | +2 **Físico** | Músculos endurecem como pedra. Força de touro |
+| **Aer** | +3m **movimento** e +1 esquiva | Corpo fica leve como pena, reflexos ampliados |
+| **Ordo** | +2 **Mente (Razão)** | Clareza absoluta. Foco cirúrgico em tudo |
+| **Perditio** | +2 **Mente (Instinto)** + visão no escuro | Sentidos predatórios. Percepção sombria |
+
+***
+
+#### Sano (Curar / Restaurar)
+
+Base: Cura ou remoção de condição | Custo: 2 Sekhem | Efeito instantâneo
+
+| Elemento | Efeito | Narrativa |
+|----------|--------|-----------|
+| **Aqua** | Cura **1d6+2 PV** | Água luminosa que fecha feridas |
+| **Terra** | Remove 1 **condição física** (Prone, Grappled, osso quebrado) | Ossos realinham, corpo estabiliza |
+| **Ordo** | Remove 1 **debuff** (veneno, queimadura, congelamento, etc.) | Luz dourada que purifica |
+| **Aer** | Remove **fadiga mágica** por 1d4 turnos | Ar puro revitaliza. Segundo fôlego |
+| **Ignis** | **Cauteriza** — remove Sangramento mas aplica 1 dano | Fogo controlado que fecha a ferida. Dói, mas funciona |
+| **Perditio** | Cura **1d8 PV** mas o conjurador sofre **1d4 dano** | Roubar vitalidade alheia. Cura sombria |
+
+> **Perditio + Sano** é necromancia curativa — o Narrador pode proibir em certas mesas ou adicionar consequências narrativas.
+
+***
+
+#### Lumen (Revelar / Sentir)
+
+Base: Detecta algo em raio **9m** | Custo: 1 Sekhem | Duração: concentração (1 turno de foco)
+
+| Elemento | Efeito | Narrativa |
+|----------|--------|-----------|
+| **Ordo** | Detecta **magia ativa** e feitiços contínuos em 9m | Brilho dourado revela auras mágicas invisíveis |
+| **Aer** | Detecta **criaturas vivas** em 9m (som, vibração, respiração) | Sente batimentos cardíacos através das paredes |
+| **Terra** | Detecta **estruturas ocultas** (portas secretas, túneis, armadilhas) | O chão vibra onde há espaço oco |
+| **Aqua** | Detecta **venenos e doenças** em pessoa, comida ou líquido | A água muda de cor na presença de contaminação |
+| **Ignis** | **Visão térmica** em raio 18m (maior alcance) | Tudo fica vermelho/azul. Calor corporal brilha |
+| **Perditio** | Detecta **mortos-vivos, espíritos e presenças sobrenaturais** em 9m | Sombras tremem na presença da morte |
+
+***
+
+#### Morpho (Transformar)
+
+Base: Muda 1 propriedade física de objeto ou ambiente | Custo: 2 Sekhem | Duração: 1d4 turnos
+
+| Elemento | Efeito | Narrativa |
+|----------|--------|-----------|
+| **Aqua** | Transforma **estado da matéria**: líquido↔sólido (congela poça, derrete gelo) | Controle de fase — gelo vira água, água vira gelo |
+| **Terra** | Transforma **dureza**: amolece parede (cavar), endurece areia (ponte) | Esculpir terra como argila com as mãos |
+| **Aer** | Transforma **som**: abafar barulho, amplificar voz, ventriloquism | Manipular ondas sonoras na área |
+| **Ignis** | Transforma **temperatura**: aquecer sala fria, resfriar metal quente (sem dano) | Controle térmico, não destrutivo |
+| **Ordo** | Transforma **luz**: criar escuridão numa área, ou luz ofuscante (flash) | Dobrar luz como cortina |
+| **Perditio** | Transforma **aparência**: disfarce visual de 1 pessoa | Ilusão sobre o corpo. Não muda voz nem cheiro |
+
+***
+
+#### Anima (Animar)
+
+Base: Dá movimento e 1 comando simples a objeto inanimado | Custo: 2 Sekhem | Duração: 1d4+1 turnos | Feitiço contínuo
+
+| Elemento | Efeito | Narrativa |
+|----------|--------|-----------|
+| **Aqua** | Anima corpo de água/gelo → servente líquido (carregar, apagar fogo, lavar) | Criatura aquática que obedece 1 ordem por turno |
+| **Terra** | Anima rocha/estátua → **mini-golem** (PV 1d4, 1d4 dano, velocidade 3m) | Pequeno guardião de pedra. Pode atacar ou bloquear |
+| **Ignis** | Anima uma chama → **tocha viva** que segue você (luz 6m, pode incendiar) | Companheira luminosa. Tímida mas leal |
+| **Aer** | Anima objeto leve → **flutua e se move** (buscar chave, entregar mensagem) | Mão de vento invisível. Utility puro |
+| **Ordo** | Anima runas/escrita → **alarme mágico** (grita se alguém cruza a área) | Guardião estático. Detecta e avisa |
+| **Perditio** | Anima um **cadáver** → esqueleto/zumbi (3 PV, 1d4 dano, 1 ordem simples) | **Necromancia.** CD 15 para conjurar. Falha crítica = ataca o conjurador |
+
+***
+
+***
+
+## 3. Os Modificadores (Ajustando a Escala)
 
 Os modificadores alteram **escala, velocidade, comportamento ou alcance** de qualquer feitiço. Lembre-se: o custo escala fatorialmente (1º mod = ×1, 2º = ×2, 3º = ×3...).
 
@@ -208,214 +419,7 @@ Os modificadores alteram **escala, velocidade, comportamento ou alcance** de qua
 | **Nimbus** | Nuvem permanente — drena 2 Sekhem/turno | Névoa eterna num corredor de dungeon |
 | **Telum** | Arma permanente — drena 2 Sekhem/turno | Arma mágica que existe enquanto tiver Sekhem |
 
-> Perpetuus é **extremamente caro** — um iniciante (10 Sekhem) conseguiria manter por 5 turnos antes de zerar. Apenas mestres com Sekhem alto (20+) usam isso em combate.
-
 ***
-
-## Núcleos de Combate
-
-### Sagitta (Projétil Direto)
-
-Base: **1d6 dano**, alcance 18m, 1 alvo | Custo: 1 Sekhem
-
-| Elemento | Efeito | Narrativa |
-|----------|--------|-----------|
-| **Ignis** | 1d6 dano de fogo. Chance de Queimadura (Tier 1) | Bola de fogo que voa em linha reta |
-| **Aqua** | 1d6 dano de gelo. Chance de Congelamento (Tier 1) | Seta de gelo afiada |
-| **Terra** | 1d6 dano físico. Empurra alvo 1.5m | Pedra arremessada com força mágica |
-| **Aer** | 1d6 dano elétrico. +3m de alcance (21m total) | Raio de vento cortante ou relâmpago |
-| **Ordo** | 1d6 dano radiante. +1 dano vs mortos-vivos | Feixe de luz concentrada |
-| **Perditio** | 1d6 dano necrótico. Chance de Fadiga (Tier 1) | Dardo de sombra que drena |
-
-***
-
-### Tactus (Toque / Contato)
-
-Base: **1d8 dano**, ignora 1 Absorção, requer adjacência | Custo: 1 Sekhem
-
-| Elemento | Efeito | Narrativa |
-|----------|--------|-----------|
-| **Ignis** | 1d8 dano de fogo. Ignora Absorção metálica (metal aquece) | Mão em brasa que marca a carne |
-| **Aqua** | 1d8 dano de gelo. Chance de Congelamento (Tier 2) | Toque que congela da pele pra dentro |
-| **Terra** | 1d8 dano físico. Chance de Aturdido (1 turno) | Soco sísmico — tremor no corpo |
-| **Aer** | 1d8 dano elétrico. Alvo não pode usar reação neste turno | Choque elétrico que trava os músculos |
-| **Ordo** | 1d8 dano radiante. Revela Invisíveis tocados | Toque que queima sombras e ilusões |
-| **Perditio** | 1d8 dano necrótico. Conjurador **cura 1d4 PV** | Drenar vida pelo toque |
-
-***
-
-### Orbis (Esfera / Área)
-
-Base: **1d4 dano** a todos na área, raio 3m, aliados incluídos | Custo: 1 Sekhem
-
-| Elemento | Efeito | Narrativa |
-|----------|--------|-----------|
-| **Ignis** | 1d4 dano de fogo. Área fica em chamas por 1 turno (+1d4 se pisar) | Explosão que deixa terreno ardente |
-| **Aqua** | 1d4 dano de gelo. Área vira terreno difícil (gelo escorregadio) | Onda de gelo que congela o chão |
-| **Terra** | 1d4 dano físico. Chance de Prone para cada afetado (CD 10) | Tremor que sacode o solo |
-| **Aer** | 1d4 dano elétrico. Empurra todos 1.5m do centro | Onda de choque sônica |
-| **Ordo** | 1d4 dano radiante. Aliados na área curam 1 PV | Pulso de luz que purifica |
-| **Perditio** | 1d4 dano necrótico. Área fica em penumbra por 1d4 turnos | Nuvem de sombras que escurece |
-
-***
-
-### Telum (Lâmina / Arma Conjurada)
-
-Base: Arma conjurada, +**1d4 dano elemental** por ataque | Custo: 1 Sekhem | Duração: 1d4+2 turnos
-
-| Elemento | Efeito | Narrativa |
-|----------|--------|-----------|
-| **Ignis** | +1d4 dano de fogo. Chance de Queimadura ao acertar | Espada flamejante que arde |
-| **Aqua** | +1d4 dano de gelo. Chance de Congelamento ao acertar | Lâmina de gelo cristalino |
-| **Terra** | +1d4 dano físico. Arma tem **+1 Absorção** quando usada pra bloquear | Martelo de pedra maciça |
-| **Aer** | +1d4 dano elétrico. Arma é **leve** (pode usar como ação bônus) | Lâmina de vento invisível |
-| **Ordo** | +1d4 dano radiante. Emite luz (6m). +2 dano vs mortos-vivos | Espada de luz pura |
-| **Perditio** | +1d4 dano necrótico. Ao matar, conjurador cura 2 PV | Foice sombria que colhe vida |
-
-***
-
-## Núcleos de Controle
-
-### Vinculum (Corrente / Vínculo)
-
-Base: CD 12 para escapar, **imobiliza** (velocidade 0) | Custo: 1 Sekhem | Duração: 1d4 turnos
-
-| Elemento | Efeito | Narrativa |
-|----------|--------|-----------|
-| **Ignis** | Imobiliza + 1d4 dano/turno ao preso | Correntes de fogo que queimam enquanto prendem |
-| **Aqua** | Imobiliza. Escapar tem **desvantagem** se alvo está molhado | Algemas de gelo que endurecem |
-| **Terra** | Imobiliza. CD para escapar sobe pra **14** | Mãos de pedra que agarram do chão |
-| **Aer** | Imobiliza + **silencia** (não pode conjurar feitiços) | Bolha de vácuo ao redor da cabeça |
-| **Ordo** | Imobiliza. Alvo não pode usar magia de Perditio | Cadeias de luz sagrada |
-| **Perditio** | Imobiliza + **desvantagem** em saves enquanto preso | Tentáculos de sombra que sussurram |
-
-***
-
-### Nimbus (Nuvem / Área Contínua)
-
-Base: **1d4 dano/turno**, raio 6m | Custo: 1 Sekhem | Duração: 1d4+1 turnos | Feitiço contínuo
-
-| Elemento | Efeito | Narrativa |
-|----------|--------|-----------|
-| **Ignis** | 1d4 dano de fogo/turno. Objetos inflamáveis pegam fogo | Nuvem de brasas e cinzas incandescentes |
-| **Aqua** | 1d4 dano de gelo/turno. Visibilidade reduzida (penumbra) | Neblina gélida que congela e cega |
-| **Terra** | 1d4 dano físico/turno. Terreno difícil na área | Tempestade de areia e pedregulhos |
-| **Aer** | 1d4 dano elétrico/turno. Ataques à distância que atravessam a área têm desvantagem | Turbilhão com estática constante |
-| **Ordo** | 0 dano. Aliados na nuvem têm **+1 em todos os saves** | Aura dourada de proteção |
-| **Perditio** | 1d4 dano necrótico/turno. Cura na área tem **eficácia reduzida pela metade** | Miasma púrpura que corrompe |
-
-***
-
-## Núcleos Defensivos
-
-### Murus (Barreira / Muro)
-
-Base: HP **1d6+2**, largura 3m, altura 2m | Custo: 1 Sekhem | Duração: 1d4 turnos
-
-| Elemento | Efeito | Narrativa |
-|----------|--------|-----------|
-| **Ignis** | Barreira HP 1d6+2. Quem atravessa recebe **1d4 dano** | Parede de chamas crepitantes |
-| **Aqua** | Barreira HP 1d6+2. **Extingue** fogo no contato | Muro de gelo sólido e translúcido |
-| **Terra** | Barreira HP 1d6+**4** (mais resistente) | Parede de rocha bruta |
-| **Aer** | Barreira HP 1d6+2. **Invisível** — inimigos não sabem que está lá | Cortina de ar comprimido |
-| **Ordo** | Barreira HP 1d6+2. Bloqueia magia de Perditio | Escudo dourado luminoso |
-| **Perditio** | Barreira HP 1d6+2. Quem tocar rola **save CD 10** ou recebe medo (1 turno) | Muro de sombras que gemem |
-
-***
-
-### Scutum (Escudo Pessoal)
-
-Base: +**1d4 Absorção** ao conjurador | Custo: 1 Sekhem | Duração: 1d4 turnos | Feitiço contínuo
-
-| Elemento | Efeito | Narrativa |
-|----------|--------|-----------|
-| **Ignis** | +1d4 Absorção. Atacantes corpo a corpo recebem **1 dano de fogo** | Aura de calor que queima quem toca |
-| **Aqua** | +1d4 Absorção. **+2** contra dano de fogo especificamente | Capa de água gelada que apaga chamas |
-| **Terra** | +1d4+1 Absorção (mais forte). Reduz movimento em **1.5m** | Pele de pedra — pesada mas resistente |
-| **Aer** | +1d4 Absorção. Projéteis mundanos têm **desvantagem** contra você | Ventos rodopiando desviam flechas |
-| **Ordo** | +1d4 Absorção. **Vantagem** em 1 save contra magia enquanto ativo | Brilho protetor que reforça a mente |
-| **Perditio** | +1d4 Absorção. Você fica em **penumbra** (bom e ruim) | Sombras envolvem você como armadura |
-
-***
-
-## Núcleos de Suporte (NOVOS)
-
-### Augeo (Amplificar / Buff)
-
-Base: +2 a 1 atributo ou propriedade, alvo = você ou toque | Custo: 2 Sekhem | Duração: 1d4+2 turnos | Feitiço contínuo
-
-| Elemento | Efeito | Narrativa |
-|----------|--------|-----------|
-| **Ignis** | +2 **dano corpo a corpo** em todos os ataques | Fúria canalizada — arma/punhos brilham com calor |
-| **Aqua** | +2 **Absorção** temporária | Camada de gelo/água densa cobre a pele como armadura |
-| **Terra** | +2 **Físico** | Músculos endurecem como pedra. Força de touro |
-| **Aer** | +3m **movimento** e +1 esquiva | Corpo fica leve como pena, reflexos ampliados |
-| **Ordo** | +2 **Mente (Razão)** | Clareza absoluta. Foco cirúrgico em tudo |
-| **Perditio** | +2 **Mente (Instinto)** + visão no escuro | Sentidos predatórios. Percepção sombria |
-
-***
-
-### Sano (Curar / Restaurar)
-
-Base: Cura ou remoção de condição | Custo: 2 Sekhem | Efeito instantâneo
-
-| Elemento | Efeito | Narrativa |
-|----------|--------|-----------|
-| **Aqua** | Cura **1d6+2 PV** | Água luminosa que fecha feridas |
-| **Terra** | Remove 1 **condição física** (Prone, Grappled, osso quebrado) | Ossos realinham, corpo estabiliza |
-| **Ordo** | Remove 1 **debuff** (veneno, queimadura, congelamento, etc.) | Luz dourada que purifica |
-| **Aer** | Remove **fadiga mágica** por 1d4 turnos | Ar puro revitaliza. Segundo fôlego |
-| **Ignis** | **Cauteriza** — remove Sangramento mas aplica 1 dano | Fogo controlado que fecha a ferida. Dói, mas funciona |
-| **Perditio** | Cura **1d8 PV** mas o conjurador sofre **1d4 dano** | Roubar vitalidade alheia. Cura sombria |
-
-> **Perditio + Sano** é necromancia curativa — o Narrador pode proibir em certas mesas ou adicionar consequências narrativas.
-
-***
-
-### Lumen (Revelar / Sentir)
-
-Base: Detecta algo em raio **9m** | Custo: 1 Sekhem | Duração: concentração (1 turno de foco)
-
-| Elemento | Efeito | Narrativa |
-|----------|--------|-----------|
-| **Ordo** | Detecta **magia ativa** e feitiços contínuos em 9m | Brilho dourado revela auras mágicas invisíveis |
-| **Aer** | Detecta **criaturas vivas** em 9m (som, vibração, respiração) | Sente batimentos cardíacos através das paredes |
-| **Terra** | Detecta **estruturas ocultas** (portas secretas, túneis, armadilhas) | O chão vibra onde há espaço oco |
-| **Aqua** | Detecta **venenos e doenças** em pessoa, comida ou líquido | A água muda de cor na presença de contaminação |
-| **Ignis** | **Visão térmica** em raio 18m (maior alcance) | Tudo fica vermelho/azul. Calor corporal brilha |
-| **Perditio** | Detecta **mortos-vivos, espíritos e presenças sobrenaturais** em 9m | Sombras tremem na presença da morte |
-
-***
-
-### Morpho (Transformar)
-
-Base: Muda 1 propriedade física de objeto ou ambiente | Custo: 2 Sekhem | Duração: 1d4 turnos
-
-| Elemento | Efeito | Narrativa |
-|----------|--------|-----------|
-| **Aqua** | Transforma **estado da matéria**: líquido↔sólido (congela poça, derrete gelo) | Controle de fase — gelo vira água, água vira gelo |
-| **Terra** | Transforma **dureza**: amolece parede (cavar), endurece areia (ponte) | Esculpir terra como argila com as mãos |
-| **Aer** | Transforma **som**: abafar barulho, amplificar voz, ventriloquismo | Manipular ondas sonoras na área |
-| **Ignis** | Transforma **temperatura**: aquecer sala fria, resfriar metal quente (sem dano) | Controle térmico, não destrutivo |
-| **Ordo** | Transforma **luz**: criar escuridão numa área, ou luz ofuscante (flash) | Dobrar luz como cortina |
-| **Perditio** | Transforma **aparência**: disfarce visual de 1 pessoa | Ilusão sobre o corpo. Não muda voz nem cheiro |
-
-***
-
-### Anima (Animar)
-
-Base: Dá movimento e 1 comando simples a objeto inanimado | Custo: 2 Sekhem | Duração: 1d4+1 turnos | Feitiço contínuo
-
-| Elemento | Efeito | Narrativa |
-|----------|--------|-----------|
-| **Aqua** | Anima corpo de água/gelo → servente líquido (carregar, apagar fogo, lavar) | Criatura aquática que obedece 1 ordem por turno |
-| **Terra** | Anima rocha/estátua → **mini-golem** (PV 1d4, 1d4 dano, velocidade 3m) | Pequeno guardião de pedra. Pode atacar ou bloquear |
-| **Ignis** | Anima uma chama → **tocha viva** que segue você (luz 6m, pode incendiar) | Companheira luminosa. Tímida mas leal |
-| **Aer** | Anima objeto leve → **flutua e se move** (buscar chave, entregar mensagem) | Mão de vento invisível. Utility puro |
-| **Ordo** | Anima runas/escrita → **alarme mágico** (grita se alguém cruza a área) | Guardião estático. Detecta e avisa |
-| **Perditio** | Anima um **cadáver** → esqueleto/zumbi (3 PV, 1d4 dano, 1 ordem simples) | **Necromancia.** CD 15 para conjurar. Falha crítica = ataca o conjurador |
-
-> **Perditio + Anima** é a forma mais direta de necromancia no sistema. O cadáver precisa estar **relativamente inteiro**. Esqueletos são mais fáceis mas mais fracos que zumbis.
 
 ***
 
