@@ -24,12 +24,12 @@ Cada conjurador possui **um único elemento de domínio**, escolhido na criaçã
 
 | Elemento | Oposto |
 |---|---|
-| ![Ignis](../icons/ignis.svg) **Ignis** | ![Aqua](../icons/aqua.svg) Aqua |
-| ![Aqua](../icons/aqua.svg) **Aqua** | ![Ignis](../icons/ignis.svg) Ignis |
-| ![Terra](../icons/terra.svg) **Terra** | ![Aer](../icons/aer.svg) Aer |
-| ![Aer](../icons/aer.svg) **Aer** | ![Terra](../icons/terra.svg) Terra |
-| ![Ordo](../icons/ordo.svg) **Ordo** | ![Perditio](../icons/perditio.svg) Perditio |
-| ![Perditio](../icons/perditio.svg) **Perditio** | ![Ordo](../icons/ordo.svg) Ordo |
+| 🔥 **Ignis** | 💧 Aqua |
+| 💧 **Aqua** | 🔥 Ignis |
+| 🪨 **Terra** | 💨 Aer |
+| 💨 **Aer** | 🪨 Terra |
+| ✨ **Ordo** | 💀 Perditio |
+| 💀 **Perditio** | ✨ Ordo |
 
 
 A lógica é simples: qualquer conjurador pode tentar manipular um elemento que não é o seu, mas sem o vínculo natural, o esforço é muito maior. Um mago de Ignis lançando *Aqua(4) Sano(1)* para curar um aliado paga 5 Sekhem em vez de 2 — viável em emergências, ineficiente como rotina.
@@ -44,12 +44,12 @@ Ao atingir o nível **Conjurador**, o personagem ganha controle do seu **Element
 
 | Domínio | Perfil Natural | Fraqueza Cara (custo dobrado) |
 |---|---|---|
-| ![Ignis](../icons/ignis.svg) **Ignis** | Dano puro, pressão ofensiva, cauterização |
-| ![Aqua](../icons/aqua.svg) **Aqua** | Cura, controle, versatilidade defensiva |
-| ![Terra](../icons/terra.svg) **Terra** | Tanque, criação, suporte físico |
-| ![Aer](../icons/aer.svg) **Aer** | Velocidade, utilidade, alcance, detecção |
-| ![Ordo](../icons/ordo.svg) **Ordo** | Suporte, anti-magia, revelação, proteção |
-| ![Perditio](../icons/perditio.svg) **Perditio** | Controle, dreno, necromancia, ilusão |
+| 🔥 **Ignis** | Dano puro, pressão ofensiva, cauterização |
+| 💧 **Aqua** | Cura, controle, versatilidade defensiva |
+| 🪨 **Terra** | Tanque, criação, suporte físico |
+| 💨 **Aer** | Velocidade, utilidade, alcance, detecção |
+| ✨ **Ordo** | Suporte, anti-magia, revelação, proteção |
+| 💀 **Perditio** | Controle, dreno, necromancia, ilusão |
 ***
 
 ## 2. Os Elementos — Tags e Palavras de Poder
@@ -58,7 +58,7 @@ Cada elemento possui **2 tags mecânicas** que se aplicam automaticamente a qual
 
 ---
 
-### ![Ignis](../icons/ignis.svg) Ignis (Fogo)
+### 🔥 Ignis (Fogo)
 
 **Tags:** `Queimadura` (dano persistente ao falhar save) · `Calor` (derreter, iluminar, cauterizar)
 
@@ -75,7 +75,7 @@ Cada elemento possui **2 tags mecânicas** que se aplicam automaticamente a qual
 
 ---
 
-### ![Aqua](../icons/aqua.svg) Aqua (Água)
+### 💧 Aqua (Água)
 
 **Tags:** `Congelamento` (imobilização leve ao falhar save) · `Fluidez` (curar, lavar, pressão)
 
@@ -92,7 +92,7 @@ Cada elemento possui **2 tags mecânicas** que se aplicam automaticamente a qual
 
 ---
 
-### ![Terra](../icons/terra.svg) Terra (Terra)
+### 🪨 Terra (Terra)
 
 **Tags:** `Impacto` (empurrar ou causar Prone ao falhar save) · `Permanência` (criar, endurecer, durar)
 
@@ -109,7 +109,7 @@ Cada elemento possui **2 tags mecânicas** que se aplicam automaticamente a qual
 
 ---
 
-### ![Aer](../icons/aer.svg) Aer (Ar)
+### 💨 Aer (Ar)
 
 **Tags:** `Estática` (alvo não pode usar reação ao falhar save) · `Velocidade` (mover, alcançar, som)
 
@@ -126,7 +126,7 @@ Cada elemento possui **2 tags mecânicas** que se aplicam automaticamente a qual
 
 ---
 
-### ![Ordo](../icons/ordo.svg) Ordo (Ordem)
+### ✨ Ordo (Ordem)
 
 **Tags:** `Radiante` (+dano vs mortos-vivos e corrompidos) · `Clareza` (revelar, purificar, proteger)
 
@@ -143,7 +143,7 @@ Cada elemento possui **2 tags mecânicas** que se aplicam automaticamente a qual
 
 ---
 
-### ![Perditio](../icons/perditio.svg) Perditio (Entropia)
+### 💀 Perditio (Entropia)
 
 **Tags:** `Dreno` (roubar recurso — PV, Sekhem ou condição ao falhar save) · `Sombra` (esconder, corromper, iludir)
 
@@ -189,7 +189,7 @@ O **dado de dano** escala conforme a proficiência do conjurador naquela Forma, 
 Lança um projétil de energia elemental em linha reta. Aplica a **tag ofensiva** do elemento ao acertar (save CD 12 para resistir ao efeito secundário).
 
 *Exemplos narrativos:*
-![Ignis](../icons/ignis.svg) Bola de fogo · ![Aqua](../icons/aqua.svg) Seta de gelo · ![Terra](../icons/terra.svg) Pedra lançada · ![Aer](../icons/aer.svg) Raio/relâmpago · ![Ordo](../icons/ordo.svg) Feixe de luz · ![Perditio](../icons/perditio.svg) Dardo sombrio
+🔥 Bola de fogo · 💧 Seta de gelo · 🪨 Pedra lançada · 💨 Raio/relâmpago · ✨ Feixe de luz · 💀 Dardo sombrio
 
 ---
 
@@ -200,7 +200,7 @@ Lança um projétil de energia elemental em linha reta. Aplica a **tag ofensiva*
 Canaliza energia pelo toque direto. Aplica a **tag ofensiva** com **vantagem** no save do alvo. Ignora 1 ponto de Absorção por padrão.
 
 *Exemplos narrativos:*
-![Ignis](../icons/ignis.svg) Mão em brasa · ![Aqua](../icons/aqua.svg) Toque congelante · ![Terra](../icons/terra.svg) Soco sísmico · ![Aer](../icons/aer.svg) Choque elétrico · ![Ordo](../icons/ordo.svg) Toque purificador · ![Perditio](../icons/perditio.svg) Drenar vida
+🔥 Mão em brasa · 💧 Toque congelante · 🪨 Soco sísmico · 💨 Choque elétrico · ✨ Toque purificador · 💀 Drenar vida
 
 ---
 
@@ -212,12 +212,12 @@ Conjura uma arma de energia elemental. Aplica a **tag ofensiva** a cada acerto. 
 
 | Elemento | Bônus Passivo |
 |---|---|
-| ![Ignis](../icons/ignis.svg) Ignis | Cauteriza feridas ao matar (narrativo) |
-| ![Aqua](../icons/aqua.svg) Aqua | +2 contra dano de fogo enquanto empunhada |
-| ![Terra](../icons/terra.svg) Terra | +1 Absorção quando usada para bloquear |
-| ![Aer](../icons/aer.svg) Aer | Arma é leve (pode usar como ação bônus) |
-| ![Ordo](../icons/ordo.svg) Ordo | Emite luz (6m); +2 dano vs mortos-vivos |
-| ![Perditio](../icons/perditio.svg) Perditio | Ao matar, conjurador cura 2 PV |
+| 🔥 Ignis | Cauteriza feridas ao matar (narrativo) |
+| 💧 Aqua | +2 contra dano de fogo enquanto empunhada |
+| 🪨 Terra | +1 Absorção quando usada para bloquear |
+| 💨 Aer | Arma é leve (pode usar como ação bônus) |
+| ✨ Ordo | Emite luz (6m); +2 dano vs mortos-vivos |
+| 💀 Perditio | Ao matar, conjurador cura 2 PV |
 
 ---
 
@@ -229,7 +229,7 @@ Conjura uma arma de energia elemental. Aplica a **tag ofensiva** a cada acerto. 
 
 Libera energia em pulso esférico. Aplica a **tag ofensiva** a todos que falharem (save CD 12). A **tag utilitária** cria um **efeito de terreno** que persiste por 1 turno:
 
-![Ignis](../icons/ignis.svg) Área em chamas (+1d4 quem pisar) · ![Aqua](../icons/aqua.svg) Gelo escorregadio (terreno difícil) · ![Terra](../icons/terra.svg) Tremor (Prone CD 10) · ![Aer](../icons/aer.svg) Onda de choque (empurra 1.5m) · ![Ordo](../icons/ordo.svg) Pulso de cura (aliados curam 1 PV) · ![Perditio](../icons/perditio.svg) Penumbra (1d4 turnos)
+🔥 Área em chamas (+1d4 quem pisar) · 💧 Gelo escorregadio (terreno difícil) · 🪨 Tremor (Prone CD 10) · 💨 Onda de choque (empurra 1.5m) · ✨ Pulso de cura (aliados curam 1 PV) · 💀 Penumbra (1d4 turnos)
 
 ---
 
@@ -275,12 +275,12 @@ Ergue uma barreira sólida. A **tag utilitária** define uma propriedade especia
 
 | Elemento | Propriedade Especial |
 |---|---|
-| ![Ignis](../icons/ignis.svg) Ignis | Quem atravessa recebe 1d4 dano |
-| ![Aqua](../icons/aqua.svg) Aqua | Extingue fogo no contato |
-| ![Terra](../icons/terra.svg) Terra | HP 1d6+4 (mais resistente) |
-| ![Aer](../icons/aer.svg) Aer | Invisível — inimigos não sabem que está lá |
-| ![Ordo](../icons/ordo.svg) Ordo | Bloqueia magia de Perditio |
-| ![Perditio](../icons/perditio.svg) Perditio | Quem tocar rola save CD 10 ou recebe Medo (1 turno) |
+| 🔥 Ignis | Quem atravessa recebe 1d4 dano |
+| 💧 Aqua | Extingue fogo no contato |
+| 🪨 Terra | HP 1d6+4 (mais resistente) |
+| 💨 Aer | Invisível — inimigos não sabem que está lá |
+| ✨ Ordo | Bloqueia magia de Perditio |
+| 💀 Perditio | Quem tocar rola save CD 10 ou recebe Medo (1 turno) |
 
 ---
 
@@ -512,13 +512,13 @@ O dado maior **só funciona no elemento de domínio**. Fora do domínio o dado b
 ### Tags por Elemento
 
 | Elemento | Tag Ofensiva | Tag Utilitária |
-|---|---|---| 
-| ![Ignis](../icons/ignis.svg) **Ignis** | Queimadura (dano persistente) | Calor (derreter, iluminar, cauterizar) |
-| ![Aqua](../icons/aqua.svg) **Aqua** | Congelamento (imobilização leve) | Fluidez (curar, lavar, pressão) |
-| ![Terra](../icons/terra.svg) **Terra** | Impacto (empurrar, Prone) | Permanência (criar, endurecer) |
-| ![Aer](../icons/aer.svg) **Aer** | Estática (sem reação) | Velocidade (mover, alcançar, som) |
-| ![Ordo](../icons/ordo.svg) **Ordo** | Radiante (+dano vs corrompidos) | Clareza (revelar, purificar, proteger) |
-| ![Perditio](../icons/perditio.svg) **Perditio** | Dreno (roubar recurso) | Sombra (esconder, corromper, iludir) |
+|---|---|---|
+| 🔥 **Ignis** | Queimadura (dano persistente) | Calor (derreter, iluminar, cauterizar) |
+| 💧 **Aqua** | Congelamento (imobilização leve) | Fluidez (curar, lavar, pressão) |
+| 🪨 **Terra** | Impacto (empurrar, Prone) | Permanência (criar, endurecer) |
+| 💨 **Aer** | Estática (sem reação) | Velocidade (mover, alcançar, som) |
+| ✨ **Ordo** | Radiante (+dano vs corrompidos) | Clareza (revelar, purificar, proteger) |
+| 💀 **Perditio** | Dreno (roubar recurso) | Sombra (esconder, corromper, iludir) |
 
 ***
 
