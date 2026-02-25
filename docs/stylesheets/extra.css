@@ -411,19 +411,18 @@ body {
 }
 
 /* ── Element Icons Helper ── */
-.element-icon {
-    vertical-align: middle;
-    display: inline-block;
-    height: 1.15em !important;
-    /* Proporcional à altura da linha do texto */
-    width: auto !important;
-    /* Mantém a proporção original do ícone */
-    margin-top: -0.15em;
-    /* Ajuste fino para alinhar ao centro da linha */
-    margin-right: 0.1em;
+.element-icon,
+.md-typeset img[src*="icons/"] {
+    display: inline-block !important;
+    vertical-align: -0.15em;
+    height: 1.05em !important;
+    width: 1.05em !important;
+    max-width: 1.05em !important;
+    margin: 0 0.18em 0 0;
 }
 
-/* Fix visibility for Perditio (Black icon) in Dark Mode */
-[data-md-color-scheme="slate"] .element-icon-perditio {
+/* Fix visibility for Perditio (dark icon) in Dark Mode */
+[data-md-color-scheme="slate"] .element-icon-perditio,
+[data-md-color-scheme="slate"] .md-typeset img[src*="perditio.svg"] {
     filter: invert(0.9) brightness(1.2);
 }
