@@ -50,7 +50,6 @@ Ao atingir o nível **Conjurador**, o personagem ganha controle do seu **Element
 | ![Aer](../icons/aer.svg) **Aer** | Velocidade, utilidade, alcance, detecção |
 | ![Ordo](../icons/ordo.svg) **Ordo** | Suporte, anti-magia, revelação, proteção |
 | ![Perditio](../icons/perditio.svg) **Perditio** | Controle, dreno, necromancia, ilusão |
-***
 
 ## 2. Os Elementos — Tags e Palavras de Poder
 
