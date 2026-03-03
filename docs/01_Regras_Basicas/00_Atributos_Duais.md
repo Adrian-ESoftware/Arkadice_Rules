@@ -40,11 +40,16 @@ O cerne do personagem carrega **5 espectros**: Presença, Físico, Mente, Corpo 
 
 | Pólo | Vertente | Efeito Mecânico |
 |------|----------|-----------------|
-| `+1 a +5` | **Técnica** | Soma o valor inteiro ao **acerto** (d20). Consistência e precisão cirúrgica sob pressão. |
-| `-1 a -5` | **Brutalidade** | Soma **metade do valor absoluto (arredondado para baixo)** ao **acerto** E o **valor absoluto inteiro** ao **dano**. Menos preciso, mas devastador quando acerta. |
+| `+1 a +5` | **Técnica** | Soma o valor ao **d20 de ataque** (aumenta chance de acertar). Além disso, cada ponto de Técnica **ignora 1 ponto de Absorção** da armadura inimiga (lâminas encontram as frestas). |
+| `-1 a -5` | **Brutalidade** | **NÃO soma no d20 de ataque** — soma o valor absoluto inteiro diretamente ao **Dano**. O golpe não busca frestas: esmaga a chapa inteira com força bruta. |
 
-!!! example "Exemplo de Brutalidade"
-    Um personagem com Brutalidade -4 recebe: **+2 no acerto** (metade de 4) e **+4 no dano** ao acertar. Comparado com Técnica +4 que daria +4 no acerto e +0 no dano.
+!!! example "Técnica vs Brutalidade na Prática"
+    **Cenário:** Atacar um cavaleiro com Absorção 5 e CD Base 10.
+
+    - **Técnica +4:** d20 **+4** no acerto (fácil passar CD 10). Se acertar, ignora 4 da Absorção (cavaleiro só absorve 1). Dano limpo com precisão.
+    - **Brutalidade -4:** d20 **+0** no acerto (precisa rolar 10+). Mas se acertar, causa **+4 dano extra** que força a armadura a falhar pelo excesso de pressão bruta.
+
+    Técnica acerta mais e penetra armadura. Brutalidade acerta menos, mas quando conecta, o estrago é devastador.
 
 ***
 

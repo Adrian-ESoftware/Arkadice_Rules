@@ -98,6 +98,9 @@ nav:
           - "Sangramento": 05_Condicoes_e_Doencas/Sangramento.md
           - "Veneno Agudo": 05_Condicoes_e_Doencas/VenenoAgudo.md
           - "Veneno Crônico": 05_Condicoes_e_Doencas/VenenoCronico.md
+  - "Guias e Tutoriais":
+      - "Exemplos de Combate": 06_Guias/01_Exemplos_de_Combate.md
+
 
 extra_css:
   - stylesheets/extra.css

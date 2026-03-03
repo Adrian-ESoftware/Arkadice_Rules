@@ -40,29 +40,46 @@ O jogador possui **4 Recursos de Ação** gerenciáveis na rodada em qualquer or
 
 ---
 
-## Execução Física (Acertar ou O Erro)
+## Resolução de Ataque
 
-O embate corpo-aberto pede a rolagem do `d20` somada da sua dedicação (O Nível de Proficiência da Arma atrelada) unificada às forças do Atributo primário daquele molde de ataque.
+Todo ataque em Arkadice é resolvido contra uma **CD Base** simples do alvo.
 
-A matemática pura não esmaga defesas sólidas sem riscos se a arma do lutador for contida nos tetos dos aços:
+### CD Base de Defesa
 
-#### Combate Acirrado
+A dificuldade para acertar um alvo depende apenas de cobertura e escudo — **armadura NÃO entra na CD** (ela reduz dano depois, ver [Defesa e Sobrevivência](04_Defesa_e_Sobrevivencia.md)).
 
-- **Teste:** d20 + `|Físico|` + Proficiência *vs* CD de Defesa da carapaça inimiga.
+```
+CD Base = 8 + Bônus de Escudo + Bônus de Cobertura
+```
 
-- **Técnica Acerta:** Uma técnica refinada soma a acuidade de pegar as frestas ao d20.
-- **Brutalidade Corta Mais:** Sem adicionar o fator a exatidão, a brutalidade pesa cravando todo o valor negativo diretamente nos cortes rasgados da ponta matemática do Dano, quando atinge.
+| Componente | Valor |
+|------------|-------|
+| Base fixa | 8 |
+| Escudo Leve | +1 |
+| Escudo Médio | +2 |
+| Escudo Torre | +3 |
+| Cobertura Parcial | +2 |
+| Cobertura Total | Imune a ataques diretos |
+| **CD Máxima possível** | **13** (8 + 3 + 2) |
 
-#### Tiro Limpo Escaldado
+> **Sem escudo e sem cobertura, a CD é 8.** Todo golpe é perigoso em Arkadice.
 
-- **Teste:** d20 + `|Mente|` + Proficiência *vs* Resistência e Muro inimigo.
+### Corpo a Corpo
 
-- O disparo e a arremetida longa nunca desfrutam cargas agressivas de instinto e força da musculatura para arrancar blocos pesados num alvo — apenas o letal frio fixado sem oscilações dita o impacto. O Atributo baliza as chances do arco cravarem perfeitamente no ombro dos oponentes, sem impulsionar fatias dolorosas além das listadas para a lança ou dardo nas regras de equipamento.
+- **Fórmula:** `d20 + Técnica (se +) + Proficiência vs CD Base`
+- **Técnica (+):** Soma no d20. Além disso, cada ponto ignora 1 de Absorção da armadura.
+- **Brutalidade (-):** NÃO soma no d20. Soma o valor absoluto diretamente no **Dano**.
 
-### Sorte & Desastres Naturais
+### Ataque à Distância
 
-- **20 Natural (Crítico)**: A técnica da perfeição ignora atritos de proteção média não narrados em regras de bosses gigantes. Multiplique em par total a poça vital da tabela do seu equipamento na hora da ferida antes da absorção final da defesa de escamas alvas ou couraças da raça.
-- **1 Natural (Falha Extrema)**: Uma espada prende em raízes invisíveis num lodo não noticiado na masmorra descrita. Uma poção amassa em sua sela escapando nas bordas ao solo denso. Fica à mercê inteira do cenário das mentes mestras do jogo as punições imediatas.
+- **Fórmula:** `d20 + |Mente| + Proficiência vs CD Base`
+- Arcos e dardos usam Mente (Razão para mira calculada, Instinto para tiro reflexo).
+- Armas de arremesso pesadas podem usar |Físico| a critério do Mestre.
+
+### Sorte & Desastres
+
+- **20 Natural (Crítico):** Dano da arma é **dobrado** antes da redução de armadura.
+- **1 Natural (Falha Extrema):** A critério do Mestre — arma presa, corda arrebenta, poção cai.
 
 ---
 
