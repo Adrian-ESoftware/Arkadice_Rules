@@ -8,8 +8,8 @@
 
 | NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
 | :--- | :--- | :--- |
-| **🟡 Nv 1** | *Hesitação* | -3 em testes de Percepção ou Surpresa; Mãos trêmulas. |
-| **🟠 Nv 2** | *Pânico* | -5 em ataques e habilidades; Velocidade 3/4; Não pode se aproximar da fonte. |
+| **🟡 Nv 1** | *Hesitação* | -2 em testes de Percepção ou Surpresa; Mãos trêmulas. |
+| **🟠 Nv 2** | *Pânico* | -4 em ataques e habilidades; Velocidade 3/4; Não pode se aproximar da fonte. |
 | **🔴 Nv 3** | *Terror* | **Perde 1 ação** por turno; **1d4 dano psíquico/turno**. |
 
 ---

@@ -50,8 +50,17 @@ Nesse eixo, o personagem não foca em anular porcentagens massivas que a barreir
 | -3 (Médio Treino) | d6 (Praticante) | Rola na plataforma de **20% a 45%** | Ligeiro, perigoso. |
 | **-5 (Lenda)** | **d12 (Imbatível)** | Trava na limitação de segurança do sistema em **30% a 60%** do teto limiar. | Reflexo puro de percepção divina do espaço numérico. |
 
-!!! danger "Falhar a Roleta: O Raspão Involuntário"
-    Diferente do bloco cravado (Resistência % Armadura) o evasivo não goza de paz garantida quando os golpes falham em esquivar 100%. Entretanto, não sucumbe na íntegra: **Dano Sofrido do Raspão Incorreto = O Dodge% da Roleta ÷ 3**, fatiando os cortes no osso sem matá-lo fatalmente de um ataque único. É sempre estatisticamente inferior a uma proteção de placas fechada confiavelmente.
+!!! danger "Falhar a Roleta: O Raspão"
+    Se o Dodge falhar, o evasivo NÃO recebe o dano integral. **Dano do Raspão = Dodge% ÷ 3** (arredondado para baixo) é subtraído do dano. Inferior a armadura, mas nunca uma morte instantânea.
+
+### 🗡️ Contra-Ataque (Recompensa do Evasivo)
+
+Quando o evasivo esquiva com **sucesso perfeito** (resultado dentro dos primeiros 10% da chance de Dodge), ele ganha uma **Reação gratuita**: pode executar um ataque de oportunidade contra o agressor OU desengajar gratuitamente sem provocar ataques de oportunidade.
+
+> *O evasivo que lê o golpe antes dele chegar não apenas sobrevive — ele revida no instante de vulnerabilidade do atacante.*
+
+!!! example "Exemplo de Contra-Ataque"
+    Um evasivo com Dodge% de 40% esquiva com sucesso. Se o d% resultou entre 1 e 4 (os 10% de 40), ele ativa o Contra-Ataque: um golpe de Reação gratuito ou desengajamento livre.
 
 ---
 

@@ -32,14 +32,22 @@ Artesãos meticulosos e estudiosos profundos do Sekhem. Embora muitas vezes vist
 
 ***
 
+## 📖 Memória Ancestral (Mecânica Exclusiva)
+
+Séculos de linhagem fluem nas veias élficas. Uma vez por **sessão**, ao realizar um teste de Conhecimento, História ou Arcana sobre algo antigo (ruínas, artefatos, linhagens), o Elfo pode invocar a memória dos ancestrais e receber **+3 no teste**.
+
+> *"Meu avô caminhou por estas ruínas quando as pedras ainda brilhavam. Eu conheço o símbolo gravado nessa porta."*
+
+***
+
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **🧠 Visão Élfica**: Possui visão aguçada no escuro (30m). Você ignore penalidades de visibilidade em ambientes de escuridão parcial ou névoa leve.
-    *   **✨ Afinidade Arcana**: Sua conexão com o Sekhem é profunda. Sua faixa de Sekhem Base aumenta permanentemente para **13 - 18** (Dado torna-se 1d6+12).
+    *   **🧠 Visão Élfica**: Visão aguçada no escuro (30m). Ignora penalidades de escuridão parcial ou névoa leve.
+    *   **✨ Afinidade Arcana**: Sekhem Base aumenta para **13 - 18** (Dado: 1d6+12).
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **🛡️ Corpo Frágil**: Sua constituição física é menos densa. Ao rolar o dado de Vida por nível, você utiliza um **d4** em vez de d6. Além disso, recebe **-2 PV** máximos na criação.
-    *   **🗣️ Arrogância Ancestral**: Você tem dificuldade em levar a sério os problemas das raças "menores". Sofre desvantagem em testes de Presença com outras raças humanos, goblins ou orcs até que desenvolvam um vínculo narrativo.
+    *   **🛡️ Corpo Frágil**: Dado de Vida por nível é **d4** em vez de d6. **-2 PV** máximos na criação.
+    *   **🗣️ Arrogância Ancestral**: Desvantagem em testes de Presença com humanos, goblins ou orcs até desenvolver vínculo narrativo.

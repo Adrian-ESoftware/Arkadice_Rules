@@ -38,23 +38,29 @@ A fisiologia do Vroot reage ao ambiente. Ao final de cada Descanso Longo, o Vroo
 
 | Estação / Clima | Efeito |
 |:---|:---|
-| **☀️ Verão (Sol)** | **Vigor:** Ganha +2 em testes de Força/Físico (exige dobro de água). |
+| **☀️ Verão (Sol)** | **Vigor:** +2 em testes de Força/Físico (exige dobro de água). |
 | **🌧️ Primavera (Chuva)** | **Broto:** Recupera **1d4 PV extra** em todo descanso curto. |
-| **❄️ Inverno (Frio)** | **Casca Dura:** Ganha **+1 na CD de Defesa**, mas perde -1 em Agilidade. |
-| **🍂 Outono (Seca)** | **Economia:** Pode ficar dias sem água, mas fica letárgico (-1 Iniciativa). |
+| **❄️ Inverno (Frio)** | **Casca Dura:** **+1 na CD de Defesa**, mas -1 em Agilidade. |
+| **🍂 Outono (Seca)** | **Economia:** Pode ficar dias sem água, mas letárgico (-1 Iniciativa). |
+
+### 🌲 Interação com Terreno
+
+- **Florestas e Bosques**: Vroots recuperam **+1 PV passivamente por turno** (a terra os nutre).
+- **Desertos e Terrenos Estéreis**: Perdem **-1 PV por hora** fora de combate (desidratação profunda).
+- **Enraizamento Final**: Um Vroot que encerra sua vida conscientemente pode enraizar permanentemente, tornando-se uma **árvore senciente**. Sua memória é acessível por Vroots que toquem suas raízes.
 
 ***
 
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **🌳 Coração de Carvalho**: Sua pele é madeira densa, concedendo **Absorção 1** contra dano físico (corte/impacto). Recebe **+2 em Corpo**.
-    *   **🌳 Raízes Profundas**: Pode enraizar (Ação Bônus), tornando-se imune a ser derrubado ou empurrado e ganhando sentido sísmico (9m). Enquanto enraizado, seu movimento é 0. Recebe **+2 em Linhagem**.
+    *   **🌳 Coração de Carvalho**: Pele de madeira densa: **Absorção 1** contra dano físico. **+2 em Corpo**.
+    *   **🌳 Raízes Profundas**: Pode enraizar (Ação Bônus): imune a derrubar/empurrar, sentido sísmico (9m). Movimento 0 enquanto enraizado. **+2 em Linhagem**.
 
 !!! failure "Limitações (Debuffs)"
-    **Vulnerabilidade Inata:** Por ser feito de madeira seca e viva, todo Vroot sofre **Vulnerabilidade a Ignis (Fogo)** (Dano x1.5).
+    **Vulnerabilidade Inata:** Todo Vroot sofre **Vulnerabilidade a Ignis** (Dano x1.5).
 
     **Escolha uma limitação adicional:**
     
-    *   **⚠️ Mente de Ent**: Seu pensamento é lento e deliberado. Você sofre desvantagem em Iniciativa e em testes de Inteligência para recordar fatos imediatos. Recebe **-2 em Mente (Razão)**.
-    *   **⚠️ Língua de Madeira**: Falar línguas de carne é difícil. Sua fala é lenta e com sotaque pesado, gerando desvantagem em Persuasão verbal. Recebe **-2 em Presença**.
+    *   **⚠️ Mente de Ent**: Pensamento lento. Desvantagem em Iniciativa. **-2 em Mente (Razão)**.
+    *   **⚠️ Língua de Madeira**: Fala lenta e com sotaque pesado. Desvantagem em Persuasão verbal. **-2 em Presença**.

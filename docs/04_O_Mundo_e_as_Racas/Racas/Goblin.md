@@ -32,14 +32,29 @@ Baseada na sobrevivência pura e na pilhagem. Emboscadas e truques sujos não s�
 
 ***
 
+## 🔧 Engenhoca Improvisada (Mecânica Exclusiva)
+
+A criatividade caótica goblin não tem limites. Uma vez por **descanso curto**, o Goblin pode usar materiais encontrados para criar uma ferramenta ou armadilha improvisada. Teste de **Mente (Razão ou Instinto) CD 12**:
+
+| Resultado | Efeito |
+|-----------|--------|
+| **Sucesso** | Cria item funcional: bomba de fumaça (1 turno obscurecimento 3m), corda improvisada (6m), alarme de tripwire, ou ferramenta simples. Dura 1 cena. |
+| **Sucesso Crítico** | Item funcional E com bônus: bomba causa também 1d4 dano, corda suporta peso extra, alarme é silencioso. |
+| **Falha** | Engenhoca falha — materiais desperdiçados. |
+| **Falha Crítica** | Engenhoca explode no rosto: 1d4 dano ao Goblin. |
+
+> *"Não é lixo, é engenharia de campo. Vocês não entendem a elegância do arame enferrujado."*
+
+***
+
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **💨 Agilidade Inquietante**: Seu corpo é leve e impossível de segurar. Recebe **+1 em Corpo no polo de Agilidade**, melhorando sua Esquiva e testes de Acrobacia.
-    *   **👁️ Instinto de Minion**: Você vive em alerta constante. Recebe **+1 em Mente no polo de Instinto**, tornando-se mestre em perceber perigos ocultos e reagir a emboscadas.
+    *   **💨 Agilidade Inquietante**: Corpo leve e impossível de segurar. **+1 em Corpo (Agilidade)**.
+    *   **👁️ Instinto de Minion**: Alerta constante. **+1 em Mente (Instinto)**.
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **⚠️ Reputação de Praga**: Sua fama de traiçoeiro o precede. Recebe **-1 em Presença no polo de Liderança**, dificultando testes de persuasão ou diplomacia com outras raças.
-    *   **⚠️ Corpo Franzino**: Sua estrutura física é pouco resistente a danos prolongados. Recebe **-1 em Corpo no polo de Tenacidade**, tendo mais dificuldade para resistir a doenças e fadiga física.
+    *   **⚠️ Reputação de Praga**: Fama de traiçoeiro. **-1 em Presença (Liderança)**.
+    *   **⚠️ Corpo Franzino**: Estrutura frágil. **-1 em Corpo (Tenacidade)**.

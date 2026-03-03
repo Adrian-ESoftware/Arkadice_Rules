@@ -32,14 +32,22 @@ Toda refeição é um ritual de agradecimento. Eles desprezam o desperdício e a
 
 ***
 
+## 🐺 Instinto de Bando (Mecânica Exclusiva)
+
+A caçada em grupo é sagrada. Quando **2+ aliados** (considerados "bando" pelo Velthari) **flanqueiam** o mesmo alvo junto com o Velthari, todos ganham **+1 EXTRA** no bônus de flanquear. Com um Velthari na posição, 2 flanqueadores chegam a +3 (o cap máximo do sistema) em vez de +2.
+
+> *"A presa não vê o que vem dos lados. Ela só sente os dentes quando já é tarde."*
+
+***
+
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **🐆 Instinto de Emboscada**: Se atacar um alvo que ainda não agiu no combate ou que esteja surpreso, você tem **Vantagem** no ataque e causa **+1d6 dano extra**.
-    *   **🐆 Garras de Escalada**: Você recebe **velocidade de escalada** igual à sua velocidade de caminhada (9m). Seus ataques desarmados causam 1d4 de dano de corte.
+    *   **🐆 Instinto de Emboscada**: Se atacar alvo que ainda não agiu ou está surpreso: **Vantagem** no ataque e **+1d6 dano extra**.
+    *   **🐆 Garras de Escalada**: Velocidade de escalada igual à de caminhada (7m). Ataques desarmados causam 1d4 dano de corte.
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **⚠️ Metabolismo Acelerado**: Você queima energia muito rápido. Se ficar um dia inteiro sem consumir carne fresca, sofre a condição de **Fadiga** (Desvantagem em testes de Físico/Corpo).
-    *   **⚠️ Sentidos Hipersensíveis**: Seus ouvidos e olfato são apurados demais. Você possui **Vulnerabilidade a dano de Trovão (Aer)** e sofre desvantagem em testes para resistir a cheiros fortes ou náuseas.
+    *   **⚠️ Metabolismo Acelerado**: Se ficar um dia sem carne fresca: condição de **Fadiga** (Desvantagem em Físico/Corpo).
+    *   **⚠️ Sentidos Hipersensíveis**: **Vulnerabilidade a dano de Trovão (Aer)**. Desvantagem contra cheiros fortes ou náuseas.

@@ -8,9 +8,9 @@
 
 | NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
 | :--- | :--- | :--- |
-| **🟡 Nv 1** | *Fadiga* | -3 em Atributo Físico (Dano -1d4); Mãos trêmulas. |
-| **🟠 Nv 2** | *Atrofia* | -5 em Atributo Físico (Dano -1d6); Velocidade 3/4; Dropa armas pesadas. |
-| **🔴 Nv 3** | *Colapso* | -8 em Atributo Físico; Velocidade reduzida a rastejo (1,5m). |
+| **🟡 Nv 1** | *Fadiga* | -2 em Atributo Físico; Mãos trêmulas. |
+| **🟠 Nv 2** | *Atrofia* | -3 em Atributo Físico; Velocidade 3/4; Armas pesadas caem das mãos. |
+| **🔴 Nv 3** | *Colapso* | -5 em Atributo Físico; Velocidade reduzida a rastejo (1,5m). |
 
 ---
 

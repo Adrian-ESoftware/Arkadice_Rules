@@ -34,3 +34,6 @@
 
 !!! quote "Narrativa"
     "O ar parece denso, como se cada sílaba fosse um peso de chumbo que cai antes de sair da boca."
+
+!!! info "Interação com Asfixia"
+    Silêncio e Asfixia **não acumulam** penalidades de conjuração. Se ambas estiverem ativas, aplica-se apenas a mais severa.

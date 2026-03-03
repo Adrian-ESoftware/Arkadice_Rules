@@ -8,8 +8,8 @@
 
 | NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
 | :--- | :--- | :--- |
-| **🟡 Nv 1** | *Formigamento* | -3 em ataques; PV Máximo -5 temporário. |
-| **🟠 Nv 2** | *Náusea* | **1d4 dano/fim turno**; -5 em todos os Testes de Resistência. |
+| **🟡 Nv 1** | *Formigamento* | -2 em ataques; Enjoo leve. |
+| **🟠 Nv 2** | *Náusea* | **1d4 dano/fim turno**; -4 em Testes de Resistência; PV Máximo -5 temporário. |
 | **🔴 Nv 3** | *Colapso Tóxico* | **Paralisado por 1 turno**; **1d6 dano/fim turno**. |
 
 ---

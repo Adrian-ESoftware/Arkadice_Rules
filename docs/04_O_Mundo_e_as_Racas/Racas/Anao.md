@@ -34,14 +34,22 @@ Ferreiros, mineradores e engenheiros natos. Os anões acreditam que a perfeiçã
 
 ***
 
+## 🔨 Laço do Clã (Mecânica Exclusiva)
+
+A maestria artesanal dos anões transcende a técnica — é um ritual sagrado. Uma vez por **descanso longo**, ao forjar ou reparar um equipamento, o item recebe **+1 temporário na qualidade** até o próximo descanso longo. Este bônus se aplica a Resistência%, Absorção, ou Dano da arma (escolha do jogador).
+
+> *"Cada martelada carrega o nome do clã. Um anão não conserta um escudo — ele o reforja com honra."*
+
+***
+
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **💪 Constituição de Pedra**: Recebe **+3 PV** permanentes na criação. Além disso, possui resistência natural a toxinas (Vantagem em testes de resistência contra Veneno).
-    *   **🔥 Sangue de Forja**: Recebe proficiência **Praticante** com Martelos ou Machados. Você é capaz de avaliar a qualidade de qualquer metal ou armadura apenas com um toque.
+    *   **💪 Constituição de Pedra**: Recebe **+3 PV** permanentes na criação. Vantagem em testes contra Veneno.
+    *   **🔥 Sangue de Forja**: Proficiência **Praticante** com Martelos ou Machados. Avalia qualidade de metal/armadura com um toque.
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **⚖️ Pernas Curtas**: Sua velocidade é limitada a 5m. Devido ao seu centro de gravidade e peso, seu limite máximo de **Esquiva** é reduzido em 10% (Cap máximo de 40%).
-    *   **⚠️ Aversão Arcana**: Seu corpo resiste ao fluxo de Sekhem. Todos os seus feitiços custam **+2 Sekhem** adicional para serem conjurados.
+    *   **⚖️ Pernas Curtas**: Velocidade limitada a 5m. Limite máximo de **Esquiva** reduzido em 10% (cap 40%).
+    *   **⚠️ Aversão Arcana**: Feitiços custam **+1 Sekhem** adicional.

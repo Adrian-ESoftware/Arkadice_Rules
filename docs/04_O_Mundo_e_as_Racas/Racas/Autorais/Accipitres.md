@@ -34,11 +34,11 @@ Regidos pelo **Lex Caeli** (Lei do Céu), o código de honra que dita que a mort
 
 ## 🌬️ Vôo (Regra Especial)
 
-As Accipitres são os mestres dos céus, mas manter-se no ar exige um esforço vital constante.
+As Accipitres são os mestres dos céus, mas manter-se no ar exige esforço vital constante.
 
-* **Custo de Manutenção:** Manter o vôo consome **1 Sekhem por rodada**.
-* **Limites:** Não é possível voar usando **Armaduras Pesadas**. A altura máxima segura é de 9 metros acima do solo.
-* **Instabilidade:** Se receber dano em voo, deve passar em um teste de **CD 10 + Dano Recebido** ou cairá imediatamente.
+* **Custo de Manutenção:** Manter o vôo consome **1 Sekhem a cada 2 rodadas**.
+* **Limites:** Não é possível voar usando **Armaduras Pesadas**. Altura máxima segura: 9 metros.
+* **Instabilidade:** Se receber dano em voo, teste de **CD 10 + Dano Recebido** ou cairá imediatamente.
 * **Exaustão:** Se o Sekhem chegar a 0 no ar, a queda é instantânea.
 
 ***
@@ -46,11 +46,12 @@ As Accipitres são os mestres dos céus, mas manter-se no ar exige um esforço v
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **🦅 Mergulho de Caça**: Se atacar corpo a corpo após mover-se pelo menos 3m em vôo, adiciona **+1d4 dano** ao impacto (ataque mergulhante).
-    *   **🦅 Olhos do Céu**: Possui vantagem em testes de **Percepção** visual à longa distância, sendo capaz de enxergar detalhes mínimos a centenas de metros de distância.
+    *   **🦅 Mergulho de Caça**: Ao atacar corpo a corpo após mover 3m+ em vôo, adiciona **+1d4 dano** ao impacto.
+    *   **🦅 Olhos do Céu**: Vantagem em **Percepção** visual à longa distância.
+    *   **🎵 Harmonias do Vento**: Pode usar Performance como **Ação Bônus** para inspirar 1 aliado a 9m: **+2 no próximo teste**.
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **🦴 Ossos Ocos**: Sua estrutura é leve e frágil. Dano de **Impacto** (quedas, martelos ou magia de Terra) causa sempre **+1 de dano extra**.
-    *   **⚠️ Orgulho Alado**: Estar preso ao solo é uma tortura psicológica. Se for derrubado (*Prone*) ou agarrado (*Grappled*), sofre desvantagem em todos os testes até se libertar.
+    *   **🦴 Ossos Ocos**: Dano de **Impacto** (quedas, martelos, Terra) causa **+1 dano extra**.
+    *   **⚠️ Orgulho Alado**: Se derrubado ou agarrado, desvantagem em todos os testes até se libertar.

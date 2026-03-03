@@ -32,14 +32,22 @@ Possuem a adaptabilidade humana unida à observação aguçada dos elfos. Tendem
 
 ***
 
+## 🌉 Ponte Cultural (Mecânica Exclusiva)
+
+Os Meio-Elfos entendem as duas faces de cada cultura. Após interagir com uma **raça específica NPC** pela segunda vez na campanha (conversas, combates, negociações), o Meio-Elfo ganha **Vantagem permanente** em testes sociais com aquela raça. O vínculo se aprofunda mais rápido que para qualquer outra linhagem.
+
+> *"Eu entendo por que os anões protegem suas barras de ouro com tanto zelo. Eu também entendo por que os elfos acham isso ridículo. E é exatamente por isso que ambos confiam em mim."*
+
+***
+
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **🧠 Herança Dual**: Sua ascendência é equilibrada. Você pode escolher **1 Bônus da raça Humano** OU **1 Bônus da raça Elfo** (não é possível pegar o debuff correspondente).
-    *   **🗣️ Carisma Natural**: Você possui um magnetismo inato. Recebe **+2 em testes de Presença** em qualquer polo ao interagir com NPCs que não sejam hostis.
+    *   **🧠 Herança Dual**: Escolha **1 Bônus da raça Humano** OU **1 Bônus da raça Elfo** (sem pegar o debuff correspondente).
+    *   **🗣️ Carisma Natural**: **+2 em testes de Presença** ao interagir com NPCs não-hostis.
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **⚠️ Identidade Dividida**: Você é um generalista por natureza. Sua proficiência em qualquer perícia é limitada ao Tier de **Mestre** (não pode alcançar o Tier Lendário).
-    *   **⚠️ Sangue Instável**: Sua herança biológica é conflitante. Quando recebe cura mágica, role um **d4**: se o resultado for **1**, a eficácia da cura é reduzida pela metade.
+    *   **⚠️ Identidade Dividida**: Generalista por natureza. Alcançar Tier **Lendário** exige o **dobro de usos** (100 em vez de 50).
+    *   **⚠️ Sangue Instável**: Herança conflitante. Ao receber cura mágica, role **d4**: resultado **1** = cura reduzida pela metade.

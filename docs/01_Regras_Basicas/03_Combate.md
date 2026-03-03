@@ -68,13 +68,18 @@ A matemática pura não esmaga defesas sólidas sem riscos se a arma do lutador 
 
 ## O Tabuleiro Perigoso: Efeitos do Palco
 
-Eventos externos punem e ajudam aventureiros de maneiras pragmáticas em turnos vivos de combates, desconfigurando as armadilhas fáceis e puras da matemática d20.
+Eventos externos punem e ajudam aventureiros durante combates vivos.
 
-| Regras Adicionais | Desdobramentos Físicos e Reativos |
-|------|-----------|
-| **Cobertura no Terreno** | Mesas reviradas ou escombros em altura do quadril oferecem *+2 CD* vital, janelas impenetráveis *+4*. Se a massa rochosa veda totalmente o alvo, tiros e laminas tradicionais o ignoram até as posições laterais estilhaçarem. (Fogo Arcano de grande raio contorna cantoneiras rústicas de estórias.) |
-| **Invisibilidade Densa** | Feitiços (Aer/Perditio) que apagam a imagem corporal protegem a pele inteira e engatam Vantagem limítrofe no primeiro ataque que finaliza violentamente a própria duração contínua de luz apagada. |
-| **Condições Paralelo-Imobilizadoras (Grappled vs Prone)** | Rastejar engolido até um combatente ou sufocar presa em gravatas limitam táticas em Desvantagens maciças frente ao oponente segurando suas amarras sem ceder o tempo veloz original de rodada. O alvo da rasteira cai prostrado recebendo todos em Adagas curtas nos pés engatando em total Vantagem no abate. |
-| **Gelo e Lama: O Andar Tático** | Terreno difíceis podam o deslocamento. Perambular sob charcos de acidez, lâminas giratórias vivas, e escamas letais ferem imediatamente (1d4 passivos de sangrias do palco por cada quadrante vencido lentamente). |
-| **Desfiladeiros Letais / Precipícios de 3 Metros** | Nenhuma anatomia humanoide resiste as leis mortais. 3 metros ditam a punição de 1d4 de dados, somando um acumulativo +1d4 por cada salto triplo estendido de altura em queda livre bruta ao teto final de 30m no mundo, sem o rolar para reduzir o corpo a massa esmagada (+ Destreza de manobra pode aplacar 50% dos arcos caso resulte sob um CD de queda 12 na batida). |
-| **Cercar a Caçada em Grupo (Flanquear)** | Cortar um ogro por lados espelhados entre dois companheiros confunde o balanço bélico natural gerando bônus cego no ataque base de todos focando perfeitamente a criatura encurralada, com escalada natural pelo esmagamento coletivo se houver quatro agindo em enxame predatório. |
+| Regra | Efeito Mecânico |
+|-------|-----------------|
+| **Cobertura Parcial** | +2 CD de Defesa. |
+| **Cobertura Total** | Alvo impossível de atingir por ataques diretos até ser contornado. Fogo Arcano de grande raio pode contornar. |
+| **Invisibilidade** | Vantagem no primeiro ataque (que encerra a invisibilidade). |
+| **Derrubado (Prone)** | Vantagem em corpo a corpo contra ele. Desvantagem à distância. |
+| **Agarrado (Grappled)** | Vantagem contra o alvo. Velocidade 0. |
+| **Terreno Difícil** | Velocidade reduzida pela metade. Terrenos perigosos (ácido, lava, espinhos) causam 1d4 por turno. |
+| **Queda** | 1d4 de dano por cada 3m de queda. Teste de Destreza CD 12 pode reduzir o dano em 50%. Máximo: 10d4 (30m). |
+| **Flanquear** | 2 aliados em lados opostos: **+2 no acerto**. 3+ aliados cercando: **+3 no acerto** (teto máximo). |
+
+!!! warning "Cap de Flanquear"
+    O bônus máximo de flanquear é **+3**, independente do número de atacantes. Mais aliados = mais ataques, mas não mais precisão individual.

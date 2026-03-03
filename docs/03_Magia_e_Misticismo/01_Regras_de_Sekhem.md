@@ -263,11 +263,11 @@ Canalizar Sekhem em grandes quantidades é **exaustivo**. O corpo e a mente se d
 
 | Sekhem Restante | Efeito |
 |-----------------|--------|
-| **Acima de 50%** | Nenhum — conjuração normal |
-| **50% a 21%** | CDs de conjuração ganham **+2** (mente cansada, foco enfraquecido) |
-| **20% ou menos** | CDs ganham **+4** e dano mágico sofre **-1** (corpo trêmulo, Sekhem instável) |
+| **Acima de 33%** | Nenhum — conjuração normal |
+| **33% a 16%** | CDs de conjuração ganham **+2** (mente cansada, foco enfraquecido) |
+| **15% ou menos** | CDs ganham **+4** e dano mágico sofre **-1** (corpo trêmulo, Sekhem instável) |
 
-> *A fadiga mágica não impede de conjurar — apenas torna cada feitiço mais arriscado e menos eficaz.*
+> *A fadiga mágica não impede de conjurar — apenas torna cada feitiço mais arriscado e menos eficaz. O mago tem mais fôlego antes que a exaustão o alcance.*
 
 ***
 

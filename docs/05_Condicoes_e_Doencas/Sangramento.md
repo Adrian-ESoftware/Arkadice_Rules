@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | **🟡 Nv 1** | *Risco Leve* | **1d4 dano no fim do turno**. |
 | **🟠 Nv 2** | *Hemorragia* | **1d6 dano/fim turno**; -2 Defesa (Sangue nos Olhos). |
-| **🔴 Nv 3** | *Exsanguinação* | **1d8 dano/fim turno**; -4 em testes físicos; PV Máximo -10. |
+| **🔴 Nv 3** | *Exsanguinação* | **1d8 dano/fim turno**; -4 em testes físicos; PV Máximo -5. |
 
 ---
 

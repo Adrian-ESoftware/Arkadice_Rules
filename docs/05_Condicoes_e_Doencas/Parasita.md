@@ -8,9 +8,9 @@
 
 | NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
 | :--- | :--- | :--- |
-| **🟡 Nv 1** | *Fixação* | -3 no membro afetado (Ataque, Velocidade ou Defesa). |
-| **🟠 Nv 2** | *Infestação* | **1d4 dano/turno**; Membro inutilizável; -5 em testes do membro. |
-| **🔴 Nv 3** | *Dominação* | **1d6 dano/turno**; 50% de chance do membro agir sozinho contra aliados. |
+| **🟡 Nv 1** | *Fixação* | -2 no membro afetado (Ataque, Velocidade ou Defesa). |
+| **🟠 Nv 2** | *Infestação* | **1d4 dano/turno**; Membro inutilizável; -4 em testes do membro. |
+| **🔴 Nv 3** | *Dominação* | **1d6 dano/turno**; Membro completamente paralisado e inutilizável; -2 em TODOS os testes (dor irradiante). |
 
 ---
 

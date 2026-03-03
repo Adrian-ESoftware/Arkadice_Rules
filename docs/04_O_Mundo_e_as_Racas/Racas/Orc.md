@@ -32,14 +32,22 @@ Guerreiros, caçadores e xamãs formam a base de sua cultura. Valorizam a ação
 
 ***
 
+## 🥁 Canção de Guerra (Mecânica Exclusiva)
+
+A tradição de combate orc é tão velha quanto as montanhas. No **primeiro turno** de combate, o Orc pode gastar sua **Ação Bônus** para soltar um grito de guerra ritualístico. Aliados a **6m** ganham **+1 na Iniciativa** e imunidade à condição de **Medo Nv 1** por 2 turnos.
+
+> *"O rugido ecoa pela ravina. Os companheiros não são mais viajantes — são guerreiros da tribo."*
+
+***
+
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **🩸 Fúria Ancestral**: 1x por combate, na primeira vez que seus PV caírem abaixo de 50%, você ganha **+2 de bônus no dano** do seu próximo ataque bem-sucedido.
-    *   **💪 Resistência Brutal**: Recebe **+2 PV** permanentes na criação. Além disso, possui vantagem em testes de resistência para resistir à condição de **Medo**.
+    *   **🩸 Fúria Ancestral**: 1x por combate, quando seus PV caírem abaixo de 50%, ganha **+2 de bônus no dano** do próximo ataque bem-sucedido.
+    *   **💪 Resistência Brutal**: **+2 PV** permanentes na criação. Vantagem contra a condição de **Medo**.
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **🧠 Sangue Quente**: Você é facilmente provocado. Sofre desvantagem em testes de Mente (Razão) quando insultado. Deve passar num teste **CD 10** para não retaliar fisicamente a uma ofensa direta.
-    *   **🗣️ Pária Social**: Sua presença é inquietante em centros urbanos. Sofre desvantagem em testes de Presença (Liderança) em cidades grandes, onde NPCs costumam iniciar interações de forma hostil ou desconfiada.
+    *   **🧠 Sangue Quente**: Desvantagem em testes de Mente (Razão) quando insultado. Teste **CD 10** para não retaliar fisicamente.
+    *   **🗣️ Pária Social**: Desvantagem em testes de Presença (Liderança) em cidades grandes.

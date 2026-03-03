@@ -1,5 +1,7 @@
 ---
 title: Magia e Morte
+tags: [core, magia, morte]
+status: stable
 ---
 
 # Sistemas de Magia Básica e Condição de Morte
@@ -23,7 +25,7 @@ Quando um feitiço de controle ou efeito espacial de área tenta amarrar e viola
 
 *Ou quão imbatível é a corrente mágica do mago inimigo:*
 
-**Cálculo da Dificuldade:** `CD Base 8 + |Valor Absoluto da Linhagem| + Seu Grau de Proficiência em Magia`
+**Fórmula:** `CD Mágica = 8 + |Linhagem| + Proficiência em Magia`
 
 | Expertise (Treinamento) | Exemplo com Linhagem ±3 | Nova CD Mágica da Prisão |
 |-------------|-----------|-----------|
@@ -43,12 +45,11 @@ O equipamento que lida com cortes (Placas de Aço) derrete sob calor, armaduras 
 
 ---
 
-## Afinidade Elemental
+### Afinidade Elemental
 
-O Sekhem divide o globo de Arkadice nas seis teias primárias de manifestação da matéria e das mentes (**Aqua, Ignis, Ordo, Terra, Perditio, Aer**).
-Conhecer a afinidade do oponente recompensa mentes astutas na preparação de caçadas no tabuleiro. Personagens Jogáveis nascem sob um leque de pureza (Não são naturalmente fracos ou resistentes a chamas só por carregarem Sekhem do fogo), porém Criaturas Biológicas têm fraquezas anatômicas na sua Ficha (Ver `Bestiário`).
+O Sekhem divide o mundo em seis elementos primários (**Aqua, Ignis, Ordo, Terra, Perditio, Aer**). Personagens jogáveis não possuem vulnerabilidades/resistências elementais naturais, mas **Criaturas** possuem fraquezas na ficha do Bestiário.
 
-- **Vulnerabilidade (+)**: O Dano é mutilado em escala exponencial `= Dano Bruto Finalizado × 1.5` (O arredondamento sobe a casa em crueldade). Ocorre quando a oposição elemental fere violentamente um monstro nas amarras naturais de oposição.
+- **Vulnerabilidade**: `Dano Final × 1.5` (arredondado para cima). Quando o elemento oposto acerta uma criatura.
 - **Resistência (-)**: O Dano escorre pelos ossos da fera sem arranjar letalidade `= Dano Bruto Finalizado × 0.5` (Semeado em metades, para baixo da régua decimal). Ocorre quando entidades de puro fogo bebem jorros de labaredas adversárias como combustível fraco.
 - **Imunidade Absoluta**: Um elementar da água pura não se afoga ou corta com adagas gélidas `= Anulado Total`.
 

@@ -8,8 +8,8 @@
 
 | NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
 | :--- | :--- | :--- |
-| **🟡 Nv 1** | *Falta de ar* | -2 em todos os testes; **Silenciado** (Bloqueia Conjuração). |
-| **🟠 Nv 2** | *Sufocamento* | -4 em todos os testes; **1d4 dano/turno**; Velocidade reduzida a 1/4. |
+| **🟡 Nv 1** | *Falta de ar* | -2 em todos os testes; Feitiços verbais custam **+2 CD** (dificuldade para pronunciar). |
+| **🟠 Nv 2** | *Sufocamento* | -4 em todos os testes; **Silenciado** (Bloqueia Conjuração Verbal); **1d4 dano/turno**; Velocidade 1/4. |
 | **🔴 Nv 3** | *Inconsciência* | **1d6 dano/turno**; Perde ação principal; Visão escurecendo. |
 
 ---

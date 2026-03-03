@@ -8,9 +8,9 @@
 
 | NÍVEL | DESCRIÇÃO | EFEITOS MECÂNICOS |
 | :--- | :--- | :--- |
-| **🟡 Nv 1** | *Ofuscado* | -3 em ataques à distância e Percepção; Dano de Perditio reduzido em 1. |
-| **🟠 Nv 2** | *Ofuscamento Total* | -5 em ataques e Percepção; **1d4 dano psíquico/turno**. |
-| **🔴 Nv 3** | *Cegueira Absoluta* | **Cego** (Desvantagem em ataques); **1d6 dano psíquico**; 50% de chance de obedecer o conjurador. |
+| **🟡 Nv 1** | *Ofuscado* | -2 em ataques à distância e Percepção; Dano de Perditio reduzido em 1. |
+| **🟠 Nv 2** | *Ofuscamento Total* | -4 em ataques e Percepção; **1d4 dano psíquico/turno**. |
+| **🔴 Nv 3** | *Cegueira Absoluta* | **Cego** (Desvantagem em ataques); **1d6 dano psíquico**; **Desvantagem em Saves contra comandos verbais** do conjurador. |
 
 ---
 

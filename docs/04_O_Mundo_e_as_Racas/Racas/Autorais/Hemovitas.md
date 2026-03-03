@@ -34,16 +34,22 @@ Mestres alquimistas e negociantes da noite. São fascinados por linhagens e ritu
 
 ***
 
+## 🩸 Ritual de Sangue (Mecânica Exclusiva)
+
+O sangue é poder para os Hemovitas. Após derrotar um inimigo, o Hemovita pode gastar sua **Ação Principal** para consumir a essência do caído. Recupera **1d4 Sekhem** E o próximo feitiço de **Aqua** custa **-1 Sekhem**. Efeito dura 1 cena.
+
+> *"O sangue ainda está quente. A vitae canta nas minhas veias."*
+
+***
+
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **🩸 Mordida Vital**: 1x por combate, pode realizar um ataque corpo a corpo especial que drena **1d4 PV** do alvo e cura o Hemovita pelo mesmo valor.
-    *   **🌑 Regeneração Sombria**: Quando estiver em penumbra ou escuridão, recupera +1 PV extra em descansos curtos e possui vantagem em testes contra Veneno.
-    *   **✨ Linhagem Nobre**: Recebe **+2 em Presença (Liderança)** ou **+2 em Corpo (Tenacidade)**.
+    *   **🩸 Mordida Vital**: 1x por combate, ataque corpo a corpo especial que drena **1d4 PV** e cura o Hemovita pelo mesmo valor.
+    *   **🌑 Regeneração Sombria**: Em penumbra/escuridão, +1 PV extra em descansos curtos. Vantagem contra Veneno.
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **⚠️ Fome de Vitae**: Precisa se alimentar de essência vital a cada 24 horas. Para cada dia de fome, sofre uma penalidade cumulativa de **-1 em todos os testes**.
-    *   **☀️ Sensibilidade Solar**: Sob sol pleno, você sofre desvantagem em testes de Corpo e não consegue regenerar PV naturalmente.
-    *   **🩸 Corrupção de Sangue**: Recebe **-2 em Linhagem (Corrompida)** ou **-2 em Mente (Instinto)**.
+    *   **⚠️ Fome de Vitae**: Alimentar-se de essência vital a cada 24h. Cada dia de fome: **-1 cumulativo** em todos os testes.
+    *   **☀️ Sensibilidade Solar**: Sob sol pleno, desvantagem em testes de Corpo. Não regenera PV naturalmente.

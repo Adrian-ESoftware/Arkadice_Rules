@@ -34,3 +34,6 @@
 
 !!! warning "Faca de Dois Gumes"
     Aumentar a Absorção pode ser útil para tankar, mas a perda drástica de mobilidade e a vulnerabilidade a danos de Impacto (quebras) tornam esta uma condição perigosa.
+
+!!! info "Anti-Exploit"
+    Autoinduzir Petrificação deliberadamente para ganhar Absorção exige **consentimento do Mestre** e narrativa justificada. Uso puramente tático sem contexto narrativo é vetado.

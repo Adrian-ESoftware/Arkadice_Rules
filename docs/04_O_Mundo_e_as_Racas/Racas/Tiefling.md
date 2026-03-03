@@ -32,14 +32,22 @@ Sobreviventes natos que aprendem a ler as intenções das pessoas antes mesmo de
 
 ***
 
+## 🌑 Sussurro Infernal (Mecânica Exclusiva)
+
+O sangue do pacto antigo pulsa com entropia. Uma vez por **descanso longo**, o Tiefling pode conjurar um feitiço de **Perditio** com custo reduzido em **-2 Sekhem** (mínimo 1). O feitiço se manifesta com uma aura carmesim e um sussurro inaudível que gela a espinha dos presentes.
+
+> *"As marcas do pacto não são uma maldição. São uma chave que abre portas que a maioria nem sabe que existem."*
+
+***
+
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **🔥 Sangue Infernal**: Sua pele é resistente ao calor extremo. Recebe **Resistência a Ignis** (dano de fogo reduzido em 3 pontos fixos) e é imune à condição de **Queimadura**.
-    *   **🌑 Visão do Abismo**: Enxerga no escuro (20m) e possui a capacidade passiva de sentir a presença de magia num raio de 10m (embora não consiga identificar a escola ou o efeito).
+    *   **🔥 Sangue Infernal**: Resistência a Ignis (dano de fogo reduzido em 3 pontos). Imune à condição de **Queimadura**.
+    *   **🌑 Visão do Abismo**: Visão no escuro (20m). Sente presença de magia num raio de 10m (sem identificar escola ou efeito).
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **🌑 Marca do Pacto**: Sua natureza repele a luz pura. Magias de cura divina ou baseadas em Aqua Pura têm seu efeito reduzido em 50%. Contato com água benta causa **1d4 de dano**.
-    *   **🗣️ Estigma Social**: Você é alvo de superstição e preconceito religioso. Sofre desvantagem em testes de Presença (Liderança) com NPCs devotos ou fanáticos.
+    *   **🌑 Marca do Pacto**: Magia de cura baseada em Aqua Pura tem efeito reduzido em 50%. Contato com água benta causa **1d4 dano**.
+    *   **🗣️ Estigma Social**: Desvantagem em testes de Presença (Liderança) com NPCs devotos ou fanáticos.

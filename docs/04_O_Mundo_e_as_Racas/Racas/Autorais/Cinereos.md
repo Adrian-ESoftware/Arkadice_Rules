@@ -34,20 +34,26 @@ Possuem o ritual do **Crisol**, onde caminham sobre brasas para provar sua matur
 
 ## 🔥 Sangue Vulcânico (Característica Especial)
 
-* **Pulmão de Cinza:** São imunes a gases tóxicos ou fumaça vulcânica.
-* **Essência de Ignis:** Possuem resistência natural a dano de **Fogo (Ignis)** (recebem metade do dano).
-* **Corpo Térmico:** Sofrem vulnerabilidade a **Frio (Aqua/Gelo)**. O frio extremo solidifica suas juntas, causando dor e aplicando **x1.5 de dano**.
+* **Pulmão de Cinza:** Imunes a gases tóxicos ou fumaça vulcânica.
+* **Essência de Ignis:** Resistência natural a dano de **Fogo** (metade do dano).
+* **Corpo Térmico:** Vulnerabilidade a **Frio (Aqua/Gelo)**: dano **×1.5**.
+
+## 🌋 Sangue Incandescente (Mecânica Exclusiva)
+
+Quando o Cinéreo cai abaixo de **25% dos PV**, suas rachaduras na pele brilham incandescentes. Por **1d4 turnos**, qualquer ataque corpo a corpo contra o Cinéreo causa **1d4 de retaliação Ignis** ao atacante (o calor do corpo queima quem toca).
+
+> *"Quanto mais fundo você corta, mais perto chega do magma. E o magma não perdoa."*
 
 ***
 
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **🌋 Fúria Eruptiva**: 1x por descanso curto, pode entrar em erupção (Ação Bônus). Por 1 minuto, seus ataques causam **+1d4 dano de Ignis** e inimigos adjacentes que te atacarem recebem 1 de dano de fogo.
-    *   **🌋 Pele de Obsidiana**: Recebe **+2 Corpo (Tenacidade)**. Sua pele é dura como vidro vulcânico, garantindo **+1 na CD de Defesa natural** (não acumula com armadura pesada).
+    *   **🌋 Fúria Eruptiva**: 1x por descanso curto, erupção (Ação Bônus) por 1 minuto: **+1d4 dano Ignis** nos ataques; inimigos adjacentes que te atacarem: 1 dano de fogo.
+    *   **🌋 Pele de Obsidiana**: **+2 Corpo (Tenacidade)**. **+1 na CD de Defesa natural** (não acumula com armadura pesada).
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **⚠️ Pavio Curto**: Recebe **-2 Mente (Instinto)**. Você tem dificuldade em controlar suas emoções, sofrendo desvantagem em testes para manter a calma ou resistir a frenesi.
-    *   **⚠️ Densidade Rochosa**: Recebe **-2 Agilidade**. Sendo extremamente denso, você afunda na água como uma pedra e tem desvantagem em testes de Furtividade ou Acrobacia.
+    *   **⚠️ Pavio Curto**: **-2 Mente (Instinto)**. Desvantagem para manter a calma ou resistir a frenesi.
+    *   **⚠️ Densidade Rochosa**: **-2 Agilidade**. Afunda na água. Desvantagem em Furtividade e Acrobacia.

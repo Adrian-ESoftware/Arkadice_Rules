@@ -32,14 +32,22 @@ Diplomatas, soldados, aventureiros e mercadores. Não existe um estereótipo ún
 
 ***
 
+## 🔄 Ambição Desenfreada (Mecânica Exclusiva)
+
+A mente humana aprende rápido por necessidade. Uma vez por **arco narrativo**, ao atingir um novo Tier em qualquer proficiência, você pode transferir **5 marcas de uso** de uma habilidade estagnada para outra de sua escolha. As marcas transferidas representam lições cruzadas do campo de batalha.
+
+> *"O espadachim que viu o mago conjurar sob fogo cruzado aprendeu algo sobre concentração. O diplomata que sobreviveu a uma emboscada descobriu como empunhar uma faca."*
+
+***
+
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **🧠 Adaptabilidade**: A mente humana aprende rápido por necessidade. Você começa o jogo com **1 Perícia adicional à sua escolha** no Tier de **Praticante**.
+    *   **🧠 Adaptabilidade**: Você começa o jogo com **1 Perícia adicional à sua escolha** no Tier de **Praticante**.
     *   **🔥 Determinação Inabalável**: 1x por descanso longo, você pode re-rolar um teste de Perícia ou uma Salvaguarda de Morte, mantendo o melhor resultado.
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **⏳ Vida Curta**: Sua vida é um sopro comparada aos elfos ou anões. Você não pode elevar seu atributo de **Tenacidade** além de +4. Além disso, envelhece visivelmente mais rápido que as outras raças.
-    *   **⚠️ Desconexão Elemental**: Seu corpo não possui um fluxo natural de magia. Todos os feitiços que você conjurar custam **+1 Sekhem adicional**.
+    *   **⏳ Vida Curta**: Sua vida é breve comparada às outras raças. Você não pode elevar **Tenacidade** além de +4.
+    *   **⚠️ Desconexão Elemental**: Feitiços **fora do seu elemento de domínio** custam **+1 Sekhem adicional** (custo normal no domínio).
