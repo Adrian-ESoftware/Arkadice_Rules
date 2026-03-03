@@ -1,2 +1,0 @@
-Poção de Passos Silenciosos
-(stealth forte por 10 min, mas -1 em testes de força física).

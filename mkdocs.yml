@@ -100,6 +100,8 @@ nav:
           - "Veneno Crônico": 05_Condicoes_e_Doencas/VenenoCronico.md
   - "Guias e Tutoriais":
       - "Exemplos de Combate": 06_Guias/01_Exemplos_de_Combate.md
+  - "Sistemas Avançados":
+      - "Sistema de Santuário": 07_Sistemas_Avancados/01_Sistema_de_Santuario.md
 
 
 extra_css:
