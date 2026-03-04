@@ -102,6 +102,7 @@ nav:
       - "Exemplos de Combate": 06_Guias/01_Exemplos_de_Combate.md
   - "Sistemas Avançados":
       - "Sistema de Santuário": 07_Sistemas_Avancados/01_Sistema_de_Santuario.md
+      - "Sistema de Companion": 07_Sistemas_Avancados/02_Sistema_de_Companions.md
 
 
 extra_css:
