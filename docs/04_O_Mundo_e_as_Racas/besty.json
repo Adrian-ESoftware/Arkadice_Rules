@@ -3,31 +3,80 @@
   "appearance": "Uma breve descrição da aparência visual",
   "description": "Lore detalhada, história e comportamentos da criatura",
   "traits": "- **Imunidade a fogo**\n- **Sentido cego 18m**",
+
   "hp_max": 50,
   "sekhem_max": 20,
   "speed": "9m",
-  "def_cd": 12,
-  "def_dodge": 15,
-  "def_abs": "1d6",
-  "attr_presenca": 2,
-  "attr_fisico": 3,
-  "attr_mente": -1,
-  "attr_corpo": 1,
-  "attr_linhagem": 0,
-  "elements": ["ignes", "ordo"],
+
+  "defense": {
+    "cd_base": 8,
+    "dodge_percent": 0,
+    "resistance_percent": 20,
+    "absorption": 4,
+    "notes": "cd_base = 8 base + escudo + cobertura (máx 13). dodge_percent só existe se attr_corpo for negativo."
+  },
+
+  "attributes": {
+    "presenca": 2,
+    "fisico": 3,
+    "mente": -1,
+    "corpo": 1,
+    "linhagem": 0
+  },
+
+  "elemental": {
+    "immunities": ["ignes"],
+    "resistances": ["ordo"],
+    "vulnerabilities": [],
+    "affinities": []
+  },
+
+  "actions": [
+    {
+      "name": "Ataque de Garras",
+      "type": "melee",
+      "range": "1.5m",
+      "attack_bonus": 5,
+      "attack_formula": "d20 + fisico(3) + proficiencia(2)",
+      "damage": "2d8+3",
+      "damage_type": "fisico",
+      "damage_notes": "O +3 vem de Brutalidade (|fisico negativo|) OU bônus fixo da criatura — definir por criatura",
+      "description": "Descrição narrativa opcional da ação"
+    },
+    {
+      "name": "Sopro Flamejante",
+      "type": "special",
+      "range": "cone 6m",
+      "attack_bonus": null,
+      "attack_formula": null,
+      "damage": "4d6",
+      "damage_type": "ignes",
+      "save_cd": 14,
+      "save_attribute": "corpo",
+      "save_effect": "metade do dano em caso de sucesso",
+      "description": "Descrição narrativa opcional da ação"
+    }
+  ],
+
+  "initiative_bonus": -1,
+  "initiative_formula": "d20 + |mente|",
+
   "loot_table": 5,
   "token_size": 2,
   "aura_radius": 3,
   "aura_color": "#ff4400",
-  "actions": [
-    {
-      "description": "Dano: **2d8+3** físico. Alcance: **1.5m**.",
-      "name": "Ataque de Garras"
-    },
-    {
-      "name": "Sopro Flamejante",
-      "description": "Dano: **4d6 ignes** em cone de **6m**. CD **14** para metade."
-    }
-  ],
-  "image_url": "https://exemplo.com/imagem.png"
+  "image_url": "https://exemplo.com/imagem.png",
+
+  "_notes": {
+    "cd_base": "Sem escudo e sem cobertura = 8. Escudo Leve +1, Médio +2, Torre +3. Cobertura Parcial +2. Máximo absoluto: 13.",
+    "dodge_percent": "Só preencher se corpo for negativo. Fórmula: (dado_proficiencia × 5%) + (|corpo| × 5%). Se corpo positivo, deixar 0.",
+    "resistance_percent": "Percentual do dano absorvido pela armadura natural. Se criatura sem armadura, deixar 0.",
+    "absorption": "Cap máximo de dano absorvido por golpe. Se criatura sem armadura, deixar 0.",
+    "attack_bonus": "Pré-calculado: atributo relevante + proficiencia da criatura. Mestre rola d20 + esse valor vs CD do jogador.",
+    "save_cd": "CD do teste de resistência que o jogador faz para reduzir o efeito. Usar atributo mais relevante da ação.",
+    "initiative_bonus": "Usar valor absoluto de mente. Razão (+) para estratégia, Instinto (-) para reflexo — ambos somam |mente| na iniciativa.",
+    "elemental_affinities": "immunities = dano zerado. resistances = dano reduzido à metade. vulnerabilities = dano dobrado. affinities = elemento que a criatura usa ofensivamente.",
+    "loot_table": "ID ou nível da tabela de loot. Definir tabelas separadamente.",
+    "token_size": "1 = pequeno/médio, 2 = grande, 3 = enorme, 4 = colossal"
+  }
 }
