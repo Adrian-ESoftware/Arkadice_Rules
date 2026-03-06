@@ -25,7 +25,7 @@ Isso aplica-se às seguintes naturezas práticas da ficha:
 
 ---
 
-### Os Degraus do Sangue (A Tabela Geral de Tiers)
+### Os Patamares da Vivência (A Tabela Geral de Tiers)
 
 | Nível Escalar | A Nomenclatura | Bônus Direto Adicionado em Toda Rolada | Taxa Numérica de Esquiva Elevada | O Preço Requisitado na Pele para Estampar na Ficha |
 |------|------|-------|-----------------|-----------|
@@ -81,7 +81,7 @@ As horas orgânicas da vivência natural são fixas e imperdoáveis aos combaten
 
 ---
 
-### Inatamente Sujo com Sangue Frio — A Herança de Usos (Raças Acopladas Primárias)
+### O Legado de Instinto e Solo — A Herança de Usos (Raças Acopladas Primárias)
 
 Na calha da formação de vida na Estapa Zero do RPG antes dos campos reais rolarem nos tablados de ferro, Algumas etnias não treinam `Praticante Tier 1`, elas nascem estagnadas nesse crivo básico por instintos culturais das tribos e morros de onde respiram nos charcos primitivos.
 Um jogador recém parido na ficha puxa do vazio sua primeira marca em uma manobra bônus inata destrancando sem esforços o acréscimo orgânico prático de:
