@@ -44,10 +44,10 @@ A tradição de combate orc é tão velha quanto as montanhas. No **primeiro tur
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
     *   **🩸 Fúria Ancestral**: 1x por combate, quando seus PV caírem abaixo de 50%, ganha **+2 de bônus no dano** do próximo ataque bem-sucedido.
-    *   **💪 Resistência Brutal**: **+2 PV** permanentes na criação. Vantagem contra a condição de **Medo**.
+    *   **💪 Determinação Implacável**: A dor é apenas um lembrete. Quando sofrer Dano que te levaria a 0 PV num golpe, você pode optar ativamente por ficar com 1 PV (limitado a 1 vez por descanso longo). Vantagem natural contra a condição de **Medo**.
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **🧠 Sangue Quente**: Desvantagem em testes de Mente (Razão) quando insultado. Teste **CD 10** para não retaliar fisicamente.
-    *   **🗣️ Pária Social**: Desvantagem em testes de Presença (Liderança) em cidades grandes.
+    *   **⚠️ Orgulho Marcial Eruptivo**: A ofensa direcionada é imperdoável. Qualquer inimigo (ou aliado) da mesma estatura que o insulte diretamente e o provoque força você a focar seus ataques físicos nele prioritariamente até ele recuar ou cair.
+    *   **🗣️ Fisionomia Intimidante Aberrante**: Visto com alta suspeita por autoridades de cidades convencionais sem forte cultura marcial. Testes sociais de extorsão ou convencimentos pacíficos dobram de dificuldade para resolverem problemas com os guardas.

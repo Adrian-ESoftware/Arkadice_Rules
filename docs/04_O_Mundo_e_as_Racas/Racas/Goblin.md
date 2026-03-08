@@ -50,11 +50,11 @@ A criatividade caótica goblin não tem limites. Uma vez por **descanso curto**,
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **💨 Agilidade Inquietante**: Corpo leve e impossível de segurar. **+1 em Corpo (Agilidade)**.
-    *   **👁️ Instinto de Minion**: Alerta constante. **+1 em Mente (Instinto)**.
+    *   **💨 Agilidade Inquietante**: Corpo elástico e leve. Vantagem em testes de Acrobacia e para escapar de Agarramentos. Ignora terreno difícil causado por multidões ou espaços apertados.
+    *   **👁️ Instinto de Sobrevivente**: Alerta constante para o perigo iminente. Nunca pode ser pego de surpresa na primeira rodada de um combate se estiver consciente. Recebe um pressentimento de armadilhas até 3m de distância.
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **⚠️ Reputação de Praga**: Fama de traiçoeiro. **-1 em Presença (Liderança)**.
-    *   **⚠️ Corpo Franzino**: Estrutura frágil. **-1 em Corpo (Tenacidade)**.
+    *   **⚠️ Reputação de Praga**: Fama de parasita e traiçoeiro. NPCs não-goblins começam com atitude um grau pior (ex: Neutro se torna Inamistoso). Desvantagem para convencer pacificamente em primeiros contatos.
+    *   **⚠️ Ossos Frágeis**: Estrutura física vulnerável. Recebe 1 ponto de dano extra sempre que sofrer Dano Físico Bruto (Corte, Perfuração ou Impacto).

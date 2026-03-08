@@ -45,7 +45,7 @@ A maestria artesanal dos anões transcende a técnica — é um ritual sagrado. 
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **💪 Constituição de Pedra**: Recebe **+3 PV** permanentes na criação. Vantagem em testes contra Veneno.
+    *   **💪 Vigor da Forja**: Resistência brutal a toxinas. Vantagem dupla em testes contra Venenos e asfixia. Durante um descanso curto, você pode aplicar unguentos e consumir cervejas purificadoras para ganhar **1d6 PV Temporários** para a próxima cena de combate.
     *   **🔥 Sangue de Forja**: Proficiência **Praticante** com Martelos ou Machados. Avalia qualidade de metal/armadura com um toque.
 
 !!! failure "Limitações (Debuffs)"

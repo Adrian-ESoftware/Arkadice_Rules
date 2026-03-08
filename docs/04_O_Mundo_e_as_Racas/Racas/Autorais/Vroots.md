@@ -54,13 +54,13 @@ A fisiologia do Vroot reage ao ambiente. Ao final de cada Descanso Longo, o Vroo
 !!! success "Dádivas Raciais (Bônus)"
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
-    *   **🌳 Coração de Carvalho**: Pele de madeira densa: **Absorção 1** contra dano físico. **+2 em Corpo**.
-    *   **🌳 Raízes Profundas**: Pode enraizar (Ação Bônus): imune a derrubar/empurrar, sentido sísmico (9m). Movimento 0 enquanto enraizado. **+2 em Linhagem**.
+    *   **🌳 Coração de Carvalho**: Pele de madeira densa: **Absorção 1** contra dano físico. Ignora os efeitos de terrenos difíceis baseados em flora e recebe Vantagem constante para resistir a empurrões ou derrubadas.
+    *   **🌳 Raízes Profundas**: Pode enraizar (Ação Bônus): imune a derrubar/empurrar, sentido sísmico (9m). Movimento 0 enquanto enraizado. Quando enraizado por no mínimo 1 hora de descanso, ignora qualquer necessidade de comida ou água convencionais.
 
 !!! failure "Limitações (Debuffs)"
     **Vulnerabilidade Inata:** Todo Vroot sofre **Vulnerabilidade a Ignis** (Dano x1.5).
 
     **Escolha uma limitação adicional:**
     
-    *   **⚠️ Mente de Ent**: Pensamento lento. Desvantagem em Iniciativa. **-2 em Mente (Razão)**.
-    *   **⚠️ Língua de Madeira**: Fala lenta e com sotaque pesado. Desvantagem em Persuasão verbal. **-2 em Presença**.
+    *   **⚠️ Mente de Ent**: Raciocínio orgânico pacato. Age sempre em desvantagem no primeiro turno de combate (Iniciativa deslocada para o fim) e não percebe mentiras com base em impulsividade ou linguagem corporal acelerada de mortais.
+    *   **⚠️ Língua de Folhas Secas**: Comunicação verbal lenta e arrastada para os padrões rápidos dos mortais. Falas ou persuasões rápidas e urgentes falham ou tomam tempo dobrado. Desvantagem natural em negociações e barganhas sob pressão na presença humana.

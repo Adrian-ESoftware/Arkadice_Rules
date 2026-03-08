@@ -49,5 +49,5 @@ Séculos de linhagem fluem nas veias élficas. Uma vez por **sessão**, ao reali
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **🛡️ Corpo Frágil**: Dado de Vida por nível é **d4** em vez de d6. **-2 PV** máximos na criação.
+    *   **🛡️ Fisionomia Delicada**: Fisionomia elegante mas vulnerável a choques maciços e doenças humanas. Você possui Desvantagem mecânica crônica em testes físicos para resistir em condições rústicas de doenças mundanas ou venenos de baixa qualidade.
     *   **🗣️ Arrogância Ancestral**: Desvantagem em testes de Presença com humanos, goblins ou orcs até desenvolver vínculo narrativo.

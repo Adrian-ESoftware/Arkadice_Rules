@@ -44,7 +44,7 @@ Os Meio-Elfos entendem as duas faces de cada cultura. Após interagir com uma **
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
     *   **🧠 Herança Dual**: Escolha **1 Bônus da raça Humano** OU **1 Bônus da raça Elfo** (sem pegar o debuff correspondente).
-    *   **🗣️ Carisma Natural**: **+2 em testes de Presença** ao interagir com NPCs não-hostis.
+    *   **🗣️ Diplomata Nato**: Magnetismo inato fascinante. Com uma Interação (Ação de 1 minuto em conversa amigável) você ganha capacidade instintiva para desvendar o principal desejo ou maior desconfiança imediata de um alvo não-hostil ao Mestre revelá-la na narrativa.
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**

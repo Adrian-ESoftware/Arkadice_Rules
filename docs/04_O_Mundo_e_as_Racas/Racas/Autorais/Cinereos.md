@@ -50,10 +50,10 @@ Quando o Cinéreo cai abaixo de **25% dos PV**, suas rachaduras na pele brilham 
     **Escolha uma das opções abaixo durante a criação do personagem:**
 
     *   **🌋 Fúria Eruptiva**: 1x por descanso curto, erupção (Ação Bônus) por 1 minuto: **+1d4 dano Ignis** nos ataques; inimigos adjacentes que te atacarem: 1 dano de fogo.
-    *   **🌋 Pele de Obsidiana**: **+2 Corpo (Tenacidade)**. **+1 na CD de Defesa natural** (não acumula com armadura pesada).
+    *   **🌋 Pele de Magma Resfriado**: A pele é coberta por placas minerais densas. Ignora o primeiro ponto de Dano Físico recebido a cada rodada. Imune a efeitos de atordoamento causados por impacto físico de fontes não-mágicas.
 
 !!! failure "Limitações (Debuffs)"
     **Escolha uma das opções abaixo para equilibrar sua linhagem:**
 
-    *   **⚠️ Pavio Curto**: **-2 Mente (Instinto)**. Desvantagem para manter a calma ou resistir a frenesi.
-    *   **⚠️ Densidade Rochosa**: **-2 Agilidade**. Afunda na água. Desvantagem em Furtividade e Acrobacia.
+    *   **⚠️ Pavio Curto**: O sangue ferve rápido. Inimigos possuem Vantagem ao tentar Fintar (Feint) ou Provocar (Taunt) você no combate. Reprovação automática (Falha na Salvaguarda) para evitar responder a uma ofensa direta de NPCs.
+    *   **⚠️ Densidade Rochosa**: Movimentos pesados e inflexíveis. Você afunda na água como uma pedra (incapaz de nadar sem magia). Desvantagem passiva em testes de Furtividade e Acrobacia que restrinjam o espaço de movimentação.
